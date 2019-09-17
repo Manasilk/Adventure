@@ -1,0 +1,1 @@
+execute unless score #dbc.core _dbc.setup matches -1 unless score #dbc.core _dbc.setup = #bool true run function common:utilities/_setup

@@ -1,0 +1,9 @@
+{
+	"_comment": "Friendly Creatures",
+	"values":
+	[
+		"minecraft:villager",
+		"minecraft:wandering_trader",
+		"minecraft:trader_llama"
+	]
+}

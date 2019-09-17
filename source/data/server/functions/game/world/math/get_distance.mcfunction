@@ -1,0 +1,1 @@
+function server:game/math/distance/sqrt.reset

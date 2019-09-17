@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[","color":"gold"},{"translate":"CreativeKit.EditOption.ForcePosition","clickEvent":{"action":"run_command","value":"/trigger _CK.EditOption set 12"},"hoverEvent":{"action":"show_text","value":[{"translate":"CreativeKit.Description.ForcePosition"}]},"color":"white"},{"text":"]","color":"gold"}]

@@ -1,0 +1,4 @@
+execute store result score @s entity_basehp run data get entity @s Attributes[0].Base 1
+execute store result score @s entity_baseap run data get entity @s Attributes[7].Base 1
+scoreboard players operation @s entity_curhp = @s entity_basehp
+scoreboard players operation @s entity_temphp = @s entity_curhp

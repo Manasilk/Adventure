@@ -1,0 +1,23 @@
+{
+	"windcruiser.wind_loop":
+	{
+		"sounds":
+		[
+			"ambient:windcruiser.wind_loop"
+		]
+	},
+	"windcruiser.propeller":
+	{
+		"sounds":
+		[
+			"ambient:windcruiser.propeller"
+		]
+	},
+	"windcruiser.engine_room":
+	{
+		"sounds":
+		[
+			"ambient:windcruiser.engine_room"
+		]
+	}
+}

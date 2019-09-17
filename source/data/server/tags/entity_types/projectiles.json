@@ -1,0 +1,9 @@
+{
+	"_comment": "Projectile Entities",
+	"values":
+	[
+		"minecraft:arrow",
+		"minecraft:spectral_arrow",
+		"minecraft:trident"
+	]
+}

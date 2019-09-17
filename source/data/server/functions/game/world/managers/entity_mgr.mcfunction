@@ -1,0 +1,1 @@
+execute as @e[type=#server:creature] run function server:game/entity/creature/creature_mgr

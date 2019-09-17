@@ -1,0 +1,1 @@
+summon minecraft:trader_llama ~ ~ ~

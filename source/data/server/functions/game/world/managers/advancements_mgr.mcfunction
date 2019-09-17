@@ -1,0 +1,1 @@
+execute as @a[scores={entity_upd_t=20}] run function server:game/accounts/advancements_mgr

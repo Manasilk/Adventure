@@ -1,0 +1,7 @@
+{
+	"_comment": "Runtime",
+	"values":
+	[
+		"server:worldserver/schedule.tick"
+	]
+}

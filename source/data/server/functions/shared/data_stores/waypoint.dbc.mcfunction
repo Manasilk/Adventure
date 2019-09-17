@@ -1,0 +1,1 @@
+scoreboard objectives add waypoint_id dummy {"translate":"dbc.waypoint_id"}

@@ -1,0 +1,2 @@
+execute as @e[type=#server:gc_entities,tag=!GC_QUEUE_OBJECT] run function server:game/world/garbage/gc_mark_object
+execute as @e[type=#server:gc_entities,tag=GC_QUEUE_OBJECT] run function server:game/world/garbage/gc_tick_update

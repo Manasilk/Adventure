@@ -1,0 +1,27 @@
+{
+	"server_broadcast": "[SERVER]: %s",
+	"server_timestamp": "[%d:%d]: %s.",
+	
+	"server.login_msg": "Welcome to Minecraft, Update: %d.%d.%d: %s",
+	"server.readme_msg": "For more information, please visit: %s",
+	"server.install_pkg_msg": "Installed update package: %s",
+	"server.build_info": "Build Revision: %d (%d.%d.%d), Game Version: %d",
+	"build_codename": "Nightfall",
+	
+	"sfx.player_voice": "Select character's voice: %s%s%s %s%s%s",
+	"sfx.player.voice_option.male": "Male",
+	"sfx.player.voice_option.female": "Female",
+	
+	"ui.fatigue_level": "Fatigue: %s%s%s%s",
+	
+	"event_type.break_time": "You've been playing over an hour, please rest a few minutes.",
+	"event_type.level_up": "Congratulations! You have reached level %d!",
+	"event_type.show_stats": "Personal lifetime statistics:",
+	
+	"stats.played_time": "Total time played: %dd., %dh., %dm., %ds.",
+	"stats.advancement_points": "Advancement points: %d, ",
+	"stats.damage_dealt": "Total damage dealt: %d, ",
+	"stats.damage_taken": "Total damage taken: %d, ",
+	"stats.quests_completed": "Total quests completed: %d, ",
+	"stats.mob_kills": "Total mobs killed: %d"
+}

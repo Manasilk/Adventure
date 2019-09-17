@@ -1,0 +1,19 @@
+{
+	"RBAC.QueryInfo": "%s%s",
+	"RBAC.Permission.Insufficient": "Вы не можете выполнить это действие.",
+	
+	"RBAC.Permission.Gamemaster": "Разрешения на использоваие команд было ",
+	"RBAC.Permission.Debugging": "Разрешения на использоваие иструментов отладки было ",
+	"RBAC.Permission.CreativeKit": "Разрешения на использоваие инструментов редактирования было ",
+	
+	"StatusInfo.Granted": "разрешено.",
+	"StatusInfo.Revoked": "аннулировано.",
+	
+	"RBAC.GamemasterList": "Найдено %d игровых мастеров в игре:",
+	"RBAC.GamemasterInfo": "Имя: %s, ИД: %d, Уровень допуска: %d",
+	"RBAC.LootRequest": "Игрок %s получил добычю НИПа %s, с идентификатором: %d",
+	
+	
+	
+	"Player.SessionInfo.Rest": "Вы играете больше часа, пожалуйста отдохните несколько минут."
+}

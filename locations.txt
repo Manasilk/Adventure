@@ -1,0 +1,84 @@
+1. NORTHERN KINGDOM
+	a. Highlands
+		* seared_plains:            1874, -4016
+		* world's_gorge:            1908, -4783
+		* ush'kar_spires:           1091, -3276
+		* sunken_pass:              1492, -2813
+
+	b1. Emerald Foothills
+		* ironmines:                1748, -2669
+		* abandoned_armory:         2521, -2724
+		* azure_pass:               2097, -1880
+	b2. Tuvi'ir Jungle
+		* withered_soils:           3862, -2386
+		* tuv'i'r_springs:          5098, -762
+        * salty_shores:             4095,336
+		
+	d. Withered Plains
+		* living_waters:            740, -1990
+		* tuvi'ir_mansion:          386, -2638
+		* dried_lake:               78, -2491
+		* storm_crater:             -704, -2753
+
+	c. Derelict Shores (Arrival):   1772, -1151
+		* azure_pass:               2137, -1856
+		* kuldur_keep:              2753, 1595
+		* tradesport:               1772, -1151
+		* highland_bastion:         2476, -1844
+
+2. The Arctic Split
+	a. Western Split
+		* ice_spikes:               -2493, -5826
+		* frozen_rise:              -1750, -6452
+		* oceanic_iceberg:          -3498, -6150
+		
+	b. Eastern Split (Arrival):
+		* nival_camp:               -1124, -5370
+		* dry_tundra:               -1104, -5722
+		* emerald_reach:            -324, -6338
+		* korron_construction_site: -31, -6240
+		* high_citadel_north:       -26, -6813
+		* high_citadel_south:       376, -6234
+		
+		
+
+2. SOUTHERN KINGDOM:
+	a. 
+	b. Tanaani Desert
+		* kaldir_stronhold:         -2745, 2399
+		* temple_of_tanaan:         -3353, 3199
+		* oasis_of_endless_spring:  -4615, 3013
+		* caverns_of_timewalking:   -4463, 2812
+	c. The Barrens
+		* drywinds_village:         -1979, 3622
+		* sunblaze_village:         -1925, 2580
+		* sunrise_peaks:            -3019, 4120
+	d. Stormpeaks
+		* deadwind_pass:            1716, 2739
+		* sha'dar_heights:          786, 2881
+		* the_eye_of_the_storm:     1192, 3231
+		* high_peaks:               700, 3579; 555, 30745
+	c. Desolace
+		* dimensional_portal:       2278, 3055
+		* ores_vein_crater:         2001, 3625
+		* blackrock_keep:           2008, 3256
+
+
+
+3. THE DEEP OCEAN
+	a. Ma'shaar (Arrival): 
+		* coastal_split:           -3972, -4036
+		* glowing_waters:          -4081, -4300
+		* ocean_monument:          -3885, -4524
+		
+	b. Pacific Wound
+		* the_eye:                 -2888, -3124
+
+
+
+5. THE TWISTING NETHER
+	a. Eternal Portal (Arrival):    X, Y
+	
+
+
+6. TESTING ISLAND (Arrival): 7653, 7660

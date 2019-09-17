@@ -1,0 +1,3 @@
+scoreboard players operation @e[type=#server:creature,tag=QUERY.CKIT_UPDATE_ENTITY,sort=nearest,limit=1,distance=0..1.50] CKit.TempX = @s CKit.TempX
+scoreboard players operation @e[type=#server:creature,tag=QUERY.CKIT_UPDATE_ENTITY,sort=nearest,limit=1,distance=0..1.50] CKit.TempY = @s CKit.TempY
+scoreboard players operation @e[type=#server:creature,tag=QUERY.CKIT_UPDATE_ENTITY,sort=nearest,limit=1,distance=0..1.50] CKit.TempZ = @s CKit.TempZ

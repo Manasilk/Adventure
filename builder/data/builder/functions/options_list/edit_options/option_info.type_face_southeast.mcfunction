@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[","color":"gold"},{"translate":"CreativeKit.EditOption.FaceSoutheast","clickEvent":{"action":"run_command","value":"/trigger _CK.EditOption set 9"},"hoverEvent":{"action":"show_text","value":[{"translate":"CreativeKit.Description.FaceSoutheast"}]},"color":"white"},{"text":"]","color":"gold"}]

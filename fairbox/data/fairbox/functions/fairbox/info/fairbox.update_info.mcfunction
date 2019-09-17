@@ -1,0 +1,3 @@
+function fairbox:fairbox/info/fairbox.get_player_falling
+function fairbox:fairbox/info/fairbox.get_player_position_old
+function fairbox:fairbox/info/fairbox.get_player_position_new

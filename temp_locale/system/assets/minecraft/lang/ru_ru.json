@@ -1,0 +1,27 @@
+{
+	"server_broadcast": "[СЕРВЕР]: %s",
+	"server_timestamp": "[%d:%d]: %s.",
+	
+	"server.login_msg": "Добро пожаловать в Майнкрафт, Обнновление: %d.%d.%d: %s",
+	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s",
+	"server.install_pkg_msg": "Установлен пакет обновления: %s",
+	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
+	"build_codename": "Сумерки",
+	
+	"sfx.player_voice": "Выберите озвучку персонажа: %s%s%s %s%s%s",
+	"sfx.player.voice_option.male": "Мужская",
+	"sfx.player.voice_option.female": "Женская",
+	
+	"ui.fatigue_level": "Усталость: %s%s%s%s",
+	
+	"event_type.break_time": "Вы играете больше часа, пожалуйста отдохните несколько минут.",
+	"event_type.level_up": "Поздравляем! Вы достигли %d-го уровня!",
+	"event_type.show_stats": "Личная статистика за всё время:",
+	
+	"stats.played_time": "Всего времени в игре: %dд., %dч., %dм., %dс.",
+	"stats.advancement_points": "Очков достижения: %d, ",
+	"stats.damage_dealt": "Всего нанесенно урона: %d, ",
+	"stats.damage_taken": "Всего получено урона: %d, ",
+	"stats.quests_completed": "Всего заданий завершенно: %d, ",
+	"stats.mob_kills": "Всего монстров убито: %d"
+}

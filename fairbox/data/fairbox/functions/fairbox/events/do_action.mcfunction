@@ -1,0 +1,1 @@
+execute at @s run function fairbox:fairbox/actions/return_to_old_position

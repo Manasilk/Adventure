@@ -1,0 +1,1 @@
+execute as @a run function server:game/accounts/account_mgr

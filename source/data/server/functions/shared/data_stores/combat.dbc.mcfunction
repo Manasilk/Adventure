@@ -1,0 +1,1 @@
+scoreboard objectives add combat_reset_t dummy {"translate":"dbc.combat.combat_reset_timer"}

@@ -1,0 +1,1 @@
+scoreboard players operation #dbc.temp entity_hostility = @s[type=#server:creature] entity_hostility

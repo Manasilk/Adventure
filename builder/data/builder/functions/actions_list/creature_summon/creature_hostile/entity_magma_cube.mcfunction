@@ -1,0 +1,1 @@
+summon minecraft:magma_cube ~ ~ ~

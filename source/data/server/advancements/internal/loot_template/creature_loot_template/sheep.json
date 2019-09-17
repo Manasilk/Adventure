@@ -1,0 +1,46 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "PLAYER_KILLED_ENTITY":
+		{
+            "trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+                "entity":
+				{
+                    "nbt": "{Tags:[\"Entity.LootInfo.Sheep\"]}"
+                }
+            }
+        }
+    },
+	"requirements":
+	[
+		[
+			"PLAYER_KILLED_ENTITY"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/loot/creature_loot_template/sheep_loot_template"
+    }
+}

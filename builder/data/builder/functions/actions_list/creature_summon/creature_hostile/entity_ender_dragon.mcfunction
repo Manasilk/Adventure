@@ -1,0 +1,1 @@
+summon minecraft:ender_dragon ~ ~ ~

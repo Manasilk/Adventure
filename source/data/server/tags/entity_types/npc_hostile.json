@@ -1,0 +1,36 @@
+{
+	"_comment": "Hostile Creatures",
+	"values":
+	[
+		"minecraft:drowned",
+		"minecraft:evoker",
+		"minecraft:husk",
+		"minecraft:phantom",
+		"minecraft:shulker",
+		"minecraft:silverfish",
+		"minecraft:skeleton",
+		"minecraft:wither_skeleton",
+		"minecraft:skeleton_horse",
+		"minecraft:stray",
+		"minecraft:vex",
+		"minecraft:vindicator",
+		"minecraft:witch",
+		"minecraft:zombie",
+		"minecraft:zombie_horse",
+		"minecraft:zombie_pigman",
+		"minecraft:zombie_villager",
+		"minecraft:pillager",
+		"minecraft:ravager",
+		"minecraft:endermite",
+		"minecraft:illusioner",
+		"minecraft:ghast",
+		"minecraft:blaze",
+		"minecraft:creeper",
+		"minecraft:slime",
+		"minecraft:enderman",
+		"minecraft:wither",
+		"minecraft:elder_guardian",
+		"minecraft:ender_dragon",
+		"minecraft:guardian"
+	]
+}

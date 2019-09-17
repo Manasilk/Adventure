@@ -1,0 +1,1 @@
+summon minecraft:iron_golem ~ ~ ~

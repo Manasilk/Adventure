@@ -1,0 +1,2 @@
+execute if score @s[tag=Player.ActiveBountyPOI] Distance > @e[type=#server:area_trigger,scores={BountyID=0},limit=1] BountyPOI.Range run tag @s remove Player.ActiveBountyPOI
+execute if score @s[tag=!Player.ActiveBountyPOI] Distance <= @e[type=#server:area_trigger,scores={BountyID=0},limit=1] BountyPOI.Range run tag @s add Player.ActiveBountyPOI

@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:air",
+		"minecraft:cave_air",
+		"minecraft:water",
+		"minecraft:lava",
+		"minecraft:structure_void",
+
+		"#server:foliage"
+	]
+}
