@@ -1,5 +1,5 @@
-function server:updates/package/VUH_DD-MM-YYYY/update_dbc
-function server:updates/package/VUH_DD-MM-YYYY/create_structures
+#function server:updates/package/VUH_DD-MM-YYYY/update_dbc
+#function server:updates/package/VUH_DD-MM-YYYY/create_structures
 execute as @a[limit=1] if score #dbc.server world_version matches 0 run function server:worldserver/update_dataversion
 
 tellraw @a[tag=rbac.debugging] {"translate":"server_broadcast","with":[{"translate":"server.install_pkg_msg","with":[{"text":"13-09-2019_001"}]}],"color":"yellow"}
