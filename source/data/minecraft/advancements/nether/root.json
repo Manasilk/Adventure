@@ -19,7 +19,7 @@
     "hidden": false,
     "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
   },
-  "criteria"
+  "criteria":
   {
     "entered_nether":
 	{
