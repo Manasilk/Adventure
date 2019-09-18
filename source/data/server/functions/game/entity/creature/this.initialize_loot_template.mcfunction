@@ -1,0 +1,1 @@
+scoreboard players operation @s entity_lootid = @s entity_id

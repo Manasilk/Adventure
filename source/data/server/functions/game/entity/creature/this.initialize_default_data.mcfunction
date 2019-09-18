@@ -1,4 +1,5 @@
 scoreboard players operation @s entity_level = #dbc.entity entity_level
+scoreboard players set @s entity_guid -1
 
 team join Hostile @s[type=#server:npc_hostile,team=]
 team join Neutral @s[type=#server:npc_neutral,team=]
