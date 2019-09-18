@@ -18,4 +18,5 @@ scoreboard objectives add _net.db_list dummy {"translate":"dbc.server.net_db_lis
 scoreboard objectives add worldspawn.x dummy {"translate":"dbc.server.worldspawn_x"}
 scoreboard objectives add worldspawn.y dummy {"translate":"dbc.server.worldspawn_y"}
 scoreboard objectives add worldspawn.z dummy {"translate":"dbc.server.worldspawn_z"}
+scoreboard objectives add gc_age dummy {"translate":"dbc.gc.age"}
 scoreboard objectives add _dbc.setup dummy

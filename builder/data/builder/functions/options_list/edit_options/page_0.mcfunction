@@ -10,4 +10,3 @@ function builder:options_list/edit_options/option_info.type_face_southeast
 function builder:options_list/edit_options/option_info.type_face_southwest
 function builder:options_list/edit_options/option_info.type_face_horizon
 function builder:options_list/edit_options/option_info.type_force_position
-function builder:options_list/edit_options/option_info.type_update_equipment
