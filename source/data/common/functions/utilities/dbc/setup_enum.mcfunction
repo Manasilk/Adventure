@@ -10,3 +10,5 @@ scoreboard players set #dbc.enum BIOME_OCEAN 5
 scoreboard players set #dbc.enum BIOME_TAIGA 6
 scoreboard players set #dbc.enum BIOME_TUNDRA 7
 scoreboard players set #dbc.enum BIOME_STONE 8
+
+scoreboard players set #dbc.enum SHOW_INFO 3

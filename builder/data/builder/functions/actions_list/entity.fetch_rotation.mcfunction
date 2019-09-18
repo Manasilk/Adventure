@@ -1,2 +1,2 @@
-scoreboard players operation @e[type=#server:creature,tag=QUERY.CKIT_UPDATE_ENTITY,sort=nearest,limit=1,distance=0..1.50] CKit.TempH = @s CKit.TempH
-scoreboard players operation @e[type=#server:creature,tag=QUERY.CKIT_UPDATE_ENTITY,sort=nearest,limit=1,distance=0..1.50] CKit.TempV = @s CKit.TempV
+scoreboard players operation @e[type=#server:creature,tag=_h.wb_update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb_rot.x = @s wb_rot.x
+scoreboard players operation @e[type=#server:creature,tag=_h.wb_update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb_rot.y = @s wb_rot.y

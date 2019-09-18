@@ -1,2 +1,1 @@
-tag @s add QUERY.CKIT_UPDATE_ENTITY
-#execute at @s run function <...>
+tag @s add _e.find_los_target

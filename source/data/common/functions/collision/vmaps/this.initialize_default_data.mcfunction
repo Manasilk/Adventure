@@ -1,4 +1,5 @@
 #Upon summoning the virtual ray, we assign the invoker's rotation as the rotation the ray is facing
+function server:game/entity/get_entity_hostility
 scoreboard players operation @s entity_hostility = #dbc.temp entity_hostility
 tag @s[scores={entity_hostility=1}] add ENTITY_ACTION_FRIENDLY
 tag @s[scores={entity_hostility=3}] add ENTITY_ACTION_HOSTILE

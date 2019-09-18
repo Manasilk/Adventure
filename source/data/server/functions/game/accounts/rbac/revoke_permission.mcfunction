@@ -8,6 +8,7 @@ tag @s[tag=rbac.debugging,scores={player_debugging=1}] remove rbac.debugging
 #builder
 tag @s[tag=rbac.builder,scores={player_builder=1}] remove rbac.builder
 execute if score @s[tag=!rbac.builder] player_builder = #bool true run function user_commands:builder/clear_tool
+execute if score @s[tag=!rbac.builder] player_builder = #bool true run function builder:player_data/flush_builder_data
 
 tellraw @s[scores={player_commands=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.commands"}],"color":"yellow"}
 tellraw @s[scores={player_debugging=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.debugging"}],"color":"yellow"}

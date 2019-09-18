@@ -1,3 +1,2 @@
 teleport @s ~ ~ ~ 135 0
-tag @s remove QUERY.CKIT_UPDATE_ENTITY
-tag @a[tag=QUERY.CKIT_UPDATE_ENTITY] remove QUERY.CKIT_UPDATE_ENTITY
+tag @s remove _h.wb_update_npc

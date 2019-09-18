@@ -4,7 +4,7 @@ function fairbox:runtime/main
 #
 # @BUILDER
 # WORK IN PROGRESS, DO NOT USE
-#execute as @a run function builder:builder_mgr
+execute as @a run function builder:builder_mgr
 # @SCHEDULER
 #
 scoreboard players add #dbc.server tick_upd_t 1

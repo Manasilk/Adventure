@@ -1,1 +1,0 @@
-tellraw @s [{"text":"[","color":"gold"},{"translate":"CreativeKit.EditOption.UpdateEquipment","clickEvent":{"action":"run_command","value":"/trigger _CK.EditOption set 13"},"hoverEvent":{"action":"show_text","value":[{"translate":"CreativeKit.Description.UpdateEquipment"}]},"color":"white"},{"text":"]","color":"gold"}]
