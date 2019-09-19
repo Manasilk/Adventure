@@ -16,3 +16,5 @@ scoreboard players set @s wb_rot.y 0
 tag @s[tag=WB_MENU_LISTENER] remove WB_MENU_LISTENER
 tag @s[tag=WB_OPT_LISTENER] remove WB_OPT_LISTENER
 tag @s[tag=WB_SUBOPT_LISTENER] remove WB_SUBOPT_LISTENER
+
+function builder:player_data/flush_biome_data
