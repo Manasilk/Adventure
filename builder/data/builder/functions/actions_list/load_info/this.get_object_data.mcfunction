@@ -1,0 +1,3 @@
+scoreboard players operation @s wb_biome_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_biome_id
+scoreboard players operation @s wb_gob_type = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_type
+scoreboard players operation @s wb_gob_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_id

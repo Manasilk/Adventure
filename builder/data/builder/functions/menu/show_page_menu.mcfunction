@@ -28,3 +28,5 @@ execute if score @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=1}] wb_pag
 execute if score @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=2}] wb_page_cur matches 0 run function builder:options_list/summon_options/objects/vegetation/page_0
 
 execute if score @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=3}] wb_page_cur matches 0 run function builder:options_list/summon_options/objects/structure/page_0
+
+execute if score @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=4}] wb_page_cur matches 0 run function builder:options_list/summon_options/objects/debug/page_0

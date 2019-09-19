@@ -1,0 +1,61 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "VISIT_BIOME_TUNDRA":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:snowy_tundra"
+            }
+        },
+		"VISIT_BIOME_TAIGA":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:taiga"
+			}
+		},
+		"VISIT_BIOME_ICE_SPIKES":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:ice_spikes"
+			}
+		}
+    },
+	"requirements":
+	[
+		[
+			"VISIT_BIOME_TUNDRA",
+			"VISIT_BIOME_TAIGA",
+			"VISIT_BIOME_ICE_SPIKES"
+		]
+	],
+    "rewards":
+	{
+        "function": "builder:player_data/get_biome_tundra"
+    }
+}

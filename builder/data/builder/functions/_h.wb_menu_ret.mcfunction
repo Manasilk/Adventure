@@ -14,6 +14,7 @@ scoreboard players set @s[scores={wb_class_id=1,wb_class_type=2,wb_npc_type=1..,
 
 scoreboard players set @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=1..,wb_gob_id=0}] wb_gob_type 0
 scoreboard players set @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=1..,wb_gob_id=1..}] wb_gob_id 0
+scoreboard players set @s[scores={wb_class_id=2,wb_class_type=2,wb_gob_type=1..,wb_gob_id=-1}] wb_gob_id 0
 
 scoreboard players set @s[scores={wb_class_id=3}] wb_class_id 0
 

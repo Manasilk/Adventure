@@ -2,7 +2,9 @@ scoreboard players operation @s wb_class_id = @p[tag=_e.find_los_target,distance
 scoreboard players operation @s[scores={wb_class_id=1..2}] wb_class_type = @p[tag=_e.find_los_target,distance=0..1.001] wb_class_type
 scoreboard players operation @s[scores={wb_class_type=1}] wb_option_id = @p[tag=_e.find_los_target,distance=0..1.001] wb_option_id
 scoreboard players operation @s[scores={wb_class_id=1,wb_class_type=2}] wb_npc_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_npc_id
-scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gib_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_id
+scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_biome_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_biome_id
+scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_type = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_type
+scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_id
 
 tag @s[scores={wb_class_id=1,wb_class_type=1}] add _h.wb_update_npc
 tag @s[scores={wb_class_id=1,wb_class_type=2}] add _h.wb_spawn_npc

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/testobject",id:"minecraft:structure_block",ignoreEntities:1b,powered:0b,showboundingbox:1b,posX:0,posY:0,posZ:0,sizeX:1,sizeY:3,sizeZ:1} replace

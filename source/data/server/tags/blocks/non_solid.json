@@ -6,6 +6,7 @@
 		"minecraft:cave_air",
 		"minecraft:water",
 		"minecraft:lava",
+		"minecraft:structure_block",
 		"minecraft:structure_void",
 
 		"#server:foliage"
