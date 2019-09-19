@@ -1,0 +1,1 @@
+#execute as @e[type=#server:] run function server:game/entity/object/object_mgr
