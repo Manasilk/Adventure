@@ -5,6 +5,7 @@ function server:shared/data_stores/sounds.dbc
 function server:shared/data_stores/combat.dbc
 function server:shared/data_stores/player.dbc
 function server:shared/data_stores/entity.dbc
+function server:shared/data_stores/spells.dbc
 function server:shared/data_stores/teams.dbc
 function server:shared/data_stores/vmaps.dbc
 function server:shared/data_stores/builder.dbc
