@@ -8,9 +8,6 @@ scoreboard objectives add _FB._PosY-1 dummy {"translate":"dbc.fairbox.pos_y_new"
 scoreboard objectives add _FB._PosZ-1 dummy {"translate":"dbc.fairbox.pos_z_new"}
 scoreboard objectives add _FB._FreeFall dummy {"translate":"dbc.fairbox.freefall"}
 
-scoreboard objectives add _FB._EnderPearl minecraft.used:minecraft.ender_pearl {"translate":"dbc.fairbox.ender_pearl"}
-scoreboard objectives add _FB._ChorusFruit minecraft.used:minecraft.chorus_fruit {"translate":"dbc.fairbox.chorus_fruit"}
-
 scoreboard objectives add _FB.Gamemode dummy {"translate":"dbc.fairbox.gamemode"}
 #SURVIVAL                    = 1,
 #ADVENTURE                   = 2,
