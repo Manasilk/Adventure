@@ -1,1 +1,0 @@
-execute at @s run function fairbox:fairbox/actions/player.return_to_old

@@ -1,1 +1,0 @@
-tag @s add FB_FLAG_PLAYER_IGNORE
