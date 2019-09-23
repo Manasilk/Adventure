@@ -6,6 +6,11 @@ scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_biome
 scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_type = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_type
 scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_id
 
+execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=135.0..-134.9] run tag @s add NONE
+execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=-44.9..44.9] run tag @s add CLOCKWISE_180
+execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=-135.0..-45.0] run tag @s add COUNTERCLOCKWISE_90
+execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=45.0..134.9] run tag @s add CLOCKWISE_90
+
 tag @s[scores={wb_class_id=1,wb_class_type=1}] add _h.wb_update_npc
 tag @s[scores={wb_class_id=1,wb_class_type=2}] add _h.wb_spawn_npc
 tag @s[scores={wb_class_id=2,wb_class_type=2}] add _h.wb_spawn_gob

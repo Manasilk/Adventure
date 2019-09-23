@@ -1,5 +1,5 @@
 execute at @s run kill @e[type=minecraft:item,nbt={Item:{tag:{_H.BuilderRMB:1b}}},sort=nearest,limit=1,distance=0..1.999]
-replaceitem entity @s weapon.mainhand minecraft:carrot_on_a_stick{_H.BuilderRMB:1b,CustomModelData:1,display:{Name:'{"italic":false,"translate":"builder.assist_tool"}'}}
+replaceitem entity @s hotbar.0 minecraft:carrot_on_a_stick{_H.BuilderRMB:1b,CustomModelData:1,display:{Name:'{"italic":false,"translate":"builder.assist_tool"}'}}
 scoreboard players set @s _h.wb_menu_ret 0
 
 scoreboard players set @s[scores={wb_class_id=1..2,wb_class_type=0}] wb_class_id 0

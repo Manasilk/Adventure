@@ -1,2 +1,2 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"TEMP_BUILDER_OBJECT\"}",CustomNameVisible:1b,Duration:200,Tags:["TEMP_BUILDER_OBJECT","ENTITY_FLAG_WORLD_IGNORE"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"TEMP_BUILDER_OBJECT\"}",Duration:200,Tags:["TEMP_BUILDER_OBJECT","ENTITY_FLAG_WORLD_IGNORE"]}
 function builder:actions_list/load_info/this.get_temp_data
