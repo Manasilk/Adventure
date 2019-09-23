@@ -22,7 +22,6 @@ scoreboard objectives add BIOME_OCEAN dummy {"text":"wb_biome_id = 5"}
 scoreboard objectives add BIOME_TAIGA dummy {"text":"wb_biome_id = 6"}
 scoreboard objectives add BIOME_TUNDRA dummy {"text":"wb_biome_id = 7"}
 scoreboard objectives add BIOME_STONE dummy {"text":"wb_biome_id = 8"}
-scoreboard objectives add wb_dist_offset dummy {"translate":"dbc.builder.dist_offset"}
 
 scoreboard objectives add wb_pos.x dummy {"translate":"dbc.builder.pos_x"}
 scoreboard objectives add wb_pos.y dummy {"translate":"dbc.builder.pos_y"}
