@@ -30,7 +30,6 @@
 	a. Western Split
 		* ice_spikes:               -2493, -5826
 		* frozen_rise:              -1750, -6452
-		* oceanic_iceberg:          -3498, -6150
 		
 	b. Eastern Split (Arrival):
 		* nival_camp:               -1124, -5370
