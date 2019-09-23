@@ -31,10 +31,10 @@
 
 	
 	"event_type.summoned_mob": "Призван (%s) с ГУИД (%s) по координатам (%d,%d,%d).",
+	"event_type.summoned_gob": "Создан объект с ГУИД (%s) по координатам (%d,%d,%d).",
 	"event_type.despawned_mob": "Убит (%s) с ГУИД (%s) по координатам (%d,%d,%d).",
+	"event_type.despawned_gob": "Удалён объект с ГУИД (%s) по координатам (%d,%d,%d).",
 	"event_type.moved_mob": "Существо (%s) с ГУИД (%s) перемещён по координатам (%d,%d,%d).",
-	"event_type.send_empty_msg": "Подходящих записей не найдено.",
-	"event_type.show_search_list": "Найдено %s подходящих записей.",
 	"event_type.align_position": "Выровнять позицию",
 	"event_type.copy_rotation": "Копировать вращение",
 	"event_type.face_north": "Смотреть на Север",
@@ -51,9 +51,12 @@
 	
 	
 	
+	"builder_desc.class_type.show_info": "Отображает информацию о цели",
 	"builder_desc.type_option.edit_target": "Опции редактирования цели",
-	"builder_desc.type_option.summon": "Призвать существо в месте назначения",
-	"builder_desc.type_option.despawn": "Удалить существо в месте назначения",
+	"builder_desc.type_option.summon_npc": "Призвать существо в месте назначения",
+	"builder_desc.type_option.summon_gob": "Призвать объект в месте назначения",
+	"builder_desc.type_option.despawn_npc": "Удалить существо в месте назначения",
+	"builder_desc.type_option.despawn_gob": "Удалить объект в месте назначения",
 	"builder_desc.npc_type.hostile": "Враждебные существа",
 	"builder_desc.npc_type.neutral": "Нейтральные существа",
 	"builder_desc.npc_type.friendly": "Дружелюбные существа",
@@ -73,5 +76,16 @@
 	"builder_desc.edit_option.face_southwest": "Цель будеть смотреть на юго-запад",
 	"builder_desc.edit_option.align_horizon_rotation": "Цель будет смотреть ровно по линии горизонта",
 	"builder_desc.edit_option.update_position": "Цель переместиться по назначенным координатам",
-	"builder_desc.edit_option.update_equipment": "Цель получит снаряжение указанное игроком"
+	
+	
+	
+	"builder_info.entity_id": "ИД: %d, ",
+	"builder_info.entity_guid": "ГУИД: %d, ",
+	"builder_info.entity_hostility": "Враждебность: %d, ",
+	"builder_info.entity_level": "Уровень: %d, ",
+	"builder_info.entity_health": "Здоровье: %d/%d, ",
+	"builder_info.entity_armor": "Броня: %d, ",
+	"builder_info.entity_baseap": "Урон: %d, ",
+	"builder_info.entity_spawn": "Позиция возраждения: (%d,%d,%d), ",
+	"builder_info.entity_lootid": "ИД добычи: %d"
 }

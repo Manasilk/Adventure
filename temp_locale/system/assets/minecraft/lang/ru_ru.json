@@ -7,6 +7,10 @@
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
 	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
 	"build_codename": "Сумерки",
+
+	"rbac.perm_type.commands": "коммандам",
+	"rbac.perm_type.debugging": "утилитам отладки",
+	"rbac.perm_type.builder": "редактору",
 	
 	"sfx.player_voice": "Выберите озвучку персонажа: %s%s%s %s%s%s",
 	"sfx.player.voice_option.male": "Мужская",
@@ -14,6 +18,9 @@
 	
 	"ui.fatigue_level": "Усталость: %s%s%s%s",
 	
+	"event_type.grant_permission": "Доступ к %s был разрешён.",
+	"event_type.deny_permission": "У вас нет прав использовать эту комманду.",
+	"event_type.revoke_permission": "Доступ к %s был аннулирован.",
 	"event_type.break_time": "Вы играете больше часа, пожалуйста отдохните несколько минут.",
 	"event_type.level_up": "Поздравляем! Вы достигли %d-го уровня!",
 	"event_type.show_stats": "Личная статистика за всё время:",

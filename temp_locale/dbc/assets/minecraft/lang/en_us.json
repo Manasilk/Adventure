@@ -14,6 +14,7 @@
 	"dbc.server.tick_upd_t": "World Update Timer",
 	"dbc.server.gc_upd_t": "Cleaner Update Timer",
 	"dbc.server.fb_upd_t": "Anticheat Update Timer",
+	"dbc.vmaps.upd_t": "VMaps Update Timer",
 	"dbc.core.build_revision": "Build Revision",
 	"dbc.core.build_major": "Build Version",
 	"dbc.core.build_minor": "Build Update",
@@ -82,6 +83,7 @@
 	"dbc.builder.gob_type": "Builder: Object Type",
 	"dbc.builder.npc_id": "Builder: Entity ID",
 	"dbc.builder.gob_id": "Builder: Object ID",
+	"dbc.builder.biome_id": "Builder: Biome ID",
 	"dbc.builder.pos_x": "Builder: Virtual Position (X)",
 	"dbc.builder.pos_y": "Builder: Virtual Position (Y)",
 	"dbc.builder.pos_z": "Builder: Virtual Position (Z)",
@@ -103,6 +105,9 @@
 	"dbc.fairbox.flags": "Anticheat: Entity Flags",
 	"dbc.fairbox.purge_flag_timer": "Anticheat: Flags Timer",
 	"dbc.fairbox.update_timer": "Anticheat: Update Timer",
+	"dbc.fairbox.ender_pearl": "Anticheat: Consumed \"Ender Pearl\"",
+	"dbc.fairbox.chorus_fruit": "Anticheat: Consumed \"Chorus Fruit\"",
+	
 
 
 	"dbc.handler.player.has_victim": "Handler: Has Victim",

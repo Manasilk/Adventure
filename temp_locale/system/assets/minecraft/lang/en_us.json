@@ -8,12 +8,19 @@
 	"server.build_info": "Build Revision: %d (%d.%d.%d), Game Version: %d",
 	"build_codename": "Nightfall",
 	
+	"rbac.perm_type.commands": "commands",
+	"rbac.perm_type.debugging": "debugging tools",
+	"rbac.perm_type.builder": "building tools",
+	
 	"sfx.player_voice": "Select character's voice: %s%s%s %s%s%s",
 	"sfx.player.voice_option.male": "Male",
 	"sfx.player.voice_option.female": "Female",
 	
 	"ui.fatigue_level": "Fatigue: %s%s%s%s",
 	
+	"event_type.grant_permission": "Permission to use %s has been granted.",
+	"event_type.deny_permission": "You don't have permission to use this command.",
+	"event_type.revoke_permission": "Permission to use %s has been revoked.",
 	"event_type.break_time": "You've been playing over an hour, please rest a few minutes.",
 	"event_type.level_up": "Congratulations! You have reached level %d!",
 	"event_type.show_stats": "Personal lifetime statistics:",

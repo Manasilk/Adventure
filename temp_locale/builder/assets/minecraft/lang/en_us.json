@@ -31,10 +31,10 @@
 
 
 	"event_type.summoned_mob": "Summoned (%s) with GUID (%s) at position (%d,%d,%d).",
+	"event_type.summoned_gob": "Summoned object with GUID (%s) at position (%d,%d,%d).",
 	"event_type.despawned_mob": "Despawned (%s) with GUID (%s) at position (%d,%d,%d).",
+	"event_type.despawned_gob": "Deleted object with GUID (%s) at position (%d,%d,%d).",
 	"event_type.moved_mob": "Creature (%s) with GUID (%s) moved to position at (%d,%d,%d).",
-	"event_type.send_empty_msg": "No matching entries were found!",
-	"event_type.show_search_list": "Found %s matching entries.",
 	"event_type.align_position": "Align Position",
 	"event_type.copy_rotation": "Copy Rotation",
 	"event_type.face_north": "Face North",
@@ -51,9 +51,12 @@
 	
 	
 	
+	"builder_desc.class_type.show_info": "Shows target information",
 	"builder_desc.type_option.edit": "Options for editing target entity data",
-	"builder_desc.type_option.summon": "Summons selected entity at crosshair destination",
-	"builder_desc.type_option.despawn": "Despawn crosshair targeted entity",
+	"builder_desc.type_option.summon_npc": "Summons entity at destination",
+	"builder_desc.type_option.summon_gob": "Summons object at destination",
+	"builder_desc.type_option.despawn_npc": "Despawn targeted entity",
+	"builder_desc.type_option.despawn_gob": "Despawn targeted object",
 	"builder_desc.npc_type.hostile": "Hostile creatures",
 	"builder_desc.npc_type.neutral": "Neutral creatures",
 	"builder_desc.npc_type.friendly": "Friendly creatures",
@@ -73,5 +76,16 @@
 	"builder_desc.edit_option.face_southwest": "Target will face south-west",
 	"builder_desc.edit_option.align_horizon_rotation": "Target will look at the horizon line",
 	"builder_desc.edit_option.update_position": "Target will teleport to forced position",
-	"builder_desc.edit_option.update_equipment": "Target will receive equipment set by the player"
+	
+	
+	
+	"builder_info.entity_id": "ID: %d, ",
+	"builder_info.entity_guid": "GUID: %d, ",
+	"builder_info.entity_hostility": "Hostility: %d, ",
+	"builder_info.entity_level": "Level: %d, ",
+	"builder_info.entity_health": "Health: %d/%d, ",
+	"builder_info.entity_armor": "Armor: %d, ",
+	"builder_info.entity_baseap": "Damage: %d, ",
+	"builder_info.entity_spawn": "Spawn position: (%d,%d,%d), ",
+	"builder_info.entity_lootid": "Loot ID: %d"
 }

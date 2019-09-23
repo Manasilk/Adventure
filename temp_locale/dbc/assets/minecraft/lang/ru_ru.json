@@ -14,6 +14,7 @@
 	"dbc.server.tick_upd_t": "Таймер обновления мира",
 	"dbc.server.gc_upd_t": "Таймер обновления очистителя",
 	"dbc.server.fb_upd_t": "Таймер обновления античита",
+	"dbc.vmaps.upd_t": "Таймер обновления вирт. карт",
 	"dbc.core.build_revision": "Ревизия сборки",
 	"dbc.core.build_major": "Версия сборки",
 	"dbc.core.build_minor": "Обновление сборки",
@@ -82,6 +83,7 @@
 	"dbc.builder.gob_type": "Строитель: Тип объекта",
 	"dbc.builder.npc_id": "Строитель: Идентификатор сущства",
 	"dbc.builder.gob_id": "Строитель: Идентификатор объекта",
+	"dbc.builder.biome_id": "Строитель: Идентификатор биомы",
 	"dbc.builder.pos_x": "Строитель: Виртуальная позиция (X)",
 	"dbc.builder.pos_y": "Строитель: Виртуальная позиция (Y)",
 	"dbc.builder.pos_z": "Строитель: Виртуальная позиция (Z)",
@@ -103,6 +105,8 @@
 	"dbc.fairbox.flags": "Античит: Флаг",
 	"dbc.fairbox.purge_flag_timer": "Античит: Таймер разрушения флагов",
 	"dbc.fairbox.update_timer": "Античит: Таймер обновления",
+	"dbc.fairbox.ender_pearl": "Античит: Использован \"Жемчуг Края\"",
+	"dbc.fairbox.chorus_fruit": "Античит: Использован \"Цветок Коруса\"",
 
 
 	"dbc.handler.player.has_victim": "Обработчик: Жертва (Существо)",
