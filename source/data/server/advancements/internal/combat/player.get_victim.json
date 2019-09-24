@@ -30,7 +30,7 @@
 				{
 					"source_entity":
 					{
-						"type": "#server:entity.creature"
+						"type": "#server:creature"
 					}	
 				}
 			}
@@ -44,6 +44,6 @@
 	],
     "rewards":
 	{
-        "function": "server:game/combat/unit_events/player_has_victim"
+		"function": "server:game/combat/unit_events/player_has_victim"
     }
 }

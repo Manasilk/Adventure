@@ -30,7 +30,7 @@
 				{
 					"source_entity":
 					{
-						"type": "#server:entity.creature"
+						"type": "#server:creature"
 					}	
 				}
 			}
