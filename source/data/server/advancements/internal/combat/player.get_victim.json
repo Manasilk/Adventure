@@ -23,17 +23,7 @@
 	{
         "PLAYER_HURT_ENTITY":
 		{
-            "trigger": "minecraft:player_hurt_entity",
-			"conditions":
-			{
-				"damage":
-				{
-					"source_entity":
-					{
-						"type": "#server:creature"
-					}	
-				}
-			}
+            "trigger": "minecraft:player_hurt_entity"
         }
     },
 	"requirements":
