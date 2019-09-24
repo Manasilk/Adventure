@@ -1,6 +1,6 @@
 execute if score #dbc.server world_version matches 0 run function server:worldserver/update_dataversion
 
-tellraw @s {"translate":"server.login_msg","with":[{"score":{"name":"#dbc.core","objective":"build_version"}},{"score":{"name":"#dbc.core","objective":"build_update"}},{"score":{"name":"#dbc.core","objective":"build_hotfix"}},{"translate":"build_codename"}],"color":"yellow"}
+tellraw @s {"translate":"server.login_msg","with":[{"score":{"name":"#dbc.core","objective":"build_version"}},{"score":{"name":"#dbc.core","objective":"build_update"}},{"score":{"name":"#dbc.core","objective":"build_hotfix"}},{"selector":"@e[type=#server:area_trigger,tag=BUILD_CODENAME]"}],"color":"yellow"}
 tellraw @s {"translate":"server.readme_msg","with":[{"text":"https://www.google.com/","clickEvent":{"action":"open_url","value":"https://www.google.com/"},"color":"white","underlined":true}],"color":"yellow"}
 tellraw @s[tag=rbac.debugging] {"translate":"server.build_info","with":[{"score":{"name":"#dbc.core","objective":"build_revision"}},{"score":{"name":"#dbc.core","objective":"build_pd_d"}},{"score":{"name":"#dbc.core","objective":"build_pd_m"}},{"score":{"name":"#dbc.core","objective":"build_pd_y"}},{"score":{"name":"#dbc.server","objective":"world_version"},"color":"green"}],"color":"yellow"}
 
