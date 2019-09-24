@@ -1,12 +1,10 @@
 #This function is used to update properties of all entities in the world
 execute unless entity @s[tag=_e.initialized_entry] run function server:game/entity/creature/this.initialize
-execute if entity @s[tag=!ENTITY_RANK_NONE] run function server:game/time/update_entity
-tag @s[tag=!ENTITY_FLAG_IN_COMBAT,scores={entity_upd_t=20}] add _h.modify_attributes
 
 #Calls the functions below if the current playercount has been changed since last update
 # and applies modifications to the entity's attributes
 execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT,tag=_e.initialized_scaling] run function server:game/entity/creature/this.reset_scaling
-execute if entity @s[tag=!_e.initialized_scaling,tag=_h.modify_attributes] run function server:game/entity/creature/this.get_modifiers
+execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=!_e.initialized_scaling] run function server:game/entity/creature/this.get_modifiers
 
 execute store result score @s[tag=ENTITY_FLAG_SHOW_INFO,tag=ENTITY_FLAG_IN_COMBAT] entity_curhp run data get entity @s Health 1
 execute unless score @s[tag=ENTITY_FLAG_SHOW_INFO,tag=ENTITY_FLAG_IN_COMBAT] entity_temphp = @s entity_curhp run function server:game/entity/creature/this.update_nameplate
