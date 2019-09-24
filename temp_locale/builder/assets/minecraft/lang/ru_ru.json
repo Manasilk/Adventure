@@ -83,9 +83,16 @@
 	"builder_info.entity_guid": "ГУИД: %d, ",
 	"builder_info.entity_hostility": "Враждебность: %d, ",
 	"builder_info.entity_level": "Уровень: %d, ",
+	"builder_info.entity_rank": "Ранг: %d, ",
 	"builder_info.entity_health": "Здоровье: %d/%d, ",
 	"builder_info.entity_armor": "Броня: %d, ",
-	"builder_info.entity_baseap": "Урон: %d, ",
+	"builder_info.entity_curap": "Урон: %d, ",
+	"builder_info.entity_tagged": "Помечен: %d, ",
 	"builder_info.entity_spawn": "Позиция возраждения: (%d,%d,%d), ",
-	"builder_info.entity_lootid": "ИД добычи: %d"
+	"builder_info.entity_lootid": "ИД добычи: %d",
+	
+	"builder_info.biome_id": "ИД биомы: %d, ",
+	"builder_info.object_id": "ИД объекта: %d, ",
+	"builder_info.object_type": "Тип объекта: %d ",
+	"builder_info.object_pos": "Координаты: (%d,%d,%d)"
 }

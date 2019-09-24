@@ -2,11 +2,18 @@
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d:%d]: %s.",
 	
-	"server.login_msg": "Добро пожаловать в Майнкрафт, Обнновление: %d.%d.%d: %s",
+	"server.login_msg": "Добро пожаловать в Мардаар, Обнновление: %d.%d.%d: %s",
 	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s",
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
 	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
-	"build_codename": "Сумерки",
+	"build.uprising": "Восход",
+	"build.uprising": "Сумерки",
+	"build.uprising": "Мор",
+	"build.uprising": "Зимние Песни",
+	"build.uprising": "Адское Пламя",
+	"build.uprising": "Запределье",
+
+
 
 	"rbac.perm_type.commands": "коммандам",
 	"rbac.perm_type.debugging": "утилитам отладки",

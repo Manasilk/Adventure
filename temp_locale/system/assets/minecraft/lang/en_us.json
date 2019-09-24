@@ -2,11 +2,18 @@
 	"server_broadcast": "[SERVER]: %s",
 	"server_timestamp": "[%d:%d]: %s.",
 	
-	"server.login_msg": "Welcome to Minecraft, Update: %d.%d.%d: %s",
+	"server.login_msg": "Welcome to Mardaar, Update: %d.%d.%d: %s",
 	"server.readme_msg": "For more information, please visit: %s",
 	"server.install_pkg_msg": "Installed update package: %s",
 	"server.build_info": "Build Revision: %d (%d.%d.%d), Game Version: %d",
-	"build_codename": "Nightfall",
+	"build.uprising": "Uprising",
+	"build.nightfall": "Nightfall",
+	"build.pestilence": "Pestilence",
+	"build.wintersongs": "Wintersongs",
+	"build.hellrise": "Hellfire",
+	"build.outland": "Outland",
+	
+	
 	
 	"rbac.perm_type.commands": "commands",
 	"rbac.perm_type.debugging": "debugging tools",

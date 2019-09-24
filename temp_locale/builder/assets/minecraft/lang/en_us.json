@@ -83,9 +83,16 @@
 	"builder_info.entity_guid": "GUID: %d, ",
 	"builder_info.entity_hostility": "Hostility: %d, ",
 	"builder_info.entity_level": "Level: %d, ",
+	"builder_info.entity_rank": "Rank: %d, ",
 	"builder_info.entity_health": "Health: %d/%d, ",
 	"builder_info.entity_armor": "Armor: %d, ",
-	"builder_info.entity_baseap": "Damage: %d, ",
+	"builder_info.entity_curap": "Damage: %d, ",
+	"builder_info.entity_tagged": "Tagged: %d, ",
 	"builder_info.entity_spawn": "Spawn position: (%d,%d,%d), ",
-	"builder_info.entity_lootid": "Loot ID: %d"
+	"builder_info.entity_lootid": "Loot ID: %d",
+	
+	"builder_info.biome_id": "Biome ID: %d, ",
+	"builder_info.object_id": "ID: %d, ",
+	"builder_info.object_type": "Type: %d, ",
+	"builder_info.object_pos": "Coordinates: (%d,%d,%d)"
 }
