@@ -6,4 +6,4 @@ execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT] run function server:game/ai/cor
 
 #Call a function to restore the base values for the entity's attributes
 # and return the creature to the starting spawn position
-execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT] unless entity @a[tag=ENTITY_FLAG_IN_COMBAT,distance=0..31.999] run function server:game/entity/ai/core_ai/combat_ai/reset
+execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT] unless entity @a[tag=ENTITY_FLAG_IN_COMBAT,distance=0..31.999] run function server:game/ai/core_ai/combat_ai/reset
