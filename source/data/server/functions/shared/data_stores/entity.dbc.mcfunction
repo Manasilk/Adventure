@@ -88,7 +88,9 @@ scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_lev
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
 scoreboard objectives add entity_baseap dummy {"translate":"dbc.entity.entity_baseap"}
+scoreboard objectives add entity_curap dummy {"translate":"dbc.entity.entity_curap"}
 scoreboard objectives add entity_curhp dummy {"translate":"dbc.entity.entity_curhp"}
+scoreboard objectives add entity_maxhp dummy {"translate":"dbc.entity.entity_maxhp"}
 scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_temphp"}
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
 

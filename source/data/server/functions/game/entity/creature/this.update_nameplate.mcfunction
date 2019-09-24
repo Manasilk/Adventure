@@ -1,7 +1,7 @@
 scoreboard players operation @s entity_temphp = @s entity_curhp
 scoreboard players operation @s entity_hpprc = @s entity_curhp
 scoreboard players operation @s entity_hpprc *= #const 100
-scoreboard players operation @s entity_hpprc /= @s entity_basehp
+scoreboard players operation @s entity_hpprc /= @s entity_maxhp
 
 data modify entity @s CustomName set value ""
 #Place a sign container to store the values
