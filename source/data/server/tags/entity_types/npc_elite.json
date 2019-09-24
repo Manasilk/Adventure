@@ -1,0 +1,10 @@
+{
+	"_comment": "Elite Creatures",
+	"values":
+	[
+		"minecraft:polar_bear",
+		"minecraft:iron_golem",
+		"minecraft:ravager",
+		"minecraft:elder_guardian"
+	]
+}

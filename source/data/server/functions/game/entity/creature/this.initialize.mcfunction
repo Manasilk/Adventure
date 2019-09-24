@@ -1,4 +1,5 @@
 function server:game/entity/creature/this.initialize_default_data
+function server:game/entity/creature/this.initialize_rank
 function server:game/entity/creature/this.initialize_attributes
 function server:game/entity/creature/this.initialize_react_state
 function server:game/entity/creature/this.initialize_nameplate
