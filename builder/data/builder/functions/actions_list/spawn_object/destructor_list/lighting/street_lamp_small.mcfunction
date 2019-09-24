@@ -18,4 +18,14 @@ execute if score @s[tag=CLOCKWISE_180] wb_biome_id = #dbc.enum BIOME_MESA run se
 execute if score @s[tag=COUNTERCLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_mesa_small"} replace
 execute if score @s[tag=CLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_mesa_small"} replace
 
+execute if score @s[tag=NONE] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_tundra_small"} replace
+execute if score @s[tag=CLOCKWISE_180] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_tundra_small"} replace
+execute if score @s[tag=COUNTERCLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_tundra_small"} replace
+execute if score @s[tag=CLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_tundra_small"} replace
+
+execute if score @s[tag=NONE] wb_biome_id = #dbc.enum BIOME_STONE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_stone_small"} replace
+execute if score @s[tag=CLOCKWISE_180] wb_biome_id = #dbc.enum BIOME_STONE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_stone_small"} replace
+execute if score @s[tag=COUNTERCLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_STONE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_stone_small"} replace
+execute if score @s[tag=CLOCKWISE_90] wb_biome_id = #dbc.enum BIOME_STONE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_street_lamp_stone_small"} replace
+
 setblock ~ ~1 ~ minecraft:redstone_block replace
