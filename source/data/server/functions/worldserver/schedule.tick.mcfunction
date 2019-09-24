@@ -23,7 +23,7 @@ execute if score #dbc.server tick_upd_t matches 0.. run function server:game/wor
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/player_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/entity_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/object_mgr
-execute if score #dbc.server tick_upd_t matches 0 run function server:game/world/managers/spell_mgr
+execute if score #dbc.server tick_upd_t matches 0 run function server:game/world/managers/spells_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/quests_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/movement_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/transport_mgr
