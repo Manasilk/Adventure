@@ -99,6 +99,8 @@ scoreboard objectives add entity_maxhp dummy {"translate":"dbc.entity.entity_max
 scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_temphp"}
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
 
+scoreboard objectives add entity_count dummy {"translate":"dbc.entity.entity_count"}
+
 scoreboard objectives add entity_spawn.x dummy {"translate":"dbc.entity.entity_spawn_x"}
 scoreboard objectives add entity_spawn.y dummy {"translate":"dbc.entity.entity_spawn_y"}
 scoreboard objectives add entity_spawn.z dummy {"translate":"dbc.entity.entity_spawn_z"}
