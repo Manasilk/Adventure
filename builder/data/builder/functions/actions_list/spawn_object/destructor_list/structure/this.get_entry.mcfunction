@@ -1,0 +1,1 @@
+execute if entity @s[scores={wb_gob_id=1}] run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost
