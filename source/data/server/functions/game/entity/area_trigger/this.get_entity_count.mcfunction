@@ -1,1 +1,1 @@
-execute store result score @s entity_count if entity @e[type=minecraft:pillager,distance=0..38]
+execute store result score @s entity_count if entity @e[type=minecraft:pillager,distance=0..26.0]
