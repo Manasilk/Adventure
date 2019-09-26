@@ -1,4 +1,6 @@
 function server:game/time/update_entity
+execute if score @s[scores={double_reward=1}] entity_upd_t = #const UPD_CYCLE run function server:game/time/double_reward_timer
+execute if score @s[scores={double_loot=1}] entity_upd_t = #const UPD_CYCLE run function erver:game/time/double_loot_timer
 execute if score @s stat_played = #const UPD_CYCLE run function server:game/time/gametime
 
 tag @s[tag=!H_PLAYER_JOIN_GAME,scores={_h.leave_game=1..}] add H_PLAYER_JOIN_GAME

@@ -31,6 +31,8 @@
 	"event_type.break_time": "You've been playing over an hour, please rest a few minutes.",
 	"event_type.level_up": "Congratulations! You have reached level %d!",
 	"event_type.show_stats": "Personal lifetime statistics:",
+	"event_type.double_loot": "You will now receive twice as much loot for 2 hours!",
+	"event_type.double_reward": "You will now receive twice as much rewards for 2 hours!",
 	
 	"stats.played_time": "Total time played: %dd., %dh., %dm., %ds.",
 	"stats.advancement_points": "Advancement points: %d, ",

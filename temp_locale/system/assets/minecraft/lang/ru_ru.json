@@ -2,16 +2,16 @@
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d:%d]: %s.",
 	
-	"server.login_msg": "Добро пожаловать в Мардаар, Обнновление: %d.%d.%d: %s",
+	"server.login_msg": "Добро пожаловать в Мардаар, Обновление: %d.%d.%d: %s",
 	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s",
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
 	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
 	"build.uprising": "Восход",
-	"build.uprising": "Сумерки",
-	"build.uprising": "Мор",
-	"build.uprising": "Зимние Песни",
-	"build.uprising": "Адское Пламя",
-	"build.uprising": "Запределье",
+	"build.nightfall": "Сумерки",
+	"build.pestilence": "Мор",
+	"build.wintersongs": "Зимние Песни",
+	"build.hellfire": "Адское Пламя",
+	"build.outland": "Запределье",
 
 
 
@@ -31,6 +31,8 @@
 	"event_type.break_time": "Вы играете больше часа, пожалуйста отдохните несколько минут.",
 	"event_type.level_up": "Поздравляем! Вы достигли %d-го уровня!",
 	"event_type.show_stats": "Личная статистика за всё время:",
+	"event_type.double_loot": "Теперь вы будете получать в два раза больше добычи на 2 часа!",
+	"event_type.double_reward": "Теперь вы будете получать в два раза больше наград на 2 часа!",
 	
 	"stats.played_time": "Всего времени в игре: %dд., %dч., %dм., %dс.",
 	"stats.advancement_points": "Очков достижения: %d, ",

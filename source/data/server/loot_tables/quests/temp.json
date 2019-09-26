@@ -1,0 +1,66 @@
+{
+	"_comment": "currency reward",
+	"type": "minecraft:generic",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:air",
+					"functions":
+					[
+						{
+							"function": "set_name",
+							"name": {"italic":false,"translate":"NULL"}
+						},
+						{
+							"function": "set_lore",
+							"lore":
+							[
+								{"italic":false,"translate":"NULL"}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions":
+			[
+				{
+					"condition": "entity_scores",
+					"entity": "this",
+					"scores":
+					{
+						"double_reward": 1
+					}
+				}
+			],
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:air",
+					"functions":
+					[
+						{
+							"function": "set_name",
+							"name": {"italic":false,"translate":"NULL"}
+						},
+						{
+							"function": "set_lore",
+							"lore":
+							[
+								{"italic":false,"translate":"NULL"}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

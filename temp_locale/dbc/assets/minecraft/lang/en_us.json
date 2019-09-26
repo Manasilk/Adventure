@@ -51,6 +51,10 @@
 	"dbc.player.stat_played_m": "Minutes played",
 	"dbc.player.stat_played_h": "Hours played",
 	"dbc.player.stat_played_d": "Days played",
+	"dbc.player.double_reward": "Double Rewards",
+	"dbc.player.double_loot": "Double Loot",
+	"dbc.player.double_reward_t": "Double Rewards Time Remaining (Sec.)",
+	"dbc.player.double_loot_t": "Double Loot Time Remaining (Sec.)",
 	
 	
 	"dbc.entity.entity_id": "ID",

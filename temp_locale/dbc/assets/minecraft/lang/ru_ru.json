@@ -51,6 +51,10 @@
 	"dbc.player.stat_played_m": "Времени в игре (минут)",
 	"dbc.player.stat_played_h": "Времени в игре (часов)",
 	"dbc.player.stat_played_d": "Времени в игре (дней)",
+	"dbc.player.double_reward": "Двойная награда",
+	"dbc.player.double_loot": "Двойная добыча",
+	"dbc.player.double_reward_t": "Оставшееся время бонуса наград (сек.)",
+	"dbc.player.double_loot_t": "Оставшееся время бонуса добычи (сек.)",
 	
 	
 	"dbc.entity.entity_id": "Идентификатор существа",

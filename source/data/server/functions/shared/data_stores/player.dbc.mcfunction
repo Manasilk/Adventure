@@ -19,6 +19,11 @@ scoreboard objectives add stat_dmg_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add stat_quests_cmpl dummy {"translate":"dbc.player.stat_quests_cmpl"}
 scoreboard objectives add stat_mob_kills minecraft.custom:minecraft.mob_kills {"translate":"dbc.player.stat_mob_kills"}
 
+scoreboard objectives add double_reward dummy {"translate":"dbc.player.double_rewards"}
+scoreboard objectives add double_loot dummy {"translate":"dbc.player.double_loot"}
+scoreboard objectives add bonus_loot_t dummy {"translate":"dbc.player.bonus_loot_t"}
+scoreboard objectives add bonus_reward_t dummy {"translate":"dbc.player.bonus_reward_t"}
+
 scoreboard objectives add stat_played_s dummy {"translate":"dbc.player.stat_played_s"}
 scoreboard objectives add stat_played_m dummy {"translate":"dbc.player.stat_played_m"}
 scoreboard objectives add stat_played_h dummy {"translate":"dbc.player.stat_played_h"}
