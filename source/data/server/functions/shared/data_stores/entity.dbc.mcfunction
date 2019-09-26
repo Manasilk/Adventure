@@ -1,8 +1,6 @@
 scoreboard objectives add entity_id dummy {"translate":"dbc.entity.entity_id"}
 scoreboard objectives add entity_guid dummy {"translate":"dbc.entity.entity_guid"}
 #GUID is assigned to entities spawned through the creative kit
-scoreboard objectives add entity_lootid dummy {"translate":"dbc.entity.entity_lootid"}
-#EntityLootId = EntityId
 #Custom loot ID: 200+
 #Entity IDs:
 #VILLAGER                        = 11,
