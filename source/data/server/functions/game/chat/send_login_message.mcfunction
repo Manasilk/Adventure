@@ -9,4 +9,4 @@ execute unless score @s gender_sfx matches 1..2 run tellraw @s {"translate":"sfx
 
 scoreboard players set @s _h.leave_game 0
 scoreboard players set @s _h.play_msg_t 0
-tag @s remove H_PLAYER_JOIN_GAME
+tag @s remove _e.player_join_msg
