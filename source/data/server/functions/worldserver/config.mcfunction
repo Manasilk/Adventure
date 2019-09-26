@@ -6,6 +6,7 @@
 # @PLAYER
 gamerule keepInventory true
 gamerule naturalRegeneration true
+gamerule doLimitedCrafting true
 #
 # @CHAT
 gamerule showDeathMessages false
@@ -27,6 +28,7 @@ gamerule doEntityDrops false
 gamerule doTileDrops true
 #
 # @ENVIRONMENT
+gamerule disableRaids true
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 gamerule doFireTick true
