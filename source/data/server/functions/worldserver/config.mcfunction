@@ -1,6 +1,6 @@
 ### VANILLA DATAPACK ###
 # disabled by default
-#datapack disable vanilla
+datapack disable vanilla
 ### GAMERULES CONFIG ###
 # SUBJECT TO CHANGE AT RC/RELEASE
 # @PLAYER
@@ -13,7 +13,7 @@ gamerule showDeathMessages false
 gamerule announceAdvancements false
 #
 # @SPAWN
-gamerule doMobSpawning false
+gamerule doMobSpawning true
 execute store result score #dbc.server cfg.do_spawn run gamerule doMobSpawning
 #respawn timers in seconds
 scoreboard players set #dbc.server cfg.normal_t 30
@@ -24,13 +24,13 @@ scoreboard players set #dbc.server cfg.boss_t 600
 gamerule doMobLoot true
 #
 # @LOOT
-gamerule doEntityDrops false
+gamerule doEntityDrops true
 gamerule doTileDrops true
 #
 # @ENVIRONMENT
 gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doWeatherCycle false
+gamerule doDaylightCycle true
+gamerule doWeatherCycle true
 gamerule doFireTick true
 gamerule mobGriefing false
 gamerule maxEntityCramming 0
@@ -43,10 +43,24 @@ gamerule spawnRadius 0
 gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 gamerule commandBlockOutput false
-gamerule logAdminCommands true
+gamerule logAdminCommands false
 gamerule maxCommandChainLength 65536
-gamerule spectatorsGenerateChunks false
+gamerule spectatorsGenerateChunks true
 gamerule disableElytraMovementCheck true
+### ANTICHEAT CONFIG ###
+#
+# @ANTICHEAT
+#defines the allowed gamemode for players
+#SURVIVAL                         = 1,
+#ADVENTURE                        = 2,
+#CREATIVE                         = 4,
+#SPECTATOR                        = 8
+scoreboard players set #dbc.fairbox _FB.Gamemode 1
+
+#controls if anticheat should take any actions
+#0 = disabled,
+#1 = enabled
+scoreboard players set #dbc.fairbox _FB.Actions 1
 
 #re-sync timers
 execute if score #dbc.core _dbc.setup = #bool true run function server:game/time/synchronize_time
