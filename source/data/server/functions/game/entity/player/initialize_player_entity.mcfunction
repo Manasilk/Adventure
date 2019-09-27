@@ -23,6 +23,9 @@ scoreboard players set @s stat_quests_cmpl 0
 scoreboard players set @s stat_mob_kills 0
 scoreboard players set @s combat_reset_t 0
 scoreboard players set @s fatigue_level 0
+
+scoreboard players set @s double_loot 0
+scoreboard players set @s double_reward 0
 #initialize classic math objectives
 scoreboard players set @s root_x 0
 scoreboard players set @s root_i 0
