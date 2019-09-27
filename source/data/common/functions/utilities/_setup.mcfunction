@@ -12,10 +12,11 @@ function server:shared/data_stores/builder.dbc
 function common:utilities/dbc/setup_worldspawn
 function common:utilities/dbc/setup_constants
 function common:utilities/dbc/setup_core
+function common:utilities/dbc/setup_enum
 function common:utilities/dbc/setup_entity
-#update gamerules
-function server:worldserver/config
 #setup anticheat
 function fairbox:setup
+#update config
+function server:worldserver/config
 
 scoreboard players set #dbc.core _dbc.setup 1
