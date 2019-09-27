@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+	[
+		"SPS",
+        "#P#",
+		"S#S"
+    ],
+    "key":
+	{
+        "#":
+		{
+            "item": "minecraft:leather"
+        },
+        "P":
+		{
+            "item": "minecraft:phantom_membrane"
+        },
+		"S":
+		{
+			"item": "minecraft:stick"
+		}
+    },
+    "result":
+	{
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}
