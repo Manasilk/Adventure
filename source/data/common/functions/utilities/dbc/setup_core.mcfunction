@@ -4,14 +4,14 @@ scoreboard players set #dbc.gc gc_upd_t 0
 
 scoreboard players set #dbc.server _net.online 0
 scoreboard players set #dbc.server _net.db_list 0
+#current version: 1976
 scoreboard players set #dbc.server world_version 0
 
-scoreboard players set #dbc.core _dbc.setup 1
 scoreboard players set #dbc.core build_version 0
 scoreboard players set #dbc.core build_update 0
-scoreboard players set #dbc.core build_hotfix 14
-scoreboard players set #dbc.core build_revision 408
-scoreboard players set #dbc.core build_pd_d 26
+scoreboard players set #dbc.core build_hotfix 15
+scoreboard players set #dbc.core build_revision 488
+scoreboard players set #dbc.core build_pd_d 27
 scoreboard players set #dbc.core build_pd_m 9
 scoreboard players set #dbc.core build_pd_y 2019
 
