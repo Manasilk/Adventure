@@ -1,5 +1,6 @@
 scoreboard objectives add world_version dummy {"translate":"dbc.server.world_version"}
-scoreboard objectives add world_daytime dummy {"translate":"dbc.server.world_gametime"}
+scoreboard objectives add world_daytime dummy {"translate":"dbc.server.world_daytime"}
+scoreboard objectives add world_gametime dummy {"translate":"dbc.server.world_gametime"}
 scoreboard objectives add build_version dummy {"translate":"dbc.core.build_version"}
 scoreboard objectives add build_update dummy {"translate":"dbc.core.build_update"}
 scoreboard objectives add build_hotfix dummy {"translate":"dbc.core.build_hotfix"}
