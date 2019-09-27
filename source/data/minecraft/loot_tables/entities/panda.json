@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:entity",
+    "pools":
+	[
+        {
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bamboo",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "set_count",
+                            "count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "set_count",
+                            "count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

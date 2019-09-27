@@ -1,0 +1,366 @@
+{
+	"type": "minecraft:entity",
+    "pools":
+	[
+        {
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glass_bottle",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone_dust",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.09
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.9
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.13
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spider_eye",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.16
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.12
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 6.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 3.0,
+                                "max": 12.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

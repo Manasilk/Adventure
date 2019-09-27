@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:entity",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:5}"
+						},
+						{
+							"function": "set_name",
+							"name": {"italic":false,"translate":"item.exotic_leather"}
+						}
+					]
+				}
+			]
+		}
+	]
+}

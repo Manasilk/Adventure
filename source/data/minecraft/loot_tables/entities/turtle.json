@@ -1,0 +1,127 @@
+{
+	"type": "minecraft:entity",
+    "pools":
+	[
+        {
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "item",
+                    "name": "minecraft:seagrass",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ],
+					"functions":
+					[
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+								"min": 0.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+					]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "item",
+                    "name": "minecraft:bowl",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.10
+                        },
+						{
+							"condition": "entity_properties",
+							"entity": "this",
+							"predicate":
+							{
+								"damage":
+								{
+									"is_lightning": true
+								}
+							}
+						}
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

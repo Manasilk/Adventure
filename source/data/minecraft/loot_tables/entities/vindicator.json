@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:entity",
+    "pools":
+	[
+        {
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.25
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries":
+			[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "conditions":
+					[
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.20,
+							"looting_multiplier": 0.05
+                        }
+                    ],
+                    "functions":
+					[
+                        {
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 0.0,
+                                "max": 1.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+                        },
+						{
+                            "function": "minecraft:set_count",
+                            "count":
+							{
+                                "min": 1.0,
+                                "max": 2.0,
+								"type": "minecraft:uniform"
+                            },
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "killer",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
