@@ -3,25 +3,6 @@
 	{
 		"sounds": ["ui:player.levelup"]
 	},
-
-
-
-
-	"group_finding.joined_queue":
-	{
-		"sounds": ["ui:group_finding.joined_queue"]
-	},
-	"group_finding.left_queue":
-	{
-		"sounds": ["ui:group_finding.left_queue"]
-	},
-	"group_finding.invited_to_group":
-	{
-		"sounds": ["ui:group_finding.invited_to_group"]
-	},
-	
-	
-	
 	"countdown.loop_timer":
 	{
 		"sounds": ["ui:countdown.loop_timer"]
@@ -30,9 +11,6 @@
 	{
 		"sounds": ["ui:countdown.start_instance"]
 	},
-	
-	
-	
 	"bounty.complete":
 	{
 		"sounds": ["ui:bounty.complete"]

@@ -1,58 +1,58 @@
 {
-	"player.male.death":
-	{
-		"sounds":
-		[
-			"voice:player/male.death_0",
-			"voice:player/male.death_1"
-		]
-	},
 	"player.male.wounded":
 	{
 		"sounds":
 		[
-			"voice:player/male.wounded_0",
-			"voice:player/male.wounded_1",
-			"voice:player/male.wounded_2",
-			"voice:player/male.wounded_3"
+			"voice:player/male/wounded_0",
+			"voice:player/male/wounded_1",
+			"voice:player/male/wounded_2",
+			"voice:player/male/wounded_3"
 		]
 	},
 	"player.male.wounded_critical":
 	{
 		"sounds":
 		[
-			"voice:player/male.wounded_critical_0",
-			"voice:player/male.wounded_critical_1",
-			"voice:player/male.wounded_critical_2",
-			"voice:player/male.wounded_critical_3"
+			"voice:player/male/wounded_critical_0",
+			"voice:player/male/wounded_critical_1",
+			"voice:player/male/wounded_critical_2",
+			"voice:player/male/wounded_critical_3"
 		]
 	},
-	"player.female.death":
+	"player.male.death":
 	{
 		"sounds":
 		[
-			"voice:player/female.death_0",
-			"voice:player/female.death_1"
+			"voice:player/male/death_0",
+			"voice:player/male/death_1"
 		]
 	},
 	"player.female.wounded":
 	{
 		"sounds":
 		[
-			"voice:player/female.wounded_0",
-			"voice:player/female.wounded_1",
-			"voice:player/female.wounded_2",
-			"voice:player/female.wounded_3"
+			"voice:player/female/wounded_0",
+			"voice:player/female/wounded_1",
+			"voice:player/female/wounded_2",
+			"voice:player/female/wounded_3"
 		]
 	},
 	"player.female.wounded_critical":
 	{
 		"sounds":
 		[
-			"voice:player/female.wounded_critical_0",
-			"voice:player/female.wounded_critical_1",
-			"voice:player/female.wounded_critical_2",
-			"voice:player/female.wounded_critical_3"
+			"voice:player/female/wounded_critical_0",
+			"voice:player/female/wounded_critical_1",
+			"voice:player/female/wounded_critical_2",
+			"voice:player/female/wounded_critical_3"
+		]
+	},
+	"player.female.death":
+	{
+		"sounds":
+		[
+			"voice:player/female/death_0",
+			"voice:player/female/death_1"
 		]
 	}
 }
