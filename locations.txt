@@ -42,7 +42,7 @@
 		
 
 2. SOUTHERN KINGDOM:
-	a. 
+	a. Greenwood
 	b. Tanaani Desert
 		* kaldir_stronhold:         -2745, 2399
 		* temple_of_tanaan:         -3353, 3199
