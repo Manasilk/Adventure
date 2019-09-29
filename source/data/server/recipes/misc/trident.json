@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+	[
+		"FGF",
+        "#S#",
+		" S "
+	],
+	"key":
+	{
+		"S":
+        {
+            "item": "minecraft:stick"
+        },
+		"G":
+        {
+            "item": "minecraft:gold_ingot"
+        },
+		"#":
+		{
+			"item": "minecraft:prismarine_crystals"
+		},
+		"F":
+		{
+			"item": "minecraft:prismarine_shard"
+		}
+    },
+    "result":
+	{
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}
