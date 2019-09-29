@@ -1,3 +1,20 @@
 {
-	"builder.assist_tool": "Инструмент Редактирования"
+	"builder.assist_tool": "Инструмент Редактирования",
+	
+	"item.recipe_name": "Рецепт: %s",
+	"item.recipe_desc": "Использование: Обучает изготовлению %s.",
+	
+	"recipe.saddle": "Седло",
+	"recipe.nametag": "Именная табличка",
+	
+	"item.bat_leather": "Кожа летучей мыши",
+	"item.borean_leather": "Борейская кожа",
+	"item.savage_leather": "Огрубелая кожа",
+	"item.stonehide_leather": "Твёрдокаменная кожа",
+	"item.exotic_leather": "Экзотическая кожа",
+	
+	"item.copper_ingot": "Медный слиток",
+	"item.tin_ingot": "Оловянный слиток",
+	"item.mithril_ingot": "Мифриловый слиток",
+	"item.living_steel_ingot": "Слиток живой стали"
 }
