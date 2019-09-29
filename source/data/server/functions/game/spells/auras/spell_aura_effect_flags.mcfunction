@@ -1,5 +1,6 @@
 #Remove existing aura effect flags if effect has faded
-tag @s[tag=SPELL_AURA_RIDING,nbt=!{RootVehicle:{Entity:{}}}] remove SPELL_AURA_RIDING
+tag @s[tag=SPELL_AURA_RIDING_BOAT,nbt=!{RootVehicle:{Entity:{id:"minecraft:boat"}}}] remove SPELL_AURA_RIDING_BOAT
+tag @s[tag=SPELL_AURA_RIDING_MOUNT,nbt=!{RootVehicle:{Entity:{}}}] remove SPELL_AURA_RIDING_MOUNT
 tag @s[tag=SPELL_AURA_SPEED,nbt=!{ActiveEffects:[{Id:1b}]}] remove SPELL_AURA_SPEED
 tag @s[tag=SPELL_AURA_SLOWNESS,nbt=!{ActiveEffects:[{Id:2b}]}] remove SPELL_AURA_SLOWNESS
 tag @s[tag=SPELL_AURA_HASTE,nbt=!{ActiveEffects:[{Id:3b}]}] remove SPELL_AURA_HASTE
@@ -33,7 +34,8 @@ tag @s[tag=SPELL_AURA_DOLPHINS_GRACE,nbt=!{ActiveEffects:[{Id:30b}]}] remove SPE
 tag @s[tag=SPELL_AURA_BAD_OMEN,nbt=!{ActiveEffects:[{Id:31b}]}] remove SPELL_AURA_BAD_OMEN
 tag @s[tag=SPELL_AURA_HERO_OF_THE_VILLAGE,nbt=!{ActiveEffects:[{Id:32b}]}] remove SPELL_AURA_HERO_OF_THE_VILLAGE
 #Apply aura effect flags if not yet added and effect exists
-tag @s[tag=!SPELL_AURA_RIDING,nbt={RootVehicle:{Entity:{}}}] add SPELL_AURA_RIDING
+tag @s[tag=!SPELL_AURA_RIDING_MOUNT,tag=!SPELL_AURA_RIDING_BOAT,nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] add SPELL_AURA_RIDING_BOAT
+tag @s[tag=!SPELL_AURA_RIDING_MOUNT,tag=!SPELL_AURA_RIDING_BOAT,nbt={RootVehicle:{Entity:{}}}] add SPELL_AURA_RIDING_MOUNT
 tag @s[tag=!SPELL_AURA_SPEED,nbt={ActiveEffects:[{Id:1b}]}] add SPELL_AURA_SPEED
 tag @s[tag=!SPELL_AURA_SLOWNESS,nbt={ActiveEffects:[{Id:2b}]}] add SPELL_AURA_SLOWNESS
 tag @s[tag=!SPELL_AURA_HASTE,nbt={ActiveEffects:[{Id:3b}]}] add SPELL_AURA_HASTE
