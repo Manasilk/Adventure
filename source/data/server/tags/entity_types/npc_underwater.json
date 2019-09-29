@@ -1,0 +1,12 @@
+{
+	"_comment": "Underwater Creatures",
+	"values":
+	[
+		"minecraft:dolphin",
+		"minecraft:pufferfish",
+		"minecraft:cod",
+		"minecraft:salmon",
+		"minecraft:squid",
+		"minecraft:tropical_fish"
+	]
+}
