@@ -8,6 +8,10 @@
 		"minecraft:lava",
 		"minecraft:structure_block",
 		"minecraft:structure_void",
+		
+		"minecraft:nether_portal",
+		"minecraft:end_gateway",
+		"minecraft:end_portal",
 
 		"#server:foliage"
 	]
