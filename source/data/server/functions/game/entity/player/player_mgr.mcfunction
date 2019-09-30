@@ -13,5 +13,6 @@ execute at @s[tag=!SPELL_AURA_GHOST,scores={_h.is_wounded=1..}] run function ser
 execute at @s run function server:game/entity/player/get_player_level
 execute if score @s[tag=ENTITY_FLAG_SWIMMING_FATIGUE] entity_upd_t = #const UPD_CYCLE run function server:game/entity/player/get_player_fatigue_level
 
+execute at @s[type=minecraft:player,tag=SPELL_AURA_GHOST,tag=ENTITY_FLAG_TRAVEL_NETHER] run function server:game/spells/spell_teleport_nether
 scoreboard players set @e[type=minecraft:player,tag=SPELL_AURA_GHOST] _h.has_died 0
 tag @s[tag=SPELL_AURA_GHOST,scores={_h.has_died=0}] remove SPELL_AURA_GHOST
