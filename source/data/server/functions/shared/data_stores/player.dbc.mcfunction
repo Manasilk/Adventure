@@ -2,6 +2,7 @@ scoreboard objectives add player_commands dummy {"translate":"dbc.player.admin_t
 scoreboard objectives add player_debugging dummy {"translate":"dbc.player.debug_toggle"}
 scoreboard objectives add player_builder dummy {"translate":"dbc.player.builder_toggle"}
 scoreboard objectives add player_gamemode dummy {"translate":"dbc.player.gamemode_flag"}
+scoreboard objectives add player_id dummy {"translate":"dbc.entity.entity_id"}
 scoreboard objectives add rbac_access dummy {"translate":"dbc.player.rbac_perms"}
 #This objective controls the sounds played when taking damage
 #PLAYER_GAMEMODE_SURVIVAL         = 1,

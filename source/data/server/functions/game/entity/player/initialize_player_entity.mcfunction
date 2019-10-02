@@ -6,8 +6,8 @@ execute store result score @s entity_spawn.x run data get entity @s SpawnX 1
 execute store result score @s entity_spawn.y run data get entity @s SpawnY 1
 execute store result score @s entity_spawn.z run data get entity @s SpawnZ 1
 
-scoreboard players add #dbc.player entity_id 1
-scoreboard players operation @s entity_id = #dbc.player entity_id
+scoreboard players add #dbc.player player_id 1
+scoreboard players operation @s player_id = #dbc.player player_id
 scoreboard players set @s gender_sfx 0
 scoreboard players set @s entity_level 0
 scoreboard players set @s entity_nxtlvl 0
