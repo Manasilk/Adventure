@@ -2,7 +2,6 @@
 	"_comment": "",
 	"values":
 	[
-		"server:worldserver/load/check_setup",
-		"server:worldserver/config"
+		"server:worldserver/schedule.load"
 	]
 }
