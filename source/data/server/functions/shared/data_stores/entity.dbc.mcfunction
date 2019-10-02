@@ -80,13 +80,11 @@ scoreboard objectives add entity_rank dummy {"translate":"dbc.entity.entity_rank
 scoreboard objectives add ENTITY_FRIENDLY dummy {"text":"entity_hostility = 1"}
 scoreboard objectives add ENTITY_NEUTRAL dummy {"text":"entity_hostility = 2"}
 scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
-scoreboard objectives add entity_flags dummy {"translate":"dbc.entity.entity_flags"}
 #ENTITY_FLAG_WORLD_IGNORE        = 0 //Entity is ignored by selectors
 #ENTITY_FLAG_IN_COMBAT 		     = 1,
 #ENTITY_FLAG_SHOW_INFO           = 2, //Entity shows health percentage as name
 #ENTITY_FLAG_QUEST_TRIGGER       = 4,
 #ENTITY_FLAG_OBJECT_HOST         = 8 //used only for builder objects
-scoreboard objectives add entity_avglvl dummy {"translate":"dbc.entity.entity_avglvl"}
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
