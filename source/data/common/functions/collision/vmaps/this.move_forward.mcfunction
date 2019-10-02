@@ -11,28 +11,12 @@ execute if entity @s[tag=ENTITY_ACTION_HOSTILE] if entity @a[tag=los_target,dx=-
 execute if entity @s[tag=ENTITY_ACTION_FRIENDLY] run tag @e[type=#server:npc_hostile,team=Hostile,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add los_target
 execute if entity @s[tag=ENTITY_ACTION_FRIENDLY] if entity @e[type=#server:npc_hostile,team=Hostile,tag=los_target,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
 ### BUILDER
-#
-#class.entity
-execute if entity @s[tag=_h.wb_show_info] run tag @e[type=#server:creature,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add _h.wb_show_info
-execute if entity @s[tag=_h.wb_show_info] if entity @e[type=#server:creature,tag=_h.wb_show_info,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
-execute if entity @s[tag=_h.wb_show_info] run tag @e[type=#server:area_trigger,tag=ENTITY_FLAG_OBJECT_HOST,distance=0..3.0,sort=nearest,limit=1] add _h.wb_show_info
-execute if entity @s[tag=_h.wb_show_info] if entity @e[type=#server:area_trigger,tag=ENTITY_FLAG_OBJECT_HOST,tag=_h.wb_show_info,distance=0..3.0,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
-
-execute if entity @s[tag=_h.wb_update_npc] run tag @e[type=#server:creature,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add _h.wb_update_npc
-execute if entity @s[tag=_h.wb_update_npc] run scoreboard players operation @e[type=#server:creature,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] wb_option_id = @s wb_option_id
-execute if entity @s[tag=_h.wb_update_npc] if entity @e[type=#server:creature,tag=_h.wb_update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run function builder:entity_data/entity.fetch_position
-execute if entity @s[tag=_h.wb_update_npc] if entity @e[type=#server:creature,tag=_h.wb_update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run function builder:entity_data/entity.fetch_rotation
-execute if entity @s[tag=_h.wb_update_npc] if entity @e[type=#server:creature,tag=_h.wb_update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
-
-execute if score @s[tag=_h.wb_spawn_npc] _h.vmap_collide = #bool true run function builder:actions_list/spawn_entity/this.entity_list
-execute if entity @s[tag=_h.wb_despawn_npc] run tag @e[type=#server:creature,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add _h.wb_despawn_npc
-execute if entity @s[tag=_h.wb_despawn_npc] if entity @e[type=#server:creature,tag=_h.wb_despawn_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
-#
-#class.gameobject
-execute if score @s[tag=_h.wb_spawn_gob] _h.vmap_collide = #bool true run scoreboard players add @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-0.55,dz=-0.55,sort=nearest,limit=1] wb_struct_itr 1
-execute if score @s[tag=_h.wb_spawn_gob] _h.vmap_collide = #bool true unless entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-0.55,dz=-0.55,sort=nearest,limit=1] run function builder:actions_list/spawn_object/this.create_temp_object
-execute if entity @s[tag=_h.wb_despawn_gob] run tag @e[type=#server:area_trigger,tag=ENTITY_FLAG_OBJECT_HOST,distance=0..3.0,sort=nearest,limit=1] add _h.wb_despawn_gob
-execute if entity @s[tag=_h.wb_despawn_gob] if entity @e[type=#server:area_trigger,tag=wb_despawn_gob,distance=0..3.0,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
+execute if entity @s[tag=_h.wb_show_info] run function common:collision/vmaps/show_info
+execute if entity @s[tag=_h.wb_update_npc] run function common:collision/vmaps/update_npc
+execute if score @s[tag=_h.wb_spawn_npc] _h.vmap_collide = #bool true run function common:collision/vmaps/spawn_npc
+execute if score @s[tag=_h.wb_spawn_gob] _h.vmap_collide = #bool true run function common:collision/vmaps/spawn_gob
+execute if entity @s[tag=_h.wb_despawn_npc] run common:collision/vmaps/despawn_npc
+execute if entity @s[tag=_h.wb_despawn_gob] run common:collision/vmaps/despawn_gob
 
 #loop and life conditions
 execute positioned ^ ^ ^0.20 unless score @s _h.vmap_collide = #bool true run function common:collision/vmaps/this.move_forward
