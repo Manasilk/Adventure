@@ -15,8 +15,8 @@ execute if entity @s[tag=_h.wb_show_info] run function common:collision/vmaps/sh
 execute if entity @s[tag=_h.wb_update_npc] run function common:collision/vmaps/update_npc
 execute if score @s[tag=_h.wb_spawn_npc] _h.vmap_collide = #bool true run function common:collision/vmaps/spawn_npc
 execute if score @s[tag=_h.wb_spawn_gob] _h.vmap_collide = #bool true run function common:collision/vmaps/spawn_gob
-execute if entity @s[tag=_h.wb_despawn_npc] run common:collision/vmaps/despawn_npc
-execute if entity @s[tag=_h.wb_despawn_gob] run common:collision/vmaps/despawn_gob
+execute if entity @s[tag=_h.wb_despawn_npc] run function common:collision/vmaps/despawn_npc
+execute if entity @s[tag=_h.wb_despawn_gob] run function common:collision/vmaps/despawn_gob
 
 #loop and life conditions
 execute positioned ^ ^ ^0.20 unless score @s _h.vmap_collide = #bool true run function common:collision/vmaps/this.move_forward
