@@ -1,2 +1,2 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"WorldGameobject\"}",CustomNameVisible:0,Duration:24000,Tags:["ENTITY_FLAG_OBJECT_HOST","ENTITY_FLAG_WORLD_IGNORE"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"BuilderGameObjectAreaTrigger\"}",CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_OBJECT_HOST","ENTITY_FLAG_WORLD_IGNORE"]}
 execute as @e[type=#server:area_trigger,tag=!_e.initialize_data,tag=ENTITY_FLAG_OBJECT_HOST] at @s run function builder:actions_list/load_info/this.get_object_data
