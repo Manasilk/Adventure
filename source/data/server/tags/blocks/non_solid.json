@@ -4,18 +4,13 @@
 	[
 		"minecraft:air",
 		"minecraft:cave_air",
-		"minecraft:water",
-		"minecraft:lava",
 		"minecraft:structure_block",
 		"minecraft:structure_void",
 		
-		"minecraft:nether_portal",
-		"minecraft:end_gateway",
-		"minecraft:end_portal",
-		
-		"minecraft:ladder",
-		"minecraft:piston_head",
-
-		"#server:foliage"
+		"#server:foliage",
+		"#server:fluids",
+		"#server:tile",
+		"#server:carpets",
+		"#server:portals"
 	]
 }
