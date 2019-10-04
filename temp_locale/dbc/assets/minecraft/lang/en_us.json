@@ -5,16 +5,14 @@
 	
 
 	"dbc.server.world_version": "Game Version",
-	"dbc.server.net_online": "Online players",
-	"dbc.server.net_db_list": "Saved online",
 	"dbc.server.worldspawn_x": "World respawn (X)",
 	"dbc.server.worldspawn_y": "World respawn (Y)",
 	"dbc.server.worldspawn_z": "World respawn (Z)",
 	"dbc.server.entity_upd_t": "Entity Update Timer",
 	"dbc.server.tick_upd_t": "World Update Timer",
 	"dbc.server.gc_upd_t": "Cleaner Update Timer",
-	"dbc.server.fb_upd_t": "Anticheat Update Timer",
-	"dbc.server.do_spawn": "ٍRespawn entities",
+	"dbc.server.do_spawn": "Respawn Entities",
+	"dbc.server.do_trim": "Trim objectives",
 	"dbc.server.normal_spawn_t": "Normal NPCs Respawn Timer",
 	"dbc.server.elite_spawn_t": "Elite NPCs Respawn Timer",
 	"dbc.server.boss_spawn_t": "Boss NPCs Respawn Timer",

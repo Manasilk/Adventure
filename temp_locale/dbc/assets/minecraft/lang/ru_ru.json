@@ -5,16 +5,14 @@
 
 
 	"dbc.server.world_version": "Версия игры",
-	"dbc.server.net_online": "Игроков онлайн",
-	"dbc.server.net_db_list": "Сохранённый онлайн",
 	"dbc.server.worldspawn_x": "Возраждение в мире (X)",
 	"dbc.server.worldspawn_y": "Возраждение в мире (Y)",
 	"dbc.server.worldspawn_z": "Возраждение в мире (Z)",
 	"dbc.server.entity_upd_t": "Таймер обновления сущности",
 	"dbc.server.tick_upd_t": "Таймер обновления мира",
 	"dbc.server.gc_upd_t": "Таймер обновления очистителя",
-	"dbc.server.fb_upd_t": "Таймер обновления античита",
 	"dbc.server.do_spawn": "Призывать существ",
+	"dbc.server.do_trim": "Обрезать данные",
 	"dbc.server.normal_spawn_t": "Таймер перерождения обычных существ (сек.)",
 	"dbc.server.elite_spawn_t": "Таймер перерождения элитных существ (сек.)",
 	"dbc.server.boss_spawn_t": "Таймер перерождения боссов (сек.)",
