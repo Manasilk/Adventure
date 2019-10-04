@@ -1,3 +1,4 @@
+execute at @s run function server:game/entity/creature/this.get_tagged_level
 scoreboard players operation @s entity_level /= #const 10
 scoreboard players operation @s entity_maxhp += @s entity_level
 scoreboard players operation @s entity_curhp += @s entity_level

@@ -13,9 +13,6 @@ scoreboard objectives add entity_upd_t dummy {"translate":"dbc.server.entity_upd
 scoreboard objectives add tick_upd_t dummy {"translate":"dbc.server.tick_upd_t"}
 scoreboard objectives add gc_upd_t dummy {"translate":"dbc.server.gc_upd_t"}
 
-scoreboard objectives add _net.online dummy {"translate":"dbc.server.net_online"}
-scoreboard objectives add _net.db_list dummy {"translate":"dbc.server.net_db_list"}
-
 scoreboard objectives add worldspawn.x dummy {"translate":"dbc.server.worldspawn_x"}
 scoreboard objectives add worldspawn.y dummy {"translate":"dbc.server.worldspawn_y"}
 scoreboard objectives add worldspawn.z dummy {"translate":"dbc.server.worldspawn_z"}
