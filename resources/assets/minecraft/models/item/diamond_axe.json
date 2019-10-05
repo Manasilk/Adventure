@@ -1,0 +1,49 @@
+{
+    "parent": "item/handheld",
+    "textures":
+	{
+        "layer0": "item/weapon/axe/diamond_axe"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/weapon/axe/butchers_cleaver"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/weapon/axe/bone_sunderer"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 3
+			}, "model": "item/weapon/axe/skullbreaker"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 4
+			}, "model": "item/weapon/axe/gokhall"
+		},
+		
+		
+		
+		{
+			"predicate":
+			{
+				"custom_model_data": 5
+			}, "model": "item/weapon/hammer/dragonmaw"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 6
+			}, "model": "item/weapon/hammer/tuviir_basher"
+		}
+	]
+}

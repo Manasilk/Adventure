@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/crossbow/horn_arbalest/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/crossbow/horn_arbalest/firework"
+    }
+}

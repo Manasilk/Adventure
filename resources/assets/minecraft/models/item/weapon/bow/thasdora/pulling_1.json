@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/bow/thasdora/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/bow/thasdora/pulling_1"
+    }
+}

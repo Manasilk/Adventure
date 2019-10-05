@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/bow/toridal/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/bow/toridal/pulling_1"
+    }
+}

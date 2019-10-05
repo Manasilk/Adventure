@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/bow/arrowsong/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/bow/arrowsong/pulling_2"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "parent": "item/handheld",
+    "textures":
+	{
+        "layer0": "item/weapon/axe/stone_axe"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/weapon/axe/ripsaw"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/weapon/axe/frostbite"
+		}
+	]
+}

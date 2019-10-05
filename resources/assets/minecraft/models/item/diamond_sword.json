@@ -1,0 +1,61 @@
+{
+    "parent": "item/handheld",
+    "textures":
+	{
+        "layer0": "item/weapon/sword/diamond_sword"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/weapon/sword/stormseeker"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/weapon/sword/warglaive"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 3
+			}, "model": "item/weapon/sword/whispering_saber"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 4
+			}, "model": "item/weapon/sword/ushkar_slasher"
+		},
+		
+		
+		
+		{
+			"predicate":
+			{
+				"custom_model_data": 5
+			}, "model": "item/weapon/hammer/crystal_spire"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 6
+			}, "model": "item/weapon/hammer/penance"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 7
+			}, "model": "item/weapon/hammer/gavel_of_truth"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 8
+			}, "model": "item/weapon/hammer/scepter_of_mashaar"
+		}
+	]
+}

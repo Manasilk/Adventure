@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/bow/ashkari/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/bow/ashkari/pulling_0"
+    }
+}

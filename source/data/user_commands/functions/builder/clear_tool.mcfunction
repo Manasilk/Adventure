@@ -1,1 +1,1 @@
-clear @s minecraft:carrot_on_a_stick{_H.BuilderRMB:1b}
+clear @s minecraft:carrot_on_a_stick{builder_tool:1b}

@@ -1,0 +1,1 @@
+execute positioned -2748.5 79.0 2410.5 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'{"text":"npc_pillager_outpost"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_WORLD_IGNORE","ENTITY_RANK_NORMAL","npc_pillager_outpost"]}

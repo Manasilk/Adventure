@@ -1,6 +1,0 @@
-{
-	"fairbox_event_info": "Игрок (%s) с идентификатором (%s) был замечен в %s.",
-	
-	"event_type.teleporting": "телепортации",
-	"event_type.flying": "полёте"
-}

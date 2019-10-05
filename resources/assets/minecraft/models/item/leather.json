@@ -1,0 +1,40 @@
+{
+    "parent": "item/generated",
+    "textures":
+	{
+        "layer0": "item/leather"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/leather/bat_leather"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/leather/savage_leather"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 3
+			}, "model": "item/leather/stonehide_leather"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 4
+			}, "model": "item/leather/borean_leather"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 5
+			}, "model": "item/leather/exotic_leather"
+		}
+	]
+}

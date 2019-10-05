@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/crossbow/steelhawk/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/crossbow/steelhawk/pulling_0"
+    }
+}

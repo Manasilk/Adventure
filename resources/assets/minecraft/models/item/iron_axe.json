@@ -1,0 +1,37 @@
+{
+    "parent": "item/handheld",
+    "textures":
+	{
+        "layer0": "item/weapon/axe/iron_axe"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/weapon/axe/ravager"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/weapon/axe/silverblade"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 3
+			}, "model": "item/weapon/axe/runeaxe"
+		},
+		
+		
+		
+		{
+			"predicate":
+			{
+				"custom_model_data": 4
+			}, "model": "item/weapon/hammer/battlemace"
+		}
+	]
+}

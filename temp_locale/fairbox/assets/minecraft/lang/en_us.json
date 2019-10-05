@@ -1,6 +1,0 @@
-{
-	"fairbox_event_info": "Player (%s) with player ID (%s) has been noticed %s.",
-	
-	"event_type.teleporting": "teleporting",
-	"event_type.flying": "flying"
-}

@@ -1,0 +1,7 @@
+{
+    "parent": "item/weapon/crossbow/talonstrike/idle",
+    "textures":
+	{
+        "layer0": "item/weapon/crossbow/talonstrike/firework"
+    }
+}

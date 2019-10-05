@@ -1,0 +1,37 @@
+{
+    "parent": "item/handheld",
+    "textures":
+	{
+        "layer0": "item/weapon/sword/iron_sword"
+    },
+	"overrides":
+	[
+		{
+			"predicate":
+			{
+				"custom_model_data": 1
+			}, "model": "item/weapon/sword/plunderer"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 2
+			}, "model": "item/weapon/sword/shortblade"
+		},
+		{
+			"predicate":
+			{
+				"custom_model_data": 3
+			}, "model": "item/weapon/sword/warblade"
+		},
+		
+		
+		
+		{
+			"predicate":
+			{
+				"custom_model_data": 4
+			}, "model": "item/weapon/hammer/steelforged_hammer"
+		}
+	]
+}
