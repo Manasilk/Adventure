@@ -1,9 +1,9 @@
-summon minecraft:pillager ~1 ~ ~-1 {HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
-summon minecraft:pillager ~-1 ~ ~-1 {HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
-summon minecraft:pillager ~ ~ ~ {HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
-summon minecraft:pillager ~1 ~ ~1 {HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
-summon minecraft:pillager ~-1 ~ ~1 {HandItems:[{id:"minecraft:crossbow",Count:1b},{}]}
+summon minecraft:pillager ~1 ~ ~-1 {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager_guard","ENTITY_FLAG_WORLD_IGNORE"]}
+summon minecraft:pillager ~-1 ~ ~-1 {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager_guard","ENTITY_FLAG_WORLD_IGNORE"]}
+summon minecraft:pillager ~ ~ ~ {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ArmorItems:[{},{},{},{}],ArmorDropChance:[0.0f,0.0f,0.0f,2.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager_guard","ENTITY_FLAG_WORLD_IGNORE","ENTITY_FLAG_PILLAGER_CAPTAIN"]}
+summon minecraft:pillager ~1 ~ ~1 {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager_guard","ENTITY_FLAG_WORLD_IGNORE"]}
+summon minecraft:pillager ~-1 ~ ~1 {HandItems:[{},{}],HandDropChances:[0.0f,0.0f],ActiveEffects:[{Ambient:0b,ShowIcon:0b,ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:["npc_pillager_guard","ENTITY_FLAG_WORLD_IGNORE"]}
 
 spreadplayers ~ ~ 0.0 18.0 false @e[type=minecraft:pillager,tag=!_e.spread_pos]
-tag @e[type=minecraft:pillager,tag=!_e.spread_pos,distance=0..26.0] add _e.spread_pos
+tag @e[type=minecraft:pillager,tag=!_e.spread_pos,distance=0..31.999] add _e.spread_pos
 function server:game/entity/area_trigger/this.get_entity_count

@@ -1,5 +1,5 @@
 #This function is used to update properties of all entities in the world
-execute unless entity @s[tag=_e.initialized_entry] run function server:game/entity/creature/this.initialize
+execute unless entity @s[tag=_e.initialized_entry,tag=!ENTITY_FLAG_WORLD_IGNORE] run function server:game/entity/creature/this.initialize
 
 #Calls the functions below if the current playercount has been changed since last update
 # and applies modifications to the entity's attributes
