@@ -27,6 +27,8 @@
 		"minecraft:creeper",
 		"minecraft:slime",
 		"minecraft:enderman",
-		"minecraft:guardian"
+		"minecraft:guardian",
+		"minecraft:spider",
+		"minecraft:cave_spider"
 	]
 }
