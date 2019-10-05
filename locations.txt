@@ -4,6 +4,7 @@
 		* world's_gorge:            1908, -4783
 		* ush'kar_spires:           1091, -3276
 		* sunken_pass:              1492, -2813
+		* blasted_lands:            1668, -4855
 
 	b1. Emerald Foothills
 		* ironmines:                1748, -2669
@@ -73,6 +74,10 @@
 	b. Pacific Wound
 		* the_eye:                 -2888, -3124
 
+
+
+4. HELLFIRE PENINSULA (Arrival):
+	a. Hellfire Portal:            235, -591
 
 
 5. THE TWISTING NETHER
