@@ -94,6 +94,7 @@ scoreboard objectives add entity_curhp dummy {"translate":"dbc.entity.entity_cur
 scoreboard objectives add entity_maxhp dummy {"translate":"dbc.entity.entity_maxhp"}
 scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_temphp"}
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
+scoreboard objectives add entity_phaseid dummy {"translate":"dbc.entity.phase_id"}
 
 scoreboard objectives add entity_count dummy {"translate":"dbc.entity.entity_count"}
 
