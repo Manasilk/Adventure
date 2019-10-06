@@ -16,3 +16,5 @@ execute if score @s[tag=ENTITY_FLAG_SWIMMING_FATIGUE] entity_upd_t = #const UPD_
 execute at @s[type=minecraft:player,tag=SPELL_AURA_GHOST,tag=ENTITY_FLAG_TRAVEL_NETHER] run function server:game/spells/spell_teleport_nether
 scoreboard players set @e[type=minecraft:player,tag=SPELL_AURA_GHOST] _h.has_died 0
 tag @s[tag=SPELL_AURA_GHOST,scores={_h.has_died=0}] remove SPELL_AURA_GHOST
+
+execute if entity @s[tag=_e.get_guid] run function server:game/entity/get_entity_guid

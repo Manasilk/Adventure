@@ -1,0 +1,1 @@
+execute if entity @s[tag=spell_script_spellname] run function server:game/spells/spell_info/spell_spellname

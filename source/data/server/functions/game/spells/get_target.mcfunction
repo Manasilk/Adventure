@@ -1,0 +1,1 @@
+execute at @s run function server:game/entity/get_entity_target

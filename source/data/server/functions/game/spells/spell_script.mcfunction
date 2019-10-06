@@ -1,0 +1,1 @@
+execute if entity @s[tag=SPELL_SCRIPT_HOOK_HIT] run function server:game/spells/check_proc_handler
