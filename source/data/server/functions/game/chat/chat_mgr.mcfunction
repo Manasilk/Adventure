@@ -5,3 +5,5 @@ execute if entity @s[tag=_e.player_levelup_msg] run function server:game/chat/se
 
 execute if entity @s[tag=_e.bonus_reward_msg] run function server:game/chat/send_bonus_reward_message
 execute if entity @s[tag=_e.bonus_loot_msg] run function server:game/chat/send_bonus_loot_message
+
+execute if entity @s[tag=_e.get_tellraw_msg] run function server:game/chat/send_tellraw_message
