@@ -1,3 +1,5 @@
 CREDITS:
 LordSamSinister - https://www.planetminecraft.com/project/wasteland-repository/
 bidule995       - https://www.planetminecraft.com/project/epic-rocks-bundle-35-rocks-download-schematics/
+
+DutchCommanderMC - Dutch Localization
