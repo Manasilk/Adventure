@@ -20,3 +20,8 @@ tag @s[tag=!SPELL_EFFECT_RIPTIDE_GREATER,nbt={SelectedItem:{id:"minecraft:triden
 
 tag @s[tag=SPELL_EFFECT_TOTEM_OF_UNDYING] remove SPELL_EFFECT_TOTEM_OF_UNDYING
 tag @s[tag=!SPELL_EFFECT_TOTEM_OF_UNDYING,scores={spell_undyiung=1..}] add SPELL_EFFECT_TOTEM_OF_UNDYING
+
+execute if entity @s[tag=SPELL_EFFECT_ENDANGER] run function server:game/spells/effects/spell_effect_endanger
+execute if entity @s[tag=SPELL_EFFECT_FIREBALL] run function server:game/spells/effects/spell_effect_fireball
+execute if entity @s[tag=SPELL_EFFECT_FROSTBOLT] run function server:game/spells/effects/spell_effect_frostbolt
+execute if entity @s[tag=SPELL_EFFECT_FROSTFIRE_BOLT] run function server:game/spells/effects/spell_effect_frostfire_bolt
