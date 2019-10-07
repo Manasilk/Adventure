@@ -1,1 +1,0 @@
-#execute if entity @a[tag=SPELL_SCRIPT_HOOK_EFFECT_HIT_TARGET]
