@@ -1,1 +1,3 @@
-execute if entity @s[tag=spell_script_spellname] run function server:game/spells/spell_info/spell_spellname
+execute if entity @s[tag=spell_script_fireball] run function server:game/spells/spell_info/spell_fireball
+execute if entity @s[tag=spell_script_frostbolt] run function server:game/spells/spell_info/spell_frostbolt
+execute if entity @s[tag=spell_script_frostfire_bolt] run function server:game/spells/spell_info/spell_frostfire_bolt
