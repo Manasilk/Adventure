@@ -1,0 +1,8 @@
+{
+	"condition": "minecraft:location_check",
+	"biome": "minecraft:ocean",
+	"biome": "minecraft:lukewarm_ocean",
+	"biome": "minecraft:warm_ocean",
+	"biome": "minecraft:cold_ocean",
+	"biome": "minecraft:frozen_ocean"
+}
