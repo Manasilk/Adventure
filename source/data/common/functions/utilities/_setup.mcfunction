@@ -8,6 +8,7 @@ function server:shared/data_stores/entity.dbc
 function server:shared/data_stores/spells.dbc
 function server:shared/data_stores/teams.dbc
 function server:shared/data_stores/vmaps.dbc
+function server:shared/data_stores/fairbox.dbc
 function server:shared/data_stores/builder.dbc
 function common:utilities/dbc/setup_worldspawn
 function common:utilities/dbc/setup_constants

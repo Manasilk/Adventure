@@ -8,5 +8,5 @@ tag @s[tag=!FB_FLAG_PLAYER_IGNORE,tag=SPELL_AURA_GHOST] add FB_FLAG_PLAYER_IGNOR
 tag @s[tag=SPELL_EFFECT_TELEPORT] add FB_FLAG_PLAYER_IGNORE
 
 #Update the maximum allow distance for horizontal and vertical planes
-function fairbox:fairbox/info/get_movement_limits
-function fairbox:fairbox/info/get_flags
+function server:game/fairbox/info/get_movement_limits
+function server:game/fairbox/info/get_flags

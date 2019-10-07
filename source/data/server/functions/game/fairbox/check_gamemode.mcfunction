@@ -3,4 +3,4 @@ scoreboard players set @s[gamemode=adventure] player_gamemode 2
 scoreboard players set @s[gamemode=creative] player_gamemode 4
 scoreboard players set @s[gamemode=spectator] player_gamemode 8
 
-execute unless score @s player_gamemode = #dbc.fairbox _FB.Gamemode run function fairbox:fairbox/actions/update_gamemode
+execute unless score @s player_gamemode = #dbc.fairbox _FB.Gamemode run function server:game/fairbox/actions/update_gamemode

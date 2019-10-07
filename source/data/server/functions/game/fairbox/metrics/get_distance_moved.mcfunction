@@ -1,5 +1,5 @@
 #Convert any negative position values to positive
-function fairbox:metrics/cast_to_positive
+function server:game/fairbox/metrics/cast_to_positive
 #Subtract position(1) from position(2)
 scoreboard players operation @s _FB._PosX-1 -= @s _FB._PosX-0
 scoreboard players operation @s _FB._PosY-1 -= @s _FB._PosY-0
@@ -20,9 +20,9 @@ execute if score @s[tag=!FB_FLAG_PLAYER_IGNORE,tag=!FB_FLAG_PLAYER_TELEPORT] _FB
 
 #These functions are used to detect when to revoke the player's privilege to teleports, such as in cases
 # with respawning or using an ender pearl, where in both cases the players teleports to a certain position
-execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosX-1 > @s _FB._LimitH run function fairbox:events/remove_flag_ignore_player
-execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosZ-1 > @s _FB._LimitH run function fairbox:events/remove_flag_ignore_player
-execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosY-1 > @s _FB._LimitV run function fairbox:events/remove_flag_ignore_player
+execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosX-1 > @s _FB._LimitH run function server:game/fairbox/events/remove_flag_ignore_player
+execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosZ-1 > @s _FB._LimitH run function server:game/fairbox/events/remove_flag_ignore_player
+execute if score @s[tag=FB_FLAG_PLAYER_IGNORE] _FB._PosY-1 > @s _FB._LimitV run function server:game/fairbox/events/remove_flag_ignore_player
 
 #If any detection has succeeded the player is tagged to send a broadcast message and
 # be teleported back to the starting position: position(1)

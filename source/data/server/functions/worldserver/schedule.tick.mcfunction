@@ -1,6 +1,6 @@
 #
 # @ANTICHEAT
-function fairbox:runtime/main
+function server:game/world/managers/fairbox_mgr
 #
 # @BUILDER
 # WORK IN PROGRESS, DO NOT USE
