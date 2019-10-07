@@ -1,2 +1,0 @@
-execute store result score @s[type=minecraft:player] spell_proc_pbty run data get entity @s SelectedItem.tag.spell_proc_chance 1
-execute store result score @s[type=#server:creature] spell_proc_pbty run data get entity @s HandItems[0].tag.spell_proc_chance 1
