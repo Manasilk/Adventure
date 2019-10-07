@@ -1,0 +1,1 @@
+teleport @s ^ ^ ^0.5 facing entity @a[tag=ENTITY_FLAG_SPELL_TARGET,distance=0..63.999,limit=1]
