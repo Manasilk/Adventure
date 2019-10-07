@@ -1,5 +1,6 @@
 #This is where scripts' loading functions should be declared
 #function server:scripts/world/<type>
-execute as @e[type=#server:area_trigger] at @s run function server:scripts/world/area_trigger_script_loader
-execute as @e[type=#server:creature] at @s run function server:scripts/world/entity_script_loader
-execute as @e[type=minecraft:player] at @s run function server:scripts/world/player_script_loader
+execute if score #dbc.server matches 0..10 as @e[type=#server:area_trigger] at @s run function server:scripts/world/area_trigger_script_loader
+execute if score #dbc.server matches 0.. as @e[type=#server:area_trigger,tag=ENTITY_FLAG_SPELL_TRIGGER] at @s run function server:scripts/spells/spell_script_loader
+execute if score #dbc.server matches 0.. as @e[type=#server:creature] at @s run function server:scripts/world/entity_script_loader
+execute if score #dbc.server matches 0 as @e[type=minecraft:player] at @s run function server:scripts/world/player_script_loader
