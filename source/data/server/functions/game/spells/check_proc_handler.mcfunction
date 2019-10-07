@@ -1,8 +1,7 @@
 function server:game/world/math/random/rand
-execute if entity @s[tag=SPELL_SCRIPT_HOOK_SPELL_HIT] run function server:game/spells/get_spell_proc_chance
-execute if entity @s[tag=SPELL_SCRIPT_HOOK_MELEE_HIT] run function server:game/spells/get_melee_proc_chance
-scoreboard players operation @s rand += @s spell_proc_pbty
-scoreboard players set @s[scores={rand=101..}] rand 100
+function server:game/spells/get_chance_on_hit
+scoreboard players operation @s spell_proc_pbty += @s rand
 
-tag @s remove SPELL_SCRIPT_HOOK_HIT
-tag @s[scores={rand=100}] add SPELL_SCRIPT_HOOK_EFFECT_PROC
+tag @s[scores={spell_proc_pbty=100..}] add SPELL_SCRIPT_HOOK_EFFECT_PROC
+scoreboard players reset @s rand
+scoreboard players reset @s spell_proc_pbty
