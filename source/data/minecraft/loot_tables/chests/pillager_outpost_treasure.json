@@ -1,0 +1,363 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"conditions":
+			[
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.05
+				}
+			],
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow"
+				}
+			]
+		},
+		{
+			"rolls":
+			{
+				"min": 1.0,
+				"max": 3.0,
+				"type": "minecraft:uniform"
+			},
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.88
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 2.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 4.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.78
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 2.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tripwire_hook",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.48
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.28
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count": 
+							{
+								"min": 2.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 4.0,
+								"max": 8.0,
+								"type": "minecraft:uniform"
+							},
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_book",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.20
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments":
+							[
+								"minecraft:aqua_affinity",
+								"minecraft:bane_of_arthropods",
+								"minecraft:blast_protection",
+								"minecraft:depth_strider",
+								"minecraft:efficiency",
+								"minecraft:feather_falling",
+								"minecraft:fire_aspect",
+								"minecraft:fire_protection",
+								"minecraft:flame",
+								"minecraft:fortune",
+								"minecraft:infinity",
+								"minecraft:knockback",
+								"minecraft:looting",
+								"minecraft:lure",
+								"minecraft:luck_of_the_sea",
+								"minecraft:multishot",
+								"minecraft:piercing",
+								"minecraft:power",
+								"minecraft:projectile_protection",
+								"minecraft:protection",
+								"minecraft:punch",
+								"minecraft:quick_charge",
+								"minecraft:respiration",
+								"minecraft:sharpness",
+								"minecraft:silk_touch",
+								"minecraft:smite",
+								"minecraft:sweeping",
+								"minecraft:thorns",
+								"minecraft:unbreaking"
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"conditions":
+					[
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.14
+						}
+					],
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 0
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 2,
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"double_loot": 1
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
