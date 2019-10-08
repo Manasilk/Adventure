@@ -85,6 +85,14 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_SHOW_INFO           = 2, //Entity shows health percentage as name
 #ENTITY_FLAG_QUEST_TRIGGER       = 4,
 #ENTITY_FLAG_OBJECT_HOST         = 8 //used only for builder objects
+#ENTITY_FLAG_SPELL_TARGET        = 16, //indicates the entity is targeted by a spellcast
+#ENTITY_FLAG_PREP_SPELL_CAST     = 32, //is ready to cast a spell
+#ENTITY_FLAG_CASTING             = 64, //actively casting a spell, can be interrupted (unless flagged as uninterruptable) (NoAI)
+#ENTITY_FLAG_CAST_NO_TARGET      = 128, //spell requires no target to be casted
+#ENTITY_FLAG_CAST_NO_INTERRUPT   = 256, //casting cannot be interrupted
+#ENTITY_FLAG_CAST_INTERRUPTED    = 512, //true/false, has been interrupted (los, spell)
+#ENTITY_FLAG_HAS_SPELL_QUEUE     = 1024, //selected a spell to be cast when downtime ends
+#ENTITY_FLAG_EXTRA_TRIGGER       = 2048, //used only for active area triggers
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
