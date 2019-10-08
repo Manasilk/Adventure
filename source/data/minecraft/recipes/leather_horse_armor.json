@@ -1,14 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X X",
-    "XXX",
-    "X X"
+    "# #",
+    "###",
+    "#S#"
   ],
   "key": {
-    "X": {
+    "#": {
       "item": "minecraft:leather"
-    }
+    },
+	"S": {
+	  "item": "minecraft:saddle"
+	}
   },
   "result": {
     "item": "minecraft:leather_horse_armor"
