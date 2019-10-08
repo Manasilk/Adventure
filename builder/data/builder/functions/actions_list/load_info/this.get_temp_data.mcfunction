@@ -11,7 +11,7 @@ scoreboard players set @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-
 execute if entity @s[tag=_h.wb_spawn_gob] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add _h.wb_spawn_gob
 execute if entity @s[tag=_h.wb_despawn_gob] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add _h.wb_despawn_gob
 
-execute if entity @s[tag=NONE] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add NONE
-execute if entity @s[tag=CLOCKWISE_90] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add CLOCKWISE_90
-execute if entity @s[tag=CLOCKWISE_180] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add CLOCKWISE_180
-execute if entity @s[tag=COUNTERCLOCKWISE_90] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add COUNTERCLOCKWISE_90
+execute if entity @s[tag=FACING_NORTH] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add FACING_NORTH
+execute if entity @s[tag=FACING_SOUTH] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add FACING_SOUTH
+execute if entity @s[tag=FACING_EAST] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add FACING_EAST
+execute if entity @s[tag=FACING_WEST] run tag @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,limit=1] add FACING_WEST

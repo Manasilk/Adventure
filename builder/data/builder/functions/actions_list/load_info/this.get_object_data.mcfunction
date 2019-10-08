@@ -2,10 +2,10 @@ scoreboard players operation @s wb_biome_id = @e[type=#server:area_trigger,tag=T
 scoreboard players operation @s wb_gob_type = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_type
 scoreboard players operation @s wb_gob_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_id
 
-execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=NONE,distance=0..0.001] run tag @s add NONE
-execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=CLOCKWISE_90,distance=0..0.001] run tag @s add CLOCKWISE_90
-execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=CLOCKWISE_180,distance=0..0.001] run tag @s add CLOCKWISE_180
-execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=COUNTERCLOCKWISE_90,distance=0..0.001] run tag @s add COUNTERCLOCKWISE_90
+execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_NORTH,distance=0..0.001] run tag @s add FACING_NORTH
+execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_SOUTH,distance=0..0.001] run tag @s add FACING_SOUTH
+execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_EAST,distance=0..0.001] run tag @s add FACING_EAST
+execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_WEST,distance=0..0.001] run tag @s add FACING_WEST
 
 scoreboard players add #dbc.object entity_guid 1
 scoreboard players operation @s entity_guid = #dbc.object entity_guid
