@@ -1,6 +1,7 @@
 advancement revoke @s everything
 recipe take @s *
 spawnpoint
+team join Friendly @s
 
 execute store result score @s entity_spawn.x run data get entity @s SpawnX 1
 execute store result score @s entity_spawn.y run data get entity @s SpawnY 1
