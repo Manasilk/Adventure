@@ -7,3 +7,4 @@ scoreboard objectives add c dummy
 scoreboard objectives add m dummy
 scoreboard objectives add seed dummy
 scoreboard objectives add rand dummy
+scoreboard objectives add TURN_180 dummy

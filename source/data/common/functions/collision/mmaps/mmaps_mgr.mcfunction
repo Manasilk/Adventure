@@ -1,0 +1,1 @@
+execute as @e[type=#server:creature,tag=ENTITY_FLAG_NO_AI] at @s run function common:collision/mmaps/this.update_entity
