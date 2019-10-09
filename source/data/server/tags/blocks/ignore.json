@@ -9,6 +9,7 @@
 		"#server:foliage",
 		"#server:fluids",
 		"#server:portals",
+		"#server:tile",
 		"#server:carpets",
 		"#server:pressure_plate"
 	]
