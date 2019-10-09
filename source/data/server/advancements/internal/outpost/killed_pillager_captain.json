@@ -41,6 +41,6 @@
 	],
     "rewards":
 	{
-		"function": "server:game/spells/spell_bad_omen"
+		"function": "server:game/spells/trigger/spell_endanger"
     }
 }
