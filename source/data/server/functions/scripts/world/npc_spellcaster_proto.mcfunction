@@ -15,6 +15,7 @@ execute if entity @s[tag=!ENTITY_FLAG_CASTING,tag=ENTITY_FLAG_CAST_INTERRUPTED] 
 execute if entity @s[tag=!ENTITY_FLAG_CASTING,tag=!ENTITY_FLAG_CAST_NO_TARGET] if entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999] run tag @s add ENTITY_FLAG_CASTING
 execute if entity @s[tag=!ENTITY_FLAG_CASTING,tag=ENTITY_FLAG_CAST_NO_TARGET] run tag @s add ENTITY_FLAG_CASTING
 execute if entity @s[tag=ENTITY_FLAG_CASTING,tag=!ENTITY_FLAG_CAST_NO_INTERRUPT] unless entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999] run function server:game/entity/creature/interrupt_cast
+execute if entity @s[tag=ENTITY_FLAG_CASTING,tag=!ENTITY_FLAG_CAST_NO_INTERRUPT,tag=SPELL_EFFECT_INTERRUPT] run function server:game/entity/creature/interrupt_cast
 execute if entity @s[tag=ENTITY_FLAG_CASTING] run function server:game/entity/creature/get_threat_target
 
 execute if score @s[tag=ENTITY_FLAG_CASTING] entity_upd_t matches 0 run function server:game/particles/particle_mgr
