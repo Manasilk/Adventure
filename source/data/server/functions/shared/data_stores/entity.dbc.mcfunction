@@ -95,6 +95,7 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_EXTRA_TRIGGER       = 2048, //used only for active area triggers
 #ENTITY_FLAG_ITEM_UNPICKABLE     = 4096,
 #ENTITY_FLAG_NO_AI               = 8192,
+#ENTITY_FLAG_FLEEING             = 16384,
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
