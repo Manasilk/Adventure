@@ -93,6 +93,7 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_CAST_INTERRUPTED    = 512, //true/false, has been interrupted (los, spell)
 #ENTITY_FLAG_HAS_SPELL_QUEUE     = 1024, //selected a spell to be cast when downtime ends
 #ENTITY_FLAG_EXTRA_TRIGGER       = 2048, //used only for active area triggers
+#ENTITY_FLAG_ITEM_UNPICKABLE     = 4096
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
