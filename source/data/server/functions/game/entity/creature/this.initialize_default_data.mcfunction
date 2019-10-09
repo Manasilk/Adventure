@@ -70,4 +70,4 @@ scoreboard players set @s[type=minecraft:fox] entity_id 72
 scoreboard players set @s[type=minecraft:mooshroom] entity_id 73
 scoreboard players set @s[type=minecraft:cave_spider] entity_id 74
 
-scoreboard players set @s entity_hpprc 0
+scoreboard players set @s entity_hpprc 100
