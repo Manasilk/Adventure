@@ -30,8 +30,9 @@ execute if score #dbc.server tick_upd_t matches 1 run function server:game/world
 # @AI
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/ai/creature_ai
 #
-# @VMAPS
+# @VMAPS, @MMAPS
 execute if score #dbc.server tick_upd_t matches 0.. run function common:collision/vmaps/vmaps_mgr
+execute if score #dbc.server tick_upd_t matches 0.. run function common:collision/mmaps/mmaps_mgr
 #
 # @SCRIPTS
 execute if score #dbc.server tick_upd_t matches 0.. run function server:scripts/world/world_script_loader
