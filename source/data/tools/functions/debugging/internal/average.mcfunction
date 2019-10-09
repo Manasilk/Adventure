@@ -1,6 +1,4 @@
-gamerule maxCommandChainLength 2000000
-worldborder set 30000000 0
-worldborder add -10000000 1
+function tools:debugging/handler/update
 
 scoreboard players set #DEBUG cmd_executed 0
 function tools:debugging/internal/loop
