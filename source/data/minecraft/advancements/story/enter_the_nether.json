@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/form_obsidian",
+  "parent": "minecraft:story/smelt_iron",
   "display":
   {
     "icon":

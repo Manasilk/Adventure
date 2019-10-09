@@ -38,3 +38,4 @@ scoreboard objectives add _h.leave_game minecraft.custom:minecraft.leave_game {"
 scoreboard objectives add _h.has_died minecraft.custom:minecraft.deaths {"translate":"dbc.handler.player.has_died"}
 scoreboard objectives add _h.play_msg_t minecraft.custom:minecraft.play_one_minute {"translate":"dbc.handler.player.play_msg_t"}
 scoreboard objectives add _h.is_wounded minecraft.custom:minecraft.damage_taken {"translate":"dbc.handler.player.is_wounded"}
+scoreboard objectives add _h.fill_bucket minecraft.used:minecraft.bucket {"translate":"dbc.handler.player.fill_bucket"}

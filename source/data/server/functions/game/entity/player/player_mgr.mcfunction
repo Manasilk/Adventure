@@ -18,3 +18,4 @@ scoreboard players set @e[type=minecraft:player,tag=SPELL_AURA_GHOST] _h.has_die
 tag @s[tag=SPELL_AURA_GHOST,scores={_h.has_died=0}] remove SPELL_AURA_GHOST
 
 execute if entity @s[tag=_e.get_guid] run function server:game/entity/get_entity_guid
+execute if entity @s[tag=!rbac.commands,scores={_h.fill_bucket=1..}] run function server:game/entity/item/clear_prohibit_fill_items
