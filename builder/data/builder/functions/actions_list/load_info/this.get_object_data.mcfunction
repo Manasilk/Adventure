@@ -14,4 +14,4 @@ execute store result score @s wb_pos.x run data get entity @s Pos[0] 1
 execute store result score @s wb_pos.y run data get entity @s Pos[1] 1
 execute store result score @s wb_pos.z run data get entity @s Pos[2] 1
 
-tag @s add _e.initialize_data
+tag @s add _e.initialized_data

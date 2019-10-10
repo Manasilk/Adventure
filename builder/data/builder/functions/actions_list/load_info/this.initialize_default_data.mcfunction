@@ -26,4 +26,4 @@ execute store result entity @s Rotation[1] float 1 run scoreboard players get #d
 function common:collision/vmaps/flush_temp_data
 
 scoreboard players set @s _h.vmap_collide 0
-tag @s add _e.initialize_data
+tag @s add _e.initialized_data
