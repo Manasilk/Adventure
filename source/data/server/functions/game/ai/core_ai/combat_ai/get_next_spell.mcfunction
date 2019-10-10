@@ -1,4 +1,4 @@
-tag @s add ENTITY_FLAG_SPELL_QUEUE
+tag @s add SMART_EVENT_LOAD_SPELL
 scoreboard players add @s spell_itr 1
 execute if score @s spell_itr = @s spellbook run scoreboard players set @s spell_itr 0
 

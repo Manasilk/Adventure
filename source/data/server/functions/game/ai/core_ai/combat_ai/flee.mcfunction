@@ -1,10 +1,8 @@
-tag @s[tag=_e.update_ai] add _e.get_entity_rotation
-tag @s[tag=_e.update_ai] add _e.disable_ai
-execute if entity @s[tag=_e.update_ai] run function server:game/ai/core_ai/combat_ai/update_ai
+execute unless entity @s[tag=ENTITY_FLAG_FORCE_MOVEMENT] run function server:game/entity/creature/get_fleeing_rotation
+execute unless entity @s[tag=ENTITY_FLAG_NO_AI] run function server:game/ai/core_ai/combat_ai/disable_ai
+tag @s[tag=!ENTITY_FLAG_FORCE_MOVEMENT] add ENTITY_FLAG_FORCE_MOVEMENT
 
-execute at @s[scores={entity_upd_t=0..59}] run function server:game/movement/flee_from_target
+execute if score @s entity_upd_t matches 0..59 run function server:game/movement/flee_from_target
 tag @s[scores={entity_upd_t=61..}] remove ENTITY_FLAG_FLEEING
-tag @s[scores={entity_upd_t=61..}] remove _e.get_fleeing_rotation
-tag @s[scores={entity_upd_t=60..}] add _e.enable_ai
-tag @s[scores={entity_upd_t=60..}] add _e.update_ai
+tag @s[scores={entity_upd_t=61..}] remove ENTITY_FLAG_FORCE_MOVEMENT
 scoreboard players reset @s[scores={entity_upd_t=61..}] entity_upd_t

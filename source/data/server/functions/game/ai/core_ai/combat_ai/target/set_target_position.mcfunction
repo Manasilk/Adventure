@@ -1,0 +1,1 @@
+tag @s add SMART_EVENT_SKIP_LOS

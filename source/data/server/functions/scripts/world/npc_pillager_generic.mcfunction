@@ -1,5 +1,4 @@
-tag @s[tag=!_e.set_entity_flee,scores={entity_hpprc=0..20}] add ENTITY_FLAG_FLEEING
-tag @s[tag=!_e.set_entity_flee,scores={entity_hpprc=0..20}] add _e.update_ai
-tag @s[tag=!_e.set_entity_flee,scores={entity_hpprc=0..20}] add _e.set_entity_flee
+tag @s[tag=!SMART_ACTION_FLEE,scores={entity_hpprc=0..20}] add SMART_ACTION_FLEE
 
-scoreboard players add @s[tag=ENTITY_FLAG_FLEEING] entity_upd_t 1
+scoreboard players add @s[tag=SMART_ACTION_FLEE] entity_upd_t 1
+#else invoked @server:game/ai/core_ai/aggressor_ai/flee

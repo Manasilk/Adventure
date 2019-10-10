@@ -1,0 +1,2 @@
+tag @s add ENTITY_FLAG_SPELL_TARGET
+tag @s add SMART_EVENT_SKIP_LOS

@@ -92,19 +92,15 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_SPECIALINFO            = 256,
 #ENTITY_FLAG_NO_AI                  = 512,
 #ENTITY_FLAG_SPELL_TARGET           = 1024,
-#ENTITY_FLAG_PREP_SPELL_CAST        = 2048,
-#ENTITY_FLAG_CASTING                = 4096,
-#ENTITY_FLAG_SPELL_QUEUE            = 8192,
-#ENTITY_FLAG_UNPICKABLE             = 16384,
-#ENTITY_FLAG_FLEEING                = 32768,
-#ENTITY_FLAG_GOSSIP                 = 65536,
-#ENTITY_FLAG_QUESTGIVER             = 131072,
-#ENTITY_FLAG_ITEM_UNPICKABLE        = 262144,
-#ENTITY_FLAG_QUEST_RELATION         = 524288,
-#ENTITY_FLAG_GHOST                  = 1048576,
-#ENTITY_FLAG_SILENT                 = 2097152,
-#ENTITY_FLAG_NO_DESPAWN             = 4194304,
-#ENTITY_FLAG_NO_PICKUP_ITEM         = 8388608
+#ENTITY_FLAG_UNPICKABLE             = 2048,
+#ENTITY_FLAG_GOSSIP                 = 4096,
+#ENTITY_FLAG_QUESTGIVER             = 8192,
+#ENTITY_FLAG_ITEM_UNPICKABLE        = 16384,
+#ENTITY_FLAG_QUEST_RELATION         = 32768,
+#ENTITY_FLAG_GHOST                  = 65536,
+#ENTITY_FLAG_SILENT                 = 131072,
+#ENTITY_FLAG_NO_DESPAWN             = 262144,
+#ENTITY_FLAG_NO_PICKUP_ITEM         = 524288
 
 #ENTITY_FLAG_EXTRA_OBJECT_BIND      = 1
 #ENTITY_FLAG_EXTRA_INSTANCE_BIND    = 2,
@@ -127,6 +123,7 @@ scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_te
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
 scoreboard objectives add entity_phaseid dummy {"translate":"dbc.entity.phase_id"}
 scoreboard objectives add entity_gossip_id dummy {"translate":"dbc.entity.gossip_id"}
+scoreboard objectives add has_target dummy
 
 scoreboard objectives add entity_count dummy {"translate":"dbc.entity.entity_count"}
 
@@ -139,3 +136,24 @@ scoreboard objectives add entity_pos.y dummy {"translate":"dbc.entity.entity_pos
 scoreboard objectives add entity_pos.z dummy {"translate":"dbc.entity.entity_pos_z"}
 scoreboard objectives add entity_rot.x dummy {"translate":"dbc.entity.entity_rot_x"}
 scoreboard objectives add entity_rot.y dummy {"translate":"dbc.entity.entity_rot_y"}
+
+#SMART EVENTS
+#casts
+#SMARTCAST_INTERRUPT
+#SMARTCAST_TRIGGERED
+#targets
+#TARGET_NONE
+#TARGET_SELF
+#TARGET_POSITION
+#TARGET_PLAYER_NEAREST
+#TARGET_PLAYER_FURTHEST
+#TARGET_PLAYER_RANDOM
+#TARGET_CREATURE_NEAREST
+#TARGET_CREATURE_FURTHEST
+#actions
+#SMART_ACTION_FLEE
+#events
+#SMART_EVENT_CAST
+#SMART_EVENT_RESET
+#SMART_EVENT_LOAD_SPELL
+#SMART_EVENT_PREP_CAST

@@ -10,4 +10,8 @@ scoreboard objectives add spell_itr dummy
 scoreboard objectives add spell_diff dummy
 scoreboard objectives add spellbook dummy
 
+scoreboard objectives add disorient_t dummy
+scoreboard objectives add pacify_t dummy
+scoreboard objectives add silence_t dummy
+
 scoreboard objectives add _h.spell_rmb minecraft.used:minecraft.carrot_on_a_stick

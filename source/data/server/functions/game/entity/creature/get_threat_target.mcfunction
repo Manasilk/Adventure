@@ -1,2 +1,0 @@
-execute unless entity @a[tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999,limit=1] run function server:game/entity/creature/switch_target
-teleport @s ~ ~ ~ facing entity @a[tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999,limit=1]
