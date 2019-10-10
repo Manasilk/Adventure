@@ -1,4 +1,4 @@
-execute unless entity @s[tag=ENTITY_FLAG_HAS_SPELL_QUEUE,scores={spellbook=1..}] run function server:game/entity/creature/iterate_spells
+execute unless entity @s[tag=ENTITY_FLAG_SPELL_QUEUE,scores={spellbook=1..}] run function server:game/entity/creature/iterate_spells
 tag @s[tag=SPELL_0,tag=!spell_script_fireball] add spell_script_fireball
 tag @s[tag=SPELL_1,tag=!spell_script_frostbolt] add spell_script_frostbolt
 tag @s[tag=SPELL_2,tag=!spell_script_frostfire_bolt] add spell_script_frostfire_bolt

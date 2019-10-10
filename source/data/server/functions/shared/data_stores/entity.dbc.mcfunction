@@ -1,4 +1,5 @@
 scoreboard objectives add entity_id dummy {"translate":"dbc.entity.entity_id"}
+scoreboard objectives add owner_id dummy {"translate":"dbc.entity.owner_id"}
 scoreboard objectives add entity_guid dummy {"translate":"dbc.entity.entity_guid"}
 #GUID is assigned to entities spawned through the creative kit
 #Custom loot ID: 200+
@@ -80,22 +81,38 @@ scoreboard objectives add entity_rank dummy {"translate":"dbc.entity.entity_rank
 scoreboard objectives add ENTITY_FRIENDLY dummy {"text":"entity_hostility = 1"}
 scoreboard objectives add ENTITY_NEUTRAL dummy {"text":"entity_hostility = 2"}
 scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
-#ENTITY_FLAG_WORLD_IGNORE        = 0 //Entity is ignored by selectors
-#ENTITY_FLAG_IN_COMBAT 		     = 1,
-#ENTITY_FLAG_SHOW_INFO           = 2, //Entity shows health percentage as name
-#ENTITY_FLAG_QUEST_TRIGGER       = 4,
-#ENTITY_FLAG_OBJECT_HOST         = 8 //used only for builder objects
-#ENTITY_FLAG_SPELL_TARGET        = 16, //indicates the entity is targeted by a spellcast
-#ENTITY_FLAG_PREP_SPELL_CAST     = 32, //is ready to cast a spell
-#ENTITY_FLAG_CASTING             = 64, //actively casting a spell, can be interrupted (unless flagged as uninterruptable) (NoAI)
-#ENTITY_FLAG_CAST_NO_TARGET      = 128, //spell requires no target to be casted
-#ENTITY_FLAG_CAST_NO_INTERRUPT   = 256, //casting cannot be interrupted
-#ENTITY_FLAG_CAST_INTERRUPTED    = 512, //true/false, has been interrupted (los, spell)
-#ENTITY_FLAG_HAS_SPELL_QUEUE     = 1024, //selected a spell to be cast when downtime ends
-#ENTITY_FLAG_EXTRA_TRIGGER       = 2048, //used only for active area triggers
-#ENTITY_FLAG_ITEM_UNPICKABLE     = 4096,
-#ENTITY_FLAG_NO_AI               = 8192,
-#ENTITY_FLAG_FLEEING             = 16384,
+#ENTITY_FLAG_SERVER_CONTROLLED      = 1,
+#ENTITY_FLAG_NON_ATTACKABLE         = 2,
+#ENTITY_FLAG_PACIFIED               = 4,
+#ENTITY_FLAG_IN_COMBAT              = 8,
+#ENTITY_FLAG_TAXI_TELEPORT          = 16,
+#ENTITY_FLAG_DISARMED               = 32,
+#ENTITY_FLAG_CONFUSED               = 64,
+#ENTITY_FLAG_FORCE_MOVEMENT         = 128,
+#ENTITY_FLAG_SPECIALINFO            = 256,
+#ENTITY_FLAG_NO_AI                  = 512,
+#ENTITY_FLAG_SPELL_TARGET           = 1024,
+#ENTITY_FLAG_PREP_SPELL_CAST        = 2048,
+#ENTITY_FLAG_CASTING                = 4096,
+#ENTITY_FLAG_SPELL_QUEUE            = 8192,
+#ENTITY_FLAG_UNPICKABLE             = 16384,
+#ENTITY_FLAG_FLEEING                = 32768,
+#ENTITY_FLAG_GOSSIP                 = 65536,
+#ENTITY_FLAG_QUESTGIVER             = 131072,
+#ENTITY_FLAG_ITEM_UNPICKABLE        = 262144,
+#ENTITY_FLAG_QUEST_RELATION         = 524288,
+#ENTITY_FLAG_GHOST                  = 1048576
+
+#ENTITY_FLAG_EXTRA_OBJECT_BIND      = 1
+#ENTITY_FLAG_EXTRA_INSTANCE_BIND    = 2,
+#ENTITY_FLAG_EXTRA_TRIGGER          = 4,
+#ENTITY_FLAG_EXTRA_IMMUNE_KNOCKBACK = 8
+
+#ENTITY_IMMUNE_DISARM               = 1,
+#ENTITY_IMMUNE_INFECTED             = 2,
+#ENTITY_IMMUNE_DISTRACT             = 4,
+#ENTITY_IMMUNE_SILENCE              = 8,
+#ENTITY_IMMUNE_PACIFY               = 16
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
@@ -106,6 +123,7 @@ scoreboard objectives add entity_maxhp dummy {"translate":"dbc.entity.entity_max
 scoreboard objectives add entity_temphp dummy {"translate":"dbc.entity.entity_temphp"}
 scoreboard objectives add entity_armor dummy {"translate":"dbc.entity.entity_armor"}
 scoreboard objectives add entity_phaseid dummy {"translate":"dbc.entity.phase_id"}
+scoreboard objectives add entity_gossip_id dummy {"translate":"dbc.entity.gossip_id"}
 
 scoreboard objectives add entity_count dummy {"translate":"dbc.entity.entity_count"}
 
