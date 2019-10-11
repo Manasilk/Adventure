@@ -1,0 +1,1 @@
+execute if entity @a[tag=ENTITY_FLAG_QUEST_TARGET,scores={_h.interact=1..},distance=0..5.299] run scoreboard players add @s task_pobj_count 1

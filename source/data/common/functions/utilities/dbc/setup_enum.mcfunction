@@ -12,3 +12,6 @@ scoreboard players set #dbc.enum BIOME_TUNDRA 7
 scoreboard players set #dbc.enum BIOME_STONE 8
 
 scoreboard players set #dbc.enum SHOW_INFO 3
+
+scoreboard players set #dbc.enum QUEST_COMPLETE 1
+scoreboard players set #dbc.enum QUEST_INCOMPLETE 0

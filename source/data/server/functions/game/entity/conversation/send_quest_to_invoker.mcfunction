@@ -1,0 +1,2 @@
+function server:game/quests/get_quest_to_add
+function server:game/quests/add_tracker_to_world

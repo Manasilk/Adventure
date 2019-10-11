@@ -1,0 +1,10 @@
+execute if entity @s[tag=QUEST_1000] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1000,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1000
+execute if entity @s[tag=QUEST_1001] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1001,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1001
+execute if entity @s[tag=QUEST_1002] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1002,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1002
+execute if entity @s[tag=QUEST_1003] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1003,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1003
+execute if entity @s[tag=QUEST_1004] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1004,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1004
+execute if entity @s[tag=QUEST_1005] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1005,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1005
+execute if entity @s[tag=QUEST_1006] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1006,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1006
+execute if entity @s[tag=QUEST_1007] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1007,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1007
+execute if entity @s[tag=QUEST_1008] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1008,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1008
+execute if entity @s[tag=QUEST_1009] as @a[tag=!_h.gossip_break,tag=QUEST_REWARD_1009,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_reward/quest_id/quest_1009

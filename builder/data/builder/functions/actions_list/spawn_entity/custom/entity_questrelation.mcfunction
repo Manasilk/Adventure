@@ -1,0 +1,3 @@
+summon minecraft:villager ~ ~ ~ {CustomName:'{"translate":"quest_giver"}',CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,Silent:1b,Invulnerable:1b,Willing:0b,VillagerData:{level:0,profession:"minecraft:none",type:"minecraft:plains"},Offers:{Recipes:[]}}
+scoreboard players set @e[type=minecraft:villager,distance=0..0.001,sort=nearest,limit=1] entity_gossip_id 
+scoreboard players set @e[type=minecraft:villager,distance=0..0.001,sort=nearest,limit=1] quest_id

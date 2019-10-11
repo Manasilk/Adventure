@@ -11,7 +11,7 @@ scoreboard objectives add build_pd_y dummy {"translate":"dbc.core.build_pd_y"}
 
 scoreboard objectives add entity_upd_t dummy {"translate":"dbc.server.entity_upd_t"}
 scoreboard objectives add tick_upd_t dummy {"translate":"dbc.server.tick_upd_t"}
-scoreboard objectives add gc_upd_t dummy {"translate":"dbc.server.gc_upd_t"}
+scoreboard objectives add gc_upd_t dummy {"translate":"dbc.server.gc_upd_t"} 
 
 scoreboard objectives add worldspawn.x dummy {"translate":"dbc.server.worldspawn_x"}
 scoreboard objectives add worldspawn.y dummy {"translate":"dbc.server.worldspawn_y"}
@@ -24,3 +24,4 @@ scoreboard objectives add cfg.do_spawn dummy {"translate":"dbc.server.do_spawn"}
 scoreboard objectives add cfg.boss_t dummy {"translate":"dbc.server.boss_spawn_t"}
 scoreboard objectives add cfg.elite_t dummy {"translate":"dbc.server.elite_spawn_t"}
 scoreboard objectives add cfg.normal_t dummy {"translate":"dbc.server.normal_spawn_t"}
+scoreboard objectives add cfg.resp_tar_t dummy {"translate":"dbc.server.respawn_target_t"}

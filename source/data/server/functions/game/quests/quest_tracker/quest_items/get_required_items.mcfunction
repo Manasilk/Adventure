@@ -1,0 +1,10 @@
+execute if entity @s[tag=QUEST_1000] run function server:game/quests/quest_tracker/quest_items/quest_1000
+execute if entity @s[tag=QUEST_1001] run function server:game/quests/quest_tracker/quest_items/quest_1001
+execute if entity @s[tag=QUEST_1002] run function server:game/quests/quest_tracker/quest_items/quest_1002
+execute if entity @s[tag=QUEST_1003] run function server:game/quests/quest_tracker/quest_items/quest_1003
+execute if entity @s[tag=QUEST_1004] run function server:game/quests/quest_tracker/quest_items/quest_1004
+execute if entity @s[tag=QUEST_1005] run function server:game/quests/quest_tracker/quest_items/quest_1005
+execute if entity @s[tag=QUEST_1006] run function server:game/quests/quest_tracker/quest_items/quest_1006
+execute if entity @s[tag=QUEST_1007] run function server:game/quests/quest_tracker/quest_items/quest_1007
+execute if entity @s[tag=QUEST_1008] run function server:game/quests/quest_tracker/quest_items/quest_1008
+execute if entity @s[tag=QUEST_1009] run function server:game/quests/quest_tracker/quest_items/quest_1009
