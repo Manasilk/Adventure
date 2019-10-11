@@ -5,6 +5,5 @@ function server:game/spells/spell_effect
 
 #skillbook = learn profession
 #recipe = learn item pattern
-execute if score @s[type=minecraft:player,nbt={SelectedItem:{tag:{CustomModelData:1000,Skillbook:1b}}}] _h.spell_rmb matches 1.. run function server:game/spells/skills/spell_learn_craft
-execute if score @s[type=minecraft:player,nbt={SelectedItem:{tag:{CustomModelData:1000,Recipe:1b}}}] _h.spell_rmb matches 1.. run function server:game/spells/skills/spell_learn_recipe
+#execute if score @s[type=minecraft:player,nbt={SelectedItem:{tag:{CustomModelData:?,upgrade_token:1b}}}] _h.spell_rmb matches 1.. run function server:game/spells/trigger/spell_upgrade_item
 scoreboard players set @s[scores={_h.spell_rmb=1..}] _h.spell_rmb 0
