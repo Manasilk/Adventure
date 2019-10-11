@@ -1,0 +1,1 @@
+execute as @e[type=#server:creature,tag=_e.send_convo_menu] run function server:game/entity/conversation/conversation_mgr
