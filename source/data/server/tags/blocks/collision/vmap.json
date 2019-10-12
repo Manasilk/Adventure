@@ -3,14 +3,12 @@
 	"values":
 	[
 		"minecraft:structure_block",
-		"minecraft:structure_void",
-
+		
 		"#server:air",
-		"#server:foliage",
 		"#server:fluids",
-		"#server:portals",
-		"#server:tile",
+		"#server:foliage",
 		"#server:carpets",
-		"#server:pressure_plate"
+		"#server:portals",
+		"#server:tile"
 	]
 }

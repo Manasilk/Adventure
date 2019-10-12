@@ -1,6 +1,6 @@
 #Colliding with solid blocks or entities will increment to the handler
 # until the ray can no longer loop
-execute unless block ^ ^ ^0.20 #server:non_solid run scoreboard players set @s _h.vmap_collide 1
+execute unless block ^ ^ ^0.20 #server:collision/vmap run scoreboard players set @s _h.vmap_collide 1
 
 ### GENERAL
 #Checks against entities take in account the invoker's hostility and
