@@ -3,7 +3,6 @@ execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT,nbt={HurtTime:10s}] run function
 
 #Search for nearby players and enter combat with them if in range
 execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT] run function server:game/ai/core_ai/combat_ai/spread_combat
-execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=SMART_ACTION_FLEE] run function server:game/ai/core_ai/combat_ai/flee
 
 #Call a function to restore the base values for the entity's attributes
 # and return the creature to the starting spawn position

@@ -7,7 +7,7 @@ scoreboard players set @s[scores={_FB._T.Update=6..}] _FB._T.Update 0
 #Store current position (1)
 #Store current position (2)
 #Calculate distance passed from position(1) to position(2)
-execute unless block ~ ~0.55 ~ #server:ignore run teleport @s[gamemode=!spectator] ~ ~1 ~
+execute unless block ~ ~0.55 ~ #server:collision/fairbox run teleport @s[gamemode=!spectator] ~ ~1 ~
 #execute if score @s _FB._T.Update matches 0.. run function server:game/fairbox/info/show_debug_info
 
 execute if score @s _FB._T.Update matches 0.. run function server:game/fairbox/metrics/get_player_falling

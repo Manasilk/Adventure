@@ -150,8 +150,6 @@ scoreboard objectives add entity_rot.y dummy {"translate":"dbc.entity.entity_rot
 #TARGET_PLAYER_RANDOM
 #TARGET_CREATURE_NEAREST
 #TARGET_CREATURE_FURTHEST
-#actions
-#SMART_ACTION_FLEE
 #events
 #SMART_EVENT_CAST
 #SMART_EVENT_RESET
