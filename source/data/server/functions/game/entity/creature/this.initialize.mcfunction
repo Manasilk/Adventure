@@ -5,6 +5,7 @@ function server:game/entity/creature/this.initialize_flags
 function server:game/entity/creature/this.initialize_react_state
 function server:game/entity/creature/this.initialize_nameplate
 function server:game/entity/creature/this.initialize_spawn_position
+function server:game/entity/creature/this.initialize_script
 
 tag @s add ENTITY_FLAG_SPECIALINFO
 tag @s add _e.initialized_entry
