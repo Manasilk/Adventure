@@ -1,3 +1,4 @@
+execute store success score @s[tag=TARGET_PLAYER_MELEE] has_target if entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..1.199,limit=1]
 execute store success score @s[tag=TARGET_PLAYER_NEAREST] has_target if entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999,sort=nearest,limit=1]
 execute store success score @s[tag=TARGET_PLAYER_FURTHEST] has_target if entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999,sort=furthest,limit=1]
 execute store success score @s[tag=TARGET_PLAYER_RANDOM] has_target if entity @a[tag=los_target,tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.999,limit=1]
