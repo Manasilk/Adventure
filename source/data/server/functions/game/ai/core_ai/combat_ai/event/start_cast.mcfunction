@@ -4,7 +4,7 @@ teleport @s ~ ~ ~ facing entity @a[tag=ENTITY_FLAG_SPELL_TARGET,distance=0..31.9
 
 function server:game/time/update_cast
 execute if score @s entity_upd_t matches 10 run function server:game/particles/particle_mgr
-execute if entity @s[tag=_e.call_spell_script] run function server:game/ai/core_ai/combat_ai/event/event/stopcast
+execute if entity @s[tag=_e.call_spell_script] run function server:game/ai/core_ai/combat_ai/event/stopcast
 
 tag @s[tag=_e.call_spell_script,tag=TARGET_NONE] remove TARGET_NONE
 tag @s[tag=_e.call_spell_script,tag=TARGET_SELF] remove TARGET_SELF
