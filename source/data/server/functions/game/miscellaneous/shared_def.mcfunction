@@ -1,1 +1,2 @@
 function server:game/miscellaneous/get_max_level_for_expansion
+function server:game/world/math/random/get_seed
