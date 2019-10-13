@@ -62,6 +62,9 @@ scoreboard players set @s _h.wb_rmb 0
 scoreboard players set @s _h.wb_menu_ret 0
 scoreboard players set @s _h.wb_page_scrl 0
 
+scoreboard players enable @s gender_sfx
+scoreboard players enable @s played
+
 scoreboard players set @s rbac_access 0
 function server:game/chat/send_login_message
 

@@ -18,6 +18,7 @@ scoreboard objectives add worldspawn.y dummy {"translate":"dbc.server.worldspawn
 scoreboard objectives add worldspawn.z dummy {"translate":"dbc.server.worldspawn_z"}
 scoreboard objectives add gc_age dummy {"translate":"dbc.gc.age"}
 scoreboard objectives add _dbc.setup dummy
+scoreboard objectives add expansion dummy
 
 scoreboard objectives add cfg.do_trim dummy {"translate":"dbc.server.do_trim"}
 scoreboard objectives add cfg.do_spawn dummy {"translate":"dbc.server.do_spawn"}

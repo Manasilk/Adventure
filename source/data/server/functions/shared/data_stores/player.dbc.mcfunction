@@ -31,7 +31,6 @@ scoreboard objectives add stat_played_h dummy {"translate":"dbc.player.stat_play
 scoreboard objectives add stat_played_d dummy {"translate":"dbc.player.stat_played_d"}
 
 scoreboard objectives add _h.interact minecraft.custom:minecraft.talked_to_villager {"translate":"dbc.handler.player.interact"}
-scoreboard objectives add _h.menu_option trigger {"translate":"dbc.handler.player.menu_option"}
 scoreboard objectives add _h.has_victim dummy {"translate":"dbc.handler.player.has_victim"}
 scoreboard objectives add _h.is_victim dummy {"translate":"dbc.handler.player.is_victim"}
 scoreboard objectives add _h.leave_game minecraft.custom:minecraft.leave_game {"translate":"dbc.handler.player.leave_game"}
