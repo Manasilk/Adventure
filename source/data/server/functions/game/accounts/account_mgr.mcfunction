@@ -7,4 +7,7 @@ execute if score @s admin = #bool true run function user_commands:rbac/toggle_ad
 execute if score @s builder = #bool true run function user_commands:rbac/toggle_builder
 execute if score @s debug = #bool true run function user_commands:rbac/toggle_debug
 
+execute if score @s mono = #bool true run function user_commands:debug/print_mono
+execute if score @s average = #bool true run function user_commands:debug/print_average
+
 scoreboard players operation @s expansion = #dbc.server expansion
