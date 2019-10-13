@@ -9,7 +9,7 @@ execute if score @s[tag=!SMART_EVENT_PREP_CAST] spell_diff matches 200 run funct
 #check for target in los, range
 scoreboard players reset @s[tag=SMART_EVENT_PREP_CAST,scores={entity_upd_t=10..}] entity_upd_t
 scoreboard players add @s[tag=SMART_EVENT_PREP_CAST] entity_upd_t 1
-tag @s[tag=!SMART_EVENT_SKIP_LOS,scores={entity_upd_t=10}] add _e.find_los_target
+tag @s[tag=!SMART_EVENT_SKIP_LOS,scores={entity_upd_t=9}] add _e.find_los_target
 execute if score @s[tag=!SMART_EVENT_SKIP_LOS] entity_upd_t matches 10 run function server:game/ai/core_ai/combat_ai/event/check_target_range
 scoreboard players set @s[tag=SMART_EVENT_PREP_CAST,tag=SMART_EVENT_SKIP_LOS] has_target 1
 #events
