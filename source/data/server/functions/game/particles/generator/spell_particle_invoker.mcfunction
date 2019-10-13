@@ -1,1 +1,1 @@
-particle minecraft:falling_dust minecraft:white_wool ~ ~0.2 ~ 0.25 0.1 0.25 0.1 1 normal @a
+particle minecraft:falling_dust minecraft:white_wool ~ ~0.2 ~ 0.35 0.1 0.35 0.1 1 normal @a
