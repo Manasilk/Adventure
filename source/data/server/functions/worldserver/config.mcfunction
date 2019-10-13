@@ -48,6 +48,7 @@ gamerule logAdminCommands false
 gamerule maxCommandChainLength 65536
 gamerule spectatorsGenerateChunks true
 gamerule disableElytraMovementCheck true
+function server:game/miscellaneous/shared_def
 ### ANTICHEAT CONFIG ###
 #
 # @ANTICHEAT

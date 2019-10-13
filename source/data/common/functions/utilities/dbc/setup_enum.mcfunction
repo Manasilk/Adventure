@@ -1,3 +1,7 @@
+scoreboard players set #dbc.enum CLASSIC 0
+scoreboard players set #dbc.enum HELLFIRE 1
+scoreboard players set #dbc.enum OUTLANDS 2
+
 scoreboard players set #dbc.enum ENTITY_HOSTILE 3
 scoreboard players set #dbc.enum ENTITY_NEUTRAL 2
 scoreboard players set #dbc.enum ENTITY_FRIENDLY 1

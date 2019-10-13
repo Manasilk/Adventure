@@ -7,4 +7,4 @@ execute if score @s admin = #bool true run function user_commands:rbac/toggle_ad
 execute if score @s builder = #bool true run function user_commands:rbac/toggle_builder
 execute if score @s debug = #bool true run function user_commands:rbac/toggle_debug
 
-scoreboard players operation @s entity_maxlvl = #dbc.server entity_maxlvl
+scoreboard players operation @s expansion = #dbc.server expansion

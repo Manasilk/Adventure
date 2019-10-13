@@ -13,6 +13,7 @@ scoreboard players set @s gender_sfx 0
 scoreboard players set @s entity_level 0
 scoreboard players set @s entity_nxtlvl 0
 scoreboard players set @s entity_reclvl 0
+scoreboard players operation @s entity_maxlvl = #dbc.server entity_maxlvl
 scoreboard players set @s stat_adv_pts 0
 scoreboard players set @s stat_dmg_dealt 0
 scoreboard players set @s stat_dmg_taken 0

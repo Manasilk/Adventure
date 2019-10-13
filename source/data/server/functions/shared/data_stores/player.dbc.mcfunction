@@ -11,6 +11,7 @@ scoreboard objectives add rbac_access dummy {"translate":"dbc.player.rbac_perms"
 #PLAYER_GAMEMODE_SPECTATOR        = 8
 scoreboard objectives add entity_nxtlvl dummy {"translate":"dbc.player.entity_nxtlvl"}
 scoreboard objectives add entity_reclvl dummy {"translate":"dbc.player.entity_reclvl"}
+scoreboard objectives add entity_maxlvl dummy {"translate":"dbc.player.entity_maxlvl"}
 scoreboard objectives add fatigue_level dummy {"translate":"dbc.player.fatigue_level"}
 
 scoreboard objectives add stat_played minecraft.custom:minecraft.play_one_minute {"translate":"dbc.player.stat_played"}
