@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
 	[
-		"FGF",
+		"F#F",
         "#S#",
 		" S "
 	],
@@ -10,11 +10,7 @@
 	{
 		"S":
         {
-            "item": "minecraft:stick"
-        },
-		"G":
-        {
-            "item": "minecraft:gold_ingot"
+            "item": "minecraft:iron_ingot"
         },
 		"#":
 		{
