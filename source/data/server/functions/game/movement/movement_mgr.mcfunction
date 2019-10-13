@@ -1,1 +1,2 @@
-function server:game/movement/motion_master
+execute as @e[type=#server:area_trigger,tag=MOVEMENTGENERATOR_MOTION] at @s run function server:game/movement/motion_master
+execute as @e[type=#server:creature,tag=MOVEMENTGENERATOR_MOTION] at @s run function server:game/movement/motion_master
