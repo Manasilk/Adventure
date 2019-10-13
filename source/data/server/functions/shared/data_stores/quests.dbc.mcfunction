@@ -2,17 +2,13 @@ scoreboard objectives add quest_id dummy {"translate":"dbc.quests.quest_id"}
 scoreboard objectives add QUEST_COMPLETE dummy
 scoreboard objectives add QUEST_INCOMPLETE dummy
 scoreboard objectives add quest_status dummy {"translate":"dbc.quests.task_result"}
-scoreboard objectives add task_pobj_count dummy {"translate":"dbc.quests.task_pcount"}
+scoreboard objectives add task_pobj_count dummy {"translate":"dbc.quests.task_pobj_count"}
 scoreboard objectives add task_objectives dummy {"translate":"dbc.quests.task_objectives"}
 #QUEST_OBJECTIVE_TRIGGER = 0,
 #QUEST_OBJECTIVE_MONSTER = 1,
 #QUEST_OBJECTIVE_ITEM    = 3,
 #QUEST_OBJECTIVE_TALK_TO  = 4
 scoreboard objectives add quest_log dummy {"translate":"dbc.quests.quest_log"}
-scoreboard objectives add quest_explore0 dummy {"translate":"dbc.quests.quest_explore0"}
-scoreboard objectives add quest_explore1 dummy {"translate":"dbc.quests.quest_explore1"}
-scoreboard objectives add quest_explore2 dummy {"translate":"dbc.quests.quest_explore2"}
-scoreboard objectives add quest_explore3 dummy {"translate":"dbc.quests.quest_explore3"}
 scoreboard objectives add quest_kill0 dummy {"translate":"dbc.quests.quest_kill0"}
 scoreboard objectives add quest_kill1 dummy {"translate":"dbc.quests.quest_kill1"}
 scoreboard objectives add quest_kill2 dummy {"translate":"dbc.quests.quest_kill2"}
@@ -29,10 +25,6 @@ scoreboard objectives add item_count0 dummy {"translate":"dbc.quests.item_count0
 scoreboard objectives add item_count1 dummy {"translate":"dbc.quests.item_count1"}
 scoreboard objectives add item_count2 dummy {"translate":"dbc.quests.item_count2"}
 scoreboard objectives add item_count3 dummy {"translate":"dbc.quests.item_count3"}
-scoreboard objectives add quest_chat0 dummy {"translate":"dbc.quests.quest_chat0"}
-scoreboard objectives add quest_chat1 dummy {"translate":"dbc.quests.quest_chat1"}
-scoreboard objectives add quest_chat2 dummy {"translate":"dbc.quests.quest_chat2"}
-scoreboard objectives add quest_chat3 dummy {"translate":"dbc.quests.quest_chat3"}
 
 scoreboard objectives add quest_poi.x dummy {"translate":"Target Area: Pos X"}
 scoreboard objectives add quest_poi.y dummy {"translate":"Target Area: Pos Y"}

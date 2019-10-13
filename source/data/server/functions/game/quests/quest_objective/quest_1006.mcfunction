@@ -1,4 +1,5 @@
-#QUEST_OBJECTIVE_AREATRIGGER
+tag @s add QUEST_OBJECTIVE_OBJECTIVE
+#QUEST_OBJECTIVE_TRIGGER
 #QUEST_OBJECTIVE_MONSTER
 #QUEST_OBJECTIVE_ITEM
 #QUEST_OBJECTIVE_TALK_TO
@@ -34,14 +35,6 @@ scoreboard players set @s item_count0 0
 scoreboard players set @s item_count1 0
 scoreboard players set @s item_count2 0
 scoreboard players set @s item_count3 0
-#This field is used for QUEST_OBJECTIVE_TALK_TO
-#quest_chatN = creatureId
-#This field is stored in the QuestAreaTrigger
-#at moment of interaction with the required mob
-scoreboard players set @s quest_chat0 0
-scoreboard players set @s quest_chat1 0
-scoreboard players set @s quest_chat2 0
-scoreboard players set @s quest_chat3 0
 #Position of the QuestAreaTrigger, also serves as center of quest
 #The radius for searching a player and counting towards objective
 #is at this position outwards
@@ -50,4 +43,6 @@ scoreboard players set @s quest_poi.x 0
 scoreboard players set @s quest_poi.y 0
 scoreboard players set @s quest_poi.z 0
 
+execute if entity @s[tag=QUEST_OBJECTIVE_AREATRIGGER] run function server:game/quests/quest_tracker/quest_triggers/explore/quest_1000
+execute if entity @s[tag=QUEST_OBJECTIVE_TALK_TO] run function server:game/quests/quest_tracker/quest_triggers/talkto/quest_1000
 function server:game/entity/area_trigger/get_quest_poi_pos
