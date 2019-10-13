@@ -5,11 +5,11 @@ execute unless block ^ ^ ^0.20 #server:collision/vmap run scoreboard players set
 ### GENERAL
 #Checks against entities take in account the invoker's hostility and
 # can only virtually collide with entities of opposite hostility
-execute if entity @s[tag=ENTITY_ACTION_HOSTILE] run tag @a[dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add los_target
-execute if entity @s[tag=ENTITY_ACTION_HOSTILE] if entity @a[tag=los_target,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
+execute positioned ~-0.25 ~ ~-0.25 if entity @s[tag=ENTITY_ACTION_HOSTILE] run tag @a[tag=!SPELL_AURA_INVISIBILITY,dx=0.25,dy=0.25,dz=0.25,sort=nearest,limit=1] add los_target
+execute positioned ~-0.25 ~ ~-0.25 if entity @s[tag=ENTITY_ACTION_HOSTILE] if entity @a[tag=los_target,dx=0.25,dy=0.25,dz=0.25,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
 
-execute if entity @s[tag=ENTITY_ACTION_FRIENDLY] run tag @e[type=#server:npc_hostile,team=Hostile,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] add los_target
-execute if entity @s[tag=ENTITY_ACTION_FRIENDLY] if entity @e[type=#server:npc_hostile,team=Hostile,tag=los_target,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
+execute positioned ~-0.25 ~ ~-0.25 if entity @s[tag=ENTITY_ACTION_FRIENDLY] run tag @e[type=#server:npc_hostile,team=Hostile,tag=!SPELL_AURA_INVISIBILITY,dx=0.25,dy=0.25,dz=0.25,sort=nearest,limit=1] add los_target
+execute positioned ~-0.25 ~ ~-0.25  if entity @s[tag=ENTITY_ACTION_FRIENDLY] if entity @e[type=#server:npc_hostile,team=Hostile,tag=los_target,dx=0.25,dy=0.25,dz=0.25,sort=nearest,limit=1] run scoreboard players set @s _h.vmap_collide 1
 ### BUILDER
 execute if entity @s[tag=_h.wb_show_info] run function common:collision/vmaps/show_info
 execute if entity @s[tag=_h.wb_update_npc] run function common:collision/vmaps/update_npc
