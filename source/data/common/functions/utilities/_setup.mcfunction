@@ -9,6 +9,7 @@ function server:shared/data_stores/spells.dbc
 function server:shared/data_stores/quests.dbc
 function server:shared/data_stores/teams.dbc
 function server:shared/data_stores/vmaps.dbc
+function server:shared/data_stores/commands.dbc
 function server:shared/data_stores/fairbox.dbc
 function server:shared/data_stores/builder.dbc
 function common:utilities/dbc/setup_worldspawn
