@@ -1,4 +1,4 @@
-function server:game/world/math/random/rand
+function server:game/world/math/random/lcg_rand
 function server:game/spells/get_chance_on_hit
 scoreboard players operation @s spell_proc_pbty += @s rand
 
