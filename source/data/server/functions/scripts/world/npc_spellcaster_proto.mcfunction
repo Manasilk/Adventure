@@ -1,6 +1,5 @@
 execute if score @s[tag=!SMART_EVENT_LOAD_SPELL] spellbook > #const NULL run function server:game/ai/core_ai/combat_ai/event/get_next_spell
 #spell list available to this creature
-execute if entity @s[tag=SMART_EVENT_RESET] run function server:game/ai/core_ai/combat_ai/event/reset_script
 tag @s[tag=!ENTITY_FLAG_IN_COMBAT] remove spell_script_fireball
 tag @s[tag=!ENTITY_FLAG_IN_COMBAT] remove spell_script_frostbolt
 tag @s[tag=!ENTITY_FLAG_IN_COMBAT] remove spell_script_frostfire_bolt
