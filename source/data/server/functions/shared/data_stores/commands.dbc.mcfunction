@@ -7,3 +7,7 @@ scoreboard objectives add trim trigger {"translate":"dbc.commands.trim"}
 
 scoreboard objectives add mono trigger
 scoreboard objectives add average trigger
+
+scoreboard objectives add reset_quests trigger {"translate":"dbc.commands.reset_quests"}
+scoreboard objectives add reset_stats trigger {"translate":"dbc.commands.reset_stats"}
+scoreboard objectives add quest_triggers trigger {"translate":"dbc.commands.quest_trigger"}

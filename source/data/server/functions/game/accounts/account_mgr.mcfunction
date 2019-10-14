@@ -10,4 +10,8 @@ execute if score @s debug = #bool true run function user_commands:rbac/toggle_de
 execute if score @s mono = #bool true run function user_commands:debug/print_mono
 execute if score @s average = #bool true run function user_commands:debug/print_average
 
+execute if score @s reset_quests = #bool true run function user_commands:account/reset_quests
+execute if score @s reset_stats = #bool true run function user_commands:account/reset_stats
+execute if score @s quest_triggers = #bool true run function user_commands:debug/print_quest_triggers
+
 scoreboard players operation @s expansion = #dbc.server expansion
