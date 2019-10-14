@@ -1,1 +1,1 @@
-execute as @e[type=#server:creature,type=!#server:npc_underwater] run function server:game/entity/creature/creature_mgr
+execute as @e[type=#server:creature,type=!#server:npc_underwater] at @s run function server:game/entity/creature/creature_mgr

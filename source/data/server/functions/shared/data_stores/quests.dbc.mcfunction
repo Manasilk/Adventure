@@ -26,6 +26,8 @@ scoreboard objectives add item_count1 dummy {"translate":"dbc.quests.item_count1
 scoreboard objectives add item_count2 dummy {"translate":"dbc.quests.item_count2"}
 scoreboard objectives add item_count3 dummy {"translate":"dbc.quests.item_count3"}
 
+scoreboard objectives add exp_reward dummy {"translate":"dbc.quests.exp_reward"}
+
 scoreboard objectives add quest_poi.x dummy {"translate":"Target Area: Pos X"}
 scoreboard objectives add quest_poi.y dummy {"translate":"Target Area: Pos Y"}
 scoreboard objectives add quest_poi.z dummy {"translate":"Target Area: Pos Z"}

@@ -1,2 +1,2 @@
-scoreboard players operation @s owner_id = @a[tag=_h.gossip_break,scores={_h.interact=1..},distance=0..3.999,limit=1] player_id
-scoreboard players operation @s quest_id = @a[tag=_h.gossip_break,scores={_h.interact=1..},distance=0..3.999,limit=1] quest_id
+scoreboard players operation @s owner_id = @a[tag=_h.gossip_break,distance=0..3.999,limit=1] player_id
+scoreboard players operation @s quest_id = @a[tag=_h.gossip_break,distance=0..3.999,limit=1] quest_id

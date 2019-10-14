@@ -1,0 +1,1 @@
+execute if entity @s[tag=TEXT_10] run function server:game/texts/text_10

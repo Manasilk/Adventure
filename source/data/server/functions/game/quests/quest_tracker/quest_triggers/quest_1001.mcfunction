@@ -1,15 +1,10 @@
-scoreboard players reset @s[scores={quest_kills0=1..}] quest_kills0
-scoreboard players reset @s[scores={quest_kills1=1..}] quest_kills1
-scoreboard players reset @s[scores={quest_kills2=1..}] quest_kills2
-scoreboard players reset @s[scores={quest_kills3=1..}] quest_kills3
-scoreboard players add @s[advancements={server:quest/objectives/npc_or_go/quest_1001/quest_kill0=true}] quest_kills0 1
-scoreboard players add @s[advancements={server:quest/objectives/npc_or_go/quest_1001/quest_kill1=true}] quest_kills1 1
-scoreboard players add @s[advancements={server:quest/objectives/npc_or_go/quest_1001/quest_kill2=true}] quest_kills2 1
-scoreboard players add @s[advancements={server:quest/objectives/npc_or_go/quest_1001/quest_kill3=true}] quest_kills3 1
-advancement revoke @s only server:quest/objectives/npc_or_go/quest_1001/quest_kill0
-advancement revoke @s only server:quest/objectives/npc_or_go/quest_1001/quest_kill1
-advancement revoke @s only server:quest/objectives/npc_or_go/quest_1001/quest_kill2
-advancement revoke @s only server:quest/objectives/npc_or_go/quest_1001/quest_kill3
+function server:game/quests/add_tracker_to_world
 
-function server:game/quests/get_owned_tracker
-execute as @e[type=#server:area_trigger,tag=ENTITY_FLAG_QUEST_TRIGGER,tag=_e.get_owned_by,distance=0..31.999,limit=1] at @s run function server:game/quests/get_quest_status
+scoreboard players operation @e[type=#server:area_trigger,tag=!_e.load_quest_info,tag=ENTITY_FLAG_QUEST_TRIGGER,tag=!AREA_TRIGGER_LINKED_TO,distance=0..0.001,sort=nearest,limit=1] TEMP = @s TEMP
+execute as @e[type=#server:area_trigger,tag=!_e.load_quest_info,scores={TEMP=1},distance=0..0.001,sort=nearest,limit=1] at @s run function server:game/quests/quest_objective/linked/quest_1001/0
+execute as @e[type=#server:area_trigger,tag=!_e.load_quest_info,scores={TEMP=2},distance=0..0.001,sort=nearest,limit=1] at @s run function server:game/quests/quest_objective/linked/quest_1001/1
+execute as @e[type=#server:area_trigger,tag=!_e.load_quest_info,scores={TEMP=3},distance=0..0.001,sort=nearest,limit=1] at @s run function server:game/quests/quest_objective/linked/quest_1001/2
+execute as @e[type=#server:area_trigger,tag=!_e.load_quest_info,scores={TEMP=4},distance=0..0.001,sort=nearest,limit=1] at @s run function server:game/quests/quest_objective/linked/quest_1001/3
+
+scoreboard players remove @s TEMP 1
+execute if score @s TEMP > #const NULL run function server:game/quests/quest_tracker/quest_triggers/quest_1001

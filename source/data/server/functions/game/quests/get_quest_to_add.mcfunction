@@ -8,5 +8,3 @@ execute if entity @s[tag=QUEST_1006] if entity @a[tag=!_h.gossip_break,tag=!QUES
 execute if entity @s[tag=QUEST_1007] if entity @a[tag=!_h.gossip_break,tag=!QUEST_ACCEPT_1007,tag=!QUEST_COMPLETE_1007,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_template/quest_1007
 execute if entity @s[tag=QUEST_1008] if entity @a[tag=!_h.gossip_break,tag=!QUEST_ACCEPT_1008,tag=!QUEST_COMPLETE_1008,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_template/quest_1008
 execute if entity @s[tag=QUEST_1009] if entity @a[tag=!_h.gossip_break,tag=!QUEST_ACCEPT_1009,tag=!QUEST_COMPLETE_1009,scores={_h.interact=1..},distance=0..3.999] run function server:game/quests/quest_template/quest_1009
-
-execute as @a[scores={_h.interact=1..},distance=0..3.999] at @s run function server:game/quests/add_quest_to_log
