@@ -5,6 +5,7 @@ function tools:debugging/internal/loop
 scoreboard players add #DEBUG loop_iteration 1
 scoreboard players operation #DEBUG TEMP += #DEBUG cmd_executed
 execute unless score #DEBUG loop_iteration matches 11.. run function tools:debugging/average
+execute unless score #DEBUG loop_iteration matches 11.. run worldborder set 15360 0
 
 execute if score #DEBUG loop_iteration matches 11.. run scoreboard players operation #DEBUG cmd_executed = #DEBUG TEMP
 execute if score #DEBUG loop_iteration matches 11.. run scoreboard players operation #DEBUG cmd_executed /= #DEBUG loop_iteration
