@@ -1,9 +1,9 @@
 scoreboard players reset @s reset_quests
 scoreboard players enable @s reset_quests
+tellraw @s {"translate":"event_type.reset_account_quests","color":"yellow"}
 
 scoreboard players reset @s quest_id
-scoreboard players set @s quest_log
-tag @s remove _h.gossip_break
+scoreboard players set @s quest_log 0
 
 tag @s remove QUEST_ACCEPT_1000
 tag @s remove QUEST_ACCEPT_1001
