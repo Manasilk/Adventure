@@ -25,6 +25,7 @@ scoreboard objectives add item_count0 dummy {"translate":"dbc.quests.item_count0
 scoreboard objectives add item_count1 dummy {"translate":"dbc.quests.item_count1"}
 scoreboard objectives add item_count2 dummy {"translate":"dbc.quests.item_count2"}
 scoreboard objectives add item_count3 dummy {"translate":"dbc.quests.item_count3"}
+scoreboard objectives add quest_chat dummy {"translate":"dbc.quests.quest_chat"}
 
 scoreboard objectives add exp_reward dummy {"translate":"dbc.quests.exp_reward"}
 
