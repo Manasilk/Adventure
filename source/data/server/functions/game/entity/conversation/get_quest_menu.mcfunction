@@ -1,4 +1,3 @@
-tag @a[tag=_h.gossip_break,scores={_h.interact=1..},distance=0..3.999] remove _h.gossip_break
 #Tell the player they can't accept any more quests if the quest log is full
 execute if entity @s[tag=ENTITY_FLAG_CAN_START_QUEST] run tag @a[scores={_h.interact=1..,quest_log=10..},distance=0..3.999] add _e.quest_log_full_msg
 execute if entity @s[tag=ENTITY_FLAG_CAN_START_QUEST] run tag @a[tag=_e.quest_log_full_msg,distance=0..3.999] add _h.gossip_break
