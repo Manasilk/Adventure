@@ -24,7 +24,7 @@ scoreboard objectives add cfg.do_spawn dummy {"translate":"dbc.server.do_spawn"}
 scoreboard objectives add cfg.boss_t dummy {"translate":"dbc.server.boss_spawn_t"}
 scoreboard objectives add cfg.elite_t dummy {"translate":"dbc.server.elite_spawn_t"}
 scoreboard objectives add cfg.normal_t dummy {"translate":"dbc.server.normal_spawn_t"}
-scoreboard objectives add cfg.resp_tar_t dummy {"translate":"dbc.server.respawn_target_t"}
+scoreboard objectives add cfg.quest_t dummy {"translate":"dbc.server.quest_t"}
 
 scoreboard objectives add expansion dummy  {"translate":"dbc.server.expansion"}
 scoreboard objectives add CLASSIC dummy
