@@ -16,10 +16,11 @@ gamerule announceAdvancements false
 gamerule doMobSpawning false
 execute store result score #dbc.server cfg.do_spawn run gamerule doMobSpawning
 #respawn timers in seconds
-scoreboard players set #dbc.server cfg.quest_t 30
 scoreboard players set #dbc.server cfg.normal_t 30
 scoreboard players set #dbc.server cfg.elite_t 300
 scoreboard players set #dbc.server cfg.boss_t 600
+#in ticks for quests
+scoreboard players set #dbc.server cfg.quest_t 600
 #
 # @PICKUP
 gamerule doMobLoot true
