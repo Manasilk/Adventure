@@ -10,4 +10,4 @@ tag @s[nbt={PersistenceRequired:1b}] add ENTITY_FLAG_NO_DESPAWN
 execute if entity @s[type=minecraft:villager,tag=_e.set_flag_gossip] run function server:game/entity/creature/set_gossip_flags
 tag @s[team=Hostile] add ENTITY_FLAG_SPECIALINFO
 tag @s[team=Neutral] add ENTITY_FLAG_SPECIALINFO
-tag @s[team=Friendly,tag=ENTITY_FLAG_QUEST_RELATION] add ENTITY_FLAG_SPECIALINFO
+tag @s[team=Friendly,tag=!ENTITY_FLAG_QUEST_RELATION] add ENTITY_FLAG_SPECIALINFO
