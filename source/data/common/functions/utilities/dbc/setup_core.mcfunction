@@ -17,4 +17,4 @@ scoreboard players set #dbc.core build_pd_y 2019
 scoreboard players set #dbc.temp TEMP 0
 
 summon minecraft:area_effect_cloud 0 0 0 {CustomName:"{\"translate\":\"build.uprising\"}",Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","BUILD_CODENAME"]}
-summon minecraft:area_effect_cloud 0 0 0 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","target_uuid_host"]}
+summon minecraft:area_effect_cloud 0 0 0 {CustomName:"{\"text\":\"uuid_host\"}",Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","target_uuid_host"]}
