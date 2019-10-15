@@ -1,5 +1,4 @@
 tag @s add QUEST_OBJECTIVE_TRIGGER
-tag @s add AREA_TRIGGER_LINKED_TO
 tag @s add _e.load_quest_info
 
 scoreboard players set @s quest_poi.x 1
