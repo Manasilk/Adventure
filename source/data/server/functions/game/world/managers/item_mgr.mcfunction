@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item] at @s run function server:game/entity/item/item_mgr
