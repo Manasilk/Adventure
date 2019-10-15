@@ -1,4 +1,5 @@
 tag @s add QUEST_OBJECTIVE_ITEM
+tag @s add area_trigger_quest_item
 tag @s add _e.load_quest_info
 
 scoreboard players set @s quest_status 0

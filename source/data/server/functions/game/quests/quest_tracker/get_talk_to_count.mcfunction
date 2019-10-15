@@ -1,1 +1,1 @@
-execute if entity @a[tag=ENTITY_FLAG_QUEST_TARGET,scores={_h.interact=1..},distance=0..4.299] run function server:game/entity/area_trigger/get_linked_area_trigger
+execute if entity @a[tag=ENTITY_FLAG_QUEST_TARGET,scores={_h.interact=1..},distance=0..5.299] run function server:game/entity/area_trigger/get_linked_area_trigger

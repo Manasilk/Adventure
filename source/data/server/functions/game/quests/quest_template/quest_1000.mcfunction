@@ -6,3 +6,4 @@ tag @a[tag=_h.gossip_break,distance=0..3.999] add QUEST_ACCEPT_1000
 function server:game/quests/quest_event/quest_item/cg_100_quest_1000
 function server:game/quests/quest_event/quest_chat/accept/ct_100_quest_1000
 tag @s add _e.get_quest_tracker
+say TEMPLATE 1000

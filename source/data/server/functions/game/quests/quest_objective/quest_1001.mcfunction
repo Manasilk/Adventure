@@ -1,5 +1,6 @@
 tag @s add QUEST_OBJECTIVE_TALK_TO
 tag @s add AREA_TRIGGER_QUEST_LINK
+tag @s add area_trigger_quest_talkto
 tag @s add _e.load_quest_info
 
 scoreboard players set @s quest_status 0
