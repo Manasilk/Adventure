@@ -15,3 +15,5 @@ execute if score @s[tag=!_e.complete_objective_2,scores={task_objectives=3..,npc
 #fourth objective field
 execute if score @s[tag=!_e.complete_objective_3,scores={task_objectives=4,npc_count3=1..}] npc_count3 >= @s quest_kill3 run scoreboard players add @s[tag=!_e.complete_objective_3] task_pobj_count 1
 execute if score @s[tag=!_e.complete_objective_3,scores={task_objectives=4,npc_count3=1..}] npc_count3 >= @s quest_kill3 run tag @s add _e.complete_objective_3
+
+tag @s remove _e.get_owned_by
