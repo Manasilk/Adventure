@@ -17,11 +17,11 @@ execute if score #dbc.server tick_upd_t matches 0.. run function server:game/wor
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/account_mgr
 execute if score #dbc.server tick_upd_t matches 0 run function server:game/world/managers/combat_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/chat_mgr
+execute if score #dbc.server tick_upd_t matches 1.. run function server:game/world/managers/conversation_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/area_trigger_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/player_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/entity_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/object_mgr
-execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/conversation_mgr
 execute if score #dbc.server tick_upd_t matches 0 run function server:game/world/managers/spells_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/quests_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/movement_mgr
