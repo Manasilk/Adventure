@@ -12,7 +12,7 @@ execute unless score @s[tag=ENTITY_FLAG_SPECIALINFO,tag=ENTITY_FLAG_IN_COMBAT] e
 execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY_ACTION_NEUTRAL] if score #dbc.server world_daytime matches 13000..23999 run function server:game/entity/creature/this.convert_hostile
 execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY_ACTION_HOSTILE] if score #dbc.server world_daytime matches 0..12999 run function server:game/entity/creature/this.convert_neutral
 
-execute if entity @s[tag=ENTITY_FLAG_GOSSIP] if entity @a[scores={_h.interact=1..},distance=0..3.999] run tag @s add _e.send_convo_menu
+execute if entity @s[tag=ENTITY_FLAG_GOSSIP] if entity @a[scores={_h.interact=1..},distance=0..5.299] run tag @s add _e.send_convo_menu
 
 execute if entity @s[tag=_h.wb_show_info] run function builder:actions_list/show_info/this.show_entity_data
 execute at @s[tag=_h.wb_update_npc] run function builder:actions_list/update_entity/this.update_entity
