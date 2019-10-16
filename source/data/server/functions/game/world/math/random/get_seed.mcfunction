@@ -1,1 +1,1 @@
-execute store result score #MATH seed run time query gametime
+execute store result score #MATH seed run time query daytime
