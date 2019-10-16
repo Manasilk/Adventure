@@ -1,26 +1,31 @@
 {
+	"mainhand.sheathe":
+	{
+		"sounds": ["ui:player/mh_sheathe"]
+	},
+	"mainhand.unsheathe":
+	{
+		"sounds": ["ui:player/mh_unsheathe"]
+	},
 	"player.levelup": 
 	{
-		"sounds": ["ui:player.levelup"]
+		"sounds": ["ui:player/levelup"]
 	},
-	"countdown.loop_timer":
+
+	"quest.accept":
 	{
-		"sounds": ["ui:countdown.loop_timer"]
+		"sounds": ["ui:quest_accept"]
 	},
-	"countdown.start_instance":
+	"quest.objectives":
 	{
-		"sounds": ["ui:countdown.start_instance"]
+		"sounds": ["ui:quest_objectives"]
 	},
-	"bounty.complete":
+	"quest.complete":
 	{
-		"sounds": ["ui:bounty.complete"]
+		"sounds": ["ui:quest_complete"]
 	},
-	"bounty.task_cmplete":
+	"quest.failed":
 	{
-		"sounds": ["ui:bounty.task_complete"]
-	},
-	"county.failed":
-	{
-		"sounds": ["ui:bounty.failed"]
+		"sounds": ["ui:quest_failed"]
 	}
 }
