@@ -1,0 +1,3 @@
+execute if score @s entity_id matches 300 run tellraw @a[tag=QUEST_ACCEPT_1001,scores={_h.interact=1..},distance=0..5.299] [{"text":"[","color":"white"},{"selector":"@s"},{"text":"]: TEMP_300"}]
+execute if score @s entity_id matches 301 run tellraw @a[tag=QUEST_ACCEPT_1001,scores={_h.interact=1..},distance=0..5.299] [{"text":"[","color":"white"},{"selector":"@s"},{"text":"]: TEMP_301"}]
+execute if score @s entity_id matches 302 run tellraw @a[tag=QUEST_ACCEPT_1001,scores={_h.interact=1..},distance=0..5.299] [{"text":"[","color":"white"},{"selector":"@s"},{"text":"]: TEMP_302"}]
