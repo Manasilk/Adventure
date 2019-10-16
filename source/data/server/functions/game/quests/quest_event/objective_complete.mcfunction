@@ -5,4 +5,4 @@ tag @s remove ENTITY_FLAG_QUEST_TARGET
 scoreboard players add @s quest_status 1
 scoreboard players reset @s TEMP
 
-playsound ui:bounty.complete master @s ~ ~ ~ 0.3 1 0.1
+playsound ui:quest.objectives master @s ~ ~ ~ 1 1 0.1
