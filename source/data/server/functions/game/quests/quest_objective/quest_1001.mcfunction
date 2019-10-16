@@ -4,7 +4,7 @@ tag @s add area_trigger_quest_talkto
 tag @s add _e.load_quest_info
 
 scoreboard players set @s quest_status 0
-scoreboard players set @s task_objectives 4
+scoreboard players set @s task_objectives 3
 scoreboard players set @s task_pobj_count 0
 scoreboard players set @s quest_poi.x 0
 scoreboard players set @s quest_poi.y 0
