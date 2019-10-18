@@ -1,5 +1,6 @@
 #commands
 tag @s[tag=rbac.commands,scores={player_commands=1}] remove rbac.commands
+execute if entity @s[tag=!rbac.commands] run function server:game/fairbox/metrics/get_updated_position
 scoreboard players set @s[tag=!rbac.commands,scores={_FB._T.PurgeFlag=-1..199}] _FB._T.PurgeFlag 200
 
 #debugging
