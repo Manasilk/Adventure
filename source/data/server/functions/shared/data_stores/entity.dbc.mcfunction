@@ -137,6 +137,17 @@ scoreboard objectives add entity_pos.z dummy {"translate":"dbc.entity.entity_pos
 scoreboard objectives add entity_rot.x dummy {"translate":"dbc.entity.entity_rot_x"}
 scoreboard objectives add entity_rot.y dummy {"translate":"dbc.entity.entity_rot_y"}
 
+#used only by spawner triggers
+scoreboard objectives add spawn_range.x dummy {"translate":"dbc.entity.spawn_range_x"}
+scoreboard objectives add spawn_range.y dummy {"translate":"dbc.entity.spawn_range_y"}
+scoreboard objectives add spawn_range.z dummy {"translate":"dbc.entity.spawn_range_z"}
+
+scoreboard objectives add override_min.x dummy {"translate":"dbc.entity.override_x"}
+scoreboard objectives add override_min.y dummy {"translate":"dbc.entity.override_y"}
+scoreboard objectives add override_min.z dummy {"translate":"dbc.entity.override_z"}
+scoreboard objectives add override_max.x dummy {"translate":"dbc.entity.override_x"}
+scoreboard objectives add override_max.y dummy {"translate":"dbc.entity.override_y"}
+scoreboard objectives add override_max.z dummy {"translate":"dbc.entity.override_z"}
 #SMART EVENTS
 #casts
 #SMARTCAST_INTERRUPT
