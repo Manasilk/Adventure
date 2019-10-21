@@ -6,6 +6,7 @@ team join Friendly @s
 execute store result score @s entity_spawn.x run data get entity @s SpawnX 1
 execute store result score @s entity_spawn.y run data get entity @s SpawnY 1
 execute store result score @s entity_spawn.z run data get entity @s SpawnZ 1
+function server:game/fairbox/metrics/get_updated_position
 
 scoreboard players add #dbc.player player_id 1
 scoreboard players operation @s player_id = #dbc.player player_id
@@ -32,11 +33,6 @@ scoreboard players set @s double_reward 0
 scoreboard players set @s root_x 0
 scoreboard players set @s root_i 0
 scoreboard players set @s distance 0
-scoreboard players set @s a 0
-scoreboard players set @s c 0
-scoreboard players set @s m 0
-scoreboard players set @s rand 0
-scoreboard players set @s seed 0
 #initialize builder objectives
 scoreboard players set @s wb_class_id 0
 scoreboard players set @s wb_class_type 0
@@ -70,3 +66,4 @@ scoreboard players set @s rbac_access 0
 function server:game/chat/send_login_message
 
 tag @s add _e.initialized_entry
+tag @s add _e.mh_sheathe
