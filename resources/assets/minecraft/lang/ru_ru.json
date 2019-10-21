@@ -14,6 +14,8 @@
 	"rbac.perm_type.commands": "коммандам",
 	"rbac.perm_type.debugging": "утилитам отладки",
 	"rbac.perm_type.builder": "редактору",
+	"tooltip.time": "%d:%d",
+	"tooltip.xyz": "XYZ: (%d,%d,%d)",
 	"sfx.player_voice": "Выберите озвучку персонажа: %s%s%s %s%s%s",
 	"sfx.player.voice_option.male": "Мужская",
 	"sfx.player.voice_option.female": "Женская",

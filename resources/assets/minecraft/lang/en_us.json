@@ -14,6 +14,8 @@
 	"rbac.perm_type.commands": "commands",
 	"rbac.perm_type.debugging": "debugging tools",
 	"rbac.perm_type.builder": "building tools",
+	"tooltip.time": "%d:%d",
+	"tooltip.xyz": "XYZ: (%d,%d,%d)",
 	"sfx.player_voice": "Select character's voice: %s%s%s %s%s%s",
 	"sfx.player.voice_option.male": "Male",
 	"sfx.player.voice_option.female": "Female",
