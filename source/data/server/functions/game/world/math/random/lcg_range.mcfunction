@@ -1,4 +1,4 @@
-execute store result score #MATH rand run time query daytime
+function server:game/world/math/random/get_seed
 scoreboard players operation #MATH rand += #MATH seed
 scoreboard players operation #MATH min = @s min
 scoreboard players operation #MATH max = @s max
