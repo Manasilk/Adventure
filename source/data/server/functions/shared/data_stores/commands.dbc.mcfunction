@@ -12,3 +12,7 @@ scoreboard objectives add reset_quests trigger
 scoreboard objectives add reset_stats trigger
 scoreboard objectives add reset_xp trigger
 scoreboard objectives add quest_triggers trigger
+
+scoreboard objectives add tooltip trigger
+scoreboard objectives add xyz trigger
+scoreboard objectives add daytime trigger

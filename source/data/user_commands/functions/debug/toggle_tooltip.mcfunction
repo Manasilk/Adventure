@@ -1,0 +1,2 @@
+execute unless entity @s[tag=SHOW_TOOLTIP,scores={tooltip=1..}] run function user_commands:debug/show_tooltip
+execute if entity @s[tag=SHOW_TOOLTIP,scores={tooltip=1..}] run function user_commands:debug/hide_tooltip

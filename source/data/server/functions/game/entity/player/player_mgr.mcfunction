@@ -3,6 +3,7 @@ execute if score @s entity_upd_t = #const UPD_CYCLE run function server:game/tim
 execute if score @s[scores={double_reward=1}] entity_upd_t = #const UPD_CYCLE run function server:game/time/double_reward_timer
 execute if score @s[scores={double_loot=1}] entity_upd_t = #const UPD_CYCLE run function erver:game/time/double_loot_timer
 execute if score @s stat_played = #const UPD_CYCLE run function server:game/time/gametime
+execute if entity @s[tag=SHOW_TOOLTIP] run function tools:debugging/show_tooltip
 
 tag @s[tag=!_e.player_join_msg,scores={_h.leave_game=1..}] add _e.player_join_msg
 tag @s[tag=!_e.player_rest_msg,scores={_h.play_msg_t=72000..}] add _e.player_rest_msg

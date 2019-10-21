@@ -15,4 +15,6 @@ execute if score @s reset_stats = #bool true run function user_commands:account/
 execute if score @s reset_xp = #bool true run function user_commands:account/reset_xp
 execute if score @s quest_triggers = #bool true run function user_commands:debug/print_quest_triggers
 
+execute if score @s tooltip = #bool true run function user_commands:debug/toggle_tooltip
+
 scoreboard players operation @s expansion = #dbc.server expansion
