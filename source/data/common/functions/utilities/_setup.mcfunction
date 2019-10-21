@@ -19,8 +19,6 @@ function common:utilities/dbc/setup_core
 function common:utilities/dbc/setup_math
 function common:utilities/dbc/setup_enum
 function common:utilities/dbc/setup_entity
-#setup anticheat
-function fairbox:setup
 #update config
 function server:worldserver/config
 
