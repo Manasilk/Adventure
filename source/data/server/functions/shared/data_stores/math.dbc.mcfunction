@@ -9,4 +9,7 @@ scoreboard objectives add seed dummy
 scoreboard objectives add rand dummy
 scoreboard objectives add min dummy
 scoreboard objectives add max dummy
-scoreboard objectives add TURN_180 dummy
+
+scoreboard objectives add base dummy
+scoreboard objectives add power dummy
+scoreboard objectives add result dummy
