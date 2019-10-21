@@ -9,8 +9,6 @@ scoreboard players operation @s[scores={_FB._PosX-1=..-1}] _FB._PosX-1 *= #const
 scoreboard players operation @s[scores={_FB._PosY-1=..-1}] _FB._PosY-1 *= #const CNVT_OPP
 scoreboard players operation @s[scores={_FB._PosZ-1=..-1}] _FB._PosZ-1 *= #const CNVT_OPP
 
-#function server:game/warden/info/warden.show_debug_info
-
 #These functions are used to detect teleporting by comparing:
 # if position difference is more than maximum allowed distance
 # unless the player has already been flagged
