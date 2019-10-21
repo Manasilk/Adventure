@@ -1,3 +1,13 @@
+0. SPAWN_ISLAND
+	a. Northern Hills: 
+        * Northern Outpost:         -432, -388
+		* Lumberjack's Hut:         -205, -407
+		* Crossroads:               -702, 31
+	b. Southern Hills:
+		* Farmlands:                -879, 229; 425, 373; -366, 635
+		* Illager Pass:             -166, 655
+
+
 1. NORTHERN KINGDOM
 	a. Highlands
 		* seared_plains:            1874, -4016
@@ -13,7 +23,7 @@
 	b2. Tuvi'ir Jungle
 		* withered_soils:           3862, -2386
 		* tuv'i'r_springs:          5098, -762
-        * salty_shores:             4095,336
+        * salty_shores:             4095, 336
 		
 	d. Withered Plains
 		* living_waters:            740, -1990
