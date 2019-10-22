@@ -6,15 +6,14 @@ execute if score @s set_gm = #bool true run function server:game/accounts/rbac/s
 execute if score @s admin = #bool true run function user_commands:rbac/toggle_admin
 execute if score @s builder = #bool true run function user_commands:rbac/toggle_builder
 execute if score @s debug = #bool true run function user_commands:rbac/toggle_debug
-
 execute if score @s mono = #bool true run function user_commands:debug/print_mono
 execute if score @s average = #bool true run function user_commands:debug/print_average
-
 execute if score @s reset_quests = #bool true run function user_commands:account/reset_quests
 execute if score @s reset_stats = #bool true run function user_commands:account/reset_stats
 execute if score @s reset_xp = #bool true run function user_commands:account/reset_xp
 execute if score @s quest_triggers = #bool true run function user_commands:debug/print_quest_triggers
-
+execute if score @s spawn_triggers = #bool true run function user_commands:debug/print_spawn_triggers
 execute if score @s tooltip = #bool true run function user_commands:debug/toggle_tooltip
+execute if score @s gmisland = #bool true run function user_commands:goto/gmisland
 
 scoreboard players operation @s expansion = #dbc.server expansion

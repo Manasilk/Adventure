@@ -1,4 +1,4 @@
-tag @s[tag=!rbac.commands] add _e.deny_permission
+tag @s[tag=!rbac.commands] add _e.rbac.deny_permission
 
 tag @s[tag=rbac.commands,scores={xyz=1..}] add SHOW_COORDINATES
 #tag @s[tag=rbac.commands,scores={daytime=1..}] add SHOW_DAYTIME
