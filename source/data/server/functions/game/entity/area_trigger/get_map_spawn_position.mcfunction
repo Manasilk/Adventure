@@ -1,5 +1,5 @@
 #stores the executor's position to #dbc.temp
-execute unless score @s loop_iteration > #const INT_MIN run scoreboard players set @s loop_iteration 5
+execute unless score @s loop_iteration > #const INT_MIN run scoreboard players set @s loop_iteration 10
 scoreboard players remove @s loop_iteration 1
 function server:game/entity/get_entity_position
 
@@ -35,9 +35,9 @@ scoreboard players operation #dbc.temp map_pos.z = @s rand
 
 #summon an aec that moves to the `map.pos` coordinates and checks if the blocks at (this->y && this->y+1) are not solid
 #unless the conditions are met the aec is destroyed and this function is called again if the aec doesnt exist
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'{"text":"AreaTriggerMapSpawnTarget"}',Age:0,Duration:1,WaitTime:0,CustomNameVisible:0b,Tags:["MAP_SPAWN_TARGET"]}
-execute as @e[type=#server:area_trigger,tag=MAP_SPAWN_TARGET,distance=0..0.001,sort=nearest,limit=1] at @s run function server:game/entity/area_trigger/get_map_target_position
-execute if score @s loop_iteration > #const NULL unless entity @e[type=#server:area_trigger,tag=MAP_SPAWN_TARGET,tag=_h.pos_spawn_valid,distance=0..31.999,limit=1] run function server:game/entity/area_trigger/get_map_spawn_position
+summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:'{"text":"AreaTriggerMapSpawnTarget"}',Age:0,Duration:1,WaitTime:0,CustomNameVisible:0b,Tags:["MAP_SPAWN_TARGET"]}
+execute as @e[type=#server:area_trigger,tag=MAP_SPAWN_TARGET,distance=0..1.501,sort=nearest,limit=1] at @s run function server:game/entity/area_trigger/get_map_target_position
+execute unless entity @e[type=#server:area_trigger,tag=_h.pos_spawn_valid,distance=0..31.999,sort=nearest,limit=1] if score @s loop_iteration > #const NULL run function server:game/entity/area_trigger/get_map_spawn_position
 
 scoreboard players reset #dbc.temp entity_pos.x
 scoreboard players reset #dbc.temp entity_pos.y
