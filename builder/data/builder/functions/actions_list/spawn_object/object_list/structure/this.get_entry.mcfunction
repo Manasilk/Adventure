@@ -1,1 +1,2 @@
 execute if entity @s[scores={wb_gob_id=1}] run function builder:actions_list/spawn_object/object_list/structure/pillager_outpost
+execute if entity @s[scores={wb_gob_id=2}] run function builder:actions_list/spawn_object/object_list/structure/farmlands
