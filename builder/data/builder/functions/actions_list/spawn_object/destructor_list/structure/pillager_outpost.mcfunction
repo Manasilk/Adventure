@@ -1,28 +1,11 @@
-execute if score @s[tag=FACING_NORTH] wb_biome_id = #dbc.enum BIOME_FOREST run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_forest",posX:-12,posY:0,posZ:-11} replace
-execute if score @s[tag=FACING_SOUTH] wb_biome_id = #dbc.enum BIOME_FOREST run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_forest",posX:12,posY:0,posZ:11} replace
-execute if score @s[tag=FACING_WEST] wb_biome_id = #dbc.enum BIOME_FOREST run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_forest",posX:-11,posY:0,posZ:12} replace
-execute if score @s[tag=FACING_EAST] wb_biome_id = #dbc.enum BIOME_FOREST run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_forest",posX:11,posY:0,posZ:-12} replace
-
-execute if score @s[tag=FACING_NORTH] wb_biome_id = #dbc.enum BIOME_JUNGLE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_jungle",posX:-12,posY:0,posZ:-11} replace
-execute if score @s[tag=FACING_SOUTH] wb_biome_id = #dbc.enum BIOME_JUNGLE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_jungle",posX:12,posY:0,posZ:11} replace
-execute if score @s[tag=FACING_WEST] wb_biome_id = #dbc.enum BIOME_JUNGLE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_jungle",posX:-11,posY:0,posZ:12} replace
-execute if score @s[tag=FACING_EAST] wb_biome_id = #dbc.enum BIOME_JUNGLE run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_jungle",posX:11,posY:0,posZ:-12} replace
-
-execute if score @s[tag=FACING_NORTH] wb_biome_id = #dbc.enum BIOME_DESERT run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_desert",posX:-12,posY:0,posZ:-11} replace
-execute if score @s[tag=FACING_SOUTH] wb_biome_id = #dbc.enum BIOME_DESERT run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_desert",posX:12,posY:0,posZ:11} replace
-execute if score @s[tag=FACING_WEST] wb_biome_id = #dbc.enum BIOME_DESERT run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_desert",posX:-11,posY:0,posZ:12} replace
-execute if score @s[tag=FACING_EAST] wb_biome_id = #dbc.enum BIOME_DESERT run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_desert",posX:11,posY:0,posZ:-12} replace
-
-execute if score @s[tag=FACING_NORTH] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_mesa",posX:-12,posY:0,posZ:-11} replace
-execute if score @s[tag=FACING_SOUTH] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_mesa",posX:12,posY:0,posZ:11} replace
-execute if score @s[tag=FACING_WEST] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_mesa",posX:-11,posY:0,posZ:12} replace
-execute if score @s[tag=FACING_EAST] wb_biome_id = #dbc.enum BIOME_MESA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_mesa",posX:11,posY:0,posZ:-12} replace
-
-execute if score @s[tag=FACING_NORTH] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"NONE",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_tundra",posX:-12,posY:0,posZ:-11} replace
-execute if score @s[tag=FACING_SOUTH] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_180",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_tundra",posX:12,posY:0,posZ:11} replace
-execute if score @s[tag=FACING_WEST] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"COUNTERCLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_tundra",posX:-11,posY:0,posZ:12} replace
-execute if score @s[tag=FACING_EAST] wb_biome_id = #dbc.enum BIOME_TUNDRA run setblock ~ ~ ~ minecraft:structure_block{mirror:"NONE",rotation:"CLOCKWISE_90",mode:"LOAD",name:"mardaar:object/destructor/destroy_pillager_outpost_tundra",posX:11,posY:0,posZ:-12} replace
+execute if score @s wb_biome_id = #dbc.enum BIOME_FOREST run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost/pillager_outpost_forest
+execute if score @s wb_biome_id = #dbc.enum BIOME_JUNGLE run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost/pillager_outpost_jungle
+execute if score @s wb_biome_id = #dbc.enum BIOME_DESERT run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost/pillager_outpost_desert
+execute if score @s wb_biome_id = #dbc.enum BIOME_MESA run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost/pillager_outpost_mesa
+execute if score @s wb_biome_id = #dbc.enum BIOME_TUNDRA run function builder:actions_list/spawn_object/destructor_list/structure/pillager_outpost/pillager_outpost_tundra
 
 setblock ~ ~1 ~ minecraft:redstone_block replace
+fill ~ ~ ~ ~ ~1 ~ minecraft:air
 kill @e[type=minecraft:pillager,tag=_e.spread_pos,distance=0..38]
-kill @e[type=#server:area_trigger,tag=npc_pillager_outpost,sort=nearest,limit=1]
+kill @e[type=#server:area_trigger,tag=area_trigger_pillager_outpost,sort=nearest,limit=1]
+kill @s
