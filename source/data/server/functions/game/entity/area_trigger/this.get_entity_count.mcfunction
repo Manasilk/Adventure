@@ -1,1 +1,2 @@
-execute store result score @s entity_count if entity @e[type=minecraft:pillager,distance=0..26.0]
+execute store result score @s[tag=area_trigger_pillager_outpost] entity_count if entity @e[type=minecraft:pillager,distance=0..26.0]
+execute store result score @s[tag=area_trigger_abandoned_mineshaft] entity_count if entity @e[type=minecraft:cave_spider,distance=0..12.0]
