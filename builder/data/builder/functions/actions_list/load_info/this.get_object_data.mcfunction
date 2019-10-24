@@ -1,6 +1,7 @@
 scoreboard players operation @s wb_biome_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_biome_id
 scoreboard players operation @s wb_gob_type = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_type
 scoreboard players operation @s wb_gob_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] wb_gob_id
+scoreboard players operation @s owner_id = @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,distance=0..0.001,limit=1] owner_id
 
 execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_NORTH,distance=0..0.001] run tag @s add FACING_NORTH
 execute if entity @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,tag=FACING_SOUTH,distance=0..0.001] run tag @s add FACING_SOUTH

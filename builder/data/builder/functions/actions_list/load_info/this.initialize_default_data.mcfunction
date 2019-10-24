@@ -5,6 +5,7 @@ scoreboard players operation @s[scores={wb_class_id=1,wb_class_type=2}] wb_npc_i
 scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_biome_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_biome_id
 scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_type = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_type
 scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] wb_gob_id = @p[tag=_e.find_los_target,distance=0..0.001] wb_gob_id
+scoreboard players operation @s[scores={wb_class_id=2,wb_class_type=2}] owner_id = @p[tag=_e.find_los_target,distance=0..0.001] player_id
 
 execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=135.0..-134.9] run tag @s add FACING_NORTH
 execute if entity @p[tag=_e.find_los_target,distance=0..0.001,y_rotation=-44.9..44.9] run tag @s add FACING_SOUTH

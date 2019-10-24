@@ -1,6 +1,7 @@
 scoreboard players operation @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] wb_biome_id = @s wb_biome_id
 scoreboard players operation @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] wb_gob_type = @s wb_gob_type
 scoreboard players operation @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] wb_gob_id = @s wb_gob_id
+scoreboard players operation @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] owner_id = @s owner_id
 
 execute store result score @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] wb_pos.x run data get entity @s Pos[0] 1
 execute store result score @e[type=#server:area_trigger,tag=TEMP_BUILDER_OBJECT,dx=-1.0,dz=-1.0,sort=nearest,limit=1] wb_pos.y run data get entity @s Pos[1] 1
