@@ -28,12 +28,30 @@
 			{
                 "biome": "minecraft:ocean"
             }
+        },
+        "VISIT_BIOME_LUKEWARM_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:lukewarm_ocean"
+            }
+        },
+        "VISIT_BIOME_WARM_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:warm_ocean"
+            }
         }
     },
 	"requirements":
 	[
 		[
-			"VISIT_BIOME_OCEAN"
+			"VISIT_BIOME_OCEAN",
+			"VISIT_BIOME_LUKEWARM_OCEAN",
+			"VISIT_BIOME_WARM_OCEAN"
 		]
 	],
     "rewards":
