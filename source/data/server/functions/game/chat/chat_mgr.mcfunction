@@ -6,4 +6,4 @@ execute if entity @s[tag=_e.bonus_reward_msg] run function server:game/chat/bonu
 execute if entity @s[tag=_e.bonus_loot_msg] run function server:game/chat/bonus_loot
 execute if entity @s[tag=_e.quest_log_full_msg] run function server:game/chat/quest_log_full
 execute if entity @s[tag=_e.quest_obj_cmpl_msg] run function server:game/chat/quest_objective
-execute if entity @s[scores={played=1..}] run function server:game/chat/played_stat
+execute if entity @s[tag=_e.played_stat_msg] run function server:game/chat/played_stat

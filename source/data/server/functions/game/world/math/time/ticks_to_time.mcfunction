@@ -10,5 +10,5 @@ execute if score #dbc.server world_daytime matches 0..17999 run scoreboard playe
 execute if score #dbc.server world_daytime matches 18000..23999 run scoreboard players operation #dbc.server hours -= #const 18
 
 scoreboard players operation #dbc.server minutes %= #const 1000
-scoreboard players operation #dbc.server minutes *= #const 60
+scoreboard players operation #dbc.server minutes *= #const CNVT_MINHR
 scoreboard players operation #dbc.server minutes /= #const 1000
