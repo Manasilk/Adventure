@@ -19,5 +19,6 @@ tag @s[tag=SPELL_AURA_GHOST,scores={_h.has_died=0}] remove SPELL_AURA_GHOST
 execute if entity @s[tag=!rbac.commands,scores={_h.fill_bucket=1..}] run function server:game/entity/item/clear_prohibit_fill_items
 
 function server:game/entity/player/get_weapon_type
-execute if entity @s[tag=_e.mh_sheathe,tag=_h.weapon_sword] run function server:game/entity/player/unsheathe_weapon
-execute if entity @s[tag=!_e.mh_sheathe,tag=!_h.weapon_sword] run function server:game/entity/player/sheathe_weapon
+execute if entity @s[tag=!_e.mh_sheathe,tag=_h.wep_sound] run function server:game/entity/player/sheathe_weapon
+execute if entity @s[tag=_e.mh_sheathe,tag=_h.wep_sound] run function server:game/entity/player/unsheathe_weapon
+execute store result score @s entity_curhp run data get entity @s Health 1

@@ -11,6 +11,7 @@ function server:game/fairbox/metrics/get_updated_position
 scoreboard players add #dbc.player player_id 1
 scoreboard players operation @s player_id = #dbc.player player_id
 scoreboard players set @s gender_sfx 0
+scoreboard players set @s wepsound 0
 scoreboard players set @s entity_level 0
 scoreboard players set @s entity_nxtlvl 0
 scoreboard players set @s entity_reclvl 0
