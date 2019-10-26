@@ -1,0 +1,1 @@
+#execute if entity @s[tag=MAP_SPAWN_TARGET] unless block ~ ~ ~ #server:air run function builder:actions_list/update_region/create_block_outline
