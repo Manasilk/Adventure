@@ -1,8 +1,5 @@
 function server:game/time/update_entity
-execute if score @s entity_upd_t = #const UPD_CYCLE run function server:game/time/gametime
-execute if score @s[scores={double_reward=1}] entity_upd_t = #const UPD_CYCLE run function server:game/time/double_reward_timer
-execute if score @s[scores={double_loot=1}] entity_upd_t = #const UPD_CYCLE run function erver:game/time/double_loot_timer
-execute if score @s stat_played = #const UPD_CYCLE run function server:game/time/gametime
+execute if score @s entity_upd_t = #const UPD_CYCLE run function server:game/entity/player/update
 execute if entity @s[tag=SHOW_TOOLTIP] run function tools:debugging/show_tooltip
 
 tag @s[tag=!_e.player_join_msg,scores={_h.leave_game=1..}] add _e.player_join_msg
@@ -13,7 +10,6 @@ execute at @s[tag=!SPELL_AURA_GHOST,scores={_h.has_died=1..}] run function serve
 execute at @s[tag=!SPELL_AURA_GHOST,scores={_h.is_wounded=1..}] run function server:game/entity/player/get_player_damaged
 
 execute at @s run function server:game/entity/player/get_player_level
-execute if score @s[tag=ENTITY_FLAG_SWIMMING_FATIGUE] entity_upd_t = #const UPD_CYCLE run function server:game/entity/player/get_player_fatigue_level
 
 tag @s[tag=SPELL_AURA_GHOST,tag=ENTITY_FLAG_TRAVEL_NETHER] remove ENTITY_FLAG_TRAVEL_NETHER
 tag @s[tag=SPELL_AURA_GHOST,tag=ENTITY_FLAG_TRAVEL_END] remove ENTITY_FLAG_TRAVEL_END

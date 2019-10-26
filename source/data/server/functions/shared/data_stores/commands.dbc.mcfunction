@@ -18,3 +18,4 @@ scoreboard objectives add tooltip trigger
 scoreboard objectives add xyz trigger
 scoreboard objectives add daytime trigger
 scoreboard objectives add gmisland trigger
+scoreboard objectives add unstuck trigger
