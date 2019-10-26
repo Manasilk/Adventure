@@ -18,7 +18,7 @@ scoreboard players set #const 60 60
 scoreboard players set #const 90 90
 scoreboard players set #const 100 100
 scoreboard players set #const 158 158
-scoreboard players set #const 100 1000
+scoreboard players set #const 1000 1000
 scoreboard players set #const UPD_CYCLE 20
 scoreboard players set #bool false 0
 scoreboard players set #bool true 1
