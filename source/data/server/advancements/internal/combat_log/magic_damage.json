@@ -1,0 +1,53 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "MAGIC_DAMAGE":
+		{
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"taken":
+					{
+						"min": 0.1
+					},
+					"type":
+					{
+						"is_magic": true
+					}
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"MAGIC_DAMAGE"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/damaged_by_type/get_magic_damage"
+    }
+}

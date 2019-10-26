@@ -1,0 +1,55 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "IMMUNITY_DAMAGE":
+		{
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"taken":
+					{
+						"min": 0.1
+					},
+					"type":
+					{
+						"bypasses_invulnerability": true,
+						"bypasses_armor": true,
+						"bypasses_magic": false
+					}
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"IMMUNITY_DAMAGE"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/unit_events/damaged_by_type/get_void_damage"
+    }
+}

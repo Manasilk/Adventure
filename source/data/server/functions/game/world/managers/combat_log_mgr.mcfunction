@@ -1,0 +1,1 @@
+execute as @a at @s run function server:game/combat/combat_log

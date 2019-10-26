@@ -16,6 +16,7 @@ execute if score #dbc.gc gc_upd_t > #const UPD_CYCLE run scoreboard players set 
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/world
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/account_mgr
 execute if score #dbc.server tick_upd_t matches 0 run function server:game/world/managers/combat_mgr
+execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/combat_log_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/chat_mgr
 execute if score #dbc.server tick_upd_t matches 1.. run function server:game/world/managers/conversation_mgr
 execute if score #dbc.server tick_upd_t matches 0.. run function server:game/world/managers/area_trigger_mgr
