@@ -29,6 +29,19 @@ scoreboard objectives add wb_pos.z dummy {"translate":"dbc.builder.pos_z"}
 scoreboard objectives add wb_rot.y dummy {"translate":"dbc.builder.rot_x"}
 scoreboard objectives add wb_rot.x dummy {"translate":"dbc.builder.rot_y"}
 
+scoreboard objectives add start.x dummy {"translate":"dbc.builder.start_x"}
+scoreboard objectives add start.y dummy {"translate":"dbc.builder.start_y"}
+scoreboard objectives add start.z dummy {"translate":"dbc.builder.start_z"}
+scoreboard objectives add end.x dummy {"translate":"dbc.builder.end_x"}
+scoreboard objectives add end.y dummy {"translate":"dbc.builder.end_y"}
+scoreboard objectives add end.z dummy {"translate":"dbc.builder.end_z"}
+scoreboard objectives add size.x dummy {"translate":"dbc.builder.size_x"}
+scoreboard objectives add size.y dummy {"translate":"dbc.builder.size_y"}
+scoreboard objectives add size.z dummy {"translate":"dbc.builder.size_z"}
+scoreboard objectives add iterator.x dummy {"translate":"dbc.builder.iterator_x"}
+scoreboard objectives add iterator.y dummy {"translate":"dbc.builder.iterator_y"}
+scoreboard objectives add iterator.z dummy {"translate":"dbc.builder.iterator_z"}
+
 scoreboard objectives add _h.wb_menu_ret minecraft.dropped:minecraft.carrot_on_a_stick {"translate":"dbc.handler.builder.menu_ret"}
 scoreboard objectives add _h.wb_rmb minecraft.used:minecraft.carrot_on_a_stick {"translate":"dbc.handler.builder.rmb"}
 scoreboard objectives add _h.wb_page_scrl dummy {"translate":"dbc.handler.builder.page_scrl"}
