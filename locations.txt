@@ -4,7 +4,7 @@
 		* Lumberjack's Hut:         -205, -407
 		* Crossroads:               -702, 31
 	b. Southern Hills:
-		* Farmlands:                -879, 229; 425, 373; -366, 635
+		* Farmlands:                -879, 229; 425, -383; -366, 635
 		* Illager Pass:             -166, 655
 
 
@@ -17,7 +17,7 @@
 		* blasted_lands:            1668, -4855
 
 	b1. Emerald Foothills
-		* ironmines:                1748, -2669
+		* ironmines:                1755, -2667
 		* abandoned_armory:         2521, -2724
 		* azure_pass:               2097, -1880
 	b2. Tuvi'ir Jungle
