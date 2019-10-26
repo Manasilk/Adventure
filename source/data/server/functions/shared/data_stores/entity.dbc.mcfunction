@@ -113,6 +113,7 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_IMMUNE_SILENCE              = 8,
 #ENTITY_IMMUNE_PACIFY               = 16
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
+scoreboard objectives add entity_xppts dummy {"translate":"dbc.entity.entity_xppts"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
 scoreboard objectives add entity_baseap dummy {"translate":"dbc.entity.entity_baseap"}
