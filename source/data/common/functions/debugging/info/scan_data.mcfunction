@@ -1,0 +1,2 @@
+function server:game/entity/get_entity_position
+tellraw srQianna [{"text":"XYZ: (","color":"yellow"},{"score":{"name":"#dbc.temp","objective":"entity_pos.x"},"color":"white"},{"text":","},{"score":{"name":"#dbc.temp","objective":"entity_pos.y"},"color":"white"},{"text":","},{"score":{"name":"#dbc.temp","objective":"entity_pos.z"},"color":"white"},{"text":")"}]
