@@ -1,8 +1,5 @@
-scoreboard players operation @s dmg_in0 += @s dmg_in1
-scoreboard players operation @s dmg_in0 += @s dmg_in2
-scoreboard players operation @s dmg_in0 /= #const 10
+execute unless entity @s[advancements={server:internal/combat_log/damage_taken={DAMAGED_GENERIC=true}}] run function server:game/combat/unit_events/damaged_by_type/entity/get_damage_taken
+execute if entity @s[advancements={server:internal/combat_log/damage_taken={DAMAGED_GENERIC=true}}] run function server:game/combat/unit_events/damaged_by_type/generic/get_damage_taken
 
-
-scoreboard players reset @s dmg_in0
-scoreboard players reset @s dmg_in1
-scoreboard players reset @s dmg_in2
+execute store result score @s entity_curhp run data get entity @s Health 1
+scoreboard players operation @s entity_temphp = @s entity_curhp
