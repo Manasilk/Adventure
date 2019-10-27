@@ -23,14 +23,14 @@
 	{
         "ENTITY_HURT_PLAYER":
 		{
-            "trigger": "minecraft:impossible",
+            "trigger": "minecraft:entity_hurt_player",
 			"conditions":
 			{
 				"damage":
 				{
 					"taken":
 					{
-						"min": 0.0
+						"min": 0.1
 					}
 				}
 			}
@@ -44,6 +44,6 @@
 	],
     "rewards":
 	{
-        "function": "server:game/combat/unit_events/damaged_by_type/get_fall_damage"
+        "function": "server:game/combat/unit_events/get_damage_taken"
     }
 }
