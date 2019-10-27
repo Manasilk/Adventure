@@ -1,4 +1,4 @@
-title @s reset
+title @s actionbar {"text":""}
 kill @s
 scoreboard players set @s fatigue_level 0
 tag @s remove ENTITY_FLAG_SWIMMING_FATIGUE
