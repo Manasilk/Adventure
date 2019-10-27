@@ -113,7 +113,6 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_IMMUNE_SILENCE              = 8,
 #ENTITY_IMMUNE_PACIFY               = 16
 scoreboard objectives add entity_level dummy {"translate":"dbc.entity.entity_level"}
-scoreboard objectives add entity_xppts dummy {"translate":"dbc.entity.entity_xppts"}
 scoreboard objectives add entity_hpprc dummy {"translate":"dbc.entity.entity_hpprc"}
 scoreboard objectives add entity_basehp dummy {"translate":"dbc.entity.entity_basehp"}
 scoreboard objectives add entity_baseap dummy {"translate":"dbc.entity.entity_baseap"}
@@ -149,6 +148,9 @@ scoreboard objectives add override_min.z dummy {"translate":"dbc.entity.override
 scoreboard objectives add override_max.x dummy {"translate":"dbc.entity.override_x"}
 scoreboard objectives add override_max.y dummy {"translate":"dbc.entity.override_y"}
 scoreboard objectives add override_max.z dummy {"translate":"dbc.entity.override_z"}
+
+scoreboard objectives add exp_stored xp {"translate":"dbc.entity.exp_stored"}
+scoreboard objectives add exp_gained dummy {"translate":"dbc.entity.exp_gained"}
 #SMART EVENTS
 #casts
 #SMARTCAST_INTERRUPT
