@@ -2,7 +2,7 @@ scoreboard objectives add played trigger
 scoreboard objectives add admin trigger
 scoreboard objectives add builder trigger
 scoreboard objectives add debug trigger
-scoreboard objectives add set_gm trigger
+scoreboard objectives add set_gm dummy
 scoreboard objectives add trim trigger
 
 scoreboard objectives add mono trigger

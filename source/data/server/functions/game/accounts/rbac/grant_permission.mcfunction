@@ -1,6 +1,6 @@
 #commands
 tag @s[tag=!rbac.commands,scores={player_commands=1}] add rbac.commands
-gamemode creative @s[tag=rbac.commands]
+execute if entity @s[tag=rbac.commands] run function server:game/accounts/rbac/enable_commands
 
 #builder
 tag @s[tag=rbac.commands,tag=!rbac.builder,scores={player_builder=1}] add rbac.builder
