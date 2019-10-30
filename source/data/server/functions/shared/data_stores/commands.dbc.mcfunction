@@ -20,3 +20,4 @@ scoreboard objectives add xyz trigger
 scoreboard objectives add daytime trigger
 scoreboard objectives add gmisland trigger
 scoreboard objectives add unstuck trigger
+scoreboard objectives add help trigger

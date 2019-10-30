@@ -1,4 +1,5 @@
 #player.events
+execute if entity @s[tag=_e.help_msg] run function server:game/chat/help
 execute if entity @s[tag=_e.player_join_msg] run function server:game/chat/login
 execute if entity @s[tag=_e.player_rest_msg] run function server:game/chat/rest
 execute if entity @s[tag=_e.player_levelup_msg] run function server:game/chat/levelup
