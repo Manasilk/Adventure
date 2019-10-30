@@ -31,6 +31,7 @@ scoreboard objectives add stat_played_m dummy {"translate":"dbc.player.stat_play
 scoreboard objectives add stat_played_h dummy {"translate":"dbc.player.stat_played_h"}
 scoreboard objectives add stat_played_d dummy {"translate":"dbc.player.stat_played_d"}
 scoreboard objectives add unstuck_cd dummy {"translate":"dbc.player.unstuck_cd"}
+scoreboard objectives add wepsound dummy
 
 scoreboard objectives add _h.interact minecraft.custom:minecraft.talked_to_villager {"translate":"dbc.handler.player.interact"}
 scoreboard objectives add _h.has_victim dummy {"translate":"dbc.handler.player.has_victim"}
