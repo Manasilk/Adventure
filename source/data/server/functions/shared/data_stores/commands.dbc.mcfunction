@@ -1,4 +1,5 @@
 scoreboard objectives add played trigger
+scoreboard objectives add log trigger
 scoreboard objectives add admin trigger
 scoreboard objectives add builder trigger
 scoreboard objectives add debug trigger

@@ -19,5 +19,6 @@ execute if score @s spawn_triggers = #bool true run function user_commands:debug
 execute if score @s tooltip = #bool true run function user_commands:debug/toggle_tooltip
 execute if score @s gmisland = #bool true run function user_commands:goto/gmisland
 execute if score @s unstuck = #bool true run function user_commands:goto/spawn
+execute if score @s log = #bool true run function user_commands:combat/toggle_log
 
 execute unless score @s expansion = #dbc.server expansion run function server:game/accounts/character/set_expansion
