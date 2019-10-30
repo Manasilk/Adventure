@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:slime"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:slime"
 				}
 			}
         }

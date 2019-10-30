@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:skeleton_horse"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:skeleton_horse"
 				}
 			}
         }

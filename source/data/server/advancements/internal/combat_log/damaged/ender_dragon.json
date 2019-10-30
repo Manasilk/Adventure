@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:ender_dragon"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:ender_dragon"
 				}
 			}
         }

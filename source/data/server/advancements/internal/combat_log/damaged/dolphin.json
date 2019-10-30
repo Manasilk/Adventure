@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:dolphin"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:dolphin"
 				}
 			}
         }

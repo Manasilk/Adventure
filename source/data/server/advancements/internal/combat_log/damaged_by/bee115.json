@@ -34,6 +34,6 @@
 	],
     "rewards":
 	{
-        "function": "server:game/combat/combat_log/log_events/damaged_by/bee"
+        "function": "server:game/combat/combat_log/log_events/damaged_by/entity/bee"
     }
 }

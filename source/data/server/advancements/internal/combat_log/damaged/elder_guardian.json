@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:elder_guardian"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:elder_guardian"
 				}
 			}
         }

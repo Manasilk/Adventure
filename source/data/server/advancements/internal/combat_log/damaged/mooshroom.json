@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:mooshroom"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:mooshroom"
 				}
 			}
         }

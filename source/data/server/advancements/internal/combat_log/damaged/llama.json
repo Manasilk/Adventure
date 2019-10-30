@@ -31,11 +31,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:llama"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:llama"
 				}
 			}
         },
@@ -49,11 +49,11 @@
 					"dealt":
 					{
 						"min": 0.1
-					},
-					"entity":
-					{
-						"type": "minecraft:trader_llama"
 					}
+				},
+				"entity":
+				{
+					"type": "minecraft:trader_llama"
 				}
 			}
         }
