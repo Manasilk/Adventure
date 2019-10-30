@@ -8,6 +8,7 @@ execute store result score @s entity_spawn.y run data get entity @s SpawnY 1
 execute store result score @s entity_spawn.z run data get entity @s SpawnZ 1
 function server:game/fairbox/metrics/get_updated_position
 
+scoreboard players operation @s expansion = #dbc.server expansion
 scoreboard players add #dbc.player player_id 1
 scoreboard players operation @s player_id = #dbc.player player_id
 scoreboard players set @s gender_sfx 0
@@ -27,6 +28,7 @@ scoreboard players set @s stat_quests_cmpl 0
 scoreboard players set @s stat_mob_kills 0
 scoreboard players set @s combat_reset_t 0
 scoreboard players set @s fatigue_level 0
+scoreboard players set @s exp_gained 0
 
 scoreboard players set @s double_loot 0
 scoreboard players set @s double_reward 0
