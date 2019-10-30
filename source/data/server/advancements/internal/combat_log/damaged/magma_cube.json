@@ -1,0 +1,53 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": "DAMAGED_ENTITY"
+        },
+        "description":
+		{
+            "text": "MAGMA_CUBE"
+        },
+        "icon":
+		{
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+		"DAMAGED_MAGMA_CUBE":
+		{
+            "trigger": "minecraft:player_hurt_entity",
+			"conditions":
+			{
+				"damage":
+				{
+					"dealt":
+					{
+						"min": 0.1
+					},
+					"entity":
+					{
+						"type": "minecraft:magma_cube"
+					}
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"DAMAGED_MAGMA_CUBE"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/combat_log/log_events/damaged/magma_cube"
+    }
+}
