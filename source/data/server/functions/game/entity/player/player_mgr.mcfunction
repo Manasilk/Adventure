@@ -21,4 +21,3 @@ execute if entity @s[tag=!rbac.commands,scores={_h.fill_bucket=1..}] run functio
 function server:game/entity/player/get_weapon_type
 execute at @s[tag=!_e.mh_sheathe,tag=_h.wep_sound] run function server:game/entity/player/sheathe_weapon
 execute at @s[tag=_e.mh_sheathe,tag=_h.wep_sound] run function server:game/entity/player/unsheathe_weapon
-execute store result score @s entity_curhp run data get entity @s Health 1
