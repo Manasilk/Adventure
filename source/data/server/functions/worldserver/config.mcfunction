@@ -73,7 +73,7 @@ scoreboard players set #dbc.fairbox _FB.Gamemode 1
 scoreboard players set #dbc.fairbox _FB.Actions 1
 
 #re-sync timers
-execute if score #dbc.core _dbc.setup = #bool true run function server:game/time/synchronize_time
+#execute if score #dbc.core _dbc.setup = #bool true run function server:game/time/synchronize_time
 scoreboard players add #dbc.core build_revision 1
 ### TRIMMING CONFIG ###
 # Deletes and recreates objectives to reduce scoreboard filesize
