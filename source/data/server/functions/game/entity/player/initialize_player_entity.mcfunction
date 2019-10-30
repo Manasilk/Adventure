@@ -64,7 +64,7 @@ scoreboard players enable @s gender_sfx
 scoreboard players enable @s played
 
 scoreboard players set @s rbac_access 0
-function server:game/chat/send_login_message
+function server:game/chat/login
 
 tag @s add _e.initialized_entry
 tag @s add _e.mh_sheathe
