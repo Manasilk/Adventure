@@ -55,13 +55,21 @@
 			"voice:player/female/death_1"
 		]
 	},
-	"ui.mainhand.sheathe":
+	"ui.mainhand.sheathe_sword":
 	{
-		"sounds": ["ui:mh_sheathe"]
+		"sounds": ["ui:mh_sheathe_sword"]
 	},
-	"ui.mainhand.unsheathe":
+	"ui.mainhand.unsheathe_sword":
 	{
-		"sounds": ["ui:mh_unsheathe"]
+		"sounds": ["ui:mh_unsheathe_sword"]
+	},
+	"ui.mainhand.sheathe_axe":
+	{
+		"sounds": ["ui:mh_sheathe_axe"]
+	},
+	"ui.mainhand.unsheathe_axe":
+	{
+		"sounds": ["ui:mh_unsheathe_axe"]
 	},
 	"ui.player.levelup": 
 	{
@@ -88,18 +96,18 @@
 		"replace": true,
 		"sounds": ["water:underwater_loop"]
 	},
-	"block.portal.ambient":
+	"unused0":
 	{
 		"replace": true,
 		"sounds":
 		[
 			{
 				"name": "emitters:portal_loop",
-				"attenuation_distance": 20
+				"attenuation_distance": 10
 			}
 		]
 	},
-	"block.portal.trigger":
+	"unused1":
 	{
 		"replace": true,
 		"sounds": ["emitters:portal_trigger"]
