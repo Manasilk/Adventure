@@ -21,7 +21,7 @@
     },
     "criteria":
 	{
-        "FALL_DAMAGE":
+        "DAMAGED_BY_FALLING":
 		{
             "trigger": "minecraft:entity_hurt_player",
 			"conditions":
@@ -37,7 +37,8 @@
 						"bypasses_invulnerability": false,
 						"bypasses_armor": true,
 						"bypasses_magic": false,
-						"is_fire": false
+						"is_fire": false,
+						"is_magic": false
 					}
 				}
 			}
@@ -46,7 +47,7 @@
 	"requirements":
 	[
 		[
-			"FALL_DAMAGE"
+			"DAMAGED_BY_FALLING"
 		]
 	],
     "rewards":

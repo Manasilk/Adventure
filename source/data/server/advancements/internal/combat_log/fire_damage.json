@@ -21,7 +21,7 @@
     },
     "criteria":
 	{
-        "FIRE_DAMAGE":
+        "DAMAGED_BY_FIRE":
 		{
             "trigger": "minecraft:entity_hurt_player",
 			"conditions":
@@ -40,7 +40,7 @@
 	"requirements":
 	[
 		[
-			"FIRE_DAMAGE"
+			"DAMAGED_BY_FIRE"
 		]
 	],
     "rewards":

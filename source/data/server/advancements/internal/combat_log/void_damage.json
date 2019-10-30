@@ -21,7 +21,7 @@
     },
     "criteria":
 	{
-        "IMMUNITY_DAMAGE":
+        "DAMAGED_BY_VOID":
 		{
             "trigger": "minecraft:entity_hurt_player",
 			"conditions":
@@ -45,7 +45,7 @@
 	"requirements":
 	[
 		[
-			"IMMUNITY_DAMAGE"
+			"DAMAGED_BY_VOID"
 		]
 	],
     "rewards":

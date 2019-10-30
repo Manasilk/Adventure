@@ -21,7 +21,7 @@
     },
     "criteria":
 	{
-        "MAGIC_DAMAGE":
+        "DAMAGED_BY_MAGIC":
 		{
             "trigger": "minecraft:entity_hurt_player",
 			"conditions":
@@ -43,11 +43,11 @@
 	"requirements":
 	[
 		[
-			"MAGIC_DAMAGE"
+			"DAMAGED_BY_MAGIC"
 		]
 	],
     "rewards":
 	{
-        "function": "server:game/combat/damaged_by_type/get_magic_damage"
+        "function": "server:game/combat/unit_events/damaged_by_type/get_magic_damage"
     }
 }
