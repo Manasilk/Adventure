@@ -20,4 +20,4 @@ execute if score @s tooltip = #bool true run function user_commands:debug/toggle
 execute if score @s gmisland = #bool true run function user_commands:goto/gmisland
 execute if score @s unstuck = #bool true run function user_commands:goto/spawn
 
-scoreboard players operation @s expansion = #dbc.server expansion
+execute unless score @s expansion = #dbc.server expansion run function server:game/accounts/character/set_expansion
