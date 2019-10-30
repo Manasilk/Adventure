@@ -1,2 +1,2 @@
-tag @a[tag=!SPELL_AURA_INVISIBILITY,tag=!ENTITY_FLAG_IN_COMBAT,distance=0..11.999] add ENTITY_FLAG_IN_COMBAT
+tag @a[tag=!SPELL_AURA_INVISIBILITY,tag=!SPELL_AURA_GHOST,tag=!ENTITY_FLAG_IN_COMBAT,distance=0..11.999] add ENTITY_FLAG_IN_COMBAT
 execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT] if entity @a[tag=ENTITY_FLAG_IN_COMBAT,distance=0..11.999] run function server:game/ai/core_ai/combat_ai/enter_combat
