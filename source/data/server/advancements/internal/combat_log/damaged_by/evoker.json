@@ -1,0 +1,53 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": "DAMAGED_BY_ENTITY"
+        },
+        "description":
+		{
+            "text": "EVOKER"
+        },
+        "icon":
+		{
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+		"DAMAGED_BY_EVOKER":
+		{
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"taken":
+					{
+						"min": 0.1
+					},
+					"source_entity":
+					{
+						"type": "minecraft:evoker"
+					}
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"DAMAGED_BY_EVOKER"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/combat_log/log_events/damaged_by/evoker"
+    }
+}
