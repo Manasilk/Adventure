@@ -31,24 +31,12 @@
 					"type": "minecraft:llama"
 				}
 			}
-        },
-		"KILLED_BY_TRADER_LLAMA":
-		{
-            "trigger": "minecraft:entity_killed_player",
-			"conditions":
-			{
-				"entity":
-				{
-					"type": "minecraft:trader_llama"
-				}
-			}
         }
     },
 	"requirements":
 	[
 		[
-			"KILLED_BY_LLAMA",
-			"KILLED_BY_TRADER_LLAMA"
+			"KILLED_BY_LLAMA"
 		]
 	],
     "rewards":

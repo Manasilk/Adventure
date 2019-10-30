@@ -48,6 +48,6 @@
 	],
     "rewards":
 	{
-        "function": "server:game/combat/unit_events/damaged_by_type/get_magic_damage"
+        "function": "server:game/combat/combat_log/log_events/damaged_by/generic/get_magic_damage"
     }
 }

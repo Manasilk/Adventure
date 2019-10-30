@@ -1,5 +1,12 @@
-execute unless entity @s[advancements={server:internal/combat_log/damage_taken={DAMAGED_GENERIC=true}}] run function server:game/combat/unit_events/damaged_by_type/entity/get_damage_taken
-execute if entity @s[advancements={server:internal/combat_log/damage_taken={DAMAGED_GENERIC=true}}] run function server:game/combat/unit_events/damaged_by_type/generic/get_damage_taken
+#mitigated = (abs + res)/10
+scoreboard players set @s[scores={dmg_in0=1..9}] dmg_in0 10
+scoreboard players operation @s dmg_in0 += @s dmg_in1
+scoreboard players operation @s dmg_in0 += @s dmg_in2
+scoreboard players operation @s dmg_in0 += @s dmg_in3
 
-execute store result score @s entity_curhp run data get entity @s Health 1
-scoreboard players operation @s entity_temphp = @s entity_curhp
+scoreboard players operation @s dmg_in1 += @s dmg_in2
+scoreboard players operation @s dmg_in1 += @s dmg_in3
+#total = taken/10
+scoreboard players operation @s dmg_in1 /= #const 10
+scoreboard players operation @s dmg_in0 /= #const 10
+scoreboard players operation @s[scores={dmg_in1=1..}] dmg_in0 -= @s dmg_in1

@@ -50,6 +50,6 @@
 	],
     "rewards":
 	{
-        "function": "server:game/combat/unit_events/damaged_by_type/get_void_damage"
+        "function": "server:game/combat/combat_log/log_events/damaged_by/generic/get_void_damage"
     }
 }
