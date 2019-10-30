@@ -1,0 +1,46 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": "KILLED_ENTITY"
+        },
+        "description":
+		{
+            "text": "PANDA"
+        },
+        "icon":
+		{
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+		"KILLED_PANDA":
+		{
+            "trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"type": "minecraft:panda"
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"KILLED_PANDA"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/combat_log/log_events/killed/panda"
+    }
+}

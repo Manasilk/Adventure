@@ -3,15 +3,15 @@
 	{
         "title":
 		{
-            "text": ""
+            "text": "KILLED_ENTITY"
         },
         "description":
 		{
-            "text": ""
+            "text": "CAT"
         },
         "icon":
 		{
-            "item": "minecraft:barrier"
+            "item": "minecraft:skeleton_skull"
         },
         "frame": "task",
         "show_toast": false,
@@ -21,17 +21,14 @@
     },
     "criteria":
 	{
-        "ENTITY_HURT_PLAYER":
+		"KILLED_CAT":
 		{
-            "trigger": "minecraft:entity_hurt_player",
+            "trigger": "minecraft:player_killed_entity",
 			"conditions":
 			{
-				"damage":
+				"entity":
 				{
-					"taken":
-					{
-						"min": 0.1
-					}
+					"type": "minecraft:cat"
 				}
 			}
         }
@@ -39,11 +36,11 @@
 	"requirements":
 	[
 		[
-			"ENTITY_HURT_PLAYER"
+			"KILLED_CAT"
 		]
 	],
     "rewards":
 	{
-        "function": "server:game/combat/unit_events/get_damage_taken"
+        "function": "server:game/combat/combat_log/log_events/killed/cat"
     }
 }
