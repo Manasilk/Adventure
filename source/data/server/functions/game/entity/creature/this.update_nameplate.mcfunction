@@ -1,3 +1,4 @@
+function server:game/combat/unit_events/get_range_damage_dealt
 scoreboard players operation @s entity_temphp = @s entity_curhp
 scoreboard players operation @s entity_hpprc = @s entity_curhp
 scoreboard players operation @s entity_hpprc *= #const 100

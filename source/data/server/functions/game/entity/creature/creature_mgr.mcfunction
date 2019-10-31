@@ -8,6 +8,8 @@ execute if entity @s[tag=ENTITY_FLAG_IN_COMBAT,tag=!_e.initialized_scaling] run 
 
 execute store result score @s[tag=ENTITY_FLAG_SPECIALINFO,tag=ENTITY_FLAG_IN_COMBAT] entity_curhp run data get entity @s Health 1
 execute unless score @s[tag=ENTITY_FLAG_SPECIALINFO,tag=ENTITY_FLAG_IN_COMBAT] entity_temphp = @s entity_curhp run function server:game/entity/creature/this.update_nameplate
+scoreboard players operation HP_TEMP debug = @s entity_temphp
+scoreboard players operation HP_CURR debug = @s entity_curhp
 
 execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY_ACTION_NEUTRAL] if score #dbc.server world_daytime matches 13000..23999 run function server:game/entity/creature/this.convert_hostile
 execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY_ACTION_HOSTILE] if score #dbc.server world_daytime matches 0..12999 run function server:game/entity/creature/this.convert_neutral
