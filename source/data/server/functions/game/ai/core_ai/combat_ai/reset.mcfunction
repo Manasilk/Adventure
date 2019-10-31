@@ -1,5 +1,5 @@
 function server:game/entity/creature/this.get_base_attributes
-function server:game/entity/creature/this.initialize_nameplate
+execute if entity @s[tag=ENTITY_FLAG_SPECIALINFO] run function server:game/entity/creature/this.initialize_nameplate
 function server:game/entity/creature/this.get_spawn_position
 
 tag @s remove _e.initialized_scaling
