@@ -2,7 +2,7 @@
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
 	"server.login_msg": "Добро пожаловать в Мардаар, Обновление: %d.%d.%d: %s",
-	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s",
+	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s\nВведите \"/trigger help\" в чате для помощи.",
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
 	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
 	"build.uprising": "Восход",
@@ -35,6 +35,8 @@
 	"event_type.quest_objectives": "Цель достигнута! Вернитесь к распорядителю, чтобы получить награду.",
 	"event_type.quest_log_full": "Ваш журнал заданий переполнен. Вы не можете принять больше заданий.",
 	"event_type.experience_gained": "Получено опыта:",
+	"event_type.combat_log_on": "Журнал боя теперь видим.",
+	"event_type.combat_log_off": "Журнал боя теперь невидим.",
 	"event_type.show_stats": "Личная статистика за всё время:",
 	"event_type.double_loot": "Теперь вы будете получать в два раза больше добычи на 2 часа!",
 	"event_type.double_reward": "Теперь вы будете получать в два раза больше наград на 2 часа!",
@@ -48,7 +50,7 @@
 	"event_type.log.enter_combat": "Вы вошли в бой",
 	"event_type.log.clear_combat": "Вы вышли из боя",
 	"event_type.log.damage_taken_amb": "Вы получаете %d урона%s",
-	"event_type.log.damage_taken": "%s наносит вам %d урона%s",
+	"event_type.log.damage_taken": "%s наносит вам %d урона%s%s",
 	"event_type.log.damage_dealt": "Вы наносте %d урона %s%s",
 	"event_type.log.experience_gained": "Вы получаете %d опыта",
 	"event_type.log.health_restored": "Вы восстанавливаете %d здоровья",
@@ -62,12 +64,23 @@
 	"log.damage_type.falling": " (Падение)",
 	"log.damage_type.void": " (Пустота) ",
 	"log.damage_type.magic": " (Магический) ",
+	"log.damage_type.physical": " (Физический)",
+	"log.damage_type.explosion": " (Взрыв)",
+	"log.damage_type.suffocation": " (Удушение)",
 	"stats.played_time": "Всего времени в игре: %dд., %dч., %dм., %dс.",
 	"stats.advancement_points": "Очков достижения: %d, ",
 	"stats.damage_dealt": "Всего нанесенно урона: %d, ",
 	"stats.damage_taken": "Всего получено урона: %d, ",
 	"stats.quests_completed": "Всего заданий завершенно: %d, ",
 	"stats.mob_kills": "Всего монстров убито: %d",
+	
+	
+	
+	"help_info.commands.available": "Команды доступные для вас:",
+	"help_info.command.played": "Введите \"/trigger played\" в чат, чтобы показать время проведённое в этом мире.",
+	"help_info.command.log": "Введите \"/trigger log\" в чат, чтобы переключить боевой журнал.",
+	"help_info.command.unstuck": "Введите \"/trigger unstuck\" в чат, если ваш персонаж застрял.",
+	"help_info.command.admin": "Введите \"/trigger admin\" в чат, чтобы переключить доступ к дополнительным командам.",
 
 	
 	
