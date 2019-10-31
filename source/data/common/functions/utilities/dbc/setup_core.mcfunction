@@ -8,9 +8,9 @@ scoreboard players set #dbc.server expansion 0
 
 scoreboard players set #dbc.core build_version 0
 scoreboard players set #dbc.core build_update 6
-scoreboard players set #dbc.core build_hotfix 5
-scoreboard players set #dbc.core build_revision 2576
-scoreboard players set #dbc.core build_pd_d 30
+scoreboard players set #dbc.core build_hotfix 9
+scoreboard players set #dbc.core build_revision 2687
+scoreboard players set #dbc.core build_pd_d 31
 scoreboard players set #dbc.core build_pd_m 10
 scoreboard players set #dbc.core build_pd_y 2019
 
