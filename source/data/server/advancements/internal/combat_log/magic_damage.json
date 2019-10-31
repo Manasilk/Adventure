@@ -34,7 +34,8 @@
 					},
 					"type":
 					{
-						"is_magic": true
+						"is_magic": true,
+						"is_explosion": false
 					}
 				}
 			}
