@@ -14,6 +14,10 @@ scoreboard players set @s[tag=SPELL_AURA_SPEED,scores={_FB._LimitH=0..19}] _FB._
 scoreboard players set @s[tag=SPELL_EFFECT_SLIMEBLOCK,scores={_FB._LimitH=0..99}] _FB._LimitH 100
 scoreboard players set @s[tag=SPELL_EFFECT_SLIMEBLOCK,scores={_FB._LimitV=0..99}] _FB._LimitV 100
 
+tag @s[tag=SPELL_EFFECT_EXPLOSION,nbt={OnGround:1b}] remove SPELL_EFFECT_EXPLOSION
+scoreboard players set @s[tag=SPELL_EFFECT_EXPLOSION,scores={_FB._LimitV=0..199}] _FB._LimitV 200
+scoreboard players set @s[tag=SPELL_EFFECT_EXPLOSION,scores={_FB._LimitH=0..199}] _FB._LimitH 200
+
 scoreboard players set @s[tag=SPELL_EFFECT_RIPTIDE_LESSER,scores={_FB._LimitH=0..64}] _FB._LimitH 65
 scoreboard players set @s[tag=SPELL_EFFECT_RIPTIDE_LESSER,scores={_FB._LimitV=0..64}] _FB._LimitV 65
 scoreboard players set @s[tag=SPELL_EFFECT_RIPTIDE_MEDIUM,scores={_FB._LimitH=0..94}] _FB._LimitH 95

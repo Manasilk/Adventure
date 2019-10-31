@@ -1,0 +1,49 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "DAMAGED_BY_EXPLOSION":
+		{
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"type":
+					{
+						"is_explosion": true
+					}
+				}
+			}
+        }
+	},
+	"requirements":
+	[
+		[
+			"DAMAGED_BY_EXPLOSION"
+		]
+	],
+    "rewards":
+	{
+        "function": "server:game/combat/combat_log/log_events/damaged_by/generic/get_explosion_damage"
+    }
+}
