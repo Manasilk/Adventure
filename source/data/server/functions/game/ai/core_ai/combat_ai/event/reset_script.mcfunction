@@ -1,7 +1,7 @@
-scoreboard players set @s spell_itr -1
-scoreboard players reset @s spell_diff
-scoreboard players reset @s spell_cast_t
-scoreboard players reset @s cast_max_t
+scoreboard players set @s spell_id -1
+function server:game/ai/core_ai/combat_ai/event/reset_states
+function server:game/ai/core_ai/combat_ai/event/reset_timers
+function server:game/ai/core_ai/combat_ai/event/reset_particles
 
 tag @s[tag=SPELL_0] remove SPELL_0
 tag @s[tag=SPELL_1] remove SPELL_1

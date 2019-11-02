@@ -1,3 +1,4 @@
 tag @s remove SMART_EVENT_PREP_CAST
 tag @s remove SMART_EVENT_LOAD_SPELL
 tag @s remove SMART_EVENT_CAST
+tag @s[tag=SMART_EVENT_SKIP_LOS] remove SMART_EVENT_SKIP_LOS
