@@ -26,6 +26,7 @@ tag @s[tag=!SMART_EVENT_CAST,tag=!SPELL_EFFECT_SILENCE,scores={has_target=1}] ad
 tag @s[tag=SMART_EVENT_CAST,scores={has_target=0}] add SMARTCAST_INTERRUPT
 execute if entity @s[tag=SMARTCAST_INTERRUPT] run function server:game/ai/core_ai/combat_ai/event/stopcast
 execute if entity @s[tag=SMART_EVENT_CAST] run function server:game/ai/core_ai/combat_ai/event/start_cast
+execute if entity @s[tag=SMART_EVENT_RESET] run function server:game/ai/core_ai/combat_ai/event/reset_script
 
 #call spell trigger to run scripts
 execute if entity @s[tag=_e.call_spell_script] run function server:game/ai/core_ai/combat_ai/event/stopcast
