@@ -17,7 +17,5 @@ scoreboard players set #dbc.core build_pd_y 2020
 scoreboard players set #dbc.temp TEMP 0
 
 summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"translate":"build.uprising"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","BUILD_CODENAME"]}
-
-execute in minecraft:overworld run summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"text":"entity_type"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["entity_type_param"]}
-execute in minecraft:the_nether run summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"text":"entity_type"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["entity_type_param"]}
-execute in minecraft:the_end run summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"text":"entity_type"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["entity_type_param"]}
+summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"text":"entity_type"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","entity_type_param"]}
+summon minecraft:area_effect_cloud 0 0 0 {CustomName:'{"text":"damage_type"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","entity_damage_param"]}
