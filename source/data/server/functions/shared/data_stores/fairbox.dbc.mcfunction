@@ -6,6 +6,7 @@ scoreboard objectives add _FB._PosZ-0 dummy {"translate":"dbc.fairbox.pos_z_old"
 scoreboard objectives add _FB._PosX-1 dummy {"translate":"dbc.fairbox.pos_x_new"}
 scoreboard objectives add _FB._PosY-1 dummy {"translate":"dbc.fairbox.pos_y_new"}
 scoreboard objectives add _FB._PosZ-1 dummy {"translate":"dbc.fairbox.pos_z_new"}
+scoreboard objectives add _FB._LimitDist dummy {"translate":"dbc.fairbox.distance_limit"}
 scoreboard objectives add _FB._FreeFall dummy {"translate":"dbc.fairbox.freefall"}
 
 scoreboard objectives add _FB.Gamemode dummy {"translate":"dbc.fairbox.gamemode"}

@@ -30,6 +30,8 @@ scoreboard players set @s[tag=SPELL_EFFECT_FLYING,scores={_FB._LimitV=0..197}] _
 #KNOCKBACK_BY_ENTITY
 execute if entity @e[type=minecraft:ravager,distance=0..8.100] run scoreboard players set @s _FB._LimitH 35
 
+function server:game/fairbox/info/get_distance_limits
+
 #These functions are used to register teleportaion effects that warden should not count as cheating
 execute if entity @s[tag=!FB_FLAG_PLAYER_IGNORE,tag=SPELL_EFFECT_TELEPORT] run function server:game/fairbox/events/set_flag_ignore_player
 execute if entity @s[tag=!FB_FLAG_PLAYER_IGNORE,tag=SPELL_EFFECT_ENDER_PEARL] run function server:game/fairbox/events/set_flag_ignore_player
