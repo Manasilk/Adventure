@@ -82,6 +82,7 @@
 	"help_info.command.played": "Введите \"/trigger played\" в чат, чтобы показать время проведённое в этом мире.",
 	"help_info.command.log": "Введите \"/trigger log\" в чат, чтобы переключить боевой журнал.",
 	"help_info.command.unstuck": "Введите \"/trigger unstuck\" в чат, если ваш персонаж застрял.",
+	"help_info.command.clear_chat": "Введите \"/trigger clear\" в чат, чтобы отчистить все сообщения.",
 	"help_info.command.admin": "Введите \"/trigger admin\" в чат, чтобы переключить доступ к дополнительным командам.",
 
 	

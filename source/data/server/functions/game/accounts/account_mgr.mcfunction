@@ -19,5 +19,6 @@ execute if score @s tooltip = #bool true run function user_commands:debug/toggle
 execute if score @s gmisland = #bool true run function user_commands:goto/gmisland
 execute if score @s unstuck = #bool true run function user_commands:goto/spawn
 execute if score @s log = #bool true run function user_commands:combat/toggle_log
+execute if score @s clear = #bool true run function user_commands:chat/clear_chat
 
 execute unless score @s expansion = #dbc.server expansion run function server:game/accounts/character/set_expansion

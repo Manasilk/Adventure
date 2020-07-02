@@ -82,6 +82,7 @@
 	"help_info.command.played": "Type \"/trigger played\" in chat to show time played in this world.",
 	"help_info.command.log": "Type \"/trigger log\" in chat to toggle combat log.",
 	"help_info.command.unstuck": "Type \"/trigger unstuck\" in chat if your character is stuck.",
+	"help_info.command.clear_chat": "Type \"/trigger clear\" in chat to clear all messages.",
 	"help_info.command.admin": "Type \"/trigger admin\" in chat to toggle admin commands.",
 	
 	

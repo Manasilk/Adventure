@@ -66,6 +66,7 @@ scoreboard players enable @s gender_sfx
 scoreboard players enable @s played
 scoreboard players enable @s log
 scoreboard players enable @s help
+scoreboard players enable @s clear
 
 scoreboard players set @s rbac_access 0
 function server:game/chat/login
