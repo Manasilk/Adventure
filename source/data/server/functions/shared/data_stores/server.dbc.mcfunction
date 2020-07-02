@@ -20,6 +20,10 @@ scoreboard objectives add worldspawn.y dummy {"translate":"dbc.server.worldspawn
 scoreboard objectives add worldspawn.z dummy {"translate":"dbc.server.worldspawn_z"}
 scoreboard objectives add gc_age dummy {"translate":"dbc.gc.age"}
 scoreboard objectives add _dbc.setup dummy
+scoreboard objectives add trim_stat dummy
+#TRIM_STATUS_DISMISSED = 0,
+#TRIM_STATUS_SCHEDULED = 1,
+#TRIM_STATUS_COMPLETE  = 2
 
 scoreboard objectives add cfg.do_trim dummy {"translate":"dbc.server.do_trim"}
 scoreboard objectives add cfg.do_spawn dummy {"translate":"dbc.server.do_spawn"}
