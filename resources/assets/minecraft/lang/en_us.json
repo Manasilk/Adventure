@@ -1,4 +1,6 @@
 {
+	"chat.button": "[%s]",
+
 	"server_broadcast": "[SERVER]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
 	"server.login_msg": "Welcome to Mardaar, Update: %d.%d.%d: %s",
@@ -324,6 +326,7 @@
 	"builder_assistant.option.corner": "Create structure corner",
 	"builder_assistant.option.size": "Get structure size",
 	"builder_assistant.option.outline": "Create outline",
+	
 	
 	
 	"recipe.saddle": "Saddle",

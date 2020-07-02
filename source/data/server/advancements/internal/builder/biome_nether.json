@@ -21,19 +21,55 @@
     },
     "criteria":
 	{
-        "VISIT_BIOME_NETHER":
+        "VISIT_BIOME_NETHER_WASTES":
 		{
             "trigger": "minecraft:location",
 			"conditions":
 			{
-                "biome": "minecraft:nether"
+                "biome": "minecraft:nether_wastes"
+            }
+        },
+		"VISIT_BIOME_CRIMSON_FOREST":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:crimson_forest"
+            }
+        },
+		"VISIT_BIOME_WARPED_FOREST":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:warped_forest"
+            }
+        },
+		"VISIT_BIOME_SOULSAND_VALLEY":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:soul_sand_valley"
+            }
+        },
+		"VISIT_BIOME_BASALT_DELTAS":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+                "biome": "minecraft:basalt_deltas"
             }
         }
     },
 	"requirements":
 	[
 		[
-			"VISIT_BIOME_NETHER"
+			"VISIT_BIOME_NETHER_WASTES",
+			"VISIT_BIOME_CRIMSON_FOREST",
+			"VISIT_BIOME_WARPED_FOREST",
+			"VISIT_BIOME_SOULSAND_VALLEY",
+			"VISIT_BIOME_BASALT_DELTAS"
 		]
 	],
     "rewards":

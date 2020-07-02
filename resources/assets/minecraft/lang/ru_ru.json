@@ -1,4 +1,6 @@
 {
+	"chat.button": "[%s]",
+
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
 	"server.login_msg": "Добро пожаловать в Мардаар, Обновление: %d.%d.%d: %s",

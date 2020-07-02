@@ -1,6 +1,6 @@
 0. SPAWN_ISLAND
 	a. Northern Hills: 
-        * Northern Outpost:         -432, -388
+        * Northern Outpost:         -430, -388
 		* Lumberjack's Hut:         -205, -407
 		* Crossroads:               -702, 31
 	b. Southern Hills:
