@@ -39,4 +39,4 @@ execute if score #dbc.server tick_upd_t matches 0.. run function common:collisio
 execute if score #dbc.server tick_upd_t matches 0.. run function server:scripts/world/world_script_loader
 #
 # @TRIM
-execute as @a[limit=1] if score #dbc.server trim_flag = #bool true run function server:worldserver/load/trim_shared
+execute as @a[limit=1] if score #dbc.server trim_stat = #bool true run function server:worldserver/load/trim_shared
