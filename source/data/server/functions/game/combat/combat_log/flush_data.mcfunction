@@ -9,4 +9,4 @@ scoreboard players reset @s dmg_in3
 scoreboard players reset @s TEMP
 
 scoreboard players operation @s exp_gained = @s exp_stored
-scoreboard players operation @s entity_temphp = @s entity_curhp
+function server:game/entity/get_entity_health
