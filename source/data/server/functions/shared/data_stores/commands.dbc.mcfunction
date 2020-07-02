@@ -6,9 +6,6 @@ scoreboard objectives add debug trigger
 scoreboard objectives add set_gm dummy
 scoreboard objectives add trim trigger
 
-scoreboard objectives add mono trigger
-scoreboard objectives add average trigger
-
 scoreboard objectives add reset_quests trigger
 scoreboard objectives add reset_stats trigger
 scoreboard objectives add reset_xp trigger
