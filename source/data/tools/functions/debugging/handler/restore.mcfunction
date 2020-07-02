@@ -1,2 +1,0 @@
-gamerule maxCommandChainLength 65536
-worldborder set 15360 0
