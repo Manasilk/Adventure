@@ -37,6 +37,9 @@ scoreboard players operation #dbc.temp map_pos.z = @s rand
 #unless the conditions are met the aec is destroyed and this function is called again if the aec doesnt exist
 summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:'{"text":"AreaTriggerMapSpawnTarget"}',Age:0,Duration:1,WaitTime:0,CustomNameVisible:0b,Tags:["MAP_SPAWN_TARGET"]}
 execute as @e[type=#server:area_trigger,tag=MAP_SPAWN_TARGET,distance=0..1.501,sort=nearest,limit=1] at @s run function server:game/entity/area_trigger/get_map_target_position
+#TBA
+#spec case spawns put of bounds of range for (y+=1, (x,z)=(x+=1,z+=1)
+#execute as @e[type=#server:area_trigger,tag=MAP_SPAWN_TARGET,distance=0..1.501,sort=nearest,limit=1] at @s run function server:game/entity/area_trigger/get_map_target_position_spc
 execute unless entity @e[type=#server:area_trigger,tag=_h.pos_spawn_valid,distance=0..31.999,sort=nearest,limit=1] if score @s loop_iteration > #const NULL run function server:game/entity/area_trigger/get_map_spawn_position
 
 scoreboard players reset #dbc.temp entity_pos.x
