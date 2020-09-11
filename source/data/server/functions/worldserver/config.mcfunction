@@ -7,6 +7,7 @@ datapack disable vanilla
 gamerule keepInventory true
 gamerule naturalRegeneration true
 gamerule doLimitedCrafting true
+gamerule doImmediateRespawn false
 #
 # @CHAT
 gamerule showDeathMessages false
@@ -37,12 +38,15 @@ gamerule doFireTick true
 gamerule mobGriefing false
 gamerule maxEntityCramming 0
 gamerule randomTickSpeed 0
+gamerule forgiveDeadPlayers true
+gamerule universalAnger false
+gamerule doInsomnia true
 #
 # @WORLDBORDER
 worldborder set 15360 0
 worldborder damage buffer 0
 worldborder damage amount 200
-worldborder warning distance 0
+worldborder warning distance 12
 worldborder warning time 0
 #
 # @WORLDSPAWN
