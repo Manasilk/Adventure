@@ -1,5 +1,9 @@
+scoreboard players set @s[scores={set_gm=..0}] rbac_access 0
 scoreboard players set @s[scores={set_gm=1}] rbac_access 1
-scoreboard players set @s[scores={set_gm=-1}] rbac_access 0
+scoreboard players set @s[scores={set_gm=2}] rbac_access 2
+scoreboard players set @s[scores={set_gm=3}] rbac_access 3
+scoreboard players set @s[scores={set_gm=4}] rbac_access 4
+scoreboard players reset @s set_gm
 
 execute if score @s rbac_access matches 1.. run scoreboard players enable @s admin
-execute if score @s rbac_access matches 0 run function server:game/accounts/rbac/disable_commands
+execute if score @s rbac_access matches 0 run function server:game/accounts/character/clear_rbac_data
