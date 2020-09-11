@@ -67,6 +67,7 @@ scoreboard players enable @s played
 scoreboard players enable @s log
 scoreboard players enable @s help
 scoreboard players enable @s clear
+scoreboard players enable @s unstuck
 
 scoreboard players set @s rbac_access 0
 function server:game/chat/login
