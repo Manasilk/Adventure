@@ -5,6 +5,10 @@ scoreboard objectives add builder trigger
 scoreboard objectives add debug trigger
 scoreboard objectives add set_gm dummy
 scoreboard objectives add trim trigger
+scoreboard objectives add tplist trigger
+scoreboard objectives add tp_mapid dummy
+scoreboard objectives add tp_zoneid dummy
+scoreboard objectives add tp_areaid dummy
 
 scoreboard objectives add reset_quests trigger
 scoreboard objectives add reset_stats trigger
