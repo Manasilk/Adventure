@@ -2,7 +2,7 @@
 scoreboard players set #dbc.server tick_upd_t 0
 scoreboard players set #dbc.gc gc_upd_t 0
 
-#current version: 1976
+#current version: 2567
 scoreboard players set #dbc.server world_version 0
 scoreboard players set #dbc.server expansion 0
 
