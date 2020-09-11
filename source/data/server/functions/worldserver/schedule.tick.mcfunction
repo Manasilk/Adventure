@@ -40,3 +40,5 @@ execute if score #dbc.server tick_upd_t matches 0.. run function server:scripts/
 #
 # @TRIM
 execute as @a[limit=1] if score #dbc.server trim_stat = #bool true run function server:worldserver/load/trim_shared
+scoreboard players operation #dbc.server TEMP = #dbc.server world_version
+execute if score #dbc.server world_version = #dbc.server TEMP as @a[limit=1] run function server:worldserver/update_dataversion
