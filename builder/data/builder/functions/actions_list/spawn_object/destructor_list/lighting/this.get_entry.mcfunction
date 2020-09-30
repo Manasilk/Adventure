@@ -1,2 +1,0 @@
-execute if entity @s[scores={wb_gob_id=1}] run function builder:actions_list/spawn_object/destructor_list/lighting/street_lamp_small
-execute if entity @s[scores={wb_gob_id=2}] run function builder:actions_list/spawn_object/destructor_list/lighting/street_lamp_large

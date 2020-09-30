@@ -1,0 +1,1 @@
+execute if entity @s[type=#internal:area_trigger,tag=!AREA_TRIGGER_LINKED_TO,tag=!area_trigger.load_quest_info] run function internal:world/quests/quest_info

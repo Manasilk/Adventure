@@ -1,0 +1,1 @@
+execute as @e[type=#internal:area_trigger] at @s run function internal:world/entity/area_trigger/area_trigger_manager

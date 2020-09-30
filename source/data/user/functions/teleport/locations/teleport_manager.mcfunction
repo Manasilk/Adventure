@@ -1,0 +1,2 @@
+execute if score @s[tag=chat.update_chat_menu] chat.main_menu matches 0 run function user:teleport/locations/show_main_menu
+execute if score @s[tag=chat.update_chat_menu] chat.main_menu matches 1.. run function user:teleport/locations/show_sub_menu

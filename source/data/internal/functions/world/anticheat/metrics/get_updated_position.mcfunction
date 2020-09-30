@@ -1,0 +1,3 @@
+function internal:world/anticheat/metrics/set_max_falling_speed
+function internal:world/anticheat/metrics/get_player_position_old
+function internal:world/anticheat/metrics/get_player_position_new

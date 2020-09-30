@@ -1,0 +1,1 @@
+tag @s add chat.update_chat_menu

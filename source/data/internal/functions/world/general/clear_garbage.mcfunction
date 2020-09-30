@@ -1,0 +1,2 @@
+execute as @e[type=#internal:gc_entities,tag=!garbage.in_queue,tag=!ENTITY_FLAG_NO_DESPAWN] run function internal:world/general/garbage/queue_entity
+execute as @e[type=#internal:gc_entities,tag=garbage.in_queue] run function internal:world/general/garbage/check_age

@@ -1,1 +1,0 @@
-execute unless score #dbc.core _dbc.setup matches -1 unless score #dbc.core _dbc.setup matches 1 run function common:utilities/_setup

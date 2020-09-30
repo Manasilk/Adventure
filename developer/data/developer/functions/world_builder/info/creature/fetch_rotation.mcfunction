@@ -1,0 +1,2 @@
+scoreboard players operation @e[type=#internal:creature,tag=world_builder.update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb.rot_x = @s wb.rot_x
+scoreboard players operation @e[type=#internal:creature,tag=world_builder.update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb.rot_y = @s wb.rot_y

@@ -1,2 +1,0 @@
-scoreboard players operation @e[type=#server:creature,tag=_h.wb_update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb_rot.x = @s wb_rot.x
-scoreboard players operation @e[type=#server:creature,tag=_h.wb_update_npc,sort=nearest,limit=1,dx=0.20,dy=0.20,dz=0.20] wb_rot.y = @s wb_rot.y

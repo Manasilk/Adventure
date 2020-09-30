@@ -1,0 +1,2 @@
+execute if entity @s[scores={wb.gob_id=1}] run function developer:world_builder/actions/spawn_object/destructor_list/structure/pillager_outpost
+execute if entity @s[scores={wb.gob_id=2}] run function developer:world_builder/actions/spawn_object/destructor_list/structure/farmlands

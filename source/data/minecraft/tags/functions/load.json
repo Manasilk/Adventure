@@ -2,6 +2,6 @@
 	"_comment": "",
 	"values":
 	[
-		"server:worldserver/schedule.load"
+		"internal:scheduler/load"
 	]
 }

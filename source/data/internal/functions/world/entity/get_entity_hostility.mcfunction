@@ -1,0 +1,1 @@
+scoreboard players operation #temp entity_hostility = @s[type=#internal:creature] entity_hostility

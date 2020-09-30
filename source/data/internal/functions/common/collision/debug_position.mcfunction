@@ -1,0 +1,2 @@
+function internal:world/entity/get_entity_position
+tellraw @s [{"text":"XYZ: (","color":"yellow"},{"score":{"name":"#temp","objective":"entity.pos_x"},"color":"white"},{"text":","},{"score":{"name":"#temp","objective":"entity.pos_y"},"color":"white"},{"text":","},{"score":{"name":"#temp","objective":"entity.pos_z"},"color":"white"},{"text":")"}]

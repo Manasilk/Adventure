@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager,tag=conversation.send_menu] at @s run function internal:world/entity/conversation/conversation_mgr

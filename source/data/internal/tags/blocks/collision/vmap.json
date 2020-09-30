@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values":
+	[
+		"minecraft:structure_block",
+		
+		"#internal:air",
+		"#internal:fluids",
+		"#internal:foliage",
+		"#internal:carpets",
+		"#internal:portals",
+		"#internal:tile"
+	]
+}

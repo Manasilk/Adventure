@@ -1,2 +1,0 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"BuilderGameObjectAreaTrigger\"}",CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_EXTRA_OBJECT_BIND"]}
-execute as @e[type=#server:area_trigger,tag=!_e.initialized_data] at @s run function builder:actions_list/load_info/this.get_object_data

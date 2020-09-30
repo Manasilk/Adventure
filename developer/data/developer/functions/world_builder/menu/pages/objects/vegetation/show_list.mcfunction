@@ -1,0 +1,1 @@
+execute if score @s chat.page_crnt matches 0 run function developer:world_builder/menu/pages/objects/vegetation/page_0

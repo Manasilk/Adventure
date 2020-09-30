@@ -1,0 +1,2 @@
+execute if score @s chat.page_crnt matches 0 run function developer:world_builder/menu/pages/creatures/hostile/page_0
+execute if score @s chat.page_crnt matches 1 run function developer:world_builder/menu/pages/creatures/hostile/page_1

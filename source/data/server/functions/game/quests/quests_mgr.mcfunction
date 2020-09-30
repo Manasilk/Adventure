@@ -1,1 +1,0 @@
-execute if entity @s[type=#server:area_trigger,tag=!AREA_TRIGGER_LINKED_TO,tag=!_e.load_quest_info] run function server:game/quests/quest_info

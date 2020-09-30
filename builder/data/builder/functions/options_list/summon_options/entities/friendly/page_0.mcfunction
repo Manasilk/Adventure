@@ -1,5 +1,0 @@
-tellraw @s [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"translate":"builder_menu.entity.summon_option","color":"yellow"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.villager","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb_entity.id 11"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.wandering_trader","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb_entity.id 68"},"color":"white"},{"text":"]","color":"gold"}]
-tellraw @s [{"text":"[","color":"gold"},{"translate":"entity.trader_llama","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb_entity.id 69"},"color":"white"},{"text":"]","color":"gold"}]
-function builder:menu/show_page_scroll_list

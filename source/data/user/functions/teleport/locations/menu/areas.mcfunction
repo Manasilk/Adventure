@@ -1,0 +1,1 @@
+#tellraw @s {"translate":"chat.button","with":[{"translate":"zone.ZONENAME","clickEvent":{"action":"run_command","value":"/scoreboard players set @s tp_areaid AREAID"},"color":"white"}],"color":"gold"}

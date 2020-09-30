@@ -1,0 +1,79 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "BIOME_DEEP_LUKEWARM_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:deep_lukewarm_ocean"
+            }
+        },
+        "BIOME_DEEP_WARM_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:deep_warm_ocean"
+            }
+        },
+        "BIOME_DEEP_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:deep_ocean"
+            }
+        },
+        "BIOME_DEEP_COLD_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:deep_cold_ocean"
+            }
+        },
+        "BIOME_DEEP_FROZEN_OCEAN":
+		{
+            "trigger": "minecraft:location",
+			"conditions":
+			{
+				"biome": "minecraft:deep_frozen_ocean"
+            }
+        }
+    },
+	"requirements":
+	[
+		[
+			"BIOME_DEEP_LUKEWARM_OCEAN",
+			"BIOME_DEEP_WARM_OCEAN",
+			"BIOME_DEEP_OCEAN",
+			"BIOME_DEEP_COLD_OCEAN",
+			"BIOME_DEEP_FROZEN_OCEAN"
+		]
+	],
+    "rewards":
+	{
+        "function": "internal:world/entity/player/set_fatigue_flag"
+    }
+}

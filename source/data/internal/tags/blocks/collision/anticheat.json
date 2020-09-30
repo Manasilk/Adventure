@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values":
+	[	
+		"#internal:air",
+		"#internal:fluids",
+		"#internal:foliage",
+		"#internal:portals",
+		"#internal:carpets",
+		"#internal:tile",
+		"#internal:tile_block"
+	]
+}

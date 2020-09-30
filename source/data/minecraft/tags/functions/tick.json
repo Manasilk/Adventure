@@ -1,7 +1,7 @@
 {
-	"_comment": "Runtime",
+	"_comment": "",
 	"values":
 	[
-		"server:worldserver/schedule.tick"
+		"internal:scheduler/tick"
 	]
 }

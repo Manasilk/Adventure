@@ -1,1 +1,0 @@
-data modify entity @s[type=minecraft:pillager,tag=npc_pillager] HandItems[0] set value {id:"minecraft:crossbow",Count:1b}

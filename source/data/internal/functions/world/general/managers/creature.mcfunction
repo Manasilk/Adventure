@@ -1,0 +1,1 @@
+execute as @e[type=#internal:creature,type=!#internal:npc_underwater] at @s run function internal:world/entity/creature/creature_manager

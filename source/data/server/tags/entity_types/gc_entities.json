@@ -1,8 +1,0 @@
-{
-	"_comment": "Garbage Entities",
-	"values":
-	[
-		"minecraft:item",
-		"#server:projectiles"
-	]
-}

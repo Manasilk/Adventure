@@ -1,1 +1,0 @@
-execute as @a[tag=SHOW_LOG] at @s run function server:game/combat/combat_log

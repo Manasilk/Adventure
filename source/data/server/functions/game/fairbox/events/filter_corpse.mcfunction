@@ -1,2 +1,0 @@
-execute if entity @s[tag=FB_FLAG_PLAYER_IGNORE,tag=SPELL_AURA_GHOST,scores={_FB._T.Update=5}] run function server:game/fairbox/events/remove_flag_ignore_player
-execute if entity @s[tag=rbac.commands,tag=SPELL_AURA_GHOST,scores={_FB._T.Update=-1}] run function server:game/fairbox/events/remove_flag_ignore_player

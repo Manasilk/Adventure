@@ -1,0 +1,2 @@
+execute if score @s[tag=QUEST_OBJECTIVE_MONSTER] entity_tick = #world cfg.resp_tar_t run function internal:world/entity/area_trigger/get_quest_creature_spawn
+execute if score @s[tag=QUEST_OBJECTIVE_ITEM] entity_tick = #world cfg.resp_tar_t run function internal:world/entity/area_trigger/get_quest_item_spawn

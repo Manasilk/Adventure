@@ -1,0 +1,53 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": "DAMAGED_ENTITY"
+        },
+        "description":
+		{
+            "text": "ZOMBIE"
+        },
+        "icon":
+		{
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+		"DAMAGED_ZOMBIE":
+		{
+            "trigger": "minecraft:player_hurt_entity",
+			"conditions":
+			{
+				"damage":
+				{
+					"dealt":
+					{
+						"min": 0.0
+					}
+				},
+				"entity":
+				{
+					"type": "minecraft:zombie"
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"DAMAGED_ZOMBIE"
+		]
+	],
+    "rewards":
+	{
+        "function": "internal:world/combat/combat_log/log_events/damaged/zombie"
+    }
+}

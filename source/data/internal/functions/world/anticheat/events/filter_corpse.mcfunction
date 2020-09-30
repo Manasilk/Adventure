@@ -1,0 +1,2 @@
+execute if entity @s[tag=ANTICHEAT_FLAG_PLAYER_IGNORE,tag=SPELL_AURA_GHOST,scores={anticheat_tick=5}] run function internal:world/fairbox/events/remove_flag_ignore_player
+execute if entity @s[tag=account.commands,tag=SPELL_AURA_GHOST,scores={anticheat_tick=-1}] run function internal:world/fairbox/events/remove_flag_ignore_player

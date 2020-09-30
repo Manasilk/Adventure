@@ -1,0 +1,1 @@
+execute if entity @s[tag=TEXT_10] run function internal:world/texts/text_10

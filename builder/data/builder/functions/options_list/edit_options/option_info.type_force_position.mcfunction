@@ -1,1 +1,0 @@
-tellraw @s [{"text":"[","color":"gold"},{"translate":"event_type.update_position","clickEvent":{"action":"run_command","value":"/scoreboard players set @s wb_option_id 12"},"hoverEvent":{"action":"show_text","value":[{"translate":"builder_desc.edit_option.update_position"}]},"color":"white"},{"text":"]","color":"gold"}]

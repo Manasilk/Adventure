@@ -1,1 +1,0 @@
-execute store result score #dbc.server world_version run data get entity @s DataVersion 1

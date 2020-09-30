@@ -1,0 +1,2 @@
+tellraw @a[tag=conversation.stop,distance=0..5.299] {"translate":"event_type.quest_accepted","with":[{"translate":"quest.title.repair_the_walls"}],"color":"yellow"}
+tellraw @a[tag=conversation.stop,distance=0..5.299] {"translate":"quest.start_chat","with":[{"selector":"@s"},{"translate":"quest.text.repair_the_walls"}]}

@@ -1,0 +1,53 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": "DAMAGED_BY_SOURCE"
+        },
+        "description":
+		{
+            "text": "STARVATION"
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "DAMAGED_BY_STARVATION":
+		{
+            "trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"taken":
+					{
+						"min": 0.1
+					},
+					"type":
+					{
+						"bypasses_magic": true
+					}
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"DAMAGED_BY_STARVATION"
+		]
+	],
+    "rewards":
+	{
+        "function": "internal:world/combat/combat_log/log_events/damaged_by/generic/get_starvation_damage"
+    }
+}

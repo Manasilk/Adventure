@@ -1,0 +1,45 @@
+{
+	"_comment": "Ignored Entities",
+	"values":
+	[
+		"minecraft:player",
+		
+		"minecraft:area_effect_cloud",
+		"minecraft:armor_stand",
+
+		"minecraft:experience_orb",
+		"minecraft:experience_bottle",
+		"minecraft:tnt",
+		"minecraft:potion",
+		"minecraft:item",
+		"minecraft:item_frame",
+		"minecraft:leash_knot",
+		"minecraft:painting",
+		"minecraft:minecart",
+		"minecraft:tnt_minecart",
+		"minecraft:chest_minecart",
+		"minecraft:furnace_minecart",
+		"minecraft:spawner_minecart",
+		"minecraft:hopper_minecart",
+		"minecraft:command_block_minecart",
+		"minecraft:firework_rocket",
+		"minecraft:fishing_bobber",
+		"minecraft:lightning_bolt",
+		"minecraft:egg",
+		"minecraft:shulker_bullet",
+		"minecraft:snowball",
+		"minecraft:fireball",
+		"minecraft:small_fireball",
+		"minecraft:arrow",
+		"minecraft:spectral_arrow",
+		"minecraft:trident",
+		"minecraft:boat",
+		"minecraft:llama_spit",
+		"minecraft:wither_skull",
+		"minecraft:eye_of_ender",
+		"minecraft:evoker_fangs",
+		"minecraft:ender_pearl",
+		
+		"#internal:npc_underwater"
+	]
+}

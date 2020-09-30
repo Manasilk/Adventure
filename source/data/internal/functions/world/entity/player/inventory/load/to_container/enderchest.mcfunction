@@ -1,0 +1,1 @@
+data modify block 0 0 0 Items set from storage account.character:inventory enderchest

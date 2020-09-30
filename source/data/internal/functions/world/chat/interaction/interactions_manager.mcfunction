@@ -1,0 +1,2 @@
+execute if score @s chat.right_mouse matches 1.. run function internal:world/chat/interaction/right_mouse
+execute if score @s chat.return matches 1.. run function internal:world/chat/interaction/return

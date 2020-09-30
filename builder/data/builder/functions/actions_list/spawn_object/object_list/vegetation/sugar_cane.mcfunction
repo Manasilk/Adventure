@@ -1,2 +1,0 @@
-execute unless score @s wb_biome_id = #dbc.enum BIOME_TUNDRA run tag @s add _e.error_biome_mismatch
-execute unless entity @s[tag=_e.error_biome_mismatch] run setblock ~ ~ ~ minecraft:sugar_cane replace

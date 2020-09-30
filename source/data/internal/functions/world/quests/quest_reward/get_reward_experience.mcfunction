@@ -1,0 +1,2 @@
+tellraw @s[scores={exp_reward=1..}] {"translate":"event_type.experience_gained","with":[{"score":{"name":"@s","objective":"exp_reward"}}],"color":"yellow"}
+function internal:world/miscellaneous/get_quest_reward_experience

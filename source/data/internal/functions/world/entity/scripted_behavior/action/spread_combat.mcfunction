@@ -1,0 +1,2 @@
+tag @a[tag=!SPELL_AURA_INVISIBILITY,tag=!SPELL_AURA_GHOST,tag=!ENTITY_FLAG_IN_COMBAT,distance=0..11.999] add ENTITY_FLAG_IN_COMBAT
+execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT] if entity @a[tag=ENTITY_FLAG_IN_COMBAT,distance=0..11.999] run function internal:world/entity/scripted_behavior/action/enter_combat

@@ -1,1 +1,0 @@
-execute as @a at @s run function server:game/fairbox/fairbox_mgr

@@ -1,0 +1,2 @@
+execute as @e[type=#internal:area_trigger,tag=MOVEMENTGENERATOR_MOTION] at @s run function internal:world/movement/motion_master
+execute as @e[type=#internal:creature,tag=MOVEMENTGENERATOR_MOTION] at @s run function internal:world/movement/motion_master

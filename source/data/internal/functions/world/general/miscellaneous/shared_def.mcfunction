@@ -1,0 +1,2 @@
+function internal:world/general/miscellaneous/set_level_limit
+function internal:world/general/miscellaneous/get_seed

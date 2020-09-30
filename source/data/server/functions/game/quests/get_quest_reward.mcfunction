@@ -1,1 +1,0 @@
-tag @s[tag=_e.get_quest_reward,scores={TEMP=1000}] add QUEST_REWARD_1000tag @s[tag=_e.get_quest_reward,scores={TEMP=1001}] add QUEST_REWARD_1001tag @s[tag=_e.get_quest_reward,scores={TEMP=1002}] add QUEST_REWARD_1002tag @s[tag=_e.get_quest_reward,scores={TEMP=1003}] add QUEST_REWARD_1003execute at @s run function server:game/quests/quest_event/objective_complete

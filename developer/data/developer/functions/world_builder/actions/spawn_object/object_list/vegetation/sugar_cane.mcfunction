@@ -1,0 +1,2 @@
+execute unless score @s wb.biome_id = #preset BIOME_TUNDRA run tag @s add messages.error.invalid_biome
+execute unless entity @s[tag=messages.error.invalid_biome] run setblock ~ ~ ~ minecraft:sugar_cane replace

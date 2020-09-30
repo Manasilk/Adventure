@@ -1,0 +1,2 @@
+tag @e[type=#internal:area_trigger,tag=ENTITY_FLAG_EXTRA_OBJECT_BIND,distance=0..3.0,sort=nearest,limit=1] add world_builder.despawn_gob
+execute if entity @e[type=#internal:area_trigger,tag=world_builder.despawn_gob,distance=0..3.0,sort=nearest,limit=1] run scoreboard players set @s has_collided 1

@@ -1,1 +1,0 @@
-scoreboard objectives add gc_age dummy {"translate":"dbc.gc.age"}

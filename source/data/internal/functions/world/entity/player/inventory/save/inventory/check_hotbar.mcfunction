@@ -1,0 +1,1 @@
+execute if score #player.inventory_slot_count TEMP matches 1.. if score #player.inventory_slot phitemp matches 0..8 run function internal:world/entity/player/inventory/save/inventory/found_hotbar

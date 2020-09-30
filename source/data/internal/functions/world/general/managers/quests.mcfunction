@@ -1,0 +1,1 @@
+execute as @e[type=#internal:area_trigger,tag=ENTITY_FLAG_QUEST_TRIGGER] at @s run function internal:world/quests/quests_manager

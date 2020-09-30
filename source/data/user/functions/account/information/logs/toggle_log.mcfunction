@@ -1,0 +1,2 @@
+execute unless entity @s[tag=player.combat_log_toggled,scores={log=1..}] run function user:account/information/logs/show_log
+execute if entity @s[tag=player.combat_log_toggled,scores={log=1..}] run function user:account/information/logs/hide_log

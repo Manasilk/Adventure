@@ -1,2 +1,0 @@
-execute if score @s[tag=QUEST_OBJECTIVE_MONSTER] entity_upd_t = #dbc.server cfg.resp_tar_t run function server:game/entity/area_trigger/get_quest_creature_spawn
-execute if score @s[tag=QUEST_OBJECTIVE_ITEM] entity_upd_t = #dbc.server cfg.resp_tar_t run function server:game/entity/area_trigger/get_quest_item_spawn

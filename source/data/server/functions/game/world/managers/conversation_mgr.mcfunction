@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:villager,tag=_e.send_convo_menu] at @s run function server:game/entity/conversation/conversation_mgr

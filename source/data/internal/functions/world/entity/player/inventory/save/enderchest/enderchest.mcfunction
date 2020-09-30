@@ -1,0 +1,1 @@
+data modify storage account.character:inventory enderchest set from entity @s EnderItems

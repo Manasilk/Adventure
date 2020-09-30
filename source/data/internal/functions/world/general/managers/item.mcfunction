@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item] at @s run function internal:world/entity/item/item_manager

@@ -1,0 +1,1 @@
+execute as @a[tag=player.combat_log_toggled] at @s run function internal:world/combat/combat_log

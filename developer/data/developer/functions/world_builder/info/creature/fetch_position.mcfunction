@@ -1,0 +1,3 @@
+scoreboard players operation @e[type=#internal:creature,tag=world_builder.update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] wb.pos_x = @s wb.pos_x
+scoreboard players operation @e[type=#internal:creature,tag=world_builder.update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] wb.pos_y = @s wb.pos_y
+scoreboard players operation @e[type=#internal:creature,tag=world_builder.update_npc,dx=-0.2,dy=0.2,dz=0.2,sort=nearest,limit=1] wb.pos_z = @s wb.pos_z

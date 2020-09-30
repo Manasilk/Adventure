@@ -1,1 +1,0 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'{"text":"FIRE"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomNameVisible:0b,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER"]}

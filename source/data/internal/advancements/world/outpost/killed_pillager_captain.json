@@ -1,0 +1,46 @@
+{
+    "display":
+	{
+        "title":
+		{
+            "text": ""
+        },
+        "description":
+		{
+            "text": ""
+        },
+        "icon":
+		{
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria":
+	{
+        "EVENT_KILL_PILLAGER_CAPTAIN":
+		{
+            "trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				{
+					"nbt": "{Tags:[\"ENTITY_FLAG_PILLAGER_CAPTAIN\"]}"
+				}
+			}
+        }
+    },
+	"requirements":
+	[
+		[
+			"EVENT_KILL_PILLAGER_CAPTAIN"
+		]
+	],
+    "rewards":
+	{
+		"function": "internal:world/spells/trigger/spell_endanger"
+    }
+}

@@ -1,0 +1,1 @@
+execute if entity @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..3.999] run function internal:world/entity/area_trigger/get_linked_area_trigger

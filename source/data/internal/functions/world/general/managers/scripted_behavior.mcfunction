@@ -1,0 +1,1 @@
+execute as @e[type=#internal:creature] at @s run function internal:world/entity/scripted_behavior/behavior_manager

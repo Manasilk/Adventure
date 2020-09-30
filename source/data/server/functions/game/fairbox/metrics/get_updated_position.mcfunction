@@ -1,3 +1,0 @@
-function server:game/fairbox/metrics/get_player_falling
-function server:game/fairbox/metrics/get_player_position_old
-function server:game/fairbox/metrics/get_player_position_new

@@ -1,0 +1,3 @@
+tellraw @a[tag=conversation.stop,distance=0..5.299] {"translate":"quest.end_chat","with":[{"selector":"@s"},{"translate":"quest.text.interrogation"}]}
+tellraw @a[tag=conversation.stop,distance=0..5.299] {"translate":"event_type.quest_complete","with":[{"translate":"quest.title.interrogation"}],"color":"yellow"}
+clear @a[tag=conversation.stop,distance=0..5.299] minecraft:paper{quest_journal:1b,quest_id:1001}
