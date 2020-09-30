@@ -13,5 +13,3 @@ scoreboard objectives add cast_timer_max dummy {"translate":"dbc.spells.cast_tim
 scoreboard objectives add disorient_t dummy
 scoreboard objectives add pacify_t dummy
 scoreboard objectives add silence_t dummy
-
-scoreboard objectives add _h.spell_rmb minecraft.used:minecraft.carrot_on_a_stick
