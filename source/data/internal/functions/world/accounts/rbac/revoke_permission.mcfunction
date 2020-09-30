@@ -13,9 +13,9 @@ tag @s[tag=account.builder,scores={player_builder=1}] remove account.builder
 execute if score @s[tag=!account.builder] player_builder matches 1 run function developer:world_builder/clear_tool
 execute if score @s[tag=!account.builder] player_builder matches 1 run function developer:world_builder/info/player/flush_builder_data
 
-tellraw @s[scores={player_commands=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"account.perm_type.commands"}],"color":"yellow"}
-tellraw @s[scores={player_debugging=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"account.perm_type.debugging"}],"color":"yellow"}
-tellraw @s[scores={player_builder=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"account.perm_type.builder"}],"color":"yellow"}
+tellraw @s[scores={player_commands=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.commands"}],"color":"yellow"}
+tellraw @s[scores={player_debugging=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.debugging"}],"color":"yellow"}
+tellraw @s[scores={player_builder=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.builder"}],"color":"yellow"}
 scoreboard players set @s[scores={player_commands=1}] player_commands 0
 scoreboard players set @s[scores={player_debugging=1}] player_debugging 0
 scoreboard players set @s[scores={player_builder=1}] player_builder 0

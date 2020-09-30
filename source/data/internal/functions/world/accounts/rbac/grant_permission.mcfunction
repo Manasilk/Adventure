@@ -9,9 +9,9 @@ execute if entity @s[tag=account.builder] run function developer:world_builder/p
 #debugging
 tag @s[tag=account.commands,tag=!account.debugging,scores={player_debugging=1}] add account.debugging
 
-tellraw @s[scores={player_commands=1}] {"translate":"event_type.grant_permission","with":[{"translate":"account.perm_type.commands"}],"color":"yellow"}
-tellraw @s[scores={player_debugging=1}] {"translate":"event_type.grant_permission","with":[{"translate":"account.perm_type.debugging"}],"color":"yellow"}
-tellraw @s[scores={player_builder=1}] {"translate":"event_type.grant_permission","with":[{"translate":"account.perm_type.builder"}],"color":"yellow"}
+tellraw @s[scores={player_commands=1}] {"translate":"event_type.grant_permission","with":[{"translate":"rbac.perm_type.commands"}],"color":"yellow"}
+tellraw @s[scores={player_debugging=1}] {"translate":"event_type.grant_permission","with":[{"translate":"rbac.perm_type.debugging"}],"color":"yellow"}
+tellraw @s[scores={player_builder=1}] {"translate":"event_type.grant_permission","with":[{"translate":"rbac.perm_type.builder"}],"color":"yellow"}
 scoreboard players set @s[scores={player_commands=1}] player_commands 0
 scoreboard players set @s[scores={player_debugging=1}] player_debugging 0
 scoreboard players set @s[scores={player_builder=1}] player_builder 0
