@@ -2,12 +2,10 @@ scoreboard objectives add wb.class_id dummy {"translate":"dbc.builder.class_id"}
 scoreboard objectives add SHOW_INFO dummy
 
 #CREATURE, OBJECT, INFO
-scoreboard objectives add wb.class_type dummy {"translate":"dbc.builder.class_type"}
+scoreboard objectives add wb.type_id dummy {"translate":"dbc.builder.class_type"}
 #EDIT, SUMMON, DESPAWN
 scoreboard objectives add wb.option_id dummy {"translate":"dbc.builder.option_id"}
 
-scoreboard objectives add wb.page_cur dummy {"translate":"dbc.builder.page_cur"}
-scoreboard objectives add wb.page_last dummy {"translate":"dbc.builder.page_last"}
 scoreboard objectives add wb.npc_type dummy {"translate":"dbc.builder.npc_type"}
 scoreboard objectives add wb.gob_type dummy {"translate":"dbc.builder.gob_type"}
 scoreboard objectives add wb.npc_id dummy {"translate":"dbc.builder.npc_id"}
@@ -26,11 +24,11 @@ scoreboard objectives add BIOME_SAVANNAH dummy {"text":"wb.biome_id = 9"}
 scoreboard objectives add BIOME_NETHER dummy {"text":"wb.biome_id = 10"}
 scoreboard objectives add BIOME_VOID dummy {"text":"wb.biome_id = 11"}
 
-scoreboard objectives add wb.pos.x dummy {"translate":"dbc.builder.pos_x"}
-scoreboard objectives add wb.pos.y dummy {"translate":"dbc.builder.pos_y"}
-scoreboard objectives add wb.pos.z dummy {"translate":"dbc.builder.pos_z"}
-scoreboard objectives add wb.rot.y dummy {"translate":"dbc.builder.rot_x"}
-scoreboard objectives add wb.rot.x dummy {"translate":"dbc.builder.rot_y"}
+scoreboard objectives add wb.pos_x dummy {"translate":"dbc.builder.pos_x"}
+scoreboard objectives add wb.pos_y dummy {"translate":"dbc.builder.pos_y"}
+scoreboard objectives add wb.pos_z dummy {"translate":"dbc.builder.pos_z"}
+scoreboard objectives add wb.rot_y dummy {"translate":"dbc.builder.rot_x"}
+scoreboard objectives add wb.rot_x dummy {"translate":"dbc.builder.rot_y"}
 
 scoreboard objectives add start.x dummy {"translate":"dbc.builder.start_x"}
 scoreboard objectives add start.y dummy {"translate":"dbc.builder.start_y"}
