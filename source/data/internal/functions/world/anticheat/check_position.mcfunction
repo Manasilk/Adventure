@@ -17,5 +17,5 @@ execute if score @s anticheat_tick matches 5 run function internal:world/antiche
 #Revoke any priviliges granted to dead players upon respawn
 execute as @e[type=minecraft:player,tag=SPELL_AURA_GHOST] run function internal:world/anticheat/events/filter_corpse
 
-scoreboard players add @s[tag=!account.commands,tag=!SPELL_AURA_GHOST,tag=FB_FLAG_PLAYER_IGNORE] _ac.remflag_tick 1
+scoreboard players add @s[tag=!account.commands,tag=!SPELL_AURA_GHOST,tag=ANTICHEAT_FLAG_PLAYER_IGNORE] _ac.remflag_tick 1
 execute if score @s _ac.remflag_tick matches 200.. run function internal:world/anticheat/events/remove_flag_ignore_player
