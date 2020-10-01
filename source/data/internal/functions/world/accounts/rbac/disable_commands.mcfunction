@@ -1,3 +1,6 @@
+#Re-enable for legitimate accounts
+scoreboard players enable @s[scores={rbac_access=1}] admin
+
 scoreboard players set @s player_commands 1
 scoreboard players set @s[tag=account.debugging] player_debugging 1
 scoreboard players set @s[tag=account.builder] player_builder 1
