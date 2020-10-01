@@ -1,7 +1,7 @@
 #commands
 tag @s[tag=account.commands,scores={player_commands=1}] remove account.commands
 execute if entity @s[tag=!account.commands] run function internal:world/anticheat/metrics/get_updated_position
-scoreboard players set @s[tag=!account.commands,scores={_ac.remflag_tick=-1..199}] _ac.remflag_tick 200
+scoreboard players set @s[tag=!account.commands] _ac.remflag_tick 200
 execute if entity @s[tag=!account.commands] run function internal:world/accounts/rbac/disable_commands
 tag @s[tag=!account.commands,tag=chat.debug_tooltip] remove chat.debug_tooltip
 
