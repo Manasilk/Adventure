@@ -1,0 +1,1 @@
+execute unless block 0 0 0 minecraft:shulker_box run setblock 0 0 0 minecraft:shulker_box replace

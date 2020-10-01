@@ -19,7 +19,8 @@ function internal:configuration/setup/scoreboards/world
 function internal:configuration/setup/scoreboards/compute
 function internal:configuration/setup/scoreboards/preset
 function internal:configuration/setup/scoreboards/entity
-function internal:configuration/setup/entities
+function internal:configuration/setup/dimensions
+function internal:configuration/setup/miscellaneous/world_storage
 
 
 #Update world configuration

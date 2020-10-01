@@ -1,0 +1,1 @@
+data modify storage internal:world buildname set value '{"translate":"build.uprising"}'
