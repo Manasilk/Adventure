@@ -3,7 +3,6 @@ tag @s remove account.commands
 function internal:world/anticheat/metrics/get_updated_position
 scoreboard players set @s _ac.remflag_tick 200
 function internal:world/accounts/rbac/disable_commands
-tag @s remove chat.debug_tooltip
 
 #debugging
 tag @s remove account.debugging
