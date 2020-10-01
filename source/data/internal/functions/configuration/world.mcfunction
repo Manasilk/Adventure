@@ -22,6 +22,9 @@ scoreboard players set #world cfg.elite_t 300
 scoreboard players set #world cfg.boss_t 600
 #in ticks for quests
 scoreboard players set #world cfg.quest_t 600
+#in seconds for garbage (timers higher than default are redundant)
+scoreboard players set #world cfg.prjctl_age 30
+scoreboard players set #world cfg.item_age 60
 #
 # @PICKUP
 gamerule doMobLoot true

@@ -30,8 +30,9 @@ scoreboard objectives add cfg.boss_t dummy {"translate":"dbc.server.boss_spawn_t
 scoreboard objectives add cfg.elite_t dummy {"translate":"dbc.server.elite_spawn_t"}
 scoreboard objectives add cfg.normal_t dummy {"translate":"dbc.server.normal_spawn_t"}
 scoreboard objectives add cfg.quest_t dummy {"translate":"dbc.server.quest_t"}
-scoreboard objectives add cfg.prjctl_age dummy {"translate":"dbc.server.quest_t"}
-scoreboard objectives add cfg.item_age dummy {"translate":"dbc.server.quest_t"}
+scoreboard objectives add cfg.prjctl_age dummy {"translate":"dbc.server.projectile_t"}
+scoreboard objectives add cfg.item_age dummy {"translate":"dbc.server.item_t"}
+scoreboard objectives add garbage_age dummy {"translate":"dbc.server.garbage_age"}
 
 scoreboard objectives add expansion dummy  {"translate":"dbc.server.expansion"}
 scoreboard objectives add CLASSIC dummy
