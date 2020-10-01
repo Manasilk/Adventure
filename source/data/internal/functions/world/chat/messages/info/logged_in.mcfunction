@@ -1,6 +1,6 @@
 execute if score #world world_version matches 0 run function internal:configuration/dataver
 
-tellraw @s {"translate":"server.login_msg","with":[{"score":{"name":"#world","objective":"build_version"}},{"score":{"name":"#world","objective":"build_update"}},{"score":{"name":"#world","objective":"build_hotfix"}},{"selector":"@e[type=#internal:area_trigger,tag=BUILD_CODENAME]"}],"color":"yellow"}
+tellraw @s {"translate":"server.login_msg","with":[{"score":{"name":"#world","objective":"build_version"}},{"score":{"name":"#world","objective":"build_update"}},{"score":{"name":"#world","objective":"build_hotfix"}},{"nbt":"buildname","storage":"internal:world","interpret":true}],"color":"yellow"}
 tellraw @s {"translate":"server.readme_msg","with":[{"text":"https://github.com/srQianna/StoneCore","clickEvent":{"action":"open_url","value":"https://github.com/srQianna/StoneCore"},"color":"white","underlined":true}],"color":"yellow"}
 tellraw @s[tag=account.debugging] {"translate":"server.build_info","with":[{"score":{"name":"#world","objective":"build_revision"}},{"score":{"name":"#world","objective":"build_pd_d"}},{"score":{"name":"#world","objective":"build_pd_m"}},{"score":{"name":"#world","objective":"build_pd_y"}},{"score":{"name":"#world","objective":"world_version"},"color":"green"}],"color":"yellow"}
 
