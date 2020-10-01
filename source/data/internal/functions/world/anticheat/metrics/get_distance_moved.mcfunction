@@ -15,12 +15,10 @@ function internal:world/general/compute/sqrt
 scoreboard players operation @s distance = #MATH result
 scoreboard players reset #MATH result
 
-function internal:world/anticheat/info/show_debug_info
-
 #These functions are used to detect teleporting by comparing:
 # if position difference is more than maximum allowed distance
 # unless the player has already been flagged
-execute if score @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=!ANTICHEAT_FLAG_PLAYER_TELEPORT] distance > @s _ac.dist_limit run tag @s add ANTICHEAT_FLAG_PLAYER_TELEPORT
+execute if score @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=!ANTICHEAT_FLAG_PLAYER_TELEPORT] distance > @s _ac.dist_lim run tag @s add ANTICHEAT_FLAG_PLAYER_TELEPORT
 
 #These functions are used to detect when to revoke the player's privilege to teleports, such as in cases
 # with respawning or using an ender pearl, where in both cases the players teleports to a certain position
