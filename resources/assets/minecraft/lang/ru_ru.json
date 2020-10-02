@@ -331,7 +331,6 @@
 	
 	
 	
-	
 	"recipe.saddle": "Седло",
 	"recipe.nametag": "Именная табличка",
 	"item.assist_tool": "Инструмент Редактирования",
@@ -411,6 +410,55 @@
 	"entity.zombie": "Зомби",
 	"entity.zombie_pigman": "Свинозомби",
 	"entity.zombie_villager": "Зомби-крестьянин",
+	"entity.hoglin": "Hoglin",
+	"entity.zoglin": "Zoglin",
+	"entity.piglin": "Piglin",
+	"entity.piglin_brute": "Piglin Brute",
+	"entity.strider": "Strider",
+	
+	
+	
+	"advancement.title.personal": "Личное",
+	"advancement.description.personal": "Выполните все нижеперечисленные достижения:\n\n- Выполнено 25 заданий\n- Присоединиться к войскам\n- Максимальный уровень",
+	
+	"advancement.title.complete_quests_25": "Выполнено 25 заданий",
+	"advancement.description.complete_quests_25": "Выполните 25 заданий.",
+	"advancement.title.complete_quests_100": "Выполнено 100 заданий",
+	"advancement.description.complete_quests_100": "Выполните 100 заданий.",
+	"advancement.title.complete_quests_250": "Выполнено 250 заданий",
+	"advancement.description.complete_quests_250": "Выполните 250 заданий.",
+	"advancement.title.complete_quests_500": "Выполнено 500 заданий",
+	"advancement.description.complete_quests_500": "Выполните 500 заданий.",
+	
+	"advancement.title.join_the_forces": "Присоединиться к войскам",
+	"advancement.description.join_the_forces": "Начните сюжетную линию Военной Кампании.",
+
+	"advancement.title.level_10": "10-й уровень",
+	"advancement.description.level_10": "Достигните 10-го уровня.",
+	"advancement.title.level_20": "20-й уровень",
+	"advancement.description.level_20": "Достигните 20-го уровня.",
+	"advancement.title.level_30": "30-й уровень",
+	"advancement.description.level_30": "Достигните 30-го уровня.",
+	"advancement.title.level_40": "40-й уровень",
+	"advancement.description.level_40": "Достигните 40-го уровня.",
+	"advancement.title.level_50": "50-й уровень",
+	"advancement.description.level_50": "Достигните 50-го уровня.",
+	"advancement.title.level_60": "60-й уровень",
+	"advancement.description.level_60": "Достигните 60-го уровня.",
+	"advancement.title.realmfirst_level_60": "Первый на сервере! 60-й уровень",
+	"advancement.description.realmfirst_level_60": "Достигните 60-го уровня первым на сервере.",
+	
+	"advancement.title.loremaster_of_wintersong": "Хранитель мудрости: Лес Зимней Песни",
+	"advancement.description.loremaster_of_wintersong": "Пройдите указанные ниже этапы развития сюжета:\n\n- Задание_0\n- Задание_1",
+	"advancement.title.loremaster_of_redridge_canyon": "Хранитель мудрости: Каньон Красногорья",
+	"advancement.description.loremaster_of_redridge_canyon": "Пройдите указанные ниже этапы развития сюжета:\n\n- Задание_0\n- Задание_1",
+	"advancement.title.loremaster_of_shalandri_basin": "Хранитель мудрости: Нагорье Шаландри",
+	"advancement.description.loremaster_of_shalandri_basin": "Пройдите указанные ниже этапы развития сюжета:\n\n- Задание_0\n- Задание_1",
+	"advancement.title.loremaster_of_wastelands": "Хранитель мудрости: Пустоши",
+	"advancement.description.loremaster_of_wastelands": "Пройдите указанные ниже этапы развития сюжета:\n\n- Задание_0\n- Задание_1",
+	
+	"advancement.title.loremaster": "Хранитель мудрости",
+	"advancement.description.loremaster": "Добейтесь указанных ниже достижений:\n\n- Хранитель мудрости: Лес Зимней Песни\n- Хранитель мудрости: Каньон Красногорья\n- Хранитель мудрости: Нагорье Шаландри\n- Хранитель мудрости: Пустоши"
 	
 	
 	

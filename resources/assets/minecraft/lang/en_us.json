@@ -409,6 +409,55 @@
 	"entity.zombie": "Zombie",
 	"entity.zombie_pigman": "Zombie Pigman",
 	"entity.zombie_villager": "Zombie Villager",
+	"entity.hoglin": "Хоглин",
+	"entity.zoglin": "Зоглин",
+	"entity.piglin": "Пиглин",
+	"entity.piglin_brute": "Жестокий Пиглин",
+	"entity.strider": "Страйдер",
+	
+	
+	
+	"advancement.title.personal": "Personal",
+	"advancement.description.personal": "Complete the advancements listed below:\n\n-25 Quests Completed\n-Join the Forces\n-Highest Level",
+	
+	"advancement.title.complete_quests_25": "25 Quests Completed",
+	"advancement.description.complete_quests_25": "Complete 25 quests.",
+	"advancement.title.complete_quests_100": "100 Quests Completed",
+	"advancement.description.complete_quests_100": "Complete 100 quests.",
+	"advancement.title.complete_quests_250": "250 Quests Completed",
+	"advancement.description.complete_quests_250": "Complete 250 quests.",
+	"advancement.title.complete_quests_500": "500 Quests Completed",
+	"advancement.description.complete_quests_500": "Complete 500 quests.",
+	
+	"advancement.title.join_the_forces": "Join the Forces",
+	"advancement.description.join_the_forces": "Begin the War Campaign storyline",
+
+	"advancement.title.level_10": "Level 10",
+	"advancement.description.level_10": "Reach level 10.",
+	"advancement.title.level_20": "Level 20",
+	"advancement.description.level_20": "Reach level 20.",
+	"advancement.title.level_30": "Level 30",
+	"advancement.description.level_30": "Reach level 30.",
+	"advancement.title.level_40": "Level 40",
+	"advancement.description.level_40": "Reach level 40.",
+	"advancement.title.level_50": "Level 50",
+	"advancement.description.level_50": "Reach level 50.",
+	"advancement.title.level_60": "Level 60",
+	"advancement.description.level_60": "Reach level 60.",
+	"advancement.title.realmfirst_level_60": "Realm First! Level 60",
+	"advancement.description.realmfirst_level_60": "First person on the realm to achieve level 60.",
+	
+	"advancement.title.loremaster_of_wintersong": "Loremaster: Wintersong Forest",
+	"advancement.description.loremaster_of_wintersong": "Complete the Wintersong Forest storylines listed below:\n\n- Quest_0\n- Quest_1",
+	"advancement.title.loremaster_of_redridge_canyon": "Loremaster: Redridge Canyon",
+	"advancement.description.loremaster_of_redridge_canyon": "Complete the Redridge Canyon storylines listed below:\n\n- Quest_0\n- Quest_1",
+	"advancement.title.loremaster_of_shalandri_basin": "Loremaster: Shalandri Basin",
+	"advancement.description.loremaster_of_shalandri_basin": "Complete the Shalandri Basin storylines listed below:\n\n- Quest_0\n- Quest_1",
+	"advancement.title.loremaster_of_wastelands": "Loremaster: Wastelands",
+	"advancement.description.loremaster_of_wastelands": "Complete the Wastelands storylines listed below:\n\n- Quest_0\n- Quest_1",
+	
+	"advancement.title.loremaster": "The Loremaster",
+	"advancement.description.loremaster": "Complete the quest achievements listed below:\n\n- Loremaster: Wintersong Forest\n- Loremaster: Redridge Canyon\n- Loremaster: Shalandri Bsain\n- Loremaster: Wastelands"
 	
 	
 	
