@@ -5,7 +5,7 @@ execute store result score @s entity_level run data get entity @s XpLevel 1
 execute store result score @s entity_xppts run data get entity @s XpP 100000000
 
 execute if score @s entity_level = #world entity_maxlvl if score @s entity_xppts > #const NULL run experience set @s 0 points
-execute if score @s entity_level > #world entity_maxlvl run function internal:world/entity/player/get_player_max_level
+execute if score @s entity_level > #world entity_maxlvl run function internal:world/entity/player/set_maximum_level
 
 execute if score @s entity_level > @s entity_nxtlvl if score @s entity_level >= @s entity_reclvl run tag @s add messages.info.levelup
 scoreboard players operation @s[tag=messages.info.levelup] entity_reclvl = @s entity_level
