@@ -1,0 +1,57 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "translate": "The Loremaster"
+        },
+        "description":
+		{
+            "translate": "advancement.description.loremaster"
+        },
+        "icon":
+		{
+            "item": "minecraft:writable_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_oak_log.png"
+    },
+	"parent": "internal:world/account/character/join_the_forces",
+    "criteria":
+	{
+		"Player_LoremasterWintersong":
+		{
+			"trigger": "minecraft:impossible"
+		},
+		"Player_LoremasterShalandri":
+		{
+			"trigger": "minecraft:impossible"
+		},
+		"Player_LoremasterRedridge":
+		{
+			"trigger": "minecraft:impossible"
+		},
+		"Player_LoremasterWastelands":
+		{
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"requirements":
+	[
+		[
+			"Player_LoremasterWintersong"
+		],
+		[
+			"Player_LoremasterShalandri"
+		],
+		[
+			"Player_LoremasterRedridge"
+		],
+		[
+			"Player_LoremasterWastelands"
+		]
+	]
+}

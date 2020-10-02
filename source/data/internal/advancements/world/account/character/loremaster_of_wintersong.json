@@ -1,0 +1,43 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "translate": "advancement.title.loremaster_of_wintersong"
+        },
+        "description":
+		{
+            "translate": "advancement.description.loremaster_of_wintersong"
+        },
+        "icon":
+		{
+            "item": "minecraft:writable_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_oak_log.png"
+    },
+	"parent": "internal:world/account/character/the_loremaster",
+    "criteria":
+	{
+		"Quest_0":
+		{
+			"trigger": "minecraft:impossible"
+		},
+		"Quest_1":
+		{
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"requirements":
+	[
+		[
+			"Quest_0"
+		],
+		[
+			"Quest_1"
+		]
+	]
+}

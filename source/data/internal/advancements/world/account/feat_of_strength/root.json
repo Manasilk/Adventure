@@ -1,0 +1,35 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "text": "Milestones"
+        },
+        "description":
+		{
+            "text": "Complete all individual advancements."
+        },
+        "icon":
+		{
+            "item": "minecraft:writable_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_oak_log.png"
+    },
+    "criteria":
+	{
+		"impossible":
+		{
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"requirements":
+	[
+		[
+			"impossible"
+		]
+	]
+}

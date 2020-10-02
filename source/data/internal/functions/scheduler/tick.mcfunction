@@ -25,6 +25,7 @@ execute if score #world world_tick matches 0.. run function internal:world/gener
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/creature
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/object
 execute if score #world world_tick matches 1.. run function internal:world/general/managers/combat_log
+execute if score #world world_tick matches 20 run function internal:world/general/managers/advancements
 execute if score #world world_tick matches 0 run function internal:world/general/managers/spells
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/quests
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/movement

@@ -1,0 +1,3 @@
+execute if entity @s[advancements={internal:world/account/character/join_the_forces=true}] run advancement grant @s only internal:world/account/character/root START_THE_CAMPAIGN
+execute if entity @s[advancements={internal:world/account/character/level_40=true}] run advancement grant @s only internal:world/account/character/root LEVEL40
+execute if entity @s[advancements={internal:world/account/character/complete_quests_25=true}] run advancement grant @s only internal:world/account/character/root COMPLETE_QUEST_COUNT25

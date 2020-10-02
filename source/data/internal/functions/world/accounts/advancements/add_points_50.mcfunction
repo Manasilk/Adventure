@@ -1,0 +1,1 @@
+scoreboard players add @s stat_adv_pts 50

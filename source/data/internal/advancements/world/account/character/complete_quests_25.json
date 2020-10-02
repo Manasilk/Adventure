@@ -1,0 +1,57 @@
+{
+	"display":
+	{
+        "title":
+		{
+            "translate": "advancement.title.complete_quests_25"
+        },
+        "description":
+		{
+            "translate": "advancement.description.complete_quests_25"
+        },
+        "icon":
+		{
+            "item": "minecraft:paper"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+	"parent": "internal:world/account/character/root",
+    "criteria":
+	{
+		"COMPLETE_QUEST_COUNT25":
+		{
+			"trigger": "minecraft:tick",
+			"conditions":
+			{
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"stat_quests_cmpl":
+							{
+								"min": 25,
+								"max": 500
+							}
+						}
+					}
+				]
+			}
+		}
+    },
+	"rewards":
+	{
+		"function": "internal:world/accounts/advancements/add_points_10"
+	},
+	"requirements":
+	[
+		[
+			"COMPLETE_QUEST_COUNT25"
+		]
+	]
+}
