@@ -69,5 +69,10 @@ scoreboard players set @s[type=minecraft:magma_cube] entity_id 71
 scoreboard players set @s[type=minecraft:fox] entity_id 72
 scoreboard players set @s[type=minecraft:mooshroom] entity_id 73
 scoreboard players set @s[type=minecraft:cave_spider] entity_id 74
+scoreboard players set @s[type=minecraft:piglin] entity_id 75
+scoreboard players set @s[type=minecraft:piglin_brute] entity_id 76
+scoreboard players set @s[type=minecraft:hoglin] entity_id 77
+scoreboard players set @s[type=minecraft:zoglin] entity_id 78
+scoreboard players set @s[type=minecraft:strider] entity_id 79
 
 scoreboard players set @s entity_hpprc 100
