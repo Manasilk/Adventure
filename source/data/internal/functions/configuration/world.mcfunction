@@ -78,10 +78,7 @@ scoreboard players set #anticheat _ac.gamemode 1
 #0 = disabled,
 #1 = enabled
 scoreboard players set #anticheat _ac.actions 1
-
-#re-sync timers
-#execute if score #world _dbc.setup matches 1 run function internal:world/time/synchronize_time
-scoreboard players add #world revision 1
+#
 ### TRIMMING CONFIG ###
 # Deletes and recreates objectives to reduce scoreboard filesize
 # cfg.do_trim = 1, enabled
