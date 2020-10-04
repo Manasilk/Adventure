@@ -3,6 +3,6 @@
 	"entity": "this",
 	"predicate": 
 	{
-		"nbt": "{SelectedItem:{tag:{builder_tool:1b}}}"
+		"nbt": "{SelectedItem:{tag:{world_builder_tool:1b}}}"
 	}
 }

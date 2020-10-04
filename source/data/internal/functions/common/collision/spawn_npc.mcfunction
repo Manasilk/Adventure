@@ -1,1 +1,1 @@
-execute align xyz positioned ~0.5 ~0.5 ~0.5 run function builder:actions_list/spawn_entity/this.entity_list
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run function developer:world_builder/actions/spawn_entity/entity_list

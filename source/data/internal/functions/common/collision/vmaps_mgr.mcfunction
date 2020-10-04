@@ -1,5 +1,5 @@
 execute as @e[type=#internal:creature,tag=collision.line_of_sight_target] run function internal:common/collision/update_entity
-execute as @a[tag=collision.line_of_sight_target] run function internal:common/collision/this.update_entity
+execute as @a[tag=collision.line_of_sight_target] run function internal:common/collision/update_entity
 
 execute as @e[type=#internal:creature,tag=collision.attempt_line_of_sight_collision] at @s run function internal:common/collision/build_los_ray
 execute as @a[tag=collision.attempt_line_of_sight_collision] at @s run function internal:common/collision/build_los_ray
