@@ -9,8 +9,8 @@ function internal:world/general/managers/world_builder
 scoreboard players add #world world_tick 1
 scoreboard players add #garbage garbage_tick 1
 
-execute if score #world world_tick > #const UPD_CYCLE run scoreboard players set #world world_tick 0
-execute if score #garbage garbage_tick > #const UPD_CYCLE run scoreboard players set #garbage garbage_tick 0
+execute if score #world world_tick = #const UPD_CYCLE run scoreboard players set #world world_tick 0
+execute if score #garbage garbage_tick = #const UPD_CYCLE run scoreboard players set #garbage garbage_tick 0
 #
 # @AI
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/scripted_behavior
@@ -25,7 +25,7 @@ execute if score #world world_tick matches 0.. run function internal:world/gener
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/creature
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/object
 execute if score #world world_tick matches 1.. run function internal:world/general/managers/combat_log
-execute if score #world world_tick matches 20 run function internal:world/general/managers/advancements
+execute if score #world world_tick matches 19 run function internal:world/general/managers/advancements
 execute if score #world world_tick matches 0 run function internal:world/general/managers/spells
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/quests
 execute if score #world world_tick matches 0.. run function internal:world/general/managers/movement
