@@ -12,6 +12,7 @@ tag @s[tag=account.debugging,scores={player_debugging=1}] remove account.debuggi
 tag @s[tag=account.builder,scores={player_builder=1}] remove account.builder
 execute if score @s[tag=!account.builder] player_builder matches 1 run function developer:world_builder/clear_tool
 execute if score @s[tag=!account.builder] player_builder matches 1 run function developer:world_builder/info/player/flush_builder_data
+execute if score @s[tag=!account.builder] player_builder matches 1 run function developer:world_builder/info/player/flush_default_data
 
 tellraw @s[scores={player_commands=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.commands"}],"color":"yellow"}
 tellraw @s[scores={player_debugging=1}] {"translate":"event_type.revoke_permission","with":[{"translate":"rbac.perm_type.debugging"}],"color":"yellow"}

@@ -5,6 +5,7 @@ execute if entity @s[tag=account.commands] run function internal:world/accounts/
 #builder
 tag @s[tag=account.commands,tag=!account.builder,scores={player_builder=1}] add account.builder
 execute if entity @s[tag=account.builder] run function developer:world_builder/provide_tool
+execute if entity @s[tag=account.builder] run function developer:world_builder/info/player/initialize_default_data
 
 #debugging
 tag @s[tag=account.commands,tag=!account.debugging,scores={player_debugging=1}] add account.debugging
