@@ -1,3 +1,5 @@
+function developer:world_builder/info/player/check_biome
+
 #events
 execute if score @s wb.class_id = #preset SHOW_INFO run tag @s add collision.attempt_line_of_sight_collision
 

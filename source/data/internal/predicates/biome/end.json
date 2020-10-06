@@ -6,28 +6,35 @@
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:forest"
+				"biome": "minecraft:the_end"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:roofed_forest"
+				"biome": "minecraft:small_end_islands"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:birch_forest"
+				"biome": "minecraft:end_midlands"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:flower_forest"
+				"biome": "minecraft:end_highlands"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:end_barrens"
 			}
 		}
 	]

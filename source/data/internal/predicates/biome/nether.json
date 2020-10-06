@@ -6,28 +6,35 @@
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:forest"
+				"biome": "minecraft:nether_wastes"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:roofed_forest"
+				"biome": "minecraft:crimson_forest"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:birch_forest"
+				"biome": "minecraft:warped_forest"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate":
 			{
-				"biome": "minecraft:flower_forest"
+				"biome": "minecraft:soul_sand_valley"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate":
+			{
+				"biome": "minecraft:basalt_deltas"
 			}
 		}
 	]
