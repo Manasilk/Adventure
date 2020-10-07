@@ -139,7 +139,9 @@ scoreboard objectives add entity.rot_y dummy {"translate":"dbc.entity.entity_rot
 
 #Used only by spawner area triggers
 #spawn_range.N defines the range on the N axis within which mobs can be spawned
-# from the area trigger position
+# from the area trigger position:
+# min = position - spawn_range
+# max = position + spawn_range
 scoreboard objectives add spawn_range.x dummy {"translate":"dbc.entity.spawn_range_x"}
 scoreboard objectives add spawn_range.y dummy {"translate":"dbc.entity.spawn_range_y"}
 scoreboard objectives add spawn_range.z dummy {"translate":"dbc.entity.spawn_range_z"}
