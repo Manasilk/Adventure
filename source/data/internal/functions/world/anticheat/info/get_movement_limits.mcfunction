@@ -14,7 +14,7 @@ scoreboard players set @s[tag=SPELL_AURA_SPEED,scores={_ac.h_lim=0..19}] _ac.h_l
 scoreboard players set @s[tag=SPELL_EFFECT_SLIMEBLOCK,scores={_ac.h_lim=0..99}] _ac.h_lim 100
 scoreboard players set @s[tag=SPELL_EFFECT_SLIMEBLOCK,scores={_ac.v_lim=0..99}] _ac.v_lim 100
 
-tag @s[tag=SPELL_EFFECT_EXPLOSION,predicate=internal:player/data/on_ground] remove SPELL_EFFECT_EXPLOSION
+tag @s[tag=SPELL_EFFECT_EXPLOSION,predicate=internal:world/player/data/on_ground] remove SPELL_EFFECT_EXPLOSION
 scoreboard players set @s[tag=SPELL_EFFECT_EXPLOSION,scores={_ac.v_lim=0..199}] _ac.v_lim 200
 scoreboard players set @s[tag=SPELL_EFFECT_EXPLOSION,scores={_ac.h_lim=0..199}] _ac.h_lim 200
 
