@@ -1,7 +1,7 @@
 scoreboard objectives add entity_id dummy {"translate":"dbc.entity.entity_id"}
 scoreboard objectives add owner_id dummy {"translate":"dbc.entity.owner_id"}
 scoreboard objectives add entity_guid dummy {"translate":"dbc.entity.entity_guid"}
-#GUID is assigned to entities spawned through the creative kit
+#GUID is assigned to entities spawned through the World Builder
 #Custom loot ID: 200+
 #Entity IDs:
 #VILLAGER                        = 11,
@@ -137,7 +137,9 @@ scoreboard objectives add entity.pos_z dummy {"translate":"dbc.entity.entity_pos
 scoreboard objectives add entity.rot_x dummy {"translate":"dbc.entity.entity_rot_x"}
 scoreboard objectives add entity.rot_y dummy {"translate":"dbc.entity.entity_rot_y"}
 
-#used only by spawner triggers
+#Used only by spawner area triggers
+#spawn_range.N defines the range on the N axis within which mobs can be spawned
+# from the area trigger position
 scoreboard objectives add spawn_range.x dummy {"translate":"dbc.entity.spawn_range_x"}
 scoreboard objectives add spawn_range.y dummy {"translate":"dbc.entity.spawn_range_y"}
 scoreboard objectives add spawn_range.z dummy {"translate":"dbc.entity.spawn_range_z"}
