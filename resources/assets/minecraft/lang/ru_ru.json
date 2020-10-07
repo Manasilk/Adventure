@@ -84,6 +84,8 @@
 	"help_info.command.unstuck": "Введите \"/trigger unstuck\" в чат, если ваш персонаж застрял.",
 	"help_info.command.clear_chat": "Введите \"/trigger clear\" в чат, чтобы отчистить все сообщения.",
 	"help_info.command.admin": "Введите \"/trigger admin\" в чат, чтобы переключить доступ к дополнительным командам.",
+	"help_info.command.debug": "Введите \"/trigger debug\" в чат, чтобы переключить доступ к командам отладки.",
+	"help_info.command.builder": "Введите \"/trigger builder\" в чат, чтобы переключить доступ к инструментам строительства.",
 
 	
 	

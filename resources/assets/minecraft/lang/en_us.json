@@ -84,6 +84,8 @@
 	"help_info.command.unstuck": "Type \"/trigger unstuck\" in chat if your character is stuck.",
 	"help_info.command.clear_chat": "Type \"/trigger clear\" in chat to clear all messages.",
 	"help_info.command.admin": "Type \"/trigger admin\" in chat to toggle admin commands.",
+	"help_info.command.debug": "Type \"/trigger debug\" in chat to toggle debug commands.",
+	"help_info.command.builder": "Type \"/trigger builder\" in chat to toggle building tools.",
 	
 	
 	
