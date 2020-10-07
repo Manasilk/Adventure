@@ -21,4 +21,4 @@ scoreboard players set #const 158 158
 scoreboard players set #const 1000 1000
 
 #Cycle length (ticks)
-scoreboard players set #const UPD_CYCLE 20
+scoreboard players set #const UPD_CYCLE 19

@@ -16,15 +16,15 @@ gamerule announceAdvancements false
 # @SPAWN
 gamerule doMobSpawning false
 execute store result score #world cfg.do_spawn run gamerule doMobSpawning
-#respawn timers in seconds
-scoreboard players set #world cfg.normal_t 30
-scoreboard players set #world cfg.elite_t 300
-scoreboard players set #world cfg.boss_t 600
+#respawn timers in seconds (first t=0, therefore _t=(t-1) )
+scoreboard players set #world cfg.normal_t 59
+scoreboard players set #world cfg.elite_t 299
+scoreboard players set #world cfg.boss_t 599
 #in ticks for quests
-scoreboard players set #world cfg.quest_t 600
+scoreboard players set #world cfg.quest_t 599
 #in seconds for garbage (timers higher than default are redundant)
-scoreboard players set #world cfg.prjctl_age 30
-scoreboard players set #world cfg.item_age 60
+scoreboard players set #world cfg.prjctl_age 29
+scoreboard players set #world cfg.item_age 59
 #
 # @PICKUP
 gamerule doMobLoot true
