@@ -1,0 +1,1 @@
+playsound minecraft:ui.player.levelup master @s ~ ~ ~ 0.3 1 0.1
