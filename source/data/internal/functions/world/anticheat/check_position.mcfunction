@@ -8,6 +8,7 @@ scoreboard players set @s[scores={anticheat_tick=6..}] anticheat_tick 0
 #Store current position (2)
 #Calculate distance passed from position(1) to position(2)
 execute unless block ~ ~0.55 ~ #internal:collision/anticheat run scoreboard players enable @s[scores={unstuck_cd=0}] unstuck
+execute if block ~ ~0.55 ~ #internal:collision/anticheat run scoreboard players reset @s unstuck
 
 execute if score @s[tag=!SPELL_EFFECT_FLYING,tag=!SPELL_EFFECT_SLIMEBLOCK] anticheat_tick matches 0.. run function internal:world/anticheat/metrics/set_max_falling_speed
 execute if score @s anticheat_tick matches 0 run function internal:world/anticheat/metrics/get_player_position_old
