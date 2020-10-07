@@ -2,8 +2,6 @@
 scoreboard players set #world world_tick 0
 scoreboard players set #garbage garbage_tick 0
 
-#Current version: 2580
-scoreboard players set #world world_version 2580
 scoreboard players set #world expansion 0
 
 scoreboard players set #world build_version 0
