@@ -33,7 +33,7 @@ tag @s[tag=SPELL_AURA_CONDUIT_POWER,nbt=!{ActiveEffects:[{Id:29b}]}] remove SPEL
 tag @s[tag=SPELL_AURA_DOLPHINS_GRACE,nbt=!{ActiveEffects:[{Id:30b}]}] remove SPELL_AURA_DOLPHINS_GRACE
 tag @s[tag=SPELL_AURA_BAD_OMEN,nbt=!{ActiveEffects:[{Id:31b}]}] remove SPELL_AURA_BAD_OMEN
 tag @s[tag=SPELL_AURA_HERO_OF_THE_VILLAGE,nbt=!{ActiveEffects:[{Id:32b}]}] remove SPELL_AURA_HERO_OF_THE_VILLAGE
-execute if block ~ ~1 ~ #world:collision/vmap run tag @s[tag=SPELL_AURA_UNDERWATER] remove SPELL_AURA_UNDERWATER
+execute if block ~ ~1 ~ #internal:collision/vmap run tag @s[tag=SPELL_AURA_UNDERWATER] remove SPELL_AURA_UNDERWATER
 #Apply aura effect flags if not yet added and effect exists
 tag @s[tag=!SPELL_AURA_RIDING_MOUNT,tag=!SPELL_AURA_RIDING_BOAT,nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] add SPELL_AURA_RIDING_BOAT
 tag @s[tag=!SPELL_AURA_RIDING_MOUNT,tag=!SPELL_AURA_RIDING_BOAT,nbt={RootVehicle:{Entity:{}}}] add SPELL_AURA_RIDING_MOUNT
