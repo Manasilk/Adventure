@@ -1,5 +1,5 @@
-execute if entity @s[type=#internal:creature] run summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:"{\"text\":\"CollisionAreaTrigger\"}",CustomNameVisible:0b,Duration:1,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","ENTITY_FLAG_COLLISION_TRIGGER","SUMMONER_CREATURE"]}
-execute if entity @s[type=minecraft:player] run summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:"{\"text\":\"CollisionAreaTrigger\"}",CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","ENTITY_FLAG_COLLISION_TRIGGER","SUMMONER_PLAYER"]}
+execute if entity @s[type=#internal:creature] run summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:'{"text":"CollisionAreaTrigger"}',CustomNameVisible:0b,Duration:1,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","ENTITY_FLAG_COLLISION_TRIGGER","SUMMONER_CREATURE"]}
+execute if entity @s[type=minecraft:player] run summon minecraft:area_effect_cloud ~ ~1 ~ {CustomName:'{"text":"CollisionAreaTrigger"}',CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","ENTITY_FLAG_COLLISION_TRIGGER","SUMMONER_PLAYER"]}
 
 function internal:world/entity/get_entity_rotation
 execute if entity @s[type=#internal:creature] run function internal:world/entity/get_entity_hostility
