@@ -72,7 +72,7 @@ function internal:world/general/miscellaneous/shared_def
 #ADVENTURE                        = 2,
 #CREATIVE                         = 4,
 #SPECTATOR                        = 8
-scoreboard players set #anticheat _ac.gamemode 1
+scoreboard players set #anticheat _ac.gamemode 2
 
 #controls if anticheat should take any actions
 #0 = disabled,
