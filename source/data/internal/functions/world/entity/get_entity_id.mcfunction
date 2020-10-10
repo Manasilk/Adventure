@@ -1,0 +1,1 @@
+scoreboard players operation #temp entity_id = @s entity_id
