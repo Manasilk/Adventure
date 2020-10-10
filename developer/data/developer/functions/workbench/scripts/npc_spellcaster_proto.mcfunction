@@ -1,11 +1,12 @@
-execute if score @s[tag=!SMART_EVENT_LOAD_SPELL] spell_scripts > #const NULL run function internal:world/entity/scripted_behavior/action/get_next_spell
-#> REMOVE LOADED SPELL SCRIPTS HERE
+
+#> UNLOAD LOADED SPELL SCRIPTS HERE
 tag @s[tag=!SMART_EVENT_INIT_AI] remove spell_script_fireball
 tag @s[tag=!SMART_EVENT_INIT_AI] remove spell_script_frostbolt
 tag @s[tag=!SMART_EVENT_INIT_AI] remove spell_script_frostfire_bolt
 tag @s[tag=!SMART_EVENT_INIT_AI] remove spell_script_fire_armor
 tag @s[tag=!SMART_EVENT_INIT_AI] add SMART_EVENT_INIT_AI
 #> DECLARE SPELL SCRIPTS HERE
+execute if score @s[tag=!SMART_EVENT_LOAD_SPELL] spell_scripts > #const NULL run function internal:world/entity/scripted_behavior/action/iterate_spellscript
 tag @s[tag=SPELL_0,tag=!spell_script_fireball] add spell_script_fireball
 tag @s[tag=SPELL_1,tag=!spell_script_frostbolt] add spell_script_frostbolt
 tag @s[tag=SPELL_2,tag=!spell_script_frostfire_bolt] add spell_script_frostfire_bolt
