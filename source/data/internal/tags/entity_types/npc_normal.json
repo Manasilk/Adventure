@@ -29,6 +29,10 @@
 		"minecraft:enderman",
 		"minecraft:guardian",
 		"minecraft:spider",
-		"minecraft:cave_spider"
+		"minecraft:cave_spider",
+		"minecraft:hoglin",
+		"minecraft:zoglin",
+		"minecraft:piglin",
+		"minecraft:piglin_brute"
 	]
 }

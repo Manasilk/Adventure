@@ -1,9 +1,10 @@
 scoreboard objectives add entity_id dummy {"translate":"dbc.entity.entity_id"}
 scoreboard objectives add owner_id dummy {"translate":"dbc.entity.owner_id"}
 scoreboard objectives add entity_guid dummy {"translate":"dbc.entity.entity_guid"}
-#GUID is assigned to entities spawned through the World Builder
-#Custom loot ID: 200+
-#Entity IDs:
+#GUID is assigned to entities spawned through the World Builder:
+# entity_guid < 0 is for generic creatures only
+#Custom loot templates IDs should match custom entity_id
+#IDs:
 #VILLAGER                        = 11,
 #DROWNED                         = 12,
 #EVOKER                          = 13,
@@ -67,7 +68,12 @@ scoreboard objectives add entity_guid dummy {"translate":"dbc.entity.entity_guid
 #MAGMA_CUBE                      = 71,
 #FOX                             = 72,
 #MOOSHROOM                       = 73,
-#CAVE_SPIDER                     = 74
+#CAVE_SPIDER                     = 74,
+#PIGLIN                          = 75,
+#PIGLIN_BRUTE                    = 76,
+#HOGLIN                          = 77,
+#ZOGLIN                          = 78,
+#STRIDER                         = 79
 scoreboard objectives add entity_hostility dummy {"translate":"dbc.entity.entity_hostility"}
 #ENTITY_ACTION_IGNORE            = 0,
 #ENTITY_ACTION_FRIENDLY          = 1,
@@ -81,6 +87,7 @@ scoreboard objectives add entity_rank dummy {"translate":"dbc.entity.entity_rank
 scoreboard objectives add ENTITY_FRIENDLY dummy {"text":"entity_hostility = 1"}
 scoreboard objectives add ENTITY_NEUTRAL dummy {"text":"entity_hostility = 2"}
 scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
+#entity_flag
 #ENTITY_FLAG_SERVER_CONTROLLED      = 1,
 #ENTITY_FLAG_NON_ATTACKABLE         = 2,
 #ENTITY_FLAG_PACIFIED               = 4,
@@ -100,13 +107,16 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_GHOST                  = 65536,
 #ENTITY_FLAG_SILENT                 = 131072,
 #ENTITY_FLAG_NO_DESPAWN             = 262144,
-#ENTITY_FLAG_NO_PICKUP_ITEM         = 524288
+#ENTITY_FLAG_NO_PICKUP_ITEM         = 524288,
+#ENTITY_FLAG_OBJECT_ACTOR           = 1048576
 
+#entity_flag1
 #ENTITY_FLAG_EXTRA_OBJECT_BIND      = 1
 #ENTITY_FLAG_EXTRA_INSTANCE_BIND    = 2,
 #ENTITY_FLAG_EXTRA_TRIGGER          = 4,
 #ENTITY_FLAG_EXTRA_IMMUNE_KNOCKBACK = 8
 
+#entity_flag2
 #ENTITY_IMMUNE_DISARM               = 1,
 #ENTITY_IMMUNE_INFECTED             = 2,
 #ENTITY_IMMUNE_DISTRACT             = 4,

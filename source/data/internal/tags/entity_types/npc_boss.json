@@ -3,8 +3,6 @@
 	"values":
 	[
 		"minecraft:wither",
-		"minecraft:ender_dragon",
-		"minecraft:iron_golem",
-		"minecraft:elder_guardian"
+		"minecraft:ender_dragon"
 	]
 }
