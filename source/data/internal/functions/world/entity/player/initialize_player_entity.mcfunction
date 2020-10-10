@@ -64,7 +64,8 @@ scoreboard players enable @s help
 scoreboard players enable @s clear
 scoreboard players enable @s unstuck
 
-scoreboard players set @s rbac_access 0
+scoreboard players set @s rbac_access 1
+scoreboard players enable @s admin
 
 tag @s add player.initialized_spawn_data
 tag @s add sound.sheathe_mainhand

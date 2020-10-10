@@ -72,15 +72,15 @@ function internal:world/general/miscellaneous/shared_def
 #ADVENTURE                        = 2,
 #CREATIVE                         = 4,
 #SPECTATOR                        = 8
-scoreboard players set #anticheat _ac.gamemode 2
+scoreboard players set #anticheat _ac.gamemode 4
 
 #controls if anticheat should take any actions
 #0 = disabled,
 #1 = enabled
-scoreboard players set #anticheat _ac.actions 1
+scoreboard players set #anticheat _ac.actions 0
 #
 ### TRIMMING CONFIG ###
 # Deletes and recreates objectives to reduce scoreboard filesize
 # cfg.do_trim = 1, enabled
 # cfg.do_trim = 0, disabled
-scoreboard players set #world cfg.do_trim 1
+scoreboard players set #world cfg.do_trim 0
