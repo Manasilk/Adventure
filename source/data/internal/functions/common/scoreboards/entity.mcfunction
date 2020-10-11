@@ -108,7 +108,8 @@ scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
 #ENTITY_FLAG_SILENT                 = 131072,
 #ENTITY_FLAG_NO_DESPAWN             = 262144,
 #ENTITY_FLAG_NO_PICKUP_ITEM         = 524288,
-#ENTITY_FLAG_OBJECT_ACTOR           = 1048576
+#ENTITY_FLAG_OBJECT_ACTOR           = 1048576,
+#ENTITY_FLAG_QUEST_TRIGGER          = 2097152
 
 #entity_flag1
 #ENTITY_FLAG_EXTRA_OBJECT_BIND      = 1
