@@ -1,2 +1,2 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"BuilderGameObjectAreaTrigger\"}",CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_EXTRA_OBJECT_BIND"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'{"text":"BuilderGameObjectAreaTrigger"}',CustomNameVisible:0b,Duration:24000,Tags:["ENTITY_FLAG_EXTRA_OBJECT_BIND"]}
 execute as @e[type=#internal:area_trigger,tag=!area_trigger.initialized_spawn_data] at @s run function developer:world_builder/actions/load_info/get_object_info
