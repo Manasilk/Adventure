@@ -184,3 +184,7 @@ scoreboard objectives add exp_gained dummy {"translate":"dbc.entity.exp_gained"}
 #SMART_EVENT_RESET
 #SMART_EVENT_LOAD_SPELL
 #SMART_EVENT_PREP_CAST
+
+#Used to temporarily store handheld items when disarmed
+scoreboard objectives add handitem_id dummy {"translate":""}
+scoreboard objectives add handitem_model dummy {"translate":""}
