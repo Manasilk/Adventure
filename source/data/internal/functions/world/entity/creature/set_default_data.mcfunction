@@ -1,5 +1,5 @@
 scoreboard players set @s entity_level 0
-scoreboard players set @s entity_guid -1
+function internal:world/entity/set_entity_guid
 
 team join Hostile @s[type=#internal:npc_hostile,team=]
 team join Neutral @s[type=#internal:npc_neutral,team=]
