@@ -6,8 +6,8 @@ scoreboard players set #world expansion 0
 
 scoreboard players set #world build_version 0
 scoreboard players set #world build_update 6
-scoreboard players set #world build_hotfix 44
-scoreboard players set #world build_revision 2898
+scoreboard players set #world build_hotfix 45
+scoreboard players set #world build_revision 2899
 scoreboard players set #world build_pd_d 11
 scoreboard players set #world build_pd_m 10
 scoreboard players set #world build_pd_y 2020
