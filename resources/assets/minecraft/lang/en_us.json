@@ -3,7 +3,7 @@
 
 	"server_broadcast": "[SERVER]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
-	"server.login_msg": "Welcome to Mardaar, Update: %d.%d.%d: %s",
+	"server.login_msg": "Welcome to The Campaign, Update: %d.%d.%d: %s",
 	"server.readme_msg": "For more information, please visit: %s\nType \"/trigger help\" in chat for help.",
 	"server.install_pkg_msg": "Installed update package: %s",
 	"server.build_info": "Build Revision: %d (%d.%d.%d), Game Version: %d",
@@ -76,8 +76,16 @@
 	"stats.quests_completed": "Total quests completed: %d, ",
 	"stats.mob_kills": "Total mobs killed: %d",
 	
+
+
+	"server.log": "[LOG]:\n[%s]:[%s]\nEvent: %s, ID: %d, Type: %d\n[DATA]:\n%s%s%s",
+	"server.log.build": "%d.%d.%d.%d",
+	"server.log.data.player": "Player ID: %d, Gamemode: %d, Position: (%d,%d,%d)",
+	"server.log.data.entity": "Creature GUID: %d, ID: %d, Position: (%d,%d,%d)",
+	"server.log.data.object": "Object GUID: %d, Position: (%d,%d,%d)",
 	
 	
+
 	"help_info.commands.available": "Commands available to you:",
 	"help_info.command.played": "Type \"/trigger played\" in chat to show time played in this world.",
 	"help_info.command.log": "Type \"/trigger log\" in chat to toggle combat log.",

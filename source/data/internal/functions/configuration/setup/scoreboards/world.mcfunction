@@ -3,6 +3,7 @@ scoreboard players set #world world_tick 0
 scoreboard players set #garbage garbage_tick 0
 
 scoreboard players set #world expansion 0
+scoreboard players set #world world_version 0
 
 scoreboard players set #world build_version 0
 scoreboard players set #world build_update 6

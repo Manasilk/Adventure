@@ -77,6 +77,14 @@
 	"stats.mob_kills": "Всего монстров убито: %d",
 	
 	
+
+	"server.log": "[ЛОГ]:\n[%s]:[%s]\nСобытие: %s, ИД: %d, Тип: %d\n[DATA]:\n%s%s%s",
+	"server.log.build": "%d.%d.%d.%d",
+	"server.log.data.player": "ИД Игрока: %d, Режим: %d, Местоположение: (%d,%d,%d)",
+	"server.log.data.entity": "ГУИД Существа: %d, ИД: %d, Местоположение: (%d,%d,%d)",
+	"server.log.data.object": "ГУИД Объекта: %d, Местоположение: (%d,%d,%d)",
+
+
 	
 	"help_info.commands.available": "Команды доступные для вас:",
 	"help_info.command.played": "Введите \"/trigger played\" в чат, чтобы показать время проведённое в этом мире.",
