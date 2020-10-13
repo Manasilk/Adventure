@@ -30,7 +30,7 @@
 				{
 					"source_entity":
 					{
-						"type": "#world:creature"
+						"type": "#internal:creature"
 					}	
 				}
 			}
