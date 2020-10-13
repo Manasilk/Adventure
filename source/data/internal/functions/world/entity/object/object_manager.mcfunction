@@ -1,0 +1,1 @@
+execute unless entity @s[tag=object.initialized_spawn_data] run function internal:world/entity/object/initialize_spawn_data

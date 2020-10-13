@@ -1,0 +1,2 @@
+function internal:world/entity/object/set_default_data
+function internal:world/entity/object/set_default_flags

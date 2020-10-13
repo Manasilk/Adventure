@@ -1,5 +1,5 @@
 #This function is used to update properties of all entities in the world
-execute unless entity @s[tag=creature.initialized_spawn_data,tag=!ENTITY_FLAG_SERVER_CONTROLLED] run function internal:world/entity/creature/initialize_spawn_data
+execute unless entity @s[tag=creature.initialized_spawn_data,tag=!ENTITY_FLAG_SERVER_CONTROLLED,tag=!ENTITY_FLAG_OBJECT_ACTOR] run function internal:world/entity/creature/initialize_spawn_data
 
 #Calls the functions below if the current playercount has been changed since last update
 # and applies modifications to the entity's attributes

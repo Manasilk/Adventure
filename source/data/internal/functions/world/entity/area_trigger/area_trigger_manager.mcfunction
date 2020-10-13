@@ -1,4 +1,4 @@
-execute unless entity @s[tag=area_trigger.initialized_spawn_data] run function internal:world/entity/area_trigger/initialize_spawn_data
+execute unless entity @s[tag=area_trigger.initialized_spawn_data,tag=!ENTITY_FLAG_OBJECT_ACTOR] run function internal:world/entity/area_trigger/initialize_spawn_data
 
 execute if entity @s[tag=TEMP_BUILDER_OBJECT] run function developer:world_builder/actions/spawn_object/object_list
 execute if entity @s[tag=ENTITY_FLAG_EXTRA_OBJECT_BIND,tag=world_builder.despawn_object] run function developer:world_builder/actions/spawn_object/destructor_list/get_object

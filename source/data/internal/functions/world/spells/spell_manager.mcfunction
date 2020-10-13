@@ -1,6 +1,6 @@
 execute if entity @s[type=minecraft:player] run function internal:world/spells/auras/spell_aura_effect_flags
 execute if entity @s[type=minecraft:player] run function internal:world/spells/effects/spell_effect_flags
-execute if entity @s[type=#internal:creature] run function internal:world/spells/auras/spell_aura_effect_flags
+execute if entity @s[type=#internal:creature,tag=!ENTITY_FLAG_SERVER_CONTROLLED] run function internal:world/spells/auras/spell_aura_effect_flags
 function internal:world/spells/spell_effect
 
 #skillbook = learn profession

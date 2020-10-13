@@ -2,7 +2,7 @@
 	"_comment": "Object Entities",
 	"values":
 	[
-		"minecraft:villager",
-		"minecraft:area_effect_cloud"
+		"#internal:area_trigger",
+		"#internal:creature"
 	]
 }
