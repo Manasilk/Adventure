@@ -8,3 +8,4 @@ scoreboard objectives add __time_m dummy
 
 scoreboard objectives add log.event_id dummy
 scoreboard objectives add log.event_type dummy
+scoreboard objectives add log.cls_time dummy

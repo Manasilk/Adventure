@@ -25,6 +25,8 @@ scoreboard players set #world cfg.quest_t 599
 #in seconds for garbage (timers higher than default are redundant)
 scoreboard players set #world cfg.prjctl_age 29
 scoreboard players set #world cfg.item_age 59
+#in seconds to remove the oldest event from log
+scoreboard players set #world cfg.cls_log_t 3599
 #
 # @PICKUP
 gamerule doMobLoot true

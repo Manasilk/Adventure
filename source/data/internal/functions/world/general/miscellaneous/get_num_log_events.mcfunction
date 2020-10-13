@@ -1,0 +1,2 @@
+execute store result score #temp TEMP run data get storage internal:debug log.event
+tellraw @s [{"text":"There are ","color":"yellow"},{"score":{"name":"#temp","objective":"TEMP"},"color":"white"},{"text":" stored log events."}]
