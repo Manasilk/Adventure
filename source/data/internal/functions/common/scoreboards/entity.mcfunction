@@ -149,21 +149,22 @@ scoreboard objectives add entity.pos_z dummy {"translate":"dbc.entity.entity_pos
 scoreboard objectives add entity.rot_x dummy {"translate":"dbc.entity.entity_rot_x"}
 scoreboard objectives add entity.rot_y dummy {"translate":"dbc.entity.entity_rot_y"}
 
+#CURRENTLY UNSUSED
 #Used only by spawner area triggers
 #spawn_range.N defines the range on the N axis within which mobs can be spawned
 # from the area trigger position:
 # min = position - spawn_range
 # max = position + spawn_range
-scoreboard objectives add spawn_range.x dummy {"translate":"dbc.entity.spawn_range_x"}
-scoreboard objectives add spawn_range.y dummy {"translate":"dbc.entity.spawn_range_y"}
-scoreboard objectives add spawn_range.z dummy {"translate":"dbc.entity.spawn_range_z"}
-
-scoreboard objectives add override_min.x dummy {"translate":"dbc.entity.override_x"}
-scoreboard objectives add override_min.y dummy {"translate":"dbc.entity.override_y"}
-scoreboard objectives add override_min.z dummy {"translate":"dbc.entity.override_z"}
-scoreboard objectives add override_max.x dummy {"translate":"dbc.entity.override_x"}
-scoreboard objectives add override_max.y dummy {"translate":"dbc.entity.override_y"}
-scoreboard objectives add override_max.z dummy {"translate":"dbc.entity.override_z"}
+#scoreboard objectives add spawn_range.x dummy {"translate":"dbc.entity.spawn_range_x"}
+#scoreboard objectives add spawn_range.y dummy {"translate":"dbc.entity.spawn_range_y"}
+#scoreboard objectives add spawn_range.z dummy {"translate":"dbc.entity.spawn_range_z"}
+#
+#scoreboard objectives add override_min.x dummy {"translate":"dbc.entity.override_x"}
+#scoreboard objectives add override_min.y dummy {"translate":"dbc.entity.override_y"}
+#scoreboard objectives add override_min.z dummy {"translate":"dbc.entity.override_z"}
+#scoreboard objectives add override_max.x dummy {"translate":"dbc.entity.override_x"}
+#scoreboard objectives add override_max.y dummy {"translate":"dbc.entity.override_y"}
+#scoreboard objectives add override_max.z dummy {"translate":"dbc.entity.override_z"}
 
 scoreboard objectives add exp_stored xp {"translate":"dbc.entity.exp_stored"}
 scoreboard objectives add exp_gained dummy {"translate":"dbc.entity.exp_gained"}
