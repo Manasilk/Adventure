@@ -4,6 +4,7 @@ tag @s[type=minecraft:villager,tag=ENTITY_FLAG_EXTRA_TRIGGER] add ENTITY_FLAG_GH
 effect give @s[tag=ENTITY_FLAG_GHOST] minecraft:invisibility 1000000 0 true
 tag @s[nbt={NoAI:1b}] add ENTITY_FLAG_NO_AI
 tag @s[nbt={Invulnerable:1b}] add ENTITY_FLAG_NON_ATTACKABLE
+tag @s[nbt={ActiveEffects:[{Id:11b,Amplifier:10b}]}] add ENTITY_FLAG_EXTRA_IMMUNE_DAMAGE
 tag @s[nbt={Attributes:[{Base:10.0d,Name:"minecraft:generic.knockback_resistance"}]}] add ENTITY_FLAG_EXTRA_IMMUNE_KNOCKBACK
 tag @s[nbt={Silent:1b}] add ENTITY_FLAG_SILENT
 tag @s[nbt={PersistenceRequired:1b}] add ENTITY_FLAG_NO_DESPAWN
