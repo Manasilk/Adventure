@@ -94,6 +94,9 @@
 	"help_info.command.admin": "Введите \"/trigger admin\" в чат, чтобы переключить доступ к дополнительным командам.",
 	"help_info.command.debug": "Введите \"/trigger debug\" в чат, чтобы переключить доступ к командам отладки.",
 	"help_info.command.builder": "Введите \"/trigger builder\" в чат, чтобы переключить доступ к инструментам строительства.",
+	"chat.page_options": "Выберите страницу: %s%s%s %s%s%s | Страница: %s/%s",
+	"chat.button.next_page": "След. страница",
+	"chat.button.prev_page": "Пред. страница",
 
 	
 	
@@ -253,9 +256,6 @@
 	
 	
 	"builder_query": "%s",
-	"builder_menu.page_option": "Выберите страницу: %s%s%s %s%s%s | Страница: %s/%s",
-	"builder_button.next_page": "След. страница",
-	"builder_button.prev_page": "Пред. страница",
 	"builder_menu.class_option": "Выбери тип: %s%s%s %s%s%s %s%s%s",
 	"builder_menu.type_option": "Выберите операцию: %s%s%s %s%s%s %s%s%s",
 	"builder_menu.npc_type": "Выберите тип существа:",

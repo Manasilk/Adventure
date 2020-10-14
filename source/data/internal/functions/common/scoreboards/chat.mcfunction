@@ -6,3 +6,4 @@ scoreboard objectives add chat.opts_menu dummy {"translate":""}
 
 scoreboard objectives add chat.page_last dummy {"translate":""}
 scoreboard objectives add chat.page_crnt dummy {"translate":""}
+scoreboard objectives add chat.page_scrl trigger
