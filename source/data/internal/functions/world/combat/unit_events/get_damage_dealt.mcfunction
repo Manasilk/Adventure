@@ -1,7 +1,7 @@
 execute unless score @s dmg_out0 > #const INT_MIN run scoreboard players operation @s dmg_out0 = #temp dmg_in0
 scoreboard players reset #temp dmg_in0
 #mitigated = (abs + res)/10
-scoreboard players set @s[scores={dmg_out0=1..9}] 10
+scoreboard players set @s[scores={dmg_out0=1..9}] dmg_out0 10
 scoreboard players operation @s dmg_out0 += @s dmg_out1
 scoreboard players operation @s dmg_out0 += @s dmg_out2
 scoreboard players operation @s dmg_out0 += @s dmg_out3
