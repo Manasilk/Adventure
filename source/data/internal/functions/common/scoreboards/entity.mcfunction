@@ -84,9 +84,7 @@ scoreboard objectives add entity_rank dummy {"translate":"dbc.entity.entity_rank
 #ENTITY_RANK_NORMAL              = 1,
 #ENTITY_RANK_ELITE               = 2,
 #ENTITY_RANK_BOSS                = 3
-scoreboard objectives add ENTITY_FRIENDLY dummy {"text":"entity_hostility = 1"}
-scoreboard objectives add ENTITY_NEUTRAL dummy {"text":"entity_hostility = 2"}
-scoreboard objectives add ENTITY_HOSTILE dummy {"text":"entity_hostility = 3"}
+#
 #entity_flag
 #ENTITY_FLAG_SERVER_CONTROLLED      = 1,
 #ENTITY_FLAG_NON_ATTACKABLE         = 2,

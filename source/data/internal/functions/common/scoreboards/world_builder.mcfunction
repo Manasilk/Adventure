@@ -1,5 +1,4 @@
 scoreboard objectives add wb.class_id dummy {"translate":"dbc.builder.class_id"}
-scoreboard objectives add SHOW_INFO dummy
 
 #CREATURE, OBJECT, INFO
 scoreboard objectives add wb.type_id dummy {"translate":"dbc.builder.class_type"}
@@ -12,17 +11,6 @@ scoreboard objectives add wb.npc_id dummy {"translate":"dbc.builder.npc_id"}
 scoreboard objectives add wb.gob_id dummy {"translate":"dbc.builder.gob_id"}
 scoreboard objectives add wb.biome_id dummy {"translate":"dbc.builder.biome_id"}
 scoreboard objectives add wb.struct_itr dummy
-scoreboard objectives add BIOME_FOREST dummy {"text":"wb.biome_id = 1"}
-scoreboard objectives add BIOME_JUNGLE dummy {"text":"wb.biome_id = 2"}
-scoreboard objectives add BIOME_DESERT dummy {"text":"wb.biome_id = 3"}
-scoreboard objectives add BIOME_MESA dummy {"text":"wb.biome_id = 4"}
-scoreboard objectives add BIOME_OCEAN dummy {"text":"wb.biome_id = 5"}
-scoreboard objectives add BIOME_TAIGA dummy {"text":"wb.biome_id = 6"}
-scoreboard objectives add BIOME_TUNDRA dummy {"text":"wb.biome_id = 7"}
-scoreboard objectives add BIOME_STONE dummy {"text":"wb.biome_id = 8"}
-scoreboard objectives add BIOME_SAVANNAH dummy {"text":"wb.biome_id = 9"}
-scoreboard objectives add BIOME_NETHER dummy {"text":"wb.biome_id = 10"}
-scoreboard objectives add BIOME_VOID dummy {"text":"wb.biome_id = 11"}
 
 scoreboard objectives add wb.pos_x dummy {"translate":"dbc.builder.pos_x"}
 scoreboard objectives add wb.pos_y dummy {"translate":"dbc.builder.pos_y"}

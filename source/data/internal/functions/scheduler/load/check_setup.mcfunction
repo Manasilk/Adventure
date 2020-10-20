@@ -1,1 +1,2 @@
-execute unless score #world setup matches -1 unless score #world setup matches 1 run function internal:configuration/setup/run
+execute store result score #world __setup run data get storage internal:world setup[].state
+execute unless score #world __setup matches 1 run function internal:configuration/setup/run

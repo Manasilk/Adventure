@@ -6,6 +6,10 @@ scoreboard players set #preset ENTITY_HOSTILE 3
 scoreboard players set #preset ENTITY_NEUTRAL 2
 scoreboard players set #preset ENTITY_FRIENDLY 1
 
+scoreboard players set #preset BLOCK_AIR 0
+scoreboard players set #preset BLOCK_NON_SOLID 1
+scoreboard players set #preset BLOCK_SOLID 2
+
 scoreboard players set #preset BIOME_FOREST 1
 scoreboard players set #preset BIOME_JUNGLE 2
 scoreboard players set #preset BIOME_DESERT 3
@@ -22,3 +26,8 @@ scoreboard players set #preset SHOW_INFO 3
 
 scoreboard players set #preset QUEST_COMPLETE 1
 scoreboard players set #preset QUEST_INCOMPLETE 0
+
+scoreboard players set #preset TYPE_DEBUG 0
+scoreboard players set #preset TYPE_INFO 1
+scoreboard players set #preset TYPE_WARNING 2
+scoreboard players set #preset TYPE_ERROR 3

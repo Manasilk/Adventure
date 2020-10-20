@@ -20,5 +20,3 @@ scoreboard objectives add 100 dummy
 scoreboard objectives add 158 dummy
 scoreboard objectives add 1000 dummy
 scoreboard objectives add TEMP dummy {"translate":"dbc.constants.temp"}
-scoreboard objectives add false dummy
-scoreboard objectives add true dummy
