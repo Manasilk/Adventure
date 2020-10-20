@@ -86,7 +86,7 @@
 
 
 	
-	"help_info.commands.available": "Команды доступные для вас:",
+	"help_info.command.available": "Команды доступные для вас:",
 	"help_info.command.played": "Введите \"/trigger played\" в чат, чтобы показать время проведённое в этом мире.",
 	"help_info.command.log": "Введите \"/trigger log\" в чат, чтобы переключить боевой журнал.",
 	"help_info.command.unstuck": "Введите \"/trigger unstuck\" в чат, если ваш персонаж застрял.",
@@ -480,10 +480,10 @@
 	"quest.title.repair_the_walls": "Починить стены",
 	"quest.title.protect_the_camp": "Защитить лагерь",
 
-	"quest.objective.explore_the_camp": "Обойдите все 3 входа в лагерь",
-	"quest.objective.interrogation": "Поговорите с 3 поселенцами в лагере",
-	"quest.objective.repair_the_walls": "Добудьте 4 камня и 8 дерева",
-	"quest.objective.protect_the_camp": "Убейте 4 волков у входа в лагерь",
+	"quest.description.explore_the_camp": "Обойдите все 3 входа в лагерь",
+	"quest.description.interrogation": "Поговорите с 3 поселенцами в лагере",
+	"quest.description.repair_the_walls": "Добудьте 4 камня и 8 дерева",
+	"quest.description.protect_the_camp": "Убейте 4 волков у входа в лагерь",
 	
 	"quest.text.explore_the_camp": "",
 	"quest.text.interrogation": "",
