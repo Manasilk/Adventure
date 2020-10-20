@@ -1,4 +1,4 @@
-execute store result score @s[scores={task_objectives=1..}] item_count0 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #world:quest_item{quest_id:1000,field_idx:0} 0
-execute store result score @s[scores={task_objectives=2..}] item_count1 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #world:quest_item{quest_id:1000,field_idx:1} 0
-execute store result score @s[scores={task_objectives=3..}] item_count2 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #world:quest_item{quest_id:1000,field_idx:2} 0
-execute store result score @s[scores={task_objectives=4}] item_count3 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #world:quest_item{quest_id:1000,field_idx:3} 0
+execute store result score @s[scores={task_objectives=1..}] item_count0 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #internal:quest_item{quest_id:1000,field_idx:0} 0
+execute store result score @s[scores={task_objectives=2..}] item_count1 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #internal:quest_item{quest_id:1000,field_idx:1} 0
+execute store result score @s[scores={task_objectives=3..}] item_count2 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #internal:quest_item{quest_id:1000,field_idx:2} 0
+execute store result score @s[scores={task_objectives=4}] item_count3 run clear @a[tag=ENTITY_FLAG_QUEST_TARGET,distance=0..31.999] #internal:quest_item{quest_id:1000,field_idx:3} 0

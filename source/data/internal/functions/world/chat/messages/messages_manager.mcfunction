@@ -10,7 +10,7 @@ execute if entity @s[tag=messages.error.cannot_use_command_yet] run function int
 #Player Events
 execute if entity @s[tag=messages.info.rest] run function internal:world/chat/messages/info/rest
 execute if entity @s[tag=messages.info.levelup] run function internal:world/chat/messages/info/levelup
-execute if entity @s[tag=messages.info.quest_objective_complete] run function internal:world/chat/messages/info/quest_objective_complete
+execute if entity @s[tag=messages.info.quest_target_complete] run function internal:world/chat/messages/info/quest_target_complete
 execute if entity @s[tag=messages.error.cannot_accept_more_quests] run function internal:world/chat/messages/error/quest_log_full
 
 #World Events

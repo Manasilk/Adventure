@@ -29,6 +29,7 @@ scoreboard players set @s stat_mob_kills 0
 scoreboard players set @s combat_reset_t 0
 scoreboard players set @s fatigue_level 0
 scoreboard players set @s exp_gained 0
+scoreboard players set @s quest_log 0
 
 scoreboard players set @s double_loot 0
 scoreboard players set @s double_reward 0
