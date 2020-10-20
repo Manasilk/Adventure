@@ -1,1 +1,0 @@
-execute if score #log_event log.event_type matches 0 run function developer:workbench/log/event/data_prototype
