@@ -12,3 +12,5 @@ tag @s[tag=creature.set_flag_quest_end] remove creature.set_flag_quest_end
 team join QuestStart @s[tag=ENTITY_FLAG_CAN_START_QUEST]
 team join QuestEnd @s[team=!QuestStart,tag=ENTITY_FLAG_CAN_END_QUEST]
 scoreboard players operation @s[type=minecraft:villager,tag=ENTITY_FLAG_QUEST_RELATION] entity_id = #entity entity_id
+
+tag @s remove creature.set_default_gossip_flags
