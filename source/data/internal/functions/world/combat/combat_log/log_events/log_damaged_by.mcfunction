@@ -20,3 +20,5 @@ tag @s remove _t.h1_m0
 tag @s remove _t.h1_m1
 tag @s remove player.damaged_by_entity
 function internal:world/entity/get_entity_health
+
+scoreboard players reset #temp dmg_in0
