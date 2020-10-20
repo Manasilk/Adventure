@@ -1,1 +1,0 @@
-execute if score #log __event_type matches 0 run function developer:workbench/log/world_builder/data_prototype

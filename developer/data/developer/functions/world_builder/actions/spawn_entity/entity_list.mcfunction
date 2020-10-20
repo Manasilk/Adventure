@@ -8,7 +8,7 @@ execute if score @s wb.npc_id matches 13 run function developer:world_builder/ac
 execute if score @s wb.npc_id matches 14 run function developer:world_builder/actions/spawn_entity/hostile/entity_husk
 execute if score @s wb.npc_id matches 15 run function developer:world_builder/actions/spawn_entity/hostile/entity_phantom
 execute if score @s wb.npc_id matches 17 run function developer:world_builder/actions/spawn_entity/hostile/entity_silverfish
-execute if score @s wb.npc_id matches 18 run function developer:world_builder/actions/spawn_entity/hostile/entity_skeleton
+#execute if score @s wb.npc_id matches 18 run function developer:world_builder/actions/spawn_entity/hostile/entity_skeleton
 execute if score @s wb.npc_id matches 19 run function developer:world_builder/actions/spawn_entity/neutral/entity_skeleton_horse
 execute if score @s wb.npc_id matches 20 run function developer:world_builder/actions/spawn_entity/hostile/entity_stray
 execute if score @s wb.npc_id matches 21 run function developer:world_builder/actions/spawn_entity/hostile/entity_vex
@@ -68,5 +68,11 @@ execute if score @s wb.npc_id matches 74 run function developer:world_builder/ac
 
 scoreboard players add #entity entity_guid 1
 scoreboard players operation @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_guid = #entity entity_guid
+execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_x"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_y"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_z"},"color":"white"}],"color":"yellow"}
 
-tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_x"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_y"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_z"},"color":"white"}],"color":"yellow"}
+#Event identifier
+scoreboard players set #log __event_idef 1002
+#Check for creature
+execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run scoreboard players set #log __event_type 1
+execute unless entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run scoreboard players set #log __event_type 3
+function log:world_builder/register_event

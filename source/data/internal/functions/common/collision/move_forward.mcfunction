@@ -23,4 +23,4 @@ execute if entity @s[tag=world_builder.despawn_object] run function internal:com
 
 #loop and life conditions
 execute positioned ^ ^ ^0.20 unless score @s has_collided matches 1 run function internal:common/collision/move_forward
-kill @s[scores={has_collided=1}]
+#kill @s[scores={has_collided=1}]
