@@ -1,5 +1,6 @@
 #Trigger combat state if received damage and show aggro hover particle
 execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT,nbt={HurtTime:10s}] run function internal:world/entity/scripted_behavior/action/enter_combat
+execute if entity @s[tag=!ENTITY_FLAG_IN_COMBAT] if data entity @s AngryAt run function internal:world/entity/scripted_behavior/action/enter_combat
 
 #Search for nearby players and enter combat with them if in range
 execute if entity @s[tag=aggressor_ai,tag=!ENTITY_FLAG_IN_COMBAT] run function internal:world/entity/scripted_behavior/action/spread_combat
