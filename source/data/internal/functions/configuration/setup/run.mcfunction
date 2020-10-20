@@ -30,6 +30,7 @@ function internal:configuration/world
 
 data modify storage internal:world setup[].state set value 1
 #states:
+#STATE_SETUP_UNINSTALLED    = -1,
 #STATE_SETUP_DOES_NOT_EXIST = 0, //empty or 0 (first load always empty)
 #STATE_SETUP_COMPLETE       = 1,
 #STATE_SETUP_INCOMPLETE     = 2,
