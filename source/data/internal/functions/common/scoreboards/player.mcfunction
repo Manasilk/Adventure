@@ -33,7 +33,7 @@ scoreboard objectives add stat_played_d dummy {"translate":"dbc.player.stat_play
 scoreboard objectives add unstuck_cd dummy {"translate":"dbc.player.unstuck_cd"}
 scoreboard objectives add wepsound dummy
 
-scoreboard objectives add chat.talk_to minecraft.custom:minecraft.talked_to_villager {"translate":"dbc.handler.player.interact"}
+scoreboard objectives add chat.triggered minecraft.custom:minecraft.talked_to_villager {"translate":"dbc.handler.player.interact"}
 scoreboard objectives add has_victim dummy {"translate":"dbc.handler.player.has_victim"}
 scoreboard objectives add is_victim dummy {"translate":"dbc.handler.player.is_victim"}
 scoreboard objectives add is_offline minecraft.custom:minecraft.leave_game {"translate":"dbc.handler.player.leave_game"}
