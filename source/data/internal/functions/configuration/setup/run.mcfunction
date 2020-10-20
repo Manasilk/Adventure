@@ -1,6 +1,6 @@
 function internal:common/scoreboards/constants
 function internal:common/scoreboards/world
-function internal:common/scoreboards/map
+function internal:common/scoreboards/chat
 function internal:common/scoreboards/compute
 function internal:common/scoreboards/sounds
 function internal:common/scoreboards/combat
@@ -28,7 +28,7 @@ function internal:configuration/setup/miscellaneous/world_storage
 #Update world configuration
 function internal:configuration/world
 
-data modify storage internal:world setup append value {state:1}
+data modify storage internal:world setup[].state set value 1
 #states:
 #STATE_SETUP_DOES_NOT_EXIST = 0, //empty or 0 (first load always empty)
 #STATE_SETUP_COMPLETE       = 1,

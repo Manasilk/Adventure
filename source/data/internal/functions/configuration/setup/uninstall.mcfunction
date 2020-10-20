@@ -346,11 +346,4 @@ data remove storage log:world_builder event
 data remove storage internal:world buildname
 
 #Set state to STATE_SETUP_DOES_NOT_EXIST
-data modify storage internal:world setup[].state set value 0
-
-#Reenable vanilla datapack
-datapack enable vanilla
-
-#Disable core datapacks
-datapack disable "file/developer"
-datapack disable "file/source"
+data modify storage internal:world setup[].state set value -1
