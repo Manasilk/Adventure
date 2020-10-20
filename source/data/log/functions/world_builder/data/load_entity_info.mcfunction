@@ -1,7 +1,6 @@
-#TEMPORARY, WIP
-execute store result storage log:world_builder event[-1].data[].creature.position[].x int 1 run scoreboard players get @s[tag=world_builder.spawn_creature] wb.pos_x
-execute store result storage log:world_builder event[-1].data[].creature.position[].y int 1 run scoreboard players get @s[tag=world_builder.spawn_creature] wb.pos_y
-execute store result storage log:world_builder event[-1].data[].creature.position[].z int 1 run scoreboard players get @s[tag=world_builder.spawn_creature] wb.pos_z
-execute store result storage log:world_builder event[-1].data[].creature.id int 1 run scoreboard players get @s[tag=world_builder.spawn_creature] wb.npc_id
-execute store result storage log:world_builder event[-1].data[].creature.type int 1 run scoreboard players get @s[tag=world_builder.spawn_object] wb.npc_type
-execute store result storage log:world_builder event[-1].data[].creature.guid int 1 run scoreboard players get #entity entity_guid
+execute store result storage log:world_builder event[-1].data[].guid int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_guid
+execute store result storage log:world_builder event[-1].data[].level int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_level
+execute store result storage log:world_builder event[-1].data[].health int 1 run scoreboard players get @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_curhp
+execute store result storage log:world_builder event[-1].data[].position.x int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[0]
+execute store result storage log:world_builder event[-1].data[].position.y int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[1]
+execute store result storage log:world_builder event[-1].data[].position.z int 1 run data get entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] Pos[2]
