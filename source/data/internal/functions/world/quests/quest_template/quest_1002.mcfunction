@@ -5,4 +5,8 @@ tag @a[tag=conversation.stop,distance=0..5.299] add QUEST_ACCEPT_1002
 
 function internal:world/quests/quest_event/quest_item/cg_100_quest_1002
 function internal:world/quests/quest_event/quest_chat/accept/ct_100_quest_1002
-tag @s add area_trigger.get_quest_tracker
+tag @s add creature.summon_quest_tracker
+
+scoreboard players set #log quest_id 1002
+scoreboard players operation #log entity_guid = @s entity_guid
+scoreboard players operation #log player_id = @a[tag=conversation.stop,distance=0..5.299] player_id

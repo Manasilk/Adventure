@@ -1,1 +1,1 @@
-execute if score #log __event_type matches 0 run function developer:workbench/log/world/data_prototype
+execute if score #log __event_idef matches 10..11 run function log:world/data/load_quest_info
