@@ -64,6 +64,10 @@ scoreboard players enable @s help
 scoreboard players enable @s clear
 scoreboard players enable @s unstuck
 
+scoreboard players set @s chat.main_menu 0
+scoreboard players set @s chat.sub_menu 0
+scoreboard players set @s chat.opts_menu 0
+
 scoreboard players set @s rbac_access 1
 scoreboard players enable @s admin
 
