@@ -1,14 +1,10 @@
-execute store result score @s wb.pos_x run data get entity @s Pos[0] 1
-execute store result score @s wb.pos_y run data get entity @s Pos[1] 1
-execute store result score @s wb.pos_z run data get entity @s Pos[2] 1
-
 execute if score @s wb.npc_id matches 11 run function developer:world_builder/actions/spawn_entity/friendly/entity_villager
 execute if score @s wb.npc_id matches 12 run function developer:world_builder/actions/spawn_entity/hostile/entity_drowned
 execute if score @s wb.npc_id matches 13 run function developer:world_builder/actions/spawn_entity/hostile/entity_evoker
 execute if score @s wb.npc_id matches 14 run function developer:world_builder/actions/spawn_entity/hostile/entity_husk
 execute if score @s wb.npc_id matches 15 run function developer:world_builder/actions/spawn_entity/hostile/entity_phantom
 execute if score @s wb.npc_id matches 17 run function developer:world_builder/actions/spawn_entity/hostile/entity_silverfish
-#execute if score @s wb.npc_id matches 18 run function developer:world_builder/actions/spawn_entity/hostile/entity_skeleton
+execute if score @s wb.npc_id matches 18 run function developer:world_builder/actions/spawn_entity/hostile/entity_skeleton
 execute if score @s wb.npc_id matches 19 run function developer:world_builder/actions/spawn_entity/neutral/entity_skeleton_horse
 execute if score @s wb.npc_id matches 20 run function developer:world_builder/actions/spawn_entity/hostile/entity_stray
 execute if score @s wb.npc_id matches 21 run function developer:world_builder/actions/spawn_entity/hostile/entity_vex
@@ -66,9 +62,9 @@ execute if score @s wb.npc_id matches 72 run function developer:world_builder/ac
 execute if score @s wb.npc_id matches 73 run function developer:world_builder/actions/spawn_entity/neutral/entity_mooshroom
 execute if score @s wb.npc_id matches 74 run function developer:world_builder/actions/spawn_entity/neutral/entity_cave_spider
 
-scoreboard players add #entity entity_guid 1
-scoreboard players operation @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] entity_guid = #entity entity_guid
-execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_x"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_y"},"color":"white"},{"score":{"name":"@s","objective":"wb.pos_z"},"color":"white"}],"color":"yellow"}
+#force initialization
+execute as @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] at @s run function internal:world/entity/creature/initialize_spawn_data
+execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run tellraw @a[tag=account.builder] {"translate":"event_type.summoned_mob","with":[{"selector":"@e[type=#internal:creature,sort=nearest,limit=1]","color":"white"},{"score":{"name":"#entity","objective":"entity_guid"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_x"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_y"},"color":"white"},{"score":{"name":"@e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1]","objective":"entity.spawn_z"},"color":"white"}],"color":"yellow"}
 
 #Event identifier
 scoreboard players set #log __event_idef 1002
