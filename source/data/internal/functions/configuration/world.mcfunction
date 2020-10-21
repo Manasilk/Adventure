@@ -25,8 +25,8 @@ scoreboard players set #world cfg.quest_t 599
 #in seconds for garbage (timers higher than default are redundant)
 scoreboard players set #world cfg.prjctl_age 29
 scoreboard players set #world cfg.item_age 59
-#in seconds to remove the oldest event from log
-scoreboard players set #world cfg.cls_log_t 3599
+#in seconds to clear the whole log
+scoreboard players set #world cfg.cls_log_t 604799
 #
 # @PICKUP
 gamerule doMobLoot true
@@ -80,9 +80,3 @@ scoreboard players set #anticheat _ac.gamemode 4
 #0 = disabled,
 #1 = enabled
 scoreboard players set #anticheat _ac.actions 0
-#
-### TRIMMING CONFIG ###
-# Deletes and recreates objectives to reduce scoreboard filesize
-# cfg.do_trim = 1, enabled
-# cfg.do_trim = 0, disabled
-scoreboard players set #world cfg.do_trim 0
