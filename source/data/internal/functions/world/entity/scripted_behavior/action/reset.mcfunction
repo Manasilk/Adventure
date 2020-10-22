@@ -4,4 +4,4 @@ execute if entity @s[tag=ENTITY_FLAG_SPECIALINFO] run function internal:world/en
 
 tag @s remove ENTITY_FLAG_IN_COMBAT
 tag @s[tag=ENTITY_FLAG_SPELL_TARGET] remove ENTITY_FLAG_SPELL_TARGET
-function internal:world/scripted_behavior/action/reset_script
+function internal:world/entity/scripted_behavior/action/reset_script

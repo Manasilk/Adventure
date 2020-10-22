@@ -1,3 +1,4 @@
+tag @s remove TARGET_AGGRO
 tag @s[tag=TARGET_NONE] remove TARGET_NONE
 tag @s[tag=TARGET_SELF] remove TARGET_SELF
 tag @s[tag=TARGET_POSITION] remove TARGET_POSITION
@@ -10,3 +11,5 @@ tag @s[tag=SMART_EVENT_CAST] remove SMART_EVENT_CAST
 tag @s[tag=SMART_EVENT_RESET] remove SMART_EVENT_RESET
 tag @s[tag=SMART_EVENT_LOAD_SPELL] remove SMART_EVENT_LOAD_SPELL
 tag @s[tag=SMART_EVENT_PREP_CAST] remove SMART_EVENT_PREP_CAST
+
+scoreboard players reset @s has_target
