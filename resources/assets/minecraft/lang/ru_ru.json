@@ -3,10 +3,10 @@
 
 	"server_broadcast": "[СЕРВЕР]: %s",
 	"server_timestamp": "[%d%d:%d%d]: %s.",
-	"server.login_msg": "Добро пожаловать в Мардаар, Обновление: %d.%d.%d: %s",
+	"server.login_msg": "Добро пожаловать в \"Кампания\", Обновление %d: %s",
 	"server.readme_msg": "Для большей информации, пожалуйста посетите: %s\nВведите \"/trigger help\" в чате для помощи.",
 	"server.install_pkg_msg": "Установлен пакет обновления: %s",
-	"server.build_info": "Ревизия сборки: %d (%d.%d.%d), Версия игры: %d",
+	"server.build_info": "Ревизия сборки: %d (%d), Версия игры: %d",
 	"build.uprising": "Восход",
 	"build.nightfall": "Сумерки",
 	"build.pestilence": "Мор",
@@ -75,16 +75,16 @@
 	"stats.damage_taken": "Всего получено урона: %d, ",
 	"stats.quests_completed": "Всего заданий завершенно: %d, ",
 	"stats.mob_kills": "Всего монстров убито: %d",
-	
-	
+
+
 
 	"server.log": "[ЛОГ]:\n[%s]:[%s]\nСобытие: %s, ИД: %d, Тип: %d\n[DATA]:\n%s%s%s",
 	"server.log.build": "%d.%d.%d.%d",
 	"server.log.data.player": "ИД Игрока: %d, Режим: %d, Местоположение: (%d,%d,%d)",
 	"server.log.data.entity": "ГУИД Существа: %d, ИД: %d, Местоположение: (%d,%d,%d)",
 	"server.log.data.object": "ГУИД Объекта: %d, Местоположение: (%d,%d,%d)",
-
-
+	
+	
 	
 	"help_info.command.available": "Команды доступные для вас:",
 	"help_info.command.played": "Введите \"/trigger played\" в чат, чтобы показать время проведённое в этом мире.",
@@ -94,9 +94,6 @@
 	"help_info.command.admin": "Введите \"/trigger admin\" в чат, чтобы переключить доступ к дополнительным командам.",
 	"help_info.command.debug": "Введите \"/trigger debug\" в чат, чтобы переключить доступ к командам отладки.",
 	"help_info.command.builder": "Введите \"/trigger builder\" в чат, чтобы переключить доступ к инструментам строительства.",
-	"chat.page_options": "Выберите страницу: %s%s%s %s%s%s | Страница: %s/%s",
-	"chat.button.next_page": "След. страница",
-	"chat.button.prev_page": "Пред. страница",
 
 	
 	
@@ -256,6 +253,9 @@
 	
 	
 	"builder_query": "%s",
+	"builder_menu.page_option": "Выберите страницу: %s%s%s %s%s%s | Страница: %s/%s",
+	"builder_button.next_page": "След. страница",
+	"builder_button.prev_page": "Пред. страница",
 	"builder_menu.class_option": "Выбери тип: %s%s%s %s%s%s %s%s%s",
 	"builder_menu.type_option": "Выберите операцию: %s%s%s %s%s%s %s%s%s",
 	"builder_menu.npc_type": "Выберите тип существа:",
@@ -480,10 +480,10 @@
 	"quest.title.repair_the_walls": "Починить стены",
 	"quest.title.protect_the_camp": "Защитить лагерь",
 
-	"quest.description.explore_the_camp": "Обойдите все 3 входа в лагерь",
-	"quest.description.interrogation": "Поговорите с 3 поселенцами в лагере",
-	"quest.description.repair_the_walls": "Добудьте 4 камня и 8 дерева",
-	"quest.description.protect_the_camp": "Убейте 4 волков у входа в лагерь",
+	"quest.objective.explore_the_camp": "Обойдите все 3 входа в лагерь",
+	"quest.objective.interrogation": "Поговорите с 3 поселенцами в лагере",
+	"quest.objective.repair_the_walls": "Добудьте 4 камня и 8 дерева",
+	"quest.objective.protect_the_camp": "Убейте 4 волков у входа в лагерь",
 	
 	"quest.text.explore_the_camp": "",
 	"quest.text.interrogation": "",

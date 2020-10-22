@@ -1,1 +1,1 @@
-execute store result score #world world_version run data get entity @s DataVersion 1
+data modify storage internal:world game.rv set from entity @s DataVersion
