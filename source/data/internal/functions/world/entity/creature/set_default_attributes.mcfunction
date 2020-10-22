@@ -8,3 +8,5 @@ scoreboard players operation @s entity_curap = @s entity_baseap
 scoreboard players operation @s entity_temphp = @s entity_curhp
 
 attribute @s[tag=ENTITY_FLAG_EXTRA_IMMUNE_KNOCKBACK] minecraft:generic.knockback_resistance base set 10.0
+attribute @s[team=!Friendly] generic.follow_range base set 32
+attribute @s[team=Friendly] generic.follow_range base set 16
