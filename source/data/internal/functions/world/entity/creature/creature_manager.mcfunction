@@ -13,7 +13,3 @@ execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY
 execute if entity @s[type=minecraft:spider,tag=!ENTITY_FLAG_IN_COMBAT,tag=ENTITY_ACTION_HOSTILE] if score #world world_daytime matches 0..12999 run function internal:world/entity/creature/set_action_neutral
 
 execute if entity @s[tag=ENTITY_FLAG_GOSSIP] if entity @a[scores={chat.triggered=1..},distance=0..5.299] run tag @s add conversation.send_menu
-
-execute if entity @s[tag=world_builder.show_info] run function developer:world_builder/actions/show_info/show_entity_info
-execute at @s[tag=world_builder.update_npc] run function developer:world_builder/actions/update_entity/update_entity
-execute if entity @s[tag=world_builder.despawn_npc] run function developer:world_builder/actions/update_entity/despawn
