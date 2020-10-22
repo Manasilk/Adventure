@@ -1,5 +1,7 @@
 execute if entity @s[type=#internal:npc_undead] run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:10,WaitTime:0,DurationOnUse:0,Particle:"minecraft:block air",Radius:1.0f,RadiusOnUse:0.0f,RadiusPerTick:0.0f,Effects:[{Id:6b,Duration:10,Amplifier:31b,ShowParticles:0b}],Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","area_trigger.force_target_selector"]}
 execute if entity @s[type=!#internal:npc_undead] run summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,Duration:10,WaitTime:0,DurationOnUse:0,Particle:"minecraft:block air",Radius:1.0f,RadiusOnUse:0.0f,RadiusPerTick:0.0f,Effects:[{Id:7b,Duration:10,Amplifier:31b,ShowParticles:0b}],Tags:["ENTITY_FLAG_SERVER_CONTROLLED","ENTITY_FLAG_EXTRA_TRIGGER","area_trigger.force_target_selector"]}
-execute if entity @s[type=#internal:npc_hostile] as @a[tag=ENTITY_FLAG_IN_COMBAT,sort=nearest,limit=1] run data modify entity @e[type=#internal:area_trigger,tag=area_trigger.force_target_selector,distance=0..0.001,sort=nearest,limit=1] Owner set from entity @s UUID
+execute if entity @s[type=#internal:npc_hostile] as @a[tag=ENTITY_FLAG_IN_COMBAT,sort=nearest,limit=1] run data modify storage internal:buffer target_uuid set from entity @s UUID
+data modify entity @s[type=#internal:npc_hostile] Owner set from storage internal:buffer target_uuid
 #execute if entity @s[type=#internal:npc_friendly] as @e[type=#internal:creature,sort=nearest,limit=1] run data modify entity @e[type=#internal:area_trigger,tag=area_trigger.force_target_selector,distance=0..0.001,sort=nearest,limit=1] Owner set from entity @s UUID
 scoreboard players operation @s target_id = @a[tag=ENTITY_FLAG_IN_COMBAT,sort=nearest,limit=1] player_id
+data remove storage internal:buffer target_uuid
