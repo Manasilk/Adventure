@@ -71,4 +71,4 @@ scoreboard players set #log __event_idef 1002
 #Check for creature
 execute if entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run scoreboard players set #log __event_type 1
 execute unless entity @e[type=#internal:creature,distance=0..0.001,sort=nearest,limit=1] run scoreboard players set #log __event_type 3
-function log:world_builder/register_event
+function internal:common/logging/world_builder/register_event

@@ -5,4 +5,4 @@ execute if entity @s[tag=QUEST_1003] if entity @a[tag=!conversation.stop,tag=QUE
 
 execute as @a[tag=conversation.stop,distance=0..5.299] run function internal:world/quests/quest_reward/get_reward_experience
 
-function log:world/event/quest_complete
+function internal:common/logging/world/event/quest_complete

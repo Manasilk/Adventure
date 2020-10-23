@@ -3,4 +3,4 @@ execute if entity @s[tag=QUEST_1001] if entity @a[tag=!conversation.stop,tag=!QU
 execute if entity @s[tag=QUEST_1002] if entity @a[tag=!conversation.stop,tag=QUEST_COMPLETE_1001,tag=!QUEST_ACCEPT_1002,tag=!QUEST_COMPLETE_1002,scores={chat.triggered=1..},distance=0..5.299] run function internal:world/quests/quest_template/quest_1002
 execute if entity @s[tag=QUEST_1003] if entity @a[tag=!conversation.stop,tag=QUEST_COMPLETE_1002,tag=!QUEST_ACCEPT_1003,tag=!QUEST_COMPLETE_1003,scores={chat.triggered=1..},distance=0..5.299] run function internal:world/quests/quest_template/quest_1003
 
-function log:world/event/quest_start
+function internal:common/logging/world/event/quest_start
