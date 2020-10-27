@@ -3,6 +3,7 @@ scoreboard players enable @s reset_quests
 tellraw @s {"translate":"event_type.reset_account_quests","color":"yellow"}
 
 scoreboard players reset @s quest_id
+scoreboard players reset @s quest_status
 scoreboard players set @s quest_log 0
 scoreboard players set @s stat_quests_cmpl 0
 advancement revoke @s from internal:world/account/character/complete_quests_25
