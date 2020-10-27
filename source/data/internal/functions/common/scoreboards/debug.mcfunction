@@ -21,3 +21,6 @@ scoreboard objectives add __event_idef dummy
 #WORLDBUILDER_SPAWN_OBJECT   = 1005,
 #WORLDBUILDER_DESPAWN_OBJECT = 1006
 scoreboard objectives add log.cls_time dummy
+
+scoreboard objectives add success dummy
+#scoreboard objectives add poi_err dummy

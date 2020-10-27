@@ -8,3 +8,5 @@ execute if score @s quest_id matches 1006 run function internal:world/quests/que
 execute if score @s quest_id matches 1007 run function internal:world/quests/quest_objective/quest_1007
 execute if score @s quest_id matches 1008 run function internal:world/quests/quest_objective/quest_1008
 execute if score @s quest_id matches 1009 run function internal:world/quests/quest_objective/quest_1009
+
+function internal:common/logging/world/data/quests/iterate_list

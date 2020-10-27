@@ -8,5 +8,3 @@ function internal:world/quests/quest_event/quest_chat/accept/ct_100_quest_1000
 tag @s add creature.summon_quest_tracker
 
 scoreboard players set #log quest_id 1000
-scoreboard players operation #log entity_guid = @s entity_guid
-scoreboard players operation #log player_id = @a[tag=conversation.stop,distance=0..5.299] player_id
