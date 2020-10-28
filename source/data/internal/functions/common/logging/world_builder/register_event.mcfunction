@@ -8,8 +8,8 @@ execute store result storage log:world_builder event[-1].id int 1 run scoreboard
 execute store result storage log:world_builder event[-1].type int 1 run scoreboard players get #log __event_type
 execute store result storage log:world_builder event[-1].idef int 1 run scoreboard players get #log __event_idef
 #Build info
-data modify storage log:world event[-1].build.id set from storage internal:world build.id
-data modify storage log:world event[-1].build.rv set from storage internal:world build.rv
+data modify storage log:world_builder event[-1].build.id set from storage internal:world build.id
+data modify storage log:world_builder event[-1].build.rv set from storage internal:world build.rv
 
 #Time
 execute store result storage log:world_builder event[-1].timestamp int 1 run time query gametime
