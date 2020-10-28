@@ -34,6 +34,4 @@ function internal:world/anticheat/info/get_distance_limits
 
 #These functions are used to register teleportaion effects that warden should not count as cheating
 execute if entity @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=SPELL_EFFECT_TELEPORT] run function internal:world/anticheat/events/set_flag_ignore_player
-execute if entity @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=SPELL_EFFECT_ENDER_PEARL] run function internal:world/anticheat/events/set_flag_ignore_player
-execute if entity @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=SPELL_EFFECT_CHORUS_FRUIT] run function internal:world/anticheat/events/set_flag_ignore_player
 execute if entity @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=account.commands] run function internal:world/anticheat/events/set_flag_ignore_player

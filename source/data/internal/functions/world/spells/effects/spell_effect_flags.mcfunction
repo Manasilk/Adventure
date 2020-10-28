@@ -1,11 +1,9 @@
 tag @s[tag=SPELL_EFFECT_FLYING] remove SPELL_EFFECT_FLYING
 tag @s[tag=!SPELL_EFFECT_FLYING,predicate=internal:world/player/data/fall_flying] add SPELL_EFFECT_FLYING
 
-tag @s[tag=SPELL_EFFECT_ENDER_PEARL] remove SPELL_EFFECT_ENDER_PEARL
-tag @s[tag=!SPELL_EFFECT_ENDER_PEARL,scores={spell_pearl=1..}] add SPELL_EFFECT_ENDER_PEARL
-
-tag @s[tag=SPELL_EFFECT_CHORUS_FRUIT] remove SPELL_EFFECT_CHORUS_FRUIT
-tag @s[tag=!SPELL_EFFECT_CHORUS_FRUIT,scores={spell_fruit=1..}] add SPELL_EFFECT_CHORUS_FRUIT
+tag @s[tag=SPELL_EFFECT_TELEPORT] remove SPELL_EFFECT_TELEPORT
+tag @s[tag=!SPELL_EFFECT_TELEPORT,scores={spell_pearl=1..}] add SPELL_EFFECT_TELEPORT
+tag @s[tag=!SPELL_EFFECT_TELEPORT,scores={spell_fruit=1..}] add SPELL_EFFECT_TELEPORT
 
 tag @s[tag=SPELL_EFFECT_POTION] remove SPELL_EFFECT_POTION
 tag @s[tag=!SPELL_EFFECT_POTION,scores={spell_potion=1..}] add SPELL_EFFECT_POTION
