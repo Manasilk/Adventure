@@ -25,8 +25,6 @@ scoreboard players set #world cfg.quest_t 599
 #in seconds for garbage (timers higher than default are redundant)
 scoreboard players set #world cfg.prjctl_age 29
 scoreboard players set #world cfg.item_age 59
-#Log clear schedule
-schedule function internal:common/logging/clear_entries 7d
 #
 # @PICKUP
 gamerule doMobLoot true
