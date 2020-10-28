@@ -1,0 +1,2 @@
+execute if score #log __event_idef matches 500 run data modify storage log:anticheat event[-1].idef_name set value ANTICHEAT_DETECT_TELEPORT
+execute if score #log __event_idef matches 501 run data modify storage log:anticheat event[-1].idef_name set value ANTICHEAT_DETECT_FLYING

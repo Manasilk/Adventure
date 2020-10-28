@@ -1,0 +1,1 @@
+function internal:common/logging/anticheat/data/write_player_data
