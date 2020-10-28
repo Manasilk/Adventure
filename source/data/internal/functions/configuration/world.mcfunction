@@ -27,11 +27,11 @@ scoreboard players set #world cfg.prjctl_age 30
 scoreboard players set #world cfg.item_age 60
 #
 # @PICKUP
-gamerule doMobLoot true
+gamerule doMobLoot false
 #
 # @LOOT
 gamerule doEntityDrops true
-gamerule doTileDrops true
+gamerule doTileDrops false
 #
 # @ENVIRONMENT
 gamerule disableRaids true
@@ -68,11 +68,11 @@ function internal:world/general/miscellaneous/shared_def
 #
 # @ANTICHEAT
 #defines the allowed gamemode for players
-#SURVIVAL                         = 1,
+#SURVIVAL                         = 0,
+#CREATIVE                         = 1,
 #ADVENTURE                        = 2,
-#CREATIVE                         = 4,
-#SPECTATOR                        = 8
-scoreboard players set #anticheat _ac.gamemode 4
+#SPECTATOR                        = 3
+scoreboard players set #anticheat _ac.gamemode 1
 
 #controls if anticheat should take any actions
 #0 = disabled,
