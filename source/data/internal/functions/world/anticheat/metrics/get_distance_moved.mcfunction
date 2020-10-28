@@ -22,7 +22,7 @@ execute if score @s[tag=!ANTICHEAT_FLAG_PLAYER_IGNORE,tag=!ANTICHEAT_FLAG_PLAYER
 
 #These functions are used to detect when to revoke the player's privilege to teleports, such as in cases
 # with respawning or using an ender pearl, where in both cases the players teleports to a certain position
-execute if score @s[tag=ANTICHEAT_FLAG_PLAYER_IGNORE] distance > @s _ac.dist_limit run function internal:world/anticheat/events/remove_flag_ignore_player
+execute if score @s[tag=ANTICHEAT_FLAG_PLAYER_IGNORE] distance > @s _ac.dist_lim run function internal:world/anticheat/events/remove_flag_ignore_player
 
 #If any detection has succeeded the player is tagged to send a broadcast message and
 # be teleported back to the starting position: position(1)
