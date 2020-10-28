@@ -243,7 +243,10 @@ scoreboard objectives remove __time_h
 scoreboard objectives remove __time_m
 scoreboard objectives remove __event_id
 scoreboard objectives remove __event_type
+scoreboard objectives remove __event_idef
 scoreboard objectives remove log.cls_time
+scoreboard objectives remove success
+#scoreboard objectives remove poi_err
 #PRESET
 scoreboard objectives remove CLASSIC
 scoreboard objectives remove HELLFIRE
