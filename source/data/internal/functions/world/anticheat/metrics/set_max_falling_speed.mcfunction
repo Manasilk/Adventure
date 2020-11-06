@@ -8,3 +8,4 @@ scoreboard players set @s[scores={_ac.fall_spd=800..,_ac.v_lim=135..144}] _ac.v_
 scoreboard players set @s[scores={_ac.fall_spd=1000..,_ac.v_lim=145..149}] _ac.v_lim 150
 scoreboard players set @s[scores={_ac.fall_spd=1300..,_ac.v_lim=150..174}] _ac.v_lim 175
 scoreboard players set @s[scores={_ac.fall_spd=1600..,_ac.v_lim=175..199}] _ac.v_lim 200
+scoreboard players set @s[scores={_ac.fall_spd=1900..,_ac.v_lim=200..235}] _ac.v_lim 236
