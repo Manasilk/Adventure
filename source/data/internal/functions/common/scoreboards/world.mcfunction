@@ -40,3 +40,4 @@ scoreboard objectives add cfg.quest_t dummy {"translate":"dbc.server.quest_t"}
 scoreboard objectives add cfg.prjctl_age dummy {"translate":"dbc.server.projectile_t"}
 scoreboard objectives add cfg.item_age dummy {"translate":"dbc.server.item_t"}
 scoreboard objectives add cfg.cls_log_t dummy {"translate":"config.cls_log_t"}
+scoreboard objectives add cfg.cmd_ln dummy

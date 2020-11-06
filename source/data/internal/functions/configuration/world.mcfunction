@@ -61,6 +61,7 @@ gamerule sendCommandFeedback true
 gamerule commandBlockOutput false
 gamerule logAdminCommands false
 gamerule maxCommandChainLength 65536
+execute store result score #world cfg.cmd_ln run gamerule maxCommandChainLength
 gamerule spectatorsGenerateChunks true
 gamerule disableElytraMovementCheck true
 function internal:world/general/miscellaneous/shared_def
