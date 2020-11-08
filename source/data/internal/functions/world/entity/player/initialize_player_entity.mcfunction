@@ -54,6 +54,7 @@ scoreboard players set @s is_wounded 0
 scoreboard players set @s is_victim 0
 scoreboard players set @s has_victim 0
 scoreboard players set @s has_died 0
+scoreboard players set @s unstuck_cd 0
 
 scoreboard players enable @s gender_sfx
 scoreboard players enable @s played
