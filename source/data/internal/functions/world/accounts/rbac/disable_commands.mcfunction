@@ -10,6 +10,7 @@ scoreboard players reset @s gmisland
 scoreboard players reset @s reset_quests
 scoreboard players reset @s reset_stats
 scoreboard players reset @s reset_xp
+scoreboard players reset @s spawnpoint
 
 #Re-enable for legitimate accounts
 scoreboard players enable @s[scores={rbac_access=1}] admin

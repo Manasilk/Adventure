@@ -9,6 +9,7 @@ scoreboard objectives add tplist trigger
 scoreboard objectives add tp_mapid dummy
 scoreboard objectives add tp_zoneid dummy
 scoreboard objectives add tp_areaid dummy
+scoreboard objectives add spawnpoint trigger
 
 scoreboard objectives add reset_quests trigger
 scoreboard objectives add reset_stats trigger

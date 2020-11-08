@@ -1,0 +1,2 @@
+tellraw @s {"translate":"event_type.set_spawnpoint","with":[{"score":{"name":"@s","objective":"entity.spawn_x"},"color":"white"},{"score":{"name":"@s","objective":"entity.spawn_y"},"color":"white"},{"score":{"name":"@s","objective":"entity.spawn_z"},"color":"white"}],"color":"yellow"}
+tag @s remove messages.info.spawnpoint

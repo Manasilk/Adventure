@@ -8,4 +8,5 @@ scoreboard players enable @s gmisland
 scoreboard players enable @s reset_quests
 scoreboard players enable @s reset_stats
 scoreboard players enable @s reset_xp
+scoreboard players enable @s spawnpoint
 scoreboard players reset @s set_gm

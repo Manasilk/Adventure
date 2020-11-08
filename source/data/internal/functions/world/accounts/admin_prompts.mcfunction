@@ -9,3 +9,4 @@ execute if score @s reset_stats matches 1 run function user:account/statistics/r
 execute if score @s reset_xp matches 1 run function user:account/statistics/reset_xp
 execute if score @s gmisland matches 1 run function user:teleport/gmisland
 execute if score @s tplist matches 1 run function user:teleport/locations/teleport_manager
+execute if score @s spawnpoint matches 1 run function user:account/set_spawnpoint

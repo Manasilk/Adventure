@@ -6,6 +6,7 @@ execute if entity @s[tag=messages.info.logged_in] run function internal:world/ch
 execute if entity @s[tag=messages.info.combat_log] run function internal:world/chat/messages/info/combat_log
 execute if entity @s[tag=messages.info.played_statistics] run function internal:world/chat/messages/info/played_statistics
 execute if entity @s[tag=messages.error.cannot_use_command_yet] run function internal:world/chat/messages/error/unstuck_cooldown
+execute if entity @s[tag=messages.info.spawnpoint] run function internal:world/chat/messages/info/spawnpoint
 
 #Player Events
 execute if entity @s[tag=messages.info.rest] run function internal:world/chat/messages/info/rest

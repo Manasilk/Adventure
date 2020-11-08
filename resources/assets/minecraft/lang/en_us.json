@@ -69,6 +69,7 @@
 	"log.damage_type.physical": " (Physical)",
 	"log.damage_type.explosion": " (Blast)",
 	"log.damage_type.suffocation": " (Suffocation)",
+	"event_type.set_spawnpoint": "Spawnpoint has been set to (%d,%d,%d).",
 	"stats.played_time": "Total time played: %dd., %dh., %dm., %ds.",
 	"stats.advancement_points": "Advancement points: %d, ",
 	"stats.damage_dealt": "Total damage dealt: %d, ",

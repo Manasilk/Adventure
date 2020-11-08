@@ -60,6 +60,7 @@
 	"event_type.log.damage_fatal": " (Чрезмерно: %d)",
 	"event_type.log.killed": "%s был убит от вашей руки",
 	"event_type.log.killed_by": "Вы были убиты от руки %s",
+	"event_type.set_spawnpoint": "Точка возрождения установлена на (%d,%d,%d).",
 	"log.damage_event.fatal": " (Смертельно)",
 	"log.damage_type.starvation": " (Голод) ",
 	"log.damage_type.fire": " (Горение)",
