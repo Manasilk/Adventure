@@ -14,7 +14,7 @@ scoreboard objectives add entity_reclvl dummy {"translate":"dbc.player.entity_re
 scoreboard objectives add entity_maxlvl dummy {"translate":"dbc.player.entity_maxlvl"}
 scoreboard objectives add fatigue_level dummy {"translate":"dbc.player.fatigue_level"}
 
-scoreboard objectives add stat_played minecraft.custom:minecraft.play_one_minute {"translate":"dbc.player.stat_played"}
+scoreboard objectives add stat_played minecraft.custom:minecraft.play_time {"translate":"dbc.player.stat_played"}
 scoreboard objectives add stat_adv_pts dummy {"translate":"dbc.player.stat_adv_pts"}
 scoreboard objectives add stat_dmg_dealt minecraft.custom:minecraft.damage_dealt {"translate":"dbc.player.stat_dmg_dealt"}
 scoreboard objectives add stat_dmg_taken minecraft.custom:minecraft.damage_taken {"translate":"dbc.player.stat_dmg_taken"}
@@ -38,6 +38,6 @@ scoreboard objectives add has_victim dummy {"translate":"dbc.handler.player.has_
 scoreboard objectives add is_victim dummy {"translate":"dbc.handler.player.is_victim"}
 scoreboard objectives add is_offline minecraft.custom:minecraft.leave_game {"translate":"dbc.handler.player.leave_game"}
 scoreboard objectives add has_died minecraft.custom:minecraft.deaths {"translate":"dbc.handler.player.has_died"}
-scoreboard objectives add played_tick minecraft.custom:minecraft.play_one_minute {"translate":"dbc.handler.player.play_msg_t"}
+scoreboard objectives add played_tick minecraft.custom:minecraft.play_time {"translate":"dbc.handler.player.play_msg_t"}
 scoreboard objectives add is_wounded minecraft.custom:minecraft.damage_taken {"translate":"dbc.handler.player.is_wounded"}
 #scoreboard objectives add _h.fill_bucket minecraft.used:minecraft.bucket {"translate":"dbc.handler.player.fill_bucket"}

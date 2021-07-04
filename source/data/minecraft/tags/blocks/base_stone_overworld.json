@@ -1,9 +1,12 @@
 {
   "replace": false,
-  "values": [
+  "values":
+  [
     "minecraft:stone",
     "minecraft:granite",
     "minecraft:diorite",
-    "minecraft:andesite"
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:deepslate"
   ]
 }
