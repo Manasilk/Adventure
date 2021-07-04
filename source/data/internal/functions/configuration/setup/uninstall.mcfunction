@@ -21,7 +21,6 @@ scoreboard objectives remove 100
 scoreboard objectives remove 158
 scoreboard objectives remove 1000
 scoreboard objectives remove TEMP
-
 #WORLD
 scoreboard objectives remove __setup
 scoreboard objectives remove world_version
@@ -53,7 +52,7 @@ scoreboard objectives remove cfg.quest_t
 scoreboard objectives remove cfg.prjctl_age
 scoreboard objectives remove cfg.item_age
 scoreboard objectives remove cfg.cls_log_t
-
+scoreboard objectives remove cfg.cmd_ln
 #COMPUTE
 scoreboard objectives remove distance
 scoreboard objectives remove root_x
@@ -162,6 +161,7 @@ scoreboard objectives remove cast_timer_max
 scoreboard objectives remove disorient_t
 scoreboard objectives remove pacify_t
 scoreboard objectives remove silence_t
+scoreboard objectives remove disarm_t
 #QUESTS
 scoreboard objectives remove quest_id
 scoreboard objectives remove quest_status
@@ -189,6 +189,16 @@ scoreboard objectives remove exp_reward
 scoreboard objectives remove quest_poi.x
 scoreboard objectives remove quest_poi.y
 scoreboard objectives remove quest_poi.z
+#CHAT
+scoreboard objectives remove chat.main_menu
+scoreboard objectives remove chat.opts_menu
+scoreboard objectives remove chat.page_crnt
+scoreboard objectives remove chat.page_last
+scoreboard objectives remove chat.page_scrl
+scoreboard objectives remove chat.return
+scoreboard objectives remove chat.right_mouse
+scoreboard objectives remove chat.sub_menu
+scoreboard objectives remove chat.triggered
 #TEAMS
 team remove Hostile
 team remove Neutral
@@ -218,6 +228,7 @@ scoreboard objectives remove gmisland
 scoreboard objectives remove unstuck
 scoreboard objectives remove help
 scoreboard objectives remove clear
+scoreboard objectives remove spawnpoint
 #ANTICHEAT
 scoreboard objectives remove _ac.v_lim
 scoreboard objectives remove _ac.h_lim
@@ -340,7 +351,7 @@ scoreboard players reset #log
 scoreboard players reset #player.inventory_slot
 scoreboard players reset #player.inventory_slot_count
 
-#Set worldspawn at (0,0)
+#Restore default position for worldspawn
 execute in minecraft:overworld positioned 0 0 0 run setworldspawn
 
 #Empty all logs
@@ -348,5 +359,5 @@ data remove storage log:world event
 data remove storage log:world_builder event
 data remove storage internal:world buildname
 
-#Set state to STATE_SETUP_DOES_NOT_EXIST
+#Set state to STATE_SETUP_UNINSTALLED
 data modify storage internal:world setup[].state set value -1
