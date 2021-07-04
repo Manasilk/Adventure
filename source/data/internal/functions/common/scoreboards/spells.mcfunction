@@ -13,3 +13,4 @@ scoreboard objectives add cast_timer_max dummy {"translate":"dbc.spells.cast_tim
 scoreboard objectives add disorient_t dummy
 scoreboard objectives add pacify_t dummy
 scoreboard objectives add silence_t dummy
+scoreboard objectives add disarm_t dummy
